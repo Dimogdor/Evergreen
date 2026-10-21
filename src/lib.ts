@@ -41,9 +41,13 @@ const files = import.meta.glob<{ default: ImageMetadata }>('/src/assets/uploads/
 const byName = Object.fromEntries(Object.entries(files).map(([k, v]) => [k.split('/').pop()!.toLowerCase(), v.default]));
 export const img = (path?: string): ImageMetadata | undefined => (path ? byName[path.split('/').pop()!.toLowerCase()] : undefined);
 
-export const md = (s?: string) => (s ? (marked.parse(s, { async: false }) as string) : '');
+// Site prefix when hosted in a sub-folder (GitHub Pages: /Evergreen), '' otherwise.
+export const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-export const href = (lang: Lang, path = '') => `/${lang}/${path ? path.replace(/^\/|\/?$/g, '') + '/' : ''}`;
+// Internal links written in the CMS (/en/contact/) get the prefix too.
+export const md = (s?: string) => (s ? (marked.parse(s, { async: false }) as string).replaceAll('href="/', `href="${base}/`) : '');
+
+export const href = (lang: Lang, path = '') => `${base}/${lang}/${path ? path.replace(/^\/|\/?$/g, '') + '/' : ''}`;
 
 export const dateRange = (start: Date, end: Date, lang: Lang) =>
   new Intl.DateTimeFormat(lang, { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).formatRange(start, end);

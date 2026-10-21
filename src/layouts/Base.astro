@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import { getImage } from 'astro:assets';
 import { locales, localeNames, t, type Lang } from '../i18n';
-import { href, img, md, one } from '../lib';
+import { base, href, img, md, one } from '../lib';
 import logoFile from '../assets/uploads/logo.png';
 
 interface Props { lang: Lang; title?: string; description?: string; image?: string; }
@@ -11,7 +11,7 @@ const _ = t(lang);
 const site = await one('settings', 'site', lang);
 const logo = img(site.logo) ?? logoFile;
 
-const rest = Astro.url.pathname.split('/').slice(2).join('/');
+const rest = Astro.url.pathname.slice(base.length).split('/').slice(2).join('/');
 const fullTitle = title ? `${title} — ${site.name}` : `${site.name} — ${site.tagline}`;
 const og = await getImage({ src: img(image) ?? img('shala-forest.webp')!, width: 1200, height: 630, fit: 'cover', format: 'jpg' });
 const favicon = await getImage({ src: logo, width: 64, height: 64, format: 'png' });
@@ -41,8 +41,8 @@ const jsonLd = {
   <title>{fullTitle}</title>
   <meta name="description" content={description || site.description} />
   <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
-  {locales.map((l) => <link rel="alternate" hreflang={l} href={new URL(`/${l}/${rest}`, Astro.site)} />)}
-  <link rel="alternate" hreflang="x-default" href={new URL(`/en/${rest}`, Astro.site)} />
+  {locales.map((l) => <link rel="alternate" hreflang={l} href={new URL(href(l, rest), Astro.site)} />)}
+  <link rel="alternate" hreflang="x-default" href={new URL(href('en', rest), Astro.site)} />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content={site.name} />
   <meta property="og:title" content={fullTitle} />
@@ -53,7 +53,7 @@ const jsonLd = {
   <meta name="theme-color" content="#22402a" />
   <link rel="icon" href={favicon.src} type="image/png" />
   <link rel="apple-touch-icon" href={touch.src} />
-  <link rel="sitemap" href="/sitemap-index.xml" />
+  <link rel="sitemap" href={`${base}/sitemap-index.xml`} />
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 </head>
 <body>
@@ -68,7 +68,7 @@ const jsonLd = {
       </ul>
       <details class="lang">
         <summary aria-label={_('language')}>{lang} ▾</summary>
-        <ul>{locales.map((l) => <li><a href={`/${l}/${rest}`} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{localeNames[l]}</a></li>)}</ul>
+        <ul>{locales.map((l) => <li><a href={href(l, rest)} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{localeNames[l]}</a></li>)}</ul>
       </details>
       <button class="menu-btn" popovertarget="menu" aria-label={_('menu')}><span>{_('menu')}</span><i></i></button>
     </div>
@@ -130,7 +130,7 @@ const jsonLd = {
       </div>
       <div class="bottom">
         <span>© {new Date().getFullYear()} {site.name} · {_('footerNote')}</span>
-        <a href="/admin/" rel="nofollow">Admin</a>
+        <a href={`${base}/admin/`} rel="nofollow">Admin</a>
       </div>
     </div>
   </footer>

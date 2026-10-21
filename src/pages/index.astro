@@ -1,6 +1,7 @@
 ---
 // Root URL: send visitors to their browser language; English for everyone else, Greek without JS.
 import { locales } from '../i18n';
+import { base } from '../lib';
 ---
 <!doctype html>
 <html lang="el">
@@ -8,11 +9,11 @@ import { locales } from '../i18n';
   <meta charset="utf-8" />
   <title>The Evergreen Project</title>
   <meta name="robots" content="noindex" />
-  <meta http-equiv="refresh" content="0; url=/el/" />
-  <script is:inline define:vars={{ locales }}>
+  <meta http-equiv="refresh" content={`0; url=${base}/el/`} />
+  <script is:inline define:vars={{ locales, base }}>
     const l = (navigator.languages || [navigator.language]).map((x) => x.slice(0, 2)).find((x) => locales.includes(x));
-    location.replace('/' + (l || 'en') + '/');
+    location.replace(base + '/' + (l || 'en') + '/');
   </script>
 </head>
-<body><a href="/el/">The Evergreen Project</a></body>
+<body><a href={`${base}/el/`}>The Evergreen Project</a></body>
 </html>
