@@ -1,0 +1,398 @@
+el:
+  image: /src/assets/uploads/sharing-circle.webp
+  title: Το πρότζεκτ
+  intro: Ένα πρότζεκτ ολιστικής διαβίωσης και μετάβασης στους πρόποδες του Καλλιδρόμου.
+  sections:
+    - heading: Ποιοι είμαστε
+      image: /src/assets/uploads/shala-gathering.webp
+      text: |-
+        Το Evergreen Project είναι αστική μη κερδοσκοπική εταιρεία που ιδρύθηκε στις αρχές του 2021 στην Ανάβρα Φθιώτιδας, σε μια δασωμένη έκταση στους πρόποδες του όρους Καλλίδρομο, στην Κεντρική Ελλάδα. Περιγράφουμε τον εαυτό μας απλά: ένα οικοχωριό, μια κοινότητα και ένα άσραμ.
+
+        Είμαστε άνθρωποι που επέλεξαν να επιβραδύνουν, να ζήσουν πιο κοντά στη φύση και να μοιραστούν αυτή την εμπειρία — με νέους από όλη την Ευρώπη, με όσους ασκούνται στη γιόγκα, με οικογένειες και με όποιον είναι περίεργος για έναν άλλο τρόπο ζωής.
+    - heading: Η αποστολή μας
+      image: /src/assets/uploads/meadow-freedom.webp
+      text: |-
+        Βασικός μας στόχος είναι να **θεραπεύουμε και να ενδυναμώνουμε τους ανθρώπους χωρίς καμία διάκριση**: να τους βοηθάμε να συνδεθούν με τα συναισθήματά τους και να εμβαθύνουν στην αυτογνωσία τους, μέσα από δραστηριότητες που αναπτύσσονται στη συνάντηση της **ευεξίας, της φύσης και της οικολογικής ζωής**.
+
+        Πιστεύουμε ότι οι κλιματικές, οικονομικές και ενεργειακές κρίσεις που ζούμε ζητούν και μια εσωτερική αλλαγή — και ότι ένα δάσος, μια κοινή κουζίνα και ένας κύκλος ανθρώπων μπορούν να γίνουν πολύτιμοι δάσκαλοι.
+    - heading: Τι κάνουμε
+      text: |-
+        Μερικοί από αυτούς τους τομείς είναι ήδη καλά ανεπτυγμένοι· άλλοι μεγαλώνουν λίγο περισσότερο κάθε μέρα.
+
+        - Δημιουργία κοινότητας, ομαδική συνεργασία και διευκόλυνση ομάδων
+        - Ψυχοθεραπεία ομαδικής διαδικασίας, δραματοθεραπεία και οικοθεραπεία
+        - Γιόγκα, διαλογισμός και ενσυνείδητη ζωή
+        - Υγιεινή, χορτοφαγική διατροφή
+        - Περμακουλτούρα και βιολογική καλλιέργεια
+        - Φυσική δόμηση και ξυλουργική
+        - Δασοκομία, αγροδασοπονία και πυροπροστασία
+        - Βιώσιμη διαχείριση ενέργειας, νερού και απορριμμάτων
+        - Ανθρώπινα δικαιώματα και συμπερίληψη
+    - heading: Για ποιους
+      image: /src/assets/uploads/group-play.webp
+      text: |-
+        Οι δραστηριότητές μας απευθύνονται σε ανθρώπους από την τοπική κοινωνία, την Αθήνα και την υπόλοιπη Ελλάδα, την Ευρώπη και όλο τον κόσμο — **με ιδιαίτερη έμφαση στους νέους**. Ανοίγουμε επίσης την πόρτα μας σε όσους επηρεάστηκαν από τις πρόσφατες οικονομικές, περιβαλλοντικές και ενεργειακές κρίσεις και θέλουν να κάνουν μια αλλαγή προς έναν εναλλακτικό τρόπο ζωής.
+    - heading: Το όραμά μας
+      image: /src/assets/uploads/tents-fairy-lights.webp
+      text: |-
+        Ονειρευόμαστε ένα **κέντρο εκπαίδευσης που λειτουργεί όλο τον χρόνο**, ριζωμένο μόνιμα στο Καλλίδρομο: ένα αυτάρκες οικοχωριό όπου οι άνθρωποι έρχονται να μάθουν, να θεραπευτούν και να δημιουργήσουν. Ήδη εμπνέουμε και καθοδηγούμε άλλους που θέλουν να ξεκινήσουν τα δικά τους πρότζεκτ μετάβασης ή μικρές οικολογικές επιχειρήσεις — ή απλώς να ξανασυνδεθούν με τη φύση.
+    - heading: Γεννημένο από το Evergreen Yoga
+      image: /src/assets/uploads/shala-roof.webp
+      text: |-
+        Το πρότζεκτ είναι η φυσική συνέχεια των **Evergreen Yoga Studios**, μιας σχολής γιόγκα που ίδρυσε ο Panos Katsandris στην Αθήνα το 2012. Χιλιάδες μαθητές έχουν περάσει από τα δύο στούντιο της Αθήνας· το άσραμ στο δάσος είναι το σημείο όπου αυτή η πρακτική συναντά τη φύση, την απλότητα και την κοινότητα.
+
+        [Επισκεφθείτε τα Evergreen Yoga Studios ↗](https://www.evergreenyogastudios.com)
+  facts:
+    - label: Νομική μορφή
+      value: Αστική μη κερδοσκοπική εταιρεία (ΑΜΚΕ)
+    - label: Ίδρυση
+      value: "2021"
+    - label: Ευρωπαϊκό Σώμα Αλληλεγγύης
+      value: Σήμα Ποιότητας — φορέας υποδοχής και συντονισμού, έως 31/12/2027
+    - label: Κωδικός οργανισμού (OID)
+      value: E10305264
+    - label: Έδρα
+      value: Διγενή 4, 35009 Μώλος, Φθιώτιδα
+en:
+  title: The project
+  intro: A holistic living and transition project at the foot of Mount Kallidromo.
+  sections:
+    - heading: Who we are
+      text: |-
+        The Evergreen Project is a civil non-profit company founded in early 2021 in Anavra, Fthiotida, on a piece of forested land at the foot of Mount Kallidromo in Central Greece. We describe ourselves simply: an eco-village, a community and an ashram.
+
+        We are people who chose to slow down, live closer to nature and share that experience — with young people from all over Europe, with yoga practitioners, with families and with anyone curious about another way of living.
+    - heading: Our mission
+      text: |-
+        Our main line of work is to **heal and empower people without any discrimination**: to help them connect with their emotions and deepen their self-knowledge, through activities that grow at the intersection of **wellbeing, nature and eco-living**.
+
+        We believe that the climate, economic and energy crises we are living through also call for an inner change — and that a forest, a shared kitchen and a circle of people can be precious teachers.
+    - heading: What we do
+      text: |-
+        Some of these fields are already well developed; others grow a little more every day.
+
+        - Community building, team building and facilitation
+        - Group-process psychotherapy, dramatherapy and eco-therapy
+        - Yoga, meditation and mindful living
+        - Healthy, vegetarian nutrition
+        - Permaculture and organic gardening
+        - Natural building and woodworking
+        - Forestry, agroforestry and fire protection
+        - Sustainable energy, water and waste management
+        - Human rights and inclusion
+    - heading: Who it is for
+      text: |-
+        Our activities welcome people from the local community, from Athens and the rest of Greece, from Europe and from the whole world — **with a special focus on young people**. We also open our doors to everyone affected by the recent economic, environmental and energy crises who wants to make a change towards an alternative way of living.
+    - heading: Our vision
+      text: |-
+        We dream of an **education hub open all year round**, permanently rooted on Mount Kallidromo: a self-sufficient eco-village where people come to learn, heal and create. We already inspire and guide others who want to start their own transition projects or small eco-businesses — or who simply want to reconnect with nature.
+    - heading: Born from Evergreen Yoga
+      text: |-
+        The project is the natural extension of **Evergreen Yoga Studios**, a yoga school founded in Athens in 2012 by Panos Katsandris. Thousands of students have practised in its two Athens studios; the ashram in the forest is where that practice meets nature, simplicity and community.
+
+        [Visit Evergreen Yoga Studios ↗](https://www.evergreenyogastudios.com)
+  facts:
+    - label: Legal form
+      value: Civil non-profit company (AMKE)
+    - label: Founded
+      value: "2021"
+    - label: European Solidarity Corps
+      value: Quality Label — hosting and lead organisation, until 31/12/2027
+    - label: Organisation ID (OID)
+      value: E10305264
+    - label: Registered office
+      value: Digeni 4, 35009 Molos, Fthiotida, Greece
+fr:
+  title: Le projet
+  intro: Un projet de vie holistique et de transition au pied du mont Kallidromo.
+  sections:
+    - heading: Qui sommes-nous
+      text: |-
+        The Evergreen Project est une société civile à but non lucratif fondée début 2021 à Anavra, en Phthiotide, sur un terrain boisé au pied du mont Kallidromo, en Grèce centrale. Nous nous décrivons simplement : un écovillage, une communauté et un ashram.
+
+        Nous sommes des personnes qui ont choisi de ralentir, de vivre plus près de la nature et de partager cette expérience — avec des jeunes de toute l’Europe, des pratiquants de yoga, des familles et toute personne curieuse d’une autre manière de vivre.
+    - heading: Notre mission
+      text: |-
+        Notre axe principal est de **soigner et renforcer les personnes, sans aucune discrimination** : les aider à se connecter à leurs émotions et à approfondir la connaissance d’elles-mêmes, grâce à des activités qui naissent à la croisée du **bien-être, de la nature et de la vie écologique**.
+
+        Nous croyons que les crises climatique, économique et énergétique que nous traversons appellent aussi un changement intérieur — et qu’une forêt, une cuisine partagée et un cercle de personnes peuvent être de précieux enseignants.
+    - heading: Ce que nous faisons
+      text: |-
+        Certains de ces domaines sont déjà bien développés ; d’autres grandissent un peu plus chaque jour.
+
+        - Création de communauté, cohésion d’équipe et facilitation
+        - Psychothérapie de processus de groupe, dramathérapie et écothérapie
+        - Yoga, méditation et pleine conscience
+        - Alimentation saine et végétarienne
+        - Permaculture et jardinage biologique
+        - Construction naturelle et travail du bois
+        - Sylviculture, agroforesterie et protection contre les incendies
+        - Gestion durable de l’énergie, de l’eau et des déchets
+        - Droits humains et inclusion
+    - heading: Pour qui
+      text: |-
+        Nos activités accueillent des personnes de la communauté locale, d’Athènes et du reste de la Grèce, d’Europe et du monde entier — **avec une attention particulière pour les jeunes**. Nous ouvrons aussi nos portes à toutes celles et ceux touchés par les récentes crises économique, environnementale et énergétique qui souhaitent changer pour un mode de vie alternatif.
+    - heading: Notre vision
+      text: |-
+        Nous rêvons d’un **lieu d’apprentissage ouvert toute l’année**, enraciné durablement sur le mont Kallidromo : un écovillage autonome où l’on vient apprendre, guérir et créer. Nous inspirons et accompagnons déjà d’autres personnes qui veulent lancer leurs propres projets de transition ou de petites entreprises écologiques — ou simplement renouer avec la nature.
+    - heading: Né d’Evergreen Yoga
+      text: |-
+        Le projet est le prolongement naturel d’**Evergreen Yoga Studios**, une école de yoga fondée à Athènes en 2012 par Panos Katsandris. Des milliers d’élèves ont pratiqué dans ses deux studios athéniens ; l’ashram dans la forêt est l’endroit où cette pratique rencontre la nature, la simplicité et la communauté.
+
+        [Découvrir Evergreen Yoga Studios ↗](https://www.evergreenyogastudios.com)
+  facts:
+    - label: Forme juridique
+      value: Société civile à but non lucratif (AMKE)
+    - label: Création
+      value: "2021"
+    - label: Corps européen de solidarité
+      value: Label de qualité — organisation d’accueil et coordinatrice, jusqu’au 31/12/2027
+    - label: Identifiant (OID)
+      value: E10305264
+    - label: Siège
+      value: Digeni 4, 35009 Molos, Phthiotide, Grèce
+es:
+  title: El proyecto
+  intro: Un proyecto de vida holística y de transición al pie del monte Kallidromo.
+  sections:
+    - heading: Quiénes somos
+      text: |-
+        The Evergreen Project es una sociedad civil sin ánimo de lucro fundada a principios de 2021 en Anavra, Ftiótide, en un terreno boscoso al pie del monte Kallidromo, en Grecia central. Nos describimos de forma sencilla: una ecoaldea, una comunidad y un ashram.
+
+        Somos personas que eligieron bajar el ritmo, vivir más cerca de la naturaleza y compartir esa experiencia — con jóvenes de toda Europa, con practicantes de yoga, con familias y con cualquiera que sienta curiosidad por otra forma de vivir.
+    - heading: Nuestra misión
+      text: |-
+        Nuestra línea principal de trabajo es **sanar y empoderar a las personas sin ninguna discriminación**: ayudarlas a conectar con sus emociones y profundizar en el conocimiento de sí mismas, mediante actividades que nacen en la intersección entre **bienestar, naturaleza y vida ecológica**.
+
+        Creemos que las crisis climática, económica y energética que vivimos piden también un cambio interior — y que un bosque, una cocina compartida y un círculo de personas pueden ser maestros valiosos.
+    - heading: Qué hacemos
+      text: |-
+        Algunos de estos campos ya están bien desarrollados; otros crecen un poco más cada día.
+
+        - Construcción de comunidad, trabajo en equipo y facilitación
+        - Psicoterapia de proceso grupal, dramaterapia y ecoterapia
+        - Yoga, meditación y vida consciente
+        - Alimentación sana y vegetariana
+        - Permacultura y huerta ecológica
+        - Bioconstrucción y carpintería
+        - Silvicultura, agroforestería y prevención de incendios
+        - Gestión sostenible de la energía, el agua y los residuos
+        - Derechos humanos e inclusión
+    - heading: Para quién
+      text: |-
+        Nuestras actividades acogen a personas de la comunidad local, de Atenas y del resto de Grecia, de Europa y de todo el mundo — **con especial atención a la gente joven**. También abrimos nuestras puertas a quienes se han visto afectados por las recientes crisis económica, ambiental y energética y quieren cambiar hacia una forma de vida alternativa.
+    - heading: Nuestra visión
+      text: |-
+        Soñamos con un **centro educativo abierto todo el año**, arraigado de forma permanente en el monte Kallidromo: una ecoaldea autosuficiente adonde la gente venga a aprender, sanar y crear. Ya inspiramos y acompañamos a otras personas que quieren iniciar sus propios proyectos de transición o pequeños negocios ecológicos — o simplemente reconectar con la naturaleza.
+    - heading: Nacido de Evergreen Yoga
+      text: |-
+        El proyecto es la extensión natural de **Evergreen Yoga Studios**, una escuela de yoga fundada en Atenas en 2012 por Panos Katsandris. Miles de alumnos han practicado en sus dos estudios de Atenas; el ashram del bosque es donde esa práctica se encuentra con la naturaleza, la sencillez y la comunidad.
+
+        [Visita Evergreen Yoga Studios ↗](https://www.evergreenyogastudios.com)
+  facts:
+    - label: Forma jurídica
+      value: Sociedad civil sin ánimo de lucro (AMKE)
+    - label: Fundación
+      value: "2021"
+    - label: Cuerpo Europeo de Solidaridad
+      value: Sello de Calidad — organización de acogida y coordinadora, hasta el 31/12/2027
+    - label: Identificador (OID)
+      value: E10305264
+    - label: Sede
+      value: Digeni 4, 35009 Molos, Ftiótide, Grecia
+it:
+  title: Il progetto
+  intro: Un progetto di vita olistica e di transizione ai piedi del monte Kallidromo.
+  sections:
+    - heading: Chi siamo
+      text: |-
+        The Evergreen Project è una società civile senza scopo di lucro fondata all’inizio del 2021 ad Anavra, in Ftiotide, su un terreno boscoso ai piedi del monte Kallidromo, nella Grecia centrale. Ci descriviamo in modo semplice: un ecovillaggio, una comunità e un ashram.
+
+        Siamo persone che hanno scelto di rallentare, vivere più vicino alla natura e condividere questa esperienza — con giovani da tutta Europa, con chi pratica yoga, con famiglie e con chiunque sia curioso di un altro modo di vivere.
+    - heading: La nostra missione
+      text: |-
+        Il nostro obiettivo principale è **guarire e rafforzare le persone senza alcuna discriminazione**: aiutarle a entrare in contatto con le proprie emozioni e ad approfondire la conoscenza di sé, attraverso attività che nascono all’incrocio tra **benessere, natura e vita ecologica**.
+
+        Crediamo che le crisi climatica, economica ed energetica che stiamo vivendo richiedano anche un cambiamento interiore — e che un bosco, una cucina condivisa e un cerchio di persone possano essere maestri preziosi.
+    - heading: Cosa facciamo
+      text: |-
+        Alcuni di questi ambiti sono già ben sviluppati; altri crescono un po’ ogni giorno.
+
+        - Costruzione di comunità, team building e facilitazione
+        - Psicoterapia di processo di gruppo, drammaterapia ed ecoterapia
+        - Yoga, meditazione e vita consapevole
+        - Alimentazione sana e vegetariana
+        - Permacultura e orto biologico
+        - Bioedilizia e lavorazione del legno
+        - Selvicoltura, agroforestazione e prevenzione degli incendi
+        - Gestione sostenibile di energia, acqua e rifiuti
+        - Diritti umani e inclusione
+    - heading: Per chi
+      text: |-
+        Le nostre attività accolgono persone della comunità locale, di Atene e del resto della Grecia, dell’Europa e di tutto il mondo — **con un’attenzione particolare ai giovani**. Apriamo le porte anche a chi è stato colpito dalle recenti crisi economica, ambientale ed energetica e desidera cambiare verso uno stile di vita alternativo.
+    - heading: La nostra visione
+      text: |-
+        Sogniamo un **centro educativo aperto tutto l’anno**, radicato stabilmente sul monte Kallidromo: un ecovillaggio autosufficiente dove le persone vengono a imparare, guarire e creare. Già oggi ispiriamo e accompagniamo chi vuole avviare un proprio progetto di transizione o una piccola attività ecologica — o semplicemente ritrovare il contatto con la natura.
+    - heading: Nato da Evergreen Yoga
+      text: |-
+        Il progetto è la naturale estensione di **Evergreen Yoga Studios**, una scuola di yoga fondata ad Atene nel 2012 da Panos Katsandris. Migliaia di allievi hanno praticato nei suoi due studi ateniesi; l’ashram nel bosco è il luogo in cui questa pratica incontra la natura, la semplicità e la comunità.
+
+        [Visita Evergreen Yoga Studios ↗](https://www.evergreenyogastudios.com)
+  facts:
+    - label: Forma giuridica
+      value: Società civile senza scopo di lucro (AMKE)
+    - label: Fondazione
+      value: "2021"
+    - label: Corpo europeo di solidarietà
+      value: Marchio di qualità — organizzazione ospitante e capofila, fino al 31/12/2027
+    - label: Codice organizzazione (OID)
+      value: E10305264
+    - label: Sede legale
+      value: Digeni 4, 35009 Molos, Ftiotide, Grecia
+ru:
+  title: О проекте
+  intro: Проект целостной жизни и перехода к устойчивому образу жизни у подножия горы Каллидромо.
+  sections:
+    - heading: Кто мы
+      text: |-
+        The Evergreen Project — гражданская некоммерческая компания, основанная в начале 2021 года в Анавре (Фтиотида), на лесном участке у подножия горы Каллидромо в Центральной Греции. Мы описываем себя просто: экодеревня, сообщество и ашрам.
+
+        Мы — люди, которые решили замедлиться, жить ближе к природе и делиться этим опытом: с молодёжью со всей Европы, с практикующими йогу, с семьями и со всеми, кому интересен другой образ жизни.
+    - heading: Наша миссия
+      text: |-
+        Главное направление нашей работы — **исцелять и поддерживать людей без какой-либо дискриминации**: помогать им соединиться со своими эмоциями и глубже познать себя через занятия, которые рождаются на пересечении **благополучия, природы и экологичной жизни**.
+
+        Мы верим, что климатический, экономический и энергетический кризисы, которые мы переживаем, требуют и внутренних перемен — и что лес, общая кухня и круг людей могут стать бесценными учителями.
+    - heading: Чем мы занимаемся
+      text: |-
+        Некоторые направления уже хорошо развиты, другие растут понемногу каждый день.
+
+        - Построение сообщества, командная работа и фасилитация
+        - Групповая процессуальная психотерапия, драматерапия и экотерапия
+        - Йога, медитация и осознанная жизнь
+        - Здоровое вегетарианское питание
+        - Пермакультура и органическое садоводство
+        - Природное строительство и работа с деревом
+        - Лесоводство, агролесоводство и защита от пожаров
+        - Устойчивое управление энергией, водой и отходами
+        - Права человека и инклюзия
+    - heading: Для кого
+      text: |-
+        Наши программы открыты для людей из местного сообщества, из Афин и всей Греции, из Европы и со всего мира — **с особым вниманием к молодёжи**. Мы также рады всем, кого затронули недавние экономический, экологический и энергетический кризисы и кто хочет перейти к альтернативному образу жизни.
+    - heading: Наше видение
+      text: |-
+        Мы мечтаем о **круглогодичном образовательном центре**, навсегда укоренённом на горе Каллидромо: самодостаточной экодеревне, куда люди приезжают учиться, исцеляться и творить. Уже сегодня мы вдохновляем и поддерживаем тех, кто хочет начать собственный проект перехода или небольшое экологичное дело — или просто вновь соединиться с природой.
+    - heading: Родом из Evergreen Yoga
+      text: |-
+        Проект — естественное продолжение **Evergreen Yoga Studios**, школы йоги, которую Панос Кацандрис основал в Афинах в 2012 году. В двух афинских студиях занимались тысячи учеников, а ашрам в лесу — то место, где эта практика встречается с природой, простотой и сообществом.
+
+        [Посетить Evergreen Yoga Studios ↗](https://www.evergreenyogastudios.com)
+  facts:
+    - label: Правовая форма
+      value: Гражданская некоммерческая компания (AMKE)
+    - label: Год основания
+      value: "2021"
+    - label: Европейский корпус солидарности
+      value: Знак качества — принимающая и координирующая организация, до 31.12.2027
+    - label: Код организации (OID)
+      value: E10305264
+    - label: Юридический адрес
+      value: Digeni 4, 35009 Молос, Фтиотида, Греция
+de:
+  title: Das Projekt
+  intro: Ein Projekt für ganzheitliches Leben und Wandel am Fuß des Kallidromo-Gebirges.
+  sections:
+    - heading: Wer wir sind
+      text: |-
+        The Evergreen Project ist eine gemeinnützige Zivilgesellschaft, die Anfang 2021 in Anavra (Fthiotida) gegründet wurde — auf einem bewaldeten Grundstück am Fuß des Kallidromo-Gebirges in Mittelgriechenland. Wir beschreiben uns ganz einfach: ein Ökodorf, eine Gemeinschaft und ein Ashram.
+
+        Wir sind Menschen, die sich entschieden haben, langsamer zu werden, näher an der Natur zu leben und diese Erfahrung zu teilen — mit jungen Menschen aus ganz Europa, mit Yoga-Praktizierenden, mit Familien und mit allen, die neugierig auf eine andere Lebensweise sind.
+    - heading: Unsere Mission
+      text: |-
+        Unser Hauptanliegen ist es, **Menschen ohne jede Diskriminierung zu heilen und zu stärken**: ihnen zu helfen, mit ihren Gefühlen in Kontakt zu kommen und sich selbst besser kennenzulernen — durch Aktivitäten an der Schnittstelle von **Wohlbefinden, Natur und ökologischem Leben**.
+
+        Wir glauben, dass die Klima-, Wirtschafts- und Energiekrisen unserer Zeit auch einen inneren Wandel verlangen — und dass ein Wald, eine gemeinsame Küche und ein Kreis von Menschen wertvolle Lehrer sein können.
+    - heading: Was wir tun
+      text: |-
+        Manche dieser Bereiche sind schon gut entwickelt, andere wachsen jeden Tag ein Stück weiter.
+
+        - Gemeinschaftsbildung, Teambuilding und Moderation
+        - Gruppenprozess-Psychotherapie, Dramatherapie und Ökotherapie
+        - Yoga, Meditation und achtsames Leben
+        - Gesunde, vegetarische Ernährung
+        - Permakultur und biologischer Gartenbau
+        - Naturbau und Holzarbeit
+        - Forstwirtschaft, Agroforst und Brandschutz
+        - Nachhaltiger Umgang mit Energie, Wasser und Abfall
+        - Menschenrechte und Inklusion
+    - heading: Für wen
+      text: |-
+        Unsere Angebote richten sich an Menschen aus der Region, aus Athen und ganz Griechenland, aus Europa und der ganzen Welt — **mit besonderem Fokus auf jungen Menschen**. Wir öffnen unsere Türen auch allen, die von den jüngsten Wirtschafts-, Umwelt- und Energiekrisen betroffen sind und einen Wandel hin zu einer alternativen Lebensweise suchen.
+    - heading: Unsere Vision
+      text: |-
+        Wir träumen von einem **ganzjährigen Bildungsort**, dauerhaft verwurzelt im Kallidromo-Gebirge: einem selbstversorgenden Ökodorf, in das Menschen kommen, um zu lernen, zu heilen und zu gestalten. Schon heute inspirieren und begleiten wir andere, die eigene Transition-Projekte oder kleine ökologische Unternehmen starten — oder einfach wieder mit der Natur in Verbindung kommen möchten.
+    - heading: Entstanden aus Evergreen Yoga
+      text: |-
+        Das Projekt ist die natürliche Fortsetzung der **Evergreen Yoga Studios**, einer Yogaschule, die Panos Katsandris 2012 in Athen gegründet hat. Tausende Schüler·innen haben in den beiden Athener Studios praktiziert; der Ashram im Wald ist der Ort, an dem diese Praxis der Natur, der Einfachheit und der Gemeinschaft begegnet.
+
+        [Evergreen Yoga Studios besuchen ↗](https://www.evergreenyogastudios.com)
+  facts:
+    - label: Rechtsform
+      value: Gemeinnützige Zivilgesellschaft (AMKE)
+    - label: Gründung
+      value: "2021"
+    - label: Europäisches Solidaritätskorps
+      value: Qualitätssiegel — Aufnahme- und koordinierende Organisation, bis 31.12.2027
+    - label: Organisationskennung (OID)
+      value: E10305264
+    - label: Sitz
+      value: Digeni 4, 35009 Molos, Fthiotida, Griechenland
+pt:
+  title: O projeto
+  intro: Um projeto de vida holística e de transição no sopé do monte Kallidromo.
+  sections:
+    - heading: Quem somos
+      text: |-
+        The Evergreen Project é uma sociedade civil sem fins lucrativos fundada no início de 2021 em Anavra, na Ftiótida, num terreno florestal no sopé do monte Kallidromo, na Grécia Central. Descrevemo-nos de forma simples: uma ecoaldeia, uma comunidade e um ashram.
+
+        Somos pessoas que escolheram abrandar, viver mais perto da natureza e partilhar essa experiência — com jovens de toda a Europa, com praticantes de yoga, com famílias e com quem tenha curiosidade por outra forma de viver.
+    - heading: A nossa missão
+      text: |-
+        A nossa principal linha de trabalho é **curar e capacitar as pessoas sem qualquer discriminação**: ajudá-las a ligar-se às suas emoções e a aprofundar o autoconhecimento, através de atividades que nascem no cruzamento entre **bem-estar, natureza e vida ecológica**.
+
+        Acreditamos que as crises climática, económica e energética que vivemos pedem também uma mudança interior — e que uma floresta, uma cozinha partilhada e um círculo de pessoas podem ser mestres preciosos.
+    - heading: O que fazemos
+      text: |-
+        Algumas destas áreas já estão bem desenvolvidas; outras crescem um pouco mais todos os dias.
+
+        - Construção de comunidade, trabalho de equipa e facilitação
+        - Psicoterapia de processo de grupo, dramaterapia e ecoterapia
+        - Yoga, meditação e vida consciente
+        - Alimentação saudável e vegetariana
+        - Permacultura e horta biológica
+        - Bioconstrução e carpintaria
+        - Silvicultura, agrofloresta e proteção contra incêndios
+        - Gestão sustentável de energia, água e resíduos
+        - Direitos humanos e inclusão
+    - heading: Para quem
+      text: |-
+        As nossas atividades acolhem pessoas da comunidade local, de Atenas e do resto da Grécia, da Europa e de todo o mundo — **com especial atenção aos jovens**. Abrimos também as portas a quem foi afetado pelas recentes crises económica, ambiental e energética e quer mudar para um modo de vida alternativo.
+    - heading: A nossa visão
+      text: |-
+        Sonhamos com um **centro educativo aberto todo o ano**, enraizado de forma permanente no monte Kallidromo: uma ecoaldeia autossuficiente onde as pessoas vêm aprender, curar-se e criar. Já hoje inspiramos e orientamos quem quer iniciar os seus próprios projetos de transição ou pequenos negócios ecológicos — ou simplesmente reencontrar a natureza.
+    - heading: Nascido do Evergreen Yoga
+      text: |-
+        O projeto é a extensão natural dos **Evergreen Yoga Studios**, uma escola de yoga fundada em Atenas em 2012 por Panos Katsandris. Milhares de alunos praticaram nos seus dois estúdios de Atenas; o ashram na floresta é onde essa prática encontra a natureza, a simplicidade e a comunidade.
+
+        [Visitar os Evergreen Yoga Studios ↗](https://www.evergreenyogastudios.com)
+  facts:
+    - label: Forma jurídica
+      value: Sociedade civil sem fins lucrativos (AMKE)
+    - label: Fundação
+      value: "2021"
+    - label: Corpo Europeu de Solidariedade
+      value: Selo de Qualidade — organização de acolhimento e coordenadora, até 31/12/2027
+    - label: Identificador (OID)
+      value: E10305264
+    - label: Sede
+      value: Digeni 4, 35009 Molos, Ftiótida, Grécia

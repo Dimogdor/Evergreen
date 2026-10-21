@@ -1,0 +1,349 @@
+# Sveltia CMS — admin panel at /admin/
+# Docs: https://sveltiacms.app/en/docs  ·  Setup guide for this site: docs/DEPLOY.md
+# Every save = one commit on GitHub = automatic rebuild of the site (≈1–2 min).
+
+backend:
+  name: github
+  repo: Dimogdor/Evergreen
+  branch: main
+  # After deploying the free login helper (docs/DEPLOY.md, step 3), uncomment and set:
+  # base_url: https://sveltia-cms-auth.YOUR-ACCOUNT.workers.dev
+
+app_title: Evergreen — Admin
+logo:
+  src: /admin/logo.png
+site_url: https://evergreen-project.pages.dev
+display_url: https://evergreen-project.pages.dev
+
+# Uploaded photos are converted to WebP (max 2000 px) in the browser before upload,
+# then resized again per screen size when the site is built.
+media_folder: src/assets/uploads
+public_folder: /src/assets/uploads
+media_libraries:
+  default:
+    config:
+      max_file_size: 52428800
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 80
+          width: 2000
+          height: 2000
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+i18n:
+  structure: single_file
+  locales: [el, en, fr, es, it, ru, de, pt]
+  default_locale: el
+
+editor:
+  preview: false
+
+output:
+  omit_empty_optional_fields: true
+
+collections:
+  # ───────────────────────── Calendar ─────────────────────────
+  - name: events
+    label: Ημερολόγιο · Calendar
+    label_singular: Εκδήλωση · Event
+    description: Retreats, workshops, ESC projects, gatherings. Past events move to “Past events” automatically.
+    icon: calendar_month
+    folder: src/content/events
+    extension: yml
+    format: yaml
+    create: true
+    i18n: true
+    identifier_field: title
+    slug:
+      template: "{{fields.start}}-{{uuid_short}}"
+      editable: false
+    summary: "{{start}} · {{title}}"
+    thumbnail: image
+    sortable_fields:
+      fields: [start, title]
+      default:
+        field: start
+        direction: descending
+    view_groups:
+      - label: Year
+        field: start
+        pattern: \d{4}
+    fields:
+      - { name: title, label: Τίτλος · Title, widget: string, i18n: true }
+      - { name: start, label: Έναρξη · Start date, widget: datetime, type: date, format: YYYY-MM-DD }
+      - { name: end, label: Λήξη · End date, widget: datetime, type: date, format: YYYY-MM-DD, required: false, hint: Leave empty for a one-day event. }
+      - name: category
+        label: Κατηγορία · Category
+        widget: select
+        default: other
+        options:
+          - { label: ESC, value: esc }
+          - { label: Retreat, value: retreat }
+          - { label: Yoga, value: yoga }
+          - { label: Workshop, value: workshop }
+          - { label: Community, value: community }
+          - { label: Other, value: other }
+      - { name: summary, label: Περιγραφή · Short description, widget: text, i18n: true, required: false }
+      - { name: price, label: Τιμή · Price, widget: string, i18n: true, required: false, hint: "e.g. €18 / day — leave empty if free or not relevant." }
+      - { name: image, label: Φωτογραφία · Photo, widget: image, required: false }
+      - name: program
+        label: Δραστηριότητα · Related activity
+        widget: relation
+        collection: programs
+        value_field: "{{slug}}"
+        search_fields: [title]
+        display_fields: [title]
+        required: false
+        hint: Adds a “Read more” link to this activity.
+      - { name: link, label: Σύνδεσμος · Booking / info link, widget: string, required: false, hint: "Full address starting with https://" }
+      - { name: linkLabel, label: Κείμενο συνδέσμου · Link text, widget: string, i18n: true, required: false, hint: "e.g. Book now" }
+      - { name: draft, label: Κρυφό · Hidden, widget: boolean, default: false, required: false, hint: Hidden events are not shown on the site. }
+
+  # ───────────────────────── Activities ─────────────────────────
+  - name: programs
+    label: Δραστηριότητες · Activities
+    label_singular: Δραστηριότητα · Activity
+    description: Each activity has its own page. Drag to reorder.
+    icon: diversity_3
+    folder: src/content/programs
+    extension: yml
+    format: yaml
+    create: true
+    i18n: true
+    identifier_field: title
+    slug:
+      template: "{{slug}}"
+      editable: [create]
+    thumbnail: image
+    reorder: true
+    fields:
+      - { name: title, label: Τίτλος · Title, widget: string, i18n: true }
+      - { name: summary, label: Σύνοψη · Summary, widget: text, i18n: true, hint: One or two sentences shown on cards. }
+      - { name: image, label: Κύρια φωτογραφία · Main photo, widget: image }
+      - { name: featured, label: Στην αρχική · Show on home page, widget: boolean, default: false, required: false }
+      - { name: body, label: Κείμενο · Full text, widget: markdown, i18n: true, required: false }
+      - &facts
+        name: facts
+        label: Με μια ματιά · Key facts
+        widget: list
+        i18n: true
+        required: false
+        summary: "{{label}}: {{value}}"
+        fields:
+          - { name: label, label: Ετικέτα · Label, widget: string, i18n: true }
+          - { name: value, label: Τιμή · Value, widget: string, i18n: true }
+      - &faq
+        name: faq
+        label: Ερωτήσεις · FAQ
+        widget: list
+        i18n: true
+        required: false
+        summary: "{{q}}"
+        fields:
+          - { name: q, label: Ερώτηση · Question, widget: string, i18n: true }
+          - { name: a, label: Απάντηση · Answer, widget: markdown, i18n: true, buttons: [bold, italic, link, bulleted-list] }
+      - { name: gallery, label: Φωτογραφίες · Photos, widget: image, multiple: true, required: false }
+      - { name: link, label: Σύνδεσμος · External link, widget: string, required: false, hint: "Optional button, e.g. a booking page (https://…)" }
+      - { name: linkLabel, label: Κείμενο συνδέσμου · Link text, widget: string, i18n: true, required: false }
+      - { name: order, label: Σειρά · Order, widget: number, value_type: int, required: false, hint: Set automatically when you drag entries. }
+
+  # ───────────────────────── Inhabitants ─────────────────────────
+  - name: inhabitants
+    label: Κάτοικοι · Inhabitants
+    label_singular: Κάτοικος · Inhabitant
+    description: People, animals and plants of the place. Drag to reorder.
+    icon: pets
+    folder: src/content/inhabitants
+    extension: yml
+    format: yaml
+    create: true
+    i18n: true
+    identifier_field: name
+    slug:
+      template: "{{slug}}"
+      editable: [create]
+    thumbnail: photo
+    reorder: true
+    view_groups:
+      - label: Kind
+        field: kind
+    fields:
+      - { name: name, label: Όνομα · Name, widget: string, i18n: true }
+      - name: kind
+        label: Είδος · Kind
+        widget: select
+        default: human
+        options:
+          - { label: Άνθρωπος · Person, value: human }
+          - { label: Ζώο · Animal, value: animal }
+          - { label: Φυτό · Plant, value: plant }
+      - { name: role, label: Ρόλος · Role, widget: string, i18n: true, required: false }
+      - { name: bio, label: Λίγα λόγια · Short bio, widget: text, i18n: true, required: false }
+      - { name: photo, label: Φωτογραφία · Photo, widget: image, required: false, hint: A square photo looks best. }
+      - { name: order, label: Σειρά · Order, widget: number, value_type: int, required: false }
+
+  # ───────────────────────── Gallery ─────────────────────────
+  - name: albums
+    label: Γκαλερί · Gallery
+    label_singular: Άλμπουμ · Album
+    description: Photo and video albums. Select many photos at once; they are compressed automatically.
+    icon: photo_library
+    folder: src/content/albums
+    extension: yml
+    format: yaml
+    create: true
+    i18n: true
+    identifier_field: title
+    slug:
+      template: "{{slug}}"
+      editable: [create]
+    reorder: true
+    fields:
+      - { name: title, label: Τίτλος · Title, widget: string, i18n: true }
+      - { name: description, label: Περιγραφή · Description, widget: text, i18n: true, required: false }
+      - { name: photos, label: Φωτογραφίες · Photos, widget: image, multiple: true, required: false }
+      - name: videos
+        label: Βίντεο · Videos
+        widget: list
+        required: false
+        hint: "Best: upload the video to YouTube (can be “unlisted”) and paste the link. Short clips can also be uploaded directly."
+        summary: "{{title}}"
+        fields:
+          - { name: title, label: Τίτλος · Title, widget: string, required: false }
+          - { name: url, label: Σύνδεσμος YouTube/Vimeo · YouTube/Vimeo link, widget: string, required: false }
+          - name: file
+            label: Ή αρχείο βίντεο · Or a video file (MP4)
+            widget: file
+            required: false
+            media_folder: /public/uploads/videos
+            public_folder: /uploads/videos
+            accept: video/*
+            hint: Short clips only (under ~40 MB). Videos are compressed automatically after upload.
+      - { name: order, label: Σειρά · Order, widget: number, value_type: int, required: false }
+
+  # ───────────────────────── Pages ─────────────────────────
+  - name: pages
+    label: Σελίδες · Pages
+    label_singular: Σελίδα · Page
+    description: Texts and photos of every page.
+    icon: article
+    i18n: true
+    files:
+      - name: home
+        label: Αρχική · Home
+        file: src/content/pages/home.yml
+        format: yaml
+        i18n: true
+        fields:
+          - { name: image, label: Μεγάλη φωτογραφία · Hero photo, widget: image }
+          - { name: title, label: Μεγάλος τίτλος · Headline, widget: text, i18n: true }
+          - { name: subtitle, label: Υπότιτλος · Subtitle, widget: text, i18n: true }
+          - { name: manifesto, label: Μανιφέστο · Manifesto, widget: text, i18n: true }
+          - { name: intro, label: Εισαγωγή · Intro, widget: markdown, i18n: true }
+          - name: facts
+            label: Αριθμοί · Key numbers
+            widget: list
+            i18n: true
+            summary: "{{value}} — {{label}}"
+            fields:
+              - { name: value, label: Αριθμός · Number, widget: string, i18n: true }
+              - { name: label, label: Ετικέτα · Label, widget: string, i18n: true }
+          - { name: escTitle, label: ESC — τίτλος · ESC title, widget: string, i18n: true }
+          - { name: escText, label: ESC — κείμενο · ESC text, widget: markdown, i18n: true }
+          - { name: escImage, label: ESC — φωτογραφία · ESC photo, widget: image }
+          - { name: yogaTitle, label: Γιόγκα — τίτλος · Yoga studios title, widget: string, i18n: true }
+          - { name: yogaText, label: Γιόγκα — κείμενο · Yoga studios text, widget: markdown, i18n: true }
+          - { name: yogaImage, label: Γιόγκα — φωτογραφία · Yoga photo, widget: image }
+          - { name: contactTitle, label: Τελική φράση · Closing sentence, widget: string, i18n: true }
+      -
+        name: about
+        label: Το πρότζεκτ · The project
+        file: src/content/pages/about.yml
+        format: yaml
+        i18n: true
+        fields: &pageFields
+          - { name: title, label: Τίτλος · Title, widget: string, i18n: true }
+          - { name: intro, label: Εισαγωγή · Intro, widget: text, i18n: true, required: false }
+          - { name: image, label: Μεγάλη φωτογραφία · Cover photo, widget: image, required: false }
+          - name: sections
+            label: Ενότητες · Sections
+            label_singular: Ενότητα · Section
+            widget: list
+            i18n: true
+            required: false
+            summary: "{{heading}}"
+            fields:
+              - { name: heading, label: Επικεφαλίδα · Heading, widget: string, i18n: true }
+              - { name: text, label: Κείμενο · Text, widget: markdown, i18n: true }
+              - { name: image, label: Φωτογραφία · Photo, widget: image, i18n: duplicate, required: false }
+          - *facts
+          - name: lists
+            label: Λίστες · Lists (facilities, wishlist…)
+            widget: list
+            i18n: true
+            required: false
+            summary: "{{title}}"
+            fields:
+              - { name: title, label: Τίτλος λίστας · List title, widget: string, i18n: true }
+              - { name: intro, label: Εισαγωγή · Intro, widget: text, i18n: true, required: false }
+              - name: items
+                label: Στοιχεία · Items
+                widget: list
+                i18n: true
+                summary: "{{title}}"
+                fields:
+                  - { name: title, label: Τίτλος · Title, widget: string, i18n: true }
+                  - { name: text, label: Κείμενο · Text, widget: text, i18n: true, required: false }
+          - *faq
+      - { name: place, label: Ο τόπος · The place, file: src/content/pages/place.yml, format: yaml, i18n: true, fields: *pageFields }
+      - { name: life, label: Τρόπος ζωής · Way of life, file: src/content/pages/life.yml, format: yaml, i18n: true, fields: *pageFields }
+      - { name: inhabitants, label: Οι κάτοικοι · Inhabitants page, file: src/content/pages/inhabitants.yml, format: yaml, i18n: true, fields: *pageFields }
+      - { name: support, label: Στήριξη · Support us, file: src/content/pages/support.yml, format: yaml, i18n: true, fields: *pageFields }
+      - { name: contact, label: Επικοινωνία · Contact page, file: src/content/pages/contact.yml, format: yaml, i18n: true, fields: *pageFields }
+      -
+        name: activities
+        label: Δραστηριότητες (εισαγωγή) · Activities intro
+        file: src/content/pages/activities.yml
+        format: yaml
+        i18n: true
+        fields: &shortFields
+          - { name: title, label: Τίτλος · Title, widget: string, i18n: true }
+          - { name: intro, label: Εισαγωγή · Intro, widget: text, i18n: true, required: false }
+      - { name: calendar, label: Ημερολόγιο (εισαγωγή) · Calendar intro, file: src/content/pages/calendar.yml, format: yaml, i18n: true, fields: *shortFields }
+      - { name: gallery, label: Γκαλερί (εισαγωγή) · Gallery intro, file: src/content/pages/gallery.yml, format: yaml, i18n: true, fields: *shortFields }
+
+  # ───────────────────────── Settings ─────────────────────────
+  - name: settings
+    label: Ρυθμίσεις · Settings
+    description: Contact details, social networks, links and site-wide texts.
+    icon: settings
+    i18n: true
+    files:
+      - name: site
+        label: Στοιχεία & επικοινωνία · Site & contact
+        file: src/content/settings/site.yml
+        format: yaml
+        i18n: true
+        fields:
+          - { name: name, label: Όνομα · Name, widget: string }
+          - { name: logo, label: Λογότυπο · Logo, widget: image, required: false }
+          - { name: tagline, label: Σλόγκαν · Tagline, widget: string, i18n: true }
+          - { name: description, label: Περιγραφή για Google · Google description, widget: text, i18n: true, hint: About 150 characters. }
+          - { name: announcement, label: Ανακοίνωση · Top banner, widget: text, i18n: true, required: false, hint: "Optional message shown at the top of every page, e.g. “ESC call open until 30 March!”. Leave empty to hide." }
+          - { name: email, label: Email, widget: string }
+          - { name: phone, label: Τηλέφωνο · Phone, widget: string }
+          - { name: whatsapp, label: WhatsApp, widget: string, required: false, hint: "Phone number with country code, e.g. +30 694 755 8519" }
+          - { name: address, label: Διεύθυνση · Address, widget: string, i18n: true }
+          - { name: lat, label: Χάρτης — γεωγρ. πλάτος · Map latitude, widget: number, value_type: float, required: false }
+          - { name: lng, label: Χάρτης — γεωγρ. μήκος · Map longitude, widget: number, value_type: float, required: false }
+          - { name: instagram, label: Instagram, widget: string, required: false }
+          - { name: facebook, label: Facebook, widget: string, required: false }
+          - { name: messenger, label: Messenger, widget: string, required: false }
+          - { name: yogaStudiosUrl, label: Ιστοσελίδα στούντιο γιόγκα · Yoga studios website, widget: string, required: false }
+          - { name: yogaTrainingsUrl, label: Ιστοσελίδα εκπαιδεύσεων · Yoga trainings website, widget: string, required: false }
+          - { name: formKey, label: Κλειδί φόρμας · Contact form key (Web3Forms), widget: string, required: false, hint: "Free key from web3forms.com — messages then arrive by email. Empty = no form, just the email button." }

@@ -1,0 +1,63 @@
+el:
+  order: 7
+  featured: false
+  image: /src/assets/uploads/circle-dance.webp
+  gallery:
+    - /src/assets/uploads/campfire-evening.webp
+    - /src/assets/uploads/group-play.webp
+    - /src/assets/uploads/acro-play.webp
+  title: Γιορτές της κοινότητας
+  summary: Γιορτές, ανοιχτές μέρες και εποχικά φεστιβάλ που φέρνουν φίλους και γείτονες στο δάσος.
+  body: |-
+    Αρκετές φορές τον χρόνο ανοίγουμε τον χώρο για **γιορτές της κοινότητας**: Σαββατοκύριακα με γιόγκα, μουσική, εργαστήρια, κοινό φαγητό και γιορτή. Τον Σεπτέμβριο του 2026, για παράδειγμα, το **Community Celebration** μάζεψε παλιούς και νέους φίλους για τρεις μέρες στο δάσος.
+
+    Οι γιορτές είναι ο καλύτερος τρόπος να γνωρίσετε την κοινότητα, να ανακαλύψετε τον τόπο — και ίσως να επιστρέψετε για περισσότερο. Δείτε το [ημερολόγιο](/el/calendar/) και τα social media μας για τις επόμενες ημερομηνίες.
+en:
+  title: Community gatherings
+  summary: Celebrations, open days and seasonal festivals that bring friends and neighbours to the forest.
+  body: |-
+    Several times a year we open the land for **community gatherings**: weekends of yoga, music, workshops, shared food and celebration. In September 2026, for example, our **Community Celebration** brought old and new friends together for three days in the forest.
+
+    Gatherings are the best way to meet the community, discover the place — and perhaps come back for longer. Check the [calendar](/en/calendar/) and our social media for the next dates.
+fr:
+  title: Rassemblements de la communauté
+  summary: Fêtes, journées portes ouvertes et festivals de saison qui amènent amis et voisins dans la forêt.
+  body: |-
+    Plusieurs fois par an, nous ouvrons le terrain pour des **rassemblements** : des week-ends de yoga, de musique, d’ateliers, de repas partagés et de fête. En septembre 2026, par exemple, notre **Community Celebration** a réuni anciens et nouveaux amis pendant trois jours dans la forêt.
+
+    Les rassemblements sont la meilleure façon de rencontrer la communauté, de découvrir le lieu — et peut-être de revenir plus longtemps. Consultez le [calendrier](/fr/calendar/) et nos réseaux sociaux pour les prochaines dates.
+es:
+  title: Encuentros comunitarios
+  summary: Celebraciones, jornadas de puertas abiertas y festivales de temporada que traen amigos y vecinos al bosque.
+  body: |-
+    Varias veces al año abrimos el terreno para **encuentros comunitarios**: fines de semana de yoga, música, talleres, comida compartida y celebración. En septiembre de 2026, por ejemplo, nuestra **Community Celebration** reunió a amigos antiguos y nuevos durante tres días en el bosque.
+
+    Los encuentros son la mejor forma de conocer la comunidad, descubrir el lugar — y quizá volver por más tiempo. Consulta el [calendario](/es/calendar/) y nuestras redes para las próximas fechas.
+it:
+  title: Incontri di comunità
+  summary: Feste, giornate aperte e festival di stagione che portano amici e vicini nel bosco.
+  body: |-
+    Diverse volte all’anno apriamo il terreno per **incontri di comunità**: fine settimana di yoga, musica, workshop, cibo condiviso e festa. A settembre 2026, per esempio, la nostra **Community Celebration** ha riunito vecchi e nuovi amici per tre giorni nel bosco.
+
+    Gli incontri sono il modo migliore per conoscere la comunità, scoprire il luogo — e magari tornare per più tempo. Guarda il [calendario](/it/calendar/) e i nostri social per le prossime date.
+ru:
+  title: Встречи сообщества
+  summary: Праздники, дни открытых дверей и сезонные фестивали, которые собирают друзей и соседей в лесу.
+  body: |-
+    Несколько раз в год мы открываем участок для **встреч сообщества**: выходные с йогой, музыкой, мастерскими, общей едой и праздником. Например, в сентябре 2026 года наш **Community Celebration** на три дня собрал в лесу старых и новых друзей.
+
+    Встречи — лучший способ познакомиться с сообществом, открыть для себя место и, возможно, вернуться надолго. Следите за [календарём](/ru/calendar/) и нашими соцсетями.
+de:
+  title: Gemeinschaftstreffen
+  summary: Feste, offene Tage und saisonale Festivals, die Freund·innen und Nachbarn in den Wald bringen.
+  body: |-
+    Mehrmals im Jahr öffnen wir das Gelände für **Gemeinschaftstreffen**: Wochenenden mit Yoga, Musik, Workshops, gemeinsamem Essen und Feiern. Im September 2026 zum Beispiel brachte unsere **Community Celebration** alte und neue Freund·innen für drei Tage im Wald zusammen.
+
+    Die Treffen sind der beste Weg, die Gemeinschaft kennenzulernen, den Ort zu entdecken — und vielleicht für länger wiederzukommen. Die nächsten Termine findest du im [Kalender](/de/calendar/) und in unseren sozialen Medien.
+pt:
+  title: Encontros da comunidade
+  summary: Celebrações, dias abertos e festivais sazonais que trazem amigos e vizinhos à floresta.
+  body: |-
+    Várias vezes por ano abrimos o terreno para **encontros da comunidade**: fins de semana de yoga, música, workshops, comida partilhada e celebração. Em setembro de 2026, por exemplo, a nossa **Community Celebration** reuniu amigos antigos e novos durante três dias na floresta.
+
+    Os encontros são a melhor forma de conhecer a comunidade, descobrir o lugar — e talvez voltar por mais tempo. Veja o [calendário](/pt/calendar/) e as nossas redes sociais para as próximas datas.

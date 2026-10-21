@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+import { t } from '../i18n';
+const _ = t('en');
+---
+<Base lang="en" title={_('notFound')}>
+  <section class="wrap page-hero">
+    <p class="label">404</p>
+    <h1>{_('notFound')}</h1>
+    <p class="lead">{_('notFoundText')}</p>
+    <p class="btns"><a class="btn" href="/el/">Ελληνικά</a><a class="btn" href="/en/">English</a></p>
+  </section>
+</Base>

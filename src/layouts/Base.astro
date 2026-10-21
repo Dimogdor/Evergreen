@@ -1,0 +1,138 @@
+---
+import '../styles/global.css';
+import { getImage } from 'astro:assets';
+import { locales, localeNames, t, type Lang } from '../i18n';
+import { href, img, md, one } from '../lib';
+import logoFile from '../assets/uploads/logo.png';
+
+interface Props { lang: Lang; title?: string; description?: string; image?: string; }
+const { lang, title, description, image } = Astro.props;
+const _ = t(lang);
+const site = await one('settings', 'site', lang);
+const logo = img(site.logo) ?? logoFile;
+
+const rest = Astro.url.pathname.split('/').slice(2).join('/');
+const fullTitle = title ? `${title} — ${site.name}` : `${site.name} — ${site.tagline}`;
+const og = await getImage({ src: img(image) ?? img('shala-forest.webp')!, width: 1200, height: 630, fit: 'cover', format: 'jpg' });
+const favicon = await getImage({ src: logo, width: 64, height: 64, format: 'png' });
+const touch = await getImage({ src: logo, width: 180, height: 180, format: 'png' });
+const logoSmall = await getImage({ src: logo, width: 96, height: 96, format: 'webp' });
+
+const nav = [
+  ['about', 'nav.about'], ['place', 'nav.place'], ['life', 'nav.life'], ['inhabitants', 'nav.inhabitants'],
+  ['activities', 'nav.activities'], ['activities/esc-volunteering', 'nav.volunteer'], ['calendar', 'nav.calendar'],
+  ['gallery', 'nav.gallery'], ['support', 'nav.support'], ['contact', 'nav.contact'],
+] as const;
+const quick = [['activities', 'nav.activities'], ['activities/esc-volunteering', 'nav.volunteer'], ['calendar', 'nav.calendar'], ['contact', 'nav.contact']] as const;
+const current = (p: string) => (rest.replace(/\/$/, '') === p ? 'page' : undefined);
+
+const jsonLd = {
+  '@context': 'https://schema.org', '@type': 'NGO', name: site.name, url: new URL(href(lang), Astro.site).href,
+  logo: new URL(touch.src, Astro.site).href, email: site.email, telephone: site.phone, description: site.description,
+  address: { '@type': 'PostalAddress', streetAddress: 'Digeni 4', addressLocality: 'Molos', postalCode: '35009', addressCountry: 'GR' },
+  sameAs: [site.instagram, site.facebook].filter(Boolean),
+};
+---
+<!doctype html>
+<html lang={lang}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description || site.description} />
+  <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+  {locales.map((l) => <link rel="alternate" hreflang={l} href={new URL(`/${l}/${rest}`, Astro.site)} />)}
+  <link rel="alternate" hreflang="x-default" href={new URL(`/en/${rest}`, Astro.site)} />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content={site.name} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description || site.description} />
+  <meta property="og:image" content={new URL(og.src, Astro.site)} />
+  <meta property="og:locale" content={lang} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#22402a" />
+  <link rel="icon" href={favicon.src} type="image/png" />
+  <link rel="apple-touch-icon" href={touch.src} />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+</head>
+<body>
+  <a class="skip" href="#main">{_('skip')}</a>
+  {site.announcement && <div class="announce" set:html={md(site.announcement)} />}
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href={href(lang)}><img src={logoSmall.src} alt="" width="42" height="42" /><span>{site.name}</span></a>
+      <ul class="quick">
+        {quick.map(([p, k]) => <li><a href={href(lang, p)} aria-current={current(p)}>{_(k)}</a></li>)}
+        <li><a class="ext" href={site.yogaStudiosUrl} target="_blank" rel="noopener">{_('nav.yoga')}</a></li>
+      </ul>
+      <details class="lang">
+        <summary aria-label={_('language')}>{lang} ▾</summary>
+        <ul>{locales.map((l) => <li><a href={`/${l}/${rest}`} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{localeNames[l]}</a></li>)}</ul>
+      </details>
+      <button class="menu-btn" popovertarget="menu" aria-label={_('menu')}><span>{_('menu')}</span><i></i></button>
+    </div>
+  </header>
+
+  <div id="menu" popover>
+    <div class="wrap">
+      <div class="top">
+        <a class="brand" href={href(lang)} style="color: var(--paper)"><img src={logoSmall.src} alt="" width="42" height="42" /><span>{site.name}</span></a>
+        <button class="menu-btn" popovertarget="menu" popovertargetaction="hide">{_('close')} ✕</button>
+      </div>
+      <nav aria-label={_('menu')}>
+        <ol>
+          <li><a href={href(lang)}>{_('nav.home')}</a></li>
+          {nav.map(([p, k]) => <li><a href={href(lang, p)} aria-current={current(p)}>{_(k)}</a></li>)}
+          <li><a class="ext" href={site.yogaStudiosUrl} target="_blank" rel="noopener">{_('nav.yoga')}</a></li>
+        </ol>
+      </nav>
+      <div class="meta">
+        {site.email && <a href={`mailto:${site.email}`}>{site.email}</a>}
+        {site.phone && <a href={`tel:${site.phone.replace(/\s/g, '')}`}>{site.phone}</a>}
+        {site.instagram && <a class="ext" href={site.instagram} target="_blank" rel="noopener">Instagram</a>}
+        {site.facebook && <a class="ext" href={site.facebook} target="_blank" rel="noopener">Facebook</a>}
+      </div>
+    </div>
+  </div>
+
+  <main id="main"><slot /></main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="big">{site.tagline}</p>
+      <div class="cols">
+        <div>
+          <p class="label">{_('discover')}</p>
+          <ul>{nav.slice(0, 5).map(([p, k]) => <li><a href={href(lang, p)}>{_(k)}</a></li>)}</ul>
+        </div>
+        <div>
+          <p class="label">{_('nav.activities')}</p>
+          <ul>{nav.slice(5).map(([p, k]) => <li><a href={href(lang, p)}>{_(k)}</a></li>)}</ul>
+        </div>
+        <div>
+          <p class="label">{_('nav.contact')}</p>
+          <ul>
+            {site.email && <li><a href={`mailto:${site.email}`}>{site.email}</a></li>}
+            {site.phone && <li><a href={`tel:${site.phone.replace(/\s/g, '')}`}>{site.phone}</a></li>}
+            {site.address && <li>{site.address}</li>}
+          </ul>
+        </div>
+        <div>
+          <p class="label">{_('followUs')}</p>
+          <ul>
+            {site.instagram && <li><a class="ext" href={site.instagram} target="_blank" rel="noopener">Instagram</a></li>}
+            {site.facebook && <li><a class="ext" href={site.facebook} target="_blank" rel="noopener">Facebook</a></li>}
+            {site.yogaStudiosUrl && <li><a class="ext" href={site.yogaStudiosUrl} target="_blank" rel="noopener">{_('yogaCta')}</a></li>}
+            {site.yogaTrainingsUrl && <li><a class="ext" href={site.yogaTrainingsUrl} target="_blank" rel="noopener">{_('trainingsCta')}</a></li>}
+          </ul>
+        </div>
+      </div>
+      <div class="bottom">
+        <span>© {new Date().getFullYear()} {site.name} · {_('footerNote')}</span>
+        <a href="/admin/" rel="nofollow">Admin</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

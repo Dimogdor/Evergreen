@@ -1,0 +1,80 @@
+---
+import Base from '../../layouts/Base.astro';
+import EventList from '../../components/EventList.astro';
+import { locales, t, type Lang } from '../../i18n';
+import { dateRange, events, one } from '../../lib';
+
+export const getStaticPaths = () => locales.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const _ = t(lang);
+const page = await one('pages', 'calendar', lang);
+const all = await events(lang);
+const cutoff = Date.now() - 864e5;
+const upcoming = all.filter((e) => +e.end >= cutoff);
+const past = all.filter((e) => +e.end < cutoff).reverse();
+const days = all.map((e) => ({ id: e.id, start: e.start.toISOString().slice(0, 10), end: e.end.toISOString().slice(0, 10), title: e.title }));
+---
+<Base lang={lang} title={page.title} description={page.intro}>
+  <section class="wrap page-hero">
+    <p class="label">{_('nav.calendar')}</p>
+    <h1>{page.title}</h1>
+    {page.intro && <p class="lead">{page.intro}</p>}
+  </section>
+
+  <section class="wrap section" style="padding-top: 0">
+    <div class="block text-only" style="padding-top: 0; border: 0">
+      <div class="cal" data-days={JSON.stringify(days)} data-lang={lang}>
+        <header>
+          <button type="button" data-step="-1" aria-label={_('prevMonth')}>←</button>
+          <strong aria-live="polite"></strong>
+          <button type="button" data-step="1" aria-label={_('nextMonth')}>→</button>
+        </header>
+        <div class="days"></div>
+      </div>
+      <div>
+        <div class="rule"><span class="label">{_('upcoming')}</span></div>
+        <EventList events={upcoming} lang={lang} />
+      </div>
+    </div>
+
+    {past.length > 0 && (
+      <section style="padding-top: 80px">
+        <div class="rule"><span class="label">{_('past')}</span></div>
+        <ul class="features">
+          {past.map((e) => <li id={e.id}><p class="label">{dateRange(e.start, e.end, lang)}</p><h3>{e.title}</h3></li>)}
+        </ul>
+      </section>
+    )}
+  </section>
+</Base>
+
+<script>
+  // Small month grid: days with an event link to that event in the list.
+  const cal = document.querySelector<HTMLElement>('.cal')!;
+  const events: { id: string; start: string; end: string; title: string }[] = JSON.parse(cal.dataset.days!);
+  const lang = cal.dataset.lang!;
+  const today = new Date().toISOString().slice(0, 10);
+  const next = events.find((e) => e.end >= today);
+  const month = new Date((next && next.start > today ? next.start : today).slice(0, 7) + '-01T00:00:00Z');
+
+  function render() {
+    const y = month.getUTCFullYear(), m = month.getUTCMonth();
+    cal.querySelector('strong')!.textContent = new Intl.DateTimeFormat(lang, { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(month);
+    const dow = [...Array(7)].map((_, i) => new Intl.DateTimeFormat(lang, { weekday: 'narrow', timeZone: 'UTC' }).format(new Date(Date.UTC(2024, 0, 1 + i))));
+    const offset = (new Date(Date.UTC(y, m, 1)).getUTCDay() + 6) % 7;
+    const count = new Date(Date.UTC(y, m + 1, 0)).getUTCDate();
+    let html = dow.map((d) => `<span class="dow">${d}</span>`).join('') + '<span></span>'.repeat(offset);
+    for (let d = 1; d <= count; d++) {
+      const iso = new Date(Date.UTC(y, m, d)).toISOString().slice(0, 10);
+      const ev = events.find((e) => e.start <= iso && iso <= e.end);
+      const cls = iso === today ? ' class="today"' : '';
+      html += ev ? `<a href="#${ev.id}" title="${ev.title.replace(/"/g, '&quot;')}"${cls}>${d}</a>` : `<span${cls}>${d}</span>`;
+    }
+    cal.querySelector('.days')!.innerHTML = html;
+  }
+  cal.addEventListener('click', (e) => {
+    const step = (e.target as HTMLElement).dataset.step;
+    if (step) { month.setUTCMonth(month.getUTCMonth() + Number(step)); render(); }
+  });
+  render();
+</script>

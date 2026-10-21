@@ -1,0 +1,151 @@
+el:
+  order: 6
+  featured: true
+  image: /src/assets/uploads/practice-together.webp
+  gallery:
+    - /src/assets/uploads/journaling.webp
+    - /src/assets/uploads/meadow-rest.webp
+    - /src/assets/uploads/shala-candles.webp
+  title: Ευεξία & εσωτερική δουλειά
+  summary: Γιόγκα, διαλογισμός, οικοθεραπεία, δραματοθεραπεία και ομαδική διαδικασία — για να συνδεθείτε με τα συναισθήματά σας και με τη φύση.
+  facts:
+    - label: Προσεγγίσεις
+      value: Γιόγκα, διαλογισμός, οικοθεραπεία, δραματοθεραπεία, ψυχοθεραπεία ομαδικής διαδικασίας
+  body: |-
+    Στην καρδιά του πρότζεκτ βρίσκεται μια απλή πρόθεση: να **θεραπεύουμε και να ενδυναμώνουμε τους ανθρώπους**, βοηθώντας τους να συνδεθούν με τα συναισθήματά τους και να εμβαθύνουν στην αυτογνωσία.
+
+    Το κάνουμε μέσα από πρακτικές που ενώνουν την ευεξία με τη φύση:
+
+    - **Γιόγκα και διαλογισμός** στη σάλα, για όλα τα επίπεδα
+    - **Οικοθεραπεία**: περπάτημα, ξεκούραση και δουλειά στη φύση ως δρόμος προς την ισορροπία
+    - **Δραματοθεραπεία και κίνηση**, για να εκφραστεί ό,τι δεν λέγεται με λόγια
+    - **Ψυχοθεραπεία ομαδικής διαδικασίας** και κύκλοι μοιράσματος
+    - **Υγιεινή διατροφή** και χορτοφαγική κουζίνα
+
+    Οι πρακτικές αυτές είναι υφασμένες στα εθελοντικά μας προγράμματα και στα ρητρίτ, και μπορούν να προσφερθούν σε ομάδες κατόπιν αιτήματος.
+en:
+  title: Wellbeing & inner work
+  summary: Yoga, meditation, eco-therapy, dramatherapy and group process — to connect with your emotions and with nature.
+  facts:
+    - label: Approaches
+      value: Yoga, meditation, eco-therapy, dramatherapy, group-process psychotherapy
+  body: |-
+    At the heart of the project lies a simple intention: to **heal and empower people**, helping them connect with their emotions and deepen their self-knowledge.
+
+    We do this through practices that bring wellbeing and nature together:
+
+    - **Yoga and meditation** in the shala, for every level
+    - **Eco-therapy**: walking, resting and working in nature as a path to balance
+    - **Dramatherapy and movement**, to express what words cannot
+    - **Group-process psychotherapy** and sharing circles
+    - **Healthy nutrition** and a vegetarian kitchen
+
+    These practices are woven into our volunteering projects and retreats, and can be offered to groups on request.
+fr:
+  title: Bien-être & travail intérieur
+  summary: Yoga, méditation, écothérapie, dramathérapie et processus de groupe — pour se relier à ses émotions et à la nature.
+  facts:
+    - label: Approches
+      value: Yoga, méditation, écothérapie, dramathérapie, psychothérapie de processus de groupe
+  body: |-
+    Au cœur du projet se trouve une intention simple : **soigner et renforcer les personnes**, en les aidant à se relier à leurs émotions et à approfondir la connaissance d’elles-mêmes.
+
+    Nous le faisons à travers des pratiques qui réunissent bien-être et nature :
+
+    - **Yoga et méditation** dans la shala, pour tous les niveaux
+    - **Écothérapie** : marcher, se reposer et travailler dans la nature comme chemin vers l’équilibre
+    - **Dramathérapie et mouvement**, pour exprimer ce que les mots ne disent pas
+    - **Psychothérapie de processus de groupe** et cercles de partage
+    - **Alimentation saine** et cuisine végétarienne
+
+    Ces pratiques sont tissées dans nos projets de volontariat et nos retraites, et peuvent être proposées à des groupes sur demande.
+es:
+  title: Bienestar y trabajo interior
+  summary: Yoga, meditación, ecoterapia, dramaterapia y proceso grupal — para conectar con tus emociones y con la naturaleza.
+  facts:
+    - label: Enfoques
+      value: Yoga, meditación, ecoterapia, dramaterapia, psicoterapia de proceso grupal
+  body: |-
+    En el corazón del proyecto hay una intención sencilla: **sanar y empoderar a las personas**, ayudándolas a conectar con sus emociones y a profundizar en el conocimiento de sí mismas.
+
+    Lo hacemos con prácticas que unen bienestar y naturaleza:
+
+    - **Yoga y meditación** en la shala, para todos los niveles
+    - **Ecoterapia**: caminar, descansar y trabajar en la naturaleza como camino hacia el equilibrio
+    - **Dramaterapia y movimiento**, para expresar lo que las palabras no pueden
+    - **Psicoterapia de proceso grupal** y círculos para compartir
+    - **Alimentación sana** y cocina vegetariana
+
+    Estas prácticas forman parte de nuestros proyectos de voluntariado y retiros, y pueden ofrecerse a grupos bajo petición.
+it:
+  title: Benessere e lavoro interiore
+  summary: Yoga, meditazione, ecoterapia, drammaterapia e processo di gruppo — per entrare in contatto con le proprie emozioni e con la natura.
+  facts:
+    - label: Approcci
+      value: Yoga, meditazione, ecoterapia, drammaterapia, psicoterapia di processo di gruppo
+  body: |-
+    Al cuore del progetto c’è un’intenzione semplice: **guarire e rafforzare le persone**, aiutandole a entrare in contatto con le proprie emozioni e ad approfondire la conoscenza di sé.
+
+    Lo facciamo con pratiche che uniscono benessere e natura:
+
+    - **Yoga e meditazione** nella shala, per tutti i livelli
+    - **Ecoterapia**: camminare, riposare e lavorare nella natura come via verso l’equilibrio
+    - **Drammaterapia e movimento**, per esprimere ciò che le parole non dicono
+    - **Psicoterapia di processo di gruppo** e cerchi di condivisione
+    - **Alimentazione sana** e cucina vegetariana
+
+    Queste pratiche sono intrecciate nei nostri progetti di volontariato e nei ritiri, e possono essere proposte ai gruppi su richiesta.
+ru:
+  title: Благополучие и внутренняя работа
+  summary: Йога, медитация, экотерапия, драматерапия и групповой процесс — чтобы соединиться со своими чувствами и с природой.
+  facts:
+    - label: Подходы
+      value: Йога, медитация, экотерапия, драматерапия, групповая процессуальная психотерапия
+  body: |-
+    В основе проекта лежит простое намерение: **исцелять и поддерживать людей**, помогая им соединиться со своими эмоциями и глубже познать себя.
+
+    Мы делаем это через практики, соединяющие благополучие и природу:
+
+    - **Йога и медитация** в шале для любого уровня
+    - **Экотерапия**: прогулки, отдых и работа на природе как путь к равновесию
+    - **Драматерапия и движение** — чтобы выразить то, что не скажешь словами
+    - **Групповая процессуальная психотерапия** и круги
+    - **Здоровое питание** и вегетарианская кухня
+
+    Эти практики вплетены в наши волонтёрские проекты и ретриты, а для групп их можно организовать по запросу.
+de:
+  title: Wohlbefinden & innere Arbeit
+  summary: Yoga, Meditation, Ökotherapie, Dramatherapie und Gruppenprozess — um mit den eigenen Gefühlen und der Natur in Kontakt zu kommen.
+  facts:
+    - label: Ansätze
+      value: Yoga, Meditation, Ökotherapie, Dramatherapie, Gruppenprozess-Psychotherapie
+  body: |-
+    Im Herzen des Projekts steht eine einfache Absicht: **Menschen zu heilen und zu stärken**, indem wir ihnen helfen, mit ihren Gefühlen in Kontakt zu kommen und sich selbst besser kennenzulernen.
+
+    Dafür verbinden wir Wohlbefinden und Natur:
+
+    - **Yoga und Meditation** in der Shala, für alle Niveaus
+    - **Ökotherapie**: Gehen, Ruhen und Arbeiten in der Natur als Weg zum Gleichgewicht
+    - **Dramatherapie und Bewegung**, um auszudrücken, wofür Worte fehlen
+    - **Gruppenprozess-Psychotherapie** und Austauschkreise
+    - **Gesunde Ernährung** und vegetarische Küche
+
+    Diese Praktiken sind Teil unserer Freiwilligenprojekte und Retreats und können auf Anfrage auch für Gruppen angeboten werden.
+pt:
+  title: Bem-estar e trabalho interior
+  summary: Yoga, meditação, ecoterapia, dramaterapia e processo de grupo — para se ligar às suas emoções e à natureza.
+  facts:
+    - label: Abordagens
+      value: Yoga, meditação, ecoterapia, dramaterapia, psicoterapia de processo de grupo
+  body: |-
+    No coração do projeto está uma intenção simples: **curar e capacitar as pessoas**, ajudando-as a ligar-se às suas emoções e a aprofundar o autoconhecimento.
+
+    Fazemo-lo através de práticas que unem bem-estar e natureza:
+
+    - **Yoga e meditação** na shala, para todos os níveis
+    - **Ecoterapia**: caminhar, descansar e trabalhar na natureza como caminho para o equilíbrio
+    - **Dramaterapia e movimento**, para exprimir o que as palavras não dizem
+    - **Psicoterapia de processo de grupo** e círculos de partilha
+    - **Alimentação saudável** e cozinha vegetariana
+
+    Estas práticas fazem parte dos nossos projetos de voluntariado e retiros, e podem ser oferecidas a grupos mediante pedido.

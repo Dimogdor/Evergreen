@@ -1,0 +1,24 @@
+el:
+  title: "Ημερολόγιο"
+  intro: "Ρητρίτ, εργαστήρια, εθελοντικά προγράμματα και γιορτές της κοινότητας — όλες οι ημερομηνίες μας σε ένα σημείο."
+en:
+  title: "Calendar"
+  intro: "Retreats, workshops, volunteering projects and community gatherings — all our dates in one place."
+fr:
+  title: "Calendrier"
+  intro: "Retraites, ateliers, projets de volontariat et rassemblements — toutes nos dates au même endroit."
+es:
+  title: "Calendario"
+  intro: "Retiros, talleres, proyectos de voluntariado y encuentros comunitarios — todas nuestras fechas en un solo lugar."
+it:
+  title: "Calendario"
+  intro: "Ritiri, workshop, progetti di volontariato e incontri di comunità — tutte le nostre date in un unico posto."
+ru:
+  title: "Календарь"
+  intro: "Ретриты, мастерские, волонтёрские проекты и встречи сообщества — все наши даты в одном месте."
+de:
+  title: "Kalender"
+  intro: "Retreats, Workshops, Freiwilligenprojekte und Gemeinschaftstreffen — alle Termine an einem Ort."
+pt:
+  title: "Calendário"
+  intro: "Retiros, workshops, projetos de voluntariado e encontros da comunidade — todas as nossas datas num só lugar."

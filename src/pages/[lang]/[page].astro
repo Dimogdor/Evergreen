@@ -1,0 +1,118 @@
+---
+// Generic content page: about, place, life, inhabitants, support, contact (+ any page added in the CMS).
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Img from '../../components/Img.astro';
+import Blocks from '../../components/Blocks.astro';
+import { locales, t, type Lang } from '../../i18n';
+import { href, list, md, one } from '../../lib';
+
+export async function getStaticPaths() {
+  // home, activities, calendar and gallery have their own templates
+  const pages = (await getCollection('pages' as any)).filter((p: any) => !['home', 'activities', 'calendar', 'gallery'].includes(p.id));
+  return locales.flatMap((lang) => pages.map((p: any) => ({ params: { lang, page: p.id } })));
+}
+const lang = Astro.params.lang as Lang;
+const id = Astro.params.page!;
+const _ = t(lang);
+const page = await one('pages', id, lang);
+const site = await one('settings', 'site', lang);
+
+const kinds = [['human', 'humans'], ['animal', 'animals'], ['plant', 'plants']] as const;
+const beings = id === 'inhabitants' ? (await list('inhabitants', lang)).sort((a, b) => (a.order ?? 99) - (b.order ?? 99)) : [];
+const wa = site.whatsapp && `https://wa.me/${String(site.whatsapp).replace(/\D/g, '')}`;
+const { lat, lng } = site;
+---
+<Base lang={lang} title={page.title} description={page.intro} image={page.image}>
+  <section class="wrap page-hero">
+    <p class="label">{site.name}</p>
+    <h1>{page.title}</h1>
+    {page.intro && <p class="lead">{page.intro}</p>}
+  </section>
+  {page.image && <Img class="cover" src={page.image} alt="" eager />}
+
+  <div class="wrap section">
+    <Blocks sections={page.sections} />
+
+    {page.facts?.length > 0 && (
+      <section class="block text-only">
+        <h2>{_('facts')}</h2>
+        <dl class="facts">{page.facts.map((f: any) => <div><dt class="label">{f.label}</dt><dd>{f.value}</dd></div>)}</dl>
+      </section>
+    )}
+
+    {(page.lists ?? []).filter((l: any) => l?.items?.length).map((l: any) => (
+      <section style="padding-block: clamp(40px, 6vw, 80px)">
+        <div class="rule"><span class="label">{l.title}</span></div>
+        {l.intro && <div class="prose lead" style="margin-bottom: 32px" set:html={md(l.intro)} />}
+        <ul class="features">
+          {l.items.map((it: any) => <li><h3>{it.title}</h3>{it.text && <div set:html={md(it.text)} />}</li>)}
+        </ul>
+      </section>
+    ))}
+
+    {kinds.map(([kind, label]) => {
+      const group = beings.filter((b) => (b.kind || 'human') === kind);
+      return group.length > 0 && (
+        <section style="padding-block: clamp(40px, 6vw, 80px)">
+          <div class="rule"><span class="label">{_(label)}</span></div>
+          <div class="grid cols-4">
+            {group.map((b) => (
+              <article class="card person">
+                <div class="media" style="border-radius: 50%; width: min(100%, 240px)"><Img src={b.photo} alt={b.name} sizes="240px" /></div>
+                {b.role && <p class="role">{b.role}</p>}
+                <h3>{b.name}</h3>
+                {b.bio && <div class="muted" set:html={md(b.bio)} />}
+              </article>
+            ))}
+          </div>
+        </section>
+      );
+    })}
+
+    {id === 'contact' && (
+      <section class="grid cols-2" style="padding-top: 40px">
+        <div>
+          <ul class="contact-list">
+            {site.email && <li><span class="label">{_('email')}</span><a href={`mailto:${site.email}`}>{site.email}</a></li>}
+            {site.phone && <li><span class="label">{_('call')}</span><a href={`tel:${site.phone.replace(/\s/g, '')}`}>{site.phone}</a></li>}
+            {wa && <li><span class="label">{_('whatsapp')}</span><a href={wa} target="_blank" rel="noopener">{site.phone}</a></li>}
+            {site.messenger && <li><span class="label">Messenger</span><a class="ext" href={site.messenger} target="_blank" rel="noopener">{site.name}</a></li>}
+            {site.instagram && <li><span class="label">Instagram</span><a class="ext" href={site.instagram} target="_blank" rel="noopener">@{site.instagram.split('/').filter(Boolean).pop()}</a></li>}
+            {site.facebook && <li><span class="label">Facebook</span><a class="ext" href={site.facebook} target="_blank" rel="noopener">{site.name}</a></li>}
+            {site.address && <li><span class="label">{_('address')}</span><span>{site.address}</span></li>}
+          </ul>
+          {lat && lng && <>
+            <iframe class="map" loading="lazy" title={_('location')}
+              src={`https://www.openstreetmap.org/export/embed.html?bbox=${lng - 0.06},${lat - 0.035},${lng + 0.06},${lat + 0.035}&layer=mapnik&marker=${lat},${lng}`}></iframe>
+            <p style="margin-top: 12px"><a class="arrow ext" href={`https://www.google.com/maps/search/?api=1&query=${lat},${lng}`} target="_blank" rel="noopener">{_('openMap')}</a></p>
+          </>}
+        </div>
+        {site.formKey ? (
+          <form class="contact" id="form" action="https://api.web3forms.com/submit" method="POST">
+            <h2>{_('writeUs')}</h2>
+            <p class="notice" hidden id="sent">{_('sent')}</p>
+            <input type="hidden" name="access_key" value={site.formKey} />
+            <input type="hidden" name="subject" value={`${site.name} — website (${lang})`} />
+            <input type="hidden" name="redirect" value={new URL(href(lang, 'contact') + '?sent#form', Astro.site).href} />
+            <input type="checkbox" name="botcheck" hidden style="display:none" />
+            <label>{_('name')}<input name="name" required autocomplete="name" /></label>
+            <label>{_('email')}<input type="email" name="email" required autocomplete="email" /></label>
+            <label>{_('message')}<textarea name="message" required></textarea></label>
+            <button class="btn solid" type="submit">{_('send')}</button>
+            <script is:inline>if (location.search.includes('sent')) document.getElementById('sent').hidden = false;</script>
+          </form>
+        ) : (
+          <div><h2>{_('writeUs')}</h2><p><a class="btn solid" href={`mailto:${site.email}`}>{site.email}</a></p></div>
+        )}
+      </section>
+    )}
+
+    {page.faq?.length > 0 && (
+      <section class="faq" style="padding-top: 40px">
+        <div class="rule"><span class="label">{_('faq')}</span></div>
+        {page.faq.map((f: any) => <details><summary>{f.q}</summary><div class="answer" set:html={md(f.a)} /></details>)}
+      </section>
+    )}
+  </div>
+</Base>

@@ -1,0 +1,159 @@
+el:
+  order: 5
+  featured: true
+  image: /src/assets/uploads/forest-canopy.webp
+  gallery:
+    - /src/assets/uploads/tents-acacia-forest.webp
+    - /src/assets/uploads/autumn-forest.webp
+    - /src/assets/uploads/kitchen-chopping.webp
+  title: Περμακουλτούρα & φροντίδα της γης
+  summary: Καλλιέργεια τροφής, φροντίδα του δάσους, διαχείριση νερού και απορριμμάτων — η καθημερινή δουλειά ενός οικοχωριού.
+  facts:
+    - label: Έμφαση
+      value: Περμακουλτούρα, αγροδασοπονία, πυροπροστασία
+    - label: Για
+      value: Εθελοντές, φιλοξενούμενους και ομάδες
+  body: |-
+    Βασικός μας στόχος είναι να αναπτύξουμε τον **κήπο περμακουλτούρας** και τα κτίριά μας από φυσικά υλικά, και να διαμορφώσουμε τη γη σε ένα **αυτάρκες οικοχωριό**. Αυτή τη δουλειά τη μοιράζονται όλοι όσοι ζουν εδώ.
+
+    ### Πεδία δουλειάς
+    - **Βιολογική καλλιέργεια** με αρχές περμακουλτούρας: φροντίδα του εδάφους, κομποστοποίηση, εποχική φύτευση
+    - **Δασοκομία και αγροδασοπονία**: φροντίδα του δάσους των ακακιών, κλάδεμα, καθαρισμός και φύτευση
+    - **Πυροπροστασία**: μείωση του κινδύνου πυρκαγιάς μέσω της διαχείρισης του δάσους — μια ζωτική δεξιότητα στη Μεσόγειο
+    - **Διαχείριση νερού**: συλλογή, εξοικονόμηση και επαναχρησιμοποίηση
+    - **Διαχείριση απορριμμάτων**: συνήθειες μηδενικών αποβλήτων, κομποστοποίηση και επισκευή
+
+    Αυτές οι δεξιότητες βρίσκονται στην καρδιά των εθελοντικών μας προγραμμάτων ESC, και όποιος μένει μαζί μας μπορεί να συμμετάσχει.
+en:
+  title: Permaculture & land care
+  summary: Growing food, caring for the forest, managing water and waste — the everyday work of an eco-village.
+  facts:
+    - label: Focus
+      value: Permaculture, agroforestry, fire protection
+    - label: Open to
+      value: Volunteers, guests and groups
+  body: |-
+    Our main goal is to develop our **permaculture garden** and our natural buildings, and to shape the land into a **self-sufficient eco-village**. This work is shared by everyone who lives here.
+
+    ### Areas of work
+    - **Organic gardening** following permaculture principles: soil care, composting, seasonal planting
+    - **Forestry and agroforestry**: caring for the acacia forest, pruning, clearing and planting
+    - **Fire protection**: reducing wildfire risk through forest management — a vital skill in the Mediterranean
+    - **Water management**: collecting, saving and reusing water
+    - **Waste management**: zero-waste habits, composting and repair
+
+    These skills are at the heart of our ESC volunteering projects, and anyone staying with us can join in.
+fr:
+  title: Permaculture & soin de la terre
+  summary: Cultiver, prendre soin de la forêt, gérer l’eau et les déchets — le travail quotidien d’un écovillage.
+  facts:
+    - label: Axes
+      value: Permaculture, agroforesterie, prévention des incendies
+    - label: Ouvert à
+      value: Volontaires, invités et groupes
+  body: |-
+    Notre objectif principal est de développer notre **jardin en permaculture** et nos constructions naturelles, et de façonner le terrain en un **écovillage autonome**. Ce travail est partagé par toutes celles et ceux qui vivent ici.
+
+    ### Domaines de travail
+    - **Jardinage biologique** selon les principes de la permaculture : soin du sol, compostage, plantations de saison
+    - **Sylviculture et agroforesterie** : entretien de la forêt d’acacias, taille, débroussaillage et plantation
+    - **Prévention des incendies** : réduire le risque de feu de forêt grâce à la gestion forestière — une compétence vitale en Méditerranée
+    - **Gestion de l’eau** : récupérer, économiser et réutiliser l’eau
+    - **Gestion des déchets** : habitudes zéro déchet, compostage et réparation
+
+    Ces savoir-faire sont au cœur de nos projets de volontariat CES, et toute personne séjournant chez nous peut y participer.
+es:
+  title: Permacultura y cuidado de la tierra
+  summary: Cultivar alimentos, cuidar el bosque, gestionar el agua y los residuos — el trabajo diario de una ecoaldea.
+  facts:
+    - label: Enfoque
+      value: Permacultura, agroforestería, prevención de incendios
+    - label: Abierto a
+      value: Voluntarios, huéspedes y grupos
+  body: |-
+    Nuestro objetivo principal es desarrollar nuestra **huerta de permacultura** y nuestras construcciones naturales, y transformar el terreno en una **ecoaldea autosuficiente**. Este trabajo lo comparten todas las personas que viven aquí.
+
+    ### Áreas de trabajo
+    - **Huerta ecológica** con principios de permacultura: cuidado del suelo, compostaje, siembra de temporada
+    - **Silvicultura y agroforestería**: cuidado del bosque de acacias, poda, desbroce y plantación
+    - **Prevención de incendios**: reducir el riesgo de incendio forestal mediante la gestión del bosque — una habilidad vital en el Mediterráneo
+    - **Gestión del agua**: recoger, ahorrar y reutilizar el agua
+    - **Gestión de residuos**: hábitos de residuo cero, compostaje y reparación
+
+    Estas habilidades están en el corazón de nuestros proyectos de voluntariado del CES, y cualquiera que se quede con nosotros puede participar.
+it:
+  title: Permacultura e cura della terra
+  summary: Coltivare cibo, curare il bosco, gestire acqua e rifiuti — il lavoro quotidiano di un ecovillaggio.
+  facts:
+    - label: Focus
+      value: Permacultura, agroforestazione, prevenzione incendi
+    - label: Aperto a
+      value: Volontari, ospiti e gruppi
+  body: |-
+    Il nostro obiettivo principale è sviluppare il nostro **orto in permacultura** e le nostre costruzioni naturali, e trasformare il terreno in un **ecovillaggio autosufficiente**. Questo lavoro è condiviso da tutti quelli che vivono qui.
+
+    ### Ambiti di lavoro
+    - **Orto biologico** secondo i principi della permacultura: cura del suolo, compostaggio, semina stagionale
+    - **Selvicoltura e agroforestazione**: cura del bosco di acacie, potatura, pulizia e piantumazione
+    - **Prevenzione degli incendi**: ridurre il rischio di incendi boschivi con la gestione forestale — una competenza vitale nel Mediterraneo
+    - **Gestione dell’acqua**: raccogliere, risparmiare e riutilizzare l’acqua
+    - **Gestione dei rifiuti**: abitudini rifiuti zero, compostaggio e riparazione
+
+    Queste competenze sono al cuore dei nostri progetti di volontariato CES, e chiunque stia da noi può partecipare.
+ru:
+  title: Пермакультура и забота о земле
+  summary: Выращивание еды, уход за лесом, управление водой и отходами — повседневная работа экодеревни.
+  facts:
+    - label: Направления
+      value: Пермакультура, агролесоводство, защита от пожаров
+    - label: Для кого
+      value: Волонтёры, гости и группы
+  body: |-
+    Наша главная цель — развивать **пермакультурный огород** и природные постройки и превратить участок в **самодостаточную экодеревню**. Эту работу разделяют все, кто здесь живёт.
+
+    ### Направления работы
+    - **Органическое садоводство** по принципам пермакультуры: забота о почве, компост, сезонные посадки
+    - **Лесоводство и агролесоводство**: уход за акациевым лесом, обрезка, расчистка и посадки
+    - **Защита от пожаров**: снижение риска лесных пожаров через управление лесом — жизненно важный навык в Средиземноморье
+    - **Управление водой**: сбор, экономия и повторное использование воды
+    - **Управление отходами**: привычки «ноль отходов», компостирование и ремонт
+
+    Эти навыки — сердце наших волонтёрских проектов ESC, и к ним может присоединиться каждый, кто живёт у нас.
+de:
+  title: Permakultur & Landpflege
+  summary: Lebensmittel anbauen, den Wald pflegen, Wasser und Abfall managen — die tägliche Arbeit in einem Ökodorf.
+  facts:
+    - label: Schwerpunkte
+      value: Permakultur, Agroforst, Brandschutz
+    - label: Offen für
+      value: Freiwillige, Gäste und Gruppen
+  body: |-
+    Unser Hauptziel ist es, unseren **Permakulturgarten** und unsere Naturbauten weiterzuentwickeln und das Land in ein **selbstversorgendes Ökodorf** zu verwandeln. Diese Arbeit teilen alle, die hier leben.
+
+    ### Arbeitsbereiche
+    - **Biologischer Gartenbau** nach Permakultur-Prinzipien: Bodenpflege, Kompostierung, saisonales Pflanzen
+    - **Forstwirtschaft und Agroforst**: Pflege des Akazienwaldes, Schneiden, Freiräumen und Pflanzen
+    - **Brandschutz**: Waldbrandrisiko durch Waldbewirtschaftung senken — eine lebenswichtige Fähigkeit im Mittelmeerraum
+    - **Wassermanagement**: Wasser sammeln, sparen und wiederverwenden
+    - **Abfallmanagement**: Zero-Waste-Gewohnheiten, Kompostierung und Reparatur
+
+    Diese Fähigkeiten stehen im Mittelpunkt unserer ESK-Freiwilligenprojekte, und alle, die bei uns wohnen, können mitmachen.
+pt:
+  title: Permacultura e cuidado da terra
+  summary: Cultivar alimentos, cuidar da floresta, gerir a água e os resíduos — o trabalho diário de uma ecoaldeia.
+  facts:
+    - label: Foco
+      value: Permacultura, agrofloresta, prevenção de incêndios
+    - label: Aberto a
+      value: Voluntários, hóspedes e grupos
+  body: |-
+    O nosso principal objetivo é desenvolver a nossa **horta em permacultura** e as nossas construções naturais, e transformar o terreno numa **ecoaldeia autossuficiente**. Este trabalho é partilhado por todos os que aqui vivem.
+
+    ### Áreas de trabalho
+    - **Horta biológica** segundo os princípios da permacultura: cuidado do solo, compostagem, plantação sazonal
+    - **Silvicultura e agrofloresta**: cuidado da floresta de acácias, poda, limpeza e plantação
+    - **Prevenção de incêndios**: reduzir o risco de incêndio florestal através da gestão da floresta — uma competência vital no Mediterrâneo
+    - **Gestão da água**: recolher, poupar e reutilizar a água
+    - **Gestão de resíduos**: hábitos de desperdício zero, compostagem e reparação
+
+    Estas competências estão no centro dos nossos projetos de voluntariado do CES, e quem ficar connosco pode participar.

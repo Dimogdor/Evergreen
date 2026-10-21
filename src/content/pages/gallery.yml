@@ -1,0 +1,24 @@
+el:
+  title: "Γκαλερί"
+  intro: "Στιγμές από τον τόπο: το δάσος, η σάλα, οι άνθρωποι και οι εποχές."
+en:
+  title: "Gallery"
+  intro: "Moments from the land: the forest, the shala, the people and the seasons."
+fr:
+  title: "Galerie"
+  intro: "Des instants du lieu : la forêt, la shala, les gens et les saisons."
+es:
+  title: "Galería"
+  intro: "Momentos del lugar: el bosque, la shala, la gente y las estaciones."
+it:
+  title: "Galleria"
+  intro: "Momenti dal luogo: il bosco, la shala, le persone e le stagioni."
+ru:
+  title: "Галерея"
+  intro: "Мгновения нашего места: лес, шала, люди и времена года."
+de:
+  title: "Galerie"
+  intro: "Momente vom Land: der Wald, die Shala, die Menschen und die Jahreszeiten."
+pt:
+  title: "Galeria"
+  intro: "Momentos do lugar: a floresta, a shala, as pessoas e as estações."

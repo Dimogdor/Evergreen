@@ -1,0 +1,179 @@
+el:
+  image: /src/assets/uploads/shala-forest.webp
+  escImage: /src/assets/uploads/hiking-group.webp
+  yogaImage: /src/assets/uploads/shala-roof.webp
+  title: Φέρνουμε τους ανθρώπους της πόλης στη φύση — και τη φύση στους ανθρώπους της πόλης.
+  subtitle: Ζήστε, μάθετε και εξασκηθείτε μαζί μας σε ένα δάσος ακακιών στους πρόποδες του Καλλιδρόμου — ως εθελοντές, φιλοξενούμενοι ή συμμετέχοντες σε ρητρίτ.
+  manifesto: Είμαστε ένα πρότζεκτ ολιστικής διαβίωσης και μετάβασης. Στόχος μας είναι να θεραπεύουμε και να ενδυναμώνουμε τους ανθρώπους — χωρίς καμία διάκριση — μέσα από την ευεξία, τη φύση και την οικολογική ζωή.
+  intro: |-
+    Το Evergreen Project ιδρύθηκε το 2021 ως μη κερδοσκοπική εταιρεία, σε μια δασωμένη έκταση κοντά στο χωριό Ανάβρα της Φθιώτιδας. Εδώ άνθρωποι από την Ελλάδα και από όλη την Ευρώπη καλλιεργούν, χτίζουν με φυσικά υλικά, κάνουν γιόγκα και μαθαίνουν να ζουν πιο απλά — και πιο χαρούμενα — μεταξύ τους και με τη Γη.
+  facts:
+    - value: "2021"
+      label: Ίδρυση ως μη κερδοσκοπική
+    - value: "7"
+      label: σκηνές bell tent μέσα στο δάσος
+    - value: ESC
+      label: Σήμα Ποιότητας έως το 2027
+    - value: 18 €
+      label: την ημέρα για να μείνετε μαζί μας
+  escTitle: Εθελοντισμός με το Ευρωπαϊκό Σώμα Αλληλεγγύης
+  escText: |-
+    Είμαστε διαπιστευμένος φορέας υποδοχής του Ευρωπαϊκού Σώματος Αλληλεγγύης (ESC). Νέοι και νέες 18–30 ετών έρχονται για λίγες εβδομάδες ή για αρκετούς μήνες για να χτίσουν, να καλλιεργήσουν, να μάθουν και να ζήσουν σε κοινότητα — με διατροφή, διαμονή, ταξίδι και χαρτζιλίκι καλυμμένα από το πρόγραμμα.
+  yogaTitle: Evergreen Yoga Studios, οι ρίζες μας στην Αθήνα
+  yogaText: |-
+    Το Evergreen Project γεννήθηκε από την κοινότητα των Evergreen Yoga Studios, που ίδρυσε ο Panos Katsandris στην Αθήνα το 2012. Τα καθημερινά μαθήματα, οι εκπαιδεύσεις δασκάλων και τα σεμινάρια γίνονται στα δύο στούντιο της Αθήνας (Εξάρχεια και Νέα Ιωνία) — το άσραμ στο δάσος είναι εκεί όπου η πρακτική συναντά τη φύση. Πρόγραμμα, τιμές και εκπαιδεύσεις θα βρείτε στη δική τους ιστοσελίδα.
+  contactTitle: Ελάτε να μας γνωρίσετε — το δάσος σας περιμένει.
+en:
+  title: Bringing city people into nature — and nature to city people.
+  subtitle: Live, learn and practise with us in an acacia forest at the foot of Mount Kallidromo — as a volunteer, a guest or a retreat participant.
+  manifesto: We are a holistic living and transition project. Our work is to heal and empower people — without any discrimination — through wellbeing, nature and eco-living.
+  intro: |-
+    The Evergreen Project was founded in 2021 as a non-profit, on a piece of forested land near the village of Anavra in Fthiotida. Here, people from Greece and from all over Europe grow food, build with natural materials, practise yoga and learn to live more simply — and more joyfully — with each other and with the Earth.
+  facts:
+    - value: "2021"
+      label: Founded as a non-profit
+    - value: "7"
+      label: bell tents in the forest
+    - value: ESC
+      label: Quality Label until 2027
+    - value: €18
+      label: a day to stay with us
+  escTitle: Volunteer with the European Solidarity Corps
+  escText: |-
+    We are an accredited host organisation of the European Solidarity Corps (ESC). Young people aged 18–30 join us for a few weeks or several months to build, grow, learn and live in community — with food, accommodation, travel and pocket money covered by the programme.
+  yogaTitle: Evergreen Yoga Studios, our roots in Athens
+  yogaText: |-
+    The Evergreen Project was born from the community of Evergreen Yoga Studios, founded in Athens in 2012 by Panos Katsandris. Daily classes, teacher trainings and workshops take place in the two Athens studios (Exarchia and Nea Ionia) — the ashram in the forest is where the practice meets nature. Schedules, prices and trainings are on their own website.
+  contactTitle: Come and meet us — the forest is waiting.
+fr:
+  title: Amener les citadins vers la nature — et la nature vers les citadins.
+  subtitle: Vivez, apprenez et pratiquez avec nous dans une forêt d’acacias au pied du mont Kallidromo — comme volontaire, invité ou participant à une retraite.
+  manifesto: Nous sommes un projet de vie holistique et de transition. Notre mission est de soigner et de renforcer les personnes — sans aucune discrimination — par le bien-être, la nature et la vie écologique.
+  intro: |-
+    The Evergreen Project a été fondé en 2021 sous forme d’association à but non lucratif, sur un terrain boisé près du village d’Anavra, en Phthiotide. Ici, des personnes venues de Grèce et de toute l’Europe cultivent la terre, construisent avec des matériaux naturels, pratiquent le yoga et apprennent à vivre plus simplement — et plus joyeusement — ensemble et avec la Terre.
+  facts:
+    - value: "2021"
+      label: Création de l’association
+    - value: "7"
+      label: tentes cloches dans la forêt
+    - value: CES
+      label: Label de qualité jusqu’en 2027
+    - value: 18 €
+      label: par jour pour séjourner chez nous
+  escTitle: Devenez volontaire avec le Corps européen de solidarité
+  escText: |-
+    Nous sommes une organisation d’accueil accréditée du Corps européen de solidarité (CES). Des jeunes de 18 à 30 ans nous rejoignent pour quelques semaines ou plusieurs mois pour construire, cultiver, apprendre et vivre en communauté — nourriture, logement, voyage et argent de poche étant pris en charge par le programme.
+  yogaTitle: Evergreen Yoga Studios, nos racines à Athènes
+  yogaText: |-
+    The Evergreen Project est né de la communauté d’Evergreen Yoga Studios, fondé à Athènes en 2012 par Panos Katsandris. Les cours quotidiens, les formations de professeurs et les ateliers ont lieu dans les deux studios d’Athènes (Exarchia et Nea Ionia) — l’ashram dans la forêt est l’endroit où la pratique rencontre la nature. Horaires, tarifs et formations se trouvent sur leur propre site.
+  contactTitle: Venez nous rencontrer — la forêt vous attend.
+es:
+  title: Llevar a la gente de la ciudad a la naturaleza — y la naturaleza a la gente de la ciudad.
+  subtitle: Vive, aprende y practica con nosotros en un bosque de acacias al pie del monte Kallidromo — como voluntario, huésped o participante de un retiro.
+  manifesto: Somos un proyecto de vida holística y de transición. Nuestra labor es sanar y empoderar a las personas — sin ninguna discriminación — a través del bienestar, la naturaleza y la vida ecológica.
+  intro: |-
+    The Evergreen Project nació en 2021 como entidad sin ánimo de lucro, en un terreno boscoso cerca del pueblo de Anavra, en Ftiótide. Aquí, personas de Grecia y de toda Europa cultivan alimentos, construyen con materiales naturales, practican yoga y aprenden a vivir de forma más sencilla — y más alegre — entre sí y con la Tierra.
+  facts:
+    - value: "2021"
+      label: Fundación como entidad sin ánimo de lucro
+    - value: "7"
+      label: tiendas campana en el bosque
+    - value: CES
+      label: Sello de Calidad hasta 2027
+    - value: 18 €
+      label: al día para quedarte con nosotros
+  escTitle: Voluntariado con el Cuerpo Europeo de Solidaridad
+  escText: |-
+    Somos una organización de acogida acreditada del Cuerpo Europeo de Solidaridad (CES). Jóvenes de 18 a 30 años se unen a nosotros durante unas semanas o varios meses para construir, cultivar, aprender y vivir en comunidad — con comida, alojamiento, viaje y dinero de bolsillo cubiertos por el programa.
+  yogaTitle: Evergreen Yoga Studios, nuestras raíces en Atenas
+  yogaText: |-
+    The Evergreen Project nació de la comunidad de Evergreen Yoga Studios, fundado en Atenas en 2012 por Panos Katsandris. Las clases diarias, las formaciones de profesores y los talleres tienen lugar en los dos estudios de Atenas (Exarchia y Nea Ionia) — el ashram del bosque es donde la práctica se encuentra con la naturaleza. Horarios, precios y formaciones están en su propia web.
+  contactTitle: Ven a conocernos — el bosque te espera.
+it:
+  title: Portare le persone di città nella natura — e la natura alle persone di città.
+  subtitle: Vivi, impara e pratica con noi in un bosco di acacie ai piedi del monte Kallidromo — come volontario, ospite o partecipante a un ritiro.
+  manifesto: Siamo un progetto di vita olistica e di transizione. Il nostro lavoro è guarire e rafforzare le persone — senza alcuna discriminazione — attraverso il benessere, la natura e la vita ecologica.
+  intro: |-
+    The Evergreen Project è nato nel 2021 come realtà senza scopo di lucro, su un terreno boscoso vicino al villaggio di Anavra, in Ftiotide. Qui persone dalla Grecia e da tutta Europa coltivano, costruiscono con materiali naturali, praticano yoga e imparano a vivere in modo più semplice — e più gioioso — tra loro e con la Terra.
+  facts:
+    - value: "2021"
+      label: Fondazione come ente non profit
+    - value: "7"
+      label: tende a campana nel bosco
+    - value: CES
+      label: Marchio di qualità fino al 2027
+    - value: 18 €
+      label: al giorno per stare con noi
+  escTitle: Volontariato con il Corpo europeo di solidarietà
+  escText: |-
+    Siamo un’organizzazione di accoglienza accreditata del Corpo europeo di solidarietà (CES). Giovani tra i 18 e i 30 anni ci raggiungono per qualche settimana o per diversi mesi per costruire, coltivare, imparare e vivere in comunità — con vitto, alloggio, viaggio e pocket money coperti dal programma.
+  yogaTitle: Evergreen Yoga Studios, le nostre radici ad Atene
+  yogaText: |-
+    The Evergreen Project è nato dalla comunità di Evergreen Yoga Studios, fondato ad Atene nel 2012 da Panos Katsandris. Lezioni quotidiane, formazioni per insegnanti e workshop si svolgono nei due studi di Atene (Exarchia e Nea Ionia) — l’ashram nel bosco è il luogo dove la pratica incontra la natura. Orari, prezzi e formazioni sono sul loro sito.
+  contactTitle: Vieni a conoscerci — il bosco ti aspetta.
+ru:
+  title: Приводим горожан к природе — и природу к горожанам.
+  subtitle: Живите, учитесь и практикуйте вместе с нами в акациевом лесу у подножия горы Каллидромо — как волонтёр, гость или участник ретрита.
+  manifesto: Мы — проект целостной жизни и перехода к устойчивому образу жизни. Наша цель — исцелять и поддерживать людей, без какой-либо дискриминации, через благополучие, природу и экологичную жизнь.
+  intro: |-
+    The Evergreen Project основан в 2021 году как некоммерческая организация на лесном участке рядом с деревней Анавра во Фтиотиде. Здесь люди из Греции и со всей Европы выращивают еду, строят из природных материалов, занимаются йогой и учатся жить проще — и радостнее — друг с другом и с Землёй.
+  facts:
+    - value: "2021"
+      label: год основания организации
+    - value: "7"
+      label: шатров-колоколов в лесу
+    - value: ESC
+      label: знак качества до 2027 года
+    - value: 18 €
+      label: в день за проживание у нас
+  escTitle: Волонтёрство с Европейским корпусом солидарности
+  escText: |-
+    Мы — аккредитованная принимающая организация Европейского корпуса солидарности (ESC). Молодые люди 18–30 лет приезжают к нам на несколько недель или месяцев, чтобы строить, выращивать, учиться и жить в сообществе. Питание, проживание, дорогу и карманные деньги оплачивает программа.
+  yogaTitle: Evergreen Yoga Studios — наши корни в Афинах
+  yogaText: |-
+    The Evergreen Project вырос из сообщества Evergreen Yoga Studios — школы йоги, основанной Паносом Кацандрисом в Афинах в 2012 году. Ежедневные занятия, обучение преподавателей и семинары проходят в двух афинских студиях (Экзархия и Неа-Иония), а ашрам в лесу — это место, где практика встречается с природой. Расписание, цены и программы обучения — на их собственном сайте.
+  contactTitle: Приезжайте познакомиться — лес ждёт вас.
+de:
+  title: Wir bringen Stadtmenschen in die Natur — und die Natur zu den Stadtmenschen.
+  subtitle: Lebe, lerne und praktiziere mit uns in einem Akazienwald am Fuß des Kallidromo-Gebirges — als Freiwillige·r, Gast oder Retreat-Teilnehmer·in.
+  manifesto: Wir sind ein Projekt für ganzheitliches Leben und Wandel. Unser Anliegen ist es, Menschen zu heilen und zu stärken — ohne jede Diskriminierung — durch Wohlbefinden, Natur und ökologisches Leben.
+  intro: |-
+    The Evergreen Project wurde 2021 als gemeinnützige Organisation gegründet, auf einem bewaldeten Grundstück nahe dem Dorf Anavra in Fthiotida. Hier bauen Menschen aus Griechenland und ganz Europa Lebensmittel an, bauen mit natürlichen Materialien, praktizieren Yoga und lernen, einfacher — und fröhlicher — miteinander und mit der Erde zu leben.
+  facts:
+    - value: "2021"
+      label: Gründung als gemeinnützige Organisation
+    - value: "7"
+      label: Glockenzelte im Wald
+    - value: ESK
+      label: Qualitätssiegel bis 2027
+    - value: 18 €
+      label: pro Tag für einen Aufenthalt bei uns
+  escTitle: Freiwilligendienst im Europäischen Solidaritätskorps
+  escText: |-
+    Wir sind eine akkreditierte Aufnahmeorganisation des Europäischen Solidaritätskorps (ESK). Junge Menschen zwischen 18 und 30 kommen für einige Wochen oder mehrere Monate zu uns, um zu bauen, anzubauen, zu lernen und in Gemeinschaft zu leben — Verpflegung, Unterkunft, Reise und Taschengeld übernimmt das Programm.
+  yogaTitle: Evergreen Yoga Studios, unsere Wurzeln in Athen
+  yogaText: |-
+    The Evergreen Project ist aus der Gemeinschaft der Evergreen Yoga Studios entstanden, die Panos Katsandris 2012 in Athen gegründet hat. Tägliche Kurse, Lehrerausbildungen und Workshops finden in den beiden Athener Studios (Exarchia und Nea Ionia) statt — der Ashram im Wald ist der Ort, an dem die Praxis der Natur begegnet. Stundenplan, Preise und Ausbildungen findest du auf ihrer eigenen Website.
+  contactTitle: Komm uns besuchen — der Wald wartet auf dich.
+pt:
+  title: Levar as pessoas da cidade à natureza — e a natureza às pessoas da cidade.
+  subtitle: Viva, aprenda e pratique connosco numa floresta de acácias no sopé do monte Kallidromo — como voluntário, hóspede ou participante de um retiro.
+  manifesto: Somos um projeto de vida holística e de transição. O nosso trabalho é curar e capacitar as pessoas — sem qualquer discriminação — através do bem-estar, da natureza e da vida ecológica.
+  intro: |-
+    The Evergreen Project foi fundado em 2021 como entidade sem fins lucrativos, num terreno florestal perto da aldeia de Anavra, na Ftiótida. Aqui, pessoas da Grécia e de toda a Europa cultivam alimentos, constroem com materiais naturais, praticam yoga e aprendem a viver de forma mais simples — e mais alegre — umas com as outras e com a Terra.
+  facts:
+    - value: "2021"
+      label: Fundação como entidade sem fins lucrativos
+    - value: "7"
+      label: tendas sino na floresta
+    - value: CES
+      label: Selo de Qualidade até 2027
+    - value: 18 €
+      label: por dia para ficar connosco
+  escTitle: Voluntariado com o Corpo Europeu de Solidariedade
+  escText: |-
+    Somos uma organização de acolhimento acreditada do Corpo Europeu de Solidariedade (CES). Jovens dos 18 aos 30 anos juntam-se a nós durante algumas semanas ou vários meses para construir, cultivar, aprender e viver em comunidade — com alimentação, alojamento, viagem e dinheiro de bolso cobertos pelo programa.
+  yogaTitle: Evergreen Yoga Studios, as nossas raízes em Atenas
+  yogaText: |-
+    The Evergreen Project nasceu da comunidade dos Evergreen Yoga Studios, fundados em Atenas em 2012 por Panos Katsandris. As aulas diárias, as formações de professores e os workshops decorrem nos dois estúdios de Atenas (Exarchia e Nea Ionia) — o ashram na floresta é onde a prática encontra a natureza. Horários, preços e formações estão no site deles.
+  contactTitle: Venha conhecer-nos — a floresta está à sua espera.

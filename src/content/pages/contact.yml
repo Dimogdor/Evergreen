@@ -1,0 +1,185 @@
+el:
+  title: Επικοινωνία
+  intro: Γράψτε μας, τηλεφωνήστε μας ή στείλτε μας μήνυμα — απαντάμε μόλις επιστρέψουμε από το δάσος.
+  sections:
+    - heading: Πώς θα έρθετε
+      image: /src/assets/uploads/plateau-spring.webp
+      text: |-
+        Το Evergreen Project βρίσκεται κοντά στο χωριό **Ανάβρα Φθιώτιδας**, περίπου 2–2,5 ώρες με το αυτοκίνητο από την Αθήνα και 3,5 ώρες από τη Θεσσαλονίκη.
+
+        - **Με αυτοκίνητο:** οδός Αθηνών–Θεσσαλονίκης (Α1), έξοδος προς Μώλο / Καμένα Βούρλα και μετά ο δρόμος προς την Ανάβρα.
+        - **Με λεωφορείο:** τα υπεραστικά ΚΤΕΛ συνδέουν την Αθήνα με τον Μώλο και τα Καμένα Βούρλα.
+        - **Με τρένο:** η γραμμή Αθήνας–Θεσσαλονίκης σταματά στο Λιανοκλάδι (Λαμία), περίπου 40 λεπτά με αυτοκίνητο.
+        - **Με αεροπλάνο:** τα κοντινότερα αεροδρόμια είναι Αθήνα (ATH), Βόλος (VOL) και Θεσσαλονίκη (SKG).
+
+        **Πείτε μας τα σχέδια ταξιδιού σας πριν αγοράσετε εισιτήρια** — θα σας βοηθήσουμε να οργανώσετε τα τελευταία χιλιόμετρα μέχρι τον χώρο.
+    - heading: Τι να φέρετε
+      text: |-
+        - Άνετα ρούχα για πρακτική και δουλειά, και ζεστά ρούχα — οι νύχτες στο βουνό είναι δροσερές ακόμα και το καλοκαίρι
+        - Γερά παπούτσια για πεζοπορία και δουλειά στη γη
+        - Φακό κεφαλής
+        - Παγούρι για νερό
+        - Βιοδιασπώμενο σαπούνι και είδη προσωπικής υγιεινής
+        - Το στρωματάκι γιόγκα σας, αν έχετε
+        - Ανοιχτό μυαλό και χιούμορ
+en:
+  title: Contact
+  intro: Write to us, call us or send us a message — we answer as soon as we are back from the forest.
+  sections:
+    - heading: How to get here
+      text: |-
+        The Evergreen Project is near the village of **Anavra, Fthiotida**, about 2–2.5 hours by car from Athens and 3.5 hours from Thessaloniki.
+
+        - **By car:** take the Athens–Thessaloniki motorway (A1), exit towards Molos / Kamena Vourla, then follow the road up to Anavra.
+        - **By bus:** KTEL intercity buses connect Athens with Molos and Kamena Vourla.
+        - **By train:** the Athens–Thessaloniki line stops at Lianokladi (Lamia), about 40 minutes away by car.
+        - **By plane:** the closest airports are Athens (ATH), Volos (VOL) and Thessaloniki (SKG).
+
+        **Please tell us your travel plans before you buy tickets** — we will help you organise the last kilometres to the land.
+    - heading: What to bring
+      text: |-
+        - Comfortable clothes for practice and work, plus warm layers — mountain nights are cool even in summer
+        - Sturdy shoes for hiking and land work
+        - A head torch
+        - A refillable water bottle
+        - Biodegradable soap and toiletries
+        - Your yoga mat, if you have one
+        - An open mind and a sense of humour
+fr:
+  title: Contact
+  intro: Écrivez-nous, appelez-nous ou envoyez-nous un message — nous répondons dès notre retour de la forêt.
+  sections:
+    - heading: Comment venir
+      text: |-
+        The Evergreen Project se trouve près du village d’**Anavra, en Phthiotide**, à environ 2 h – 2 h 30 de route d’Athènes et 3 h 30 de Thessalonique.
+
+        - **En voiture :** autoroute Athènes–Thessalonique (A1), sortie Molos / Kamena Vourla, puis la route qui monte vers Anavra.
+        - **En bus :** les cars interurbains KTEL relient Athènes à Molos et Kamena Vourla.
+        - **En train :** la ligne Athènes–Thessalonique s’arrête à Lianokladi (Lamia), à environ 40 minutes en voiture.
+        - **En avion :** les aéroports les plus proches sont Athènes (ATH), Volos (VOL) et Thessalonique (SKG).
+
+        **Merci de nous prévenir de vos plans de voyage avant d’acheter vos billets** — nous vous aiderons à organiser les derniers kilomètres jusqu’au terrain.
+    - heading: Quoi apporter
+      text: |-
+        - Des vêtements confortables pour la pratique et le travail, et des couches chaudes — les nuits en montagne sont fraîches même en été
+        - De bonnes chaussures pour la randonnée et le travail de la terre
+        - Une lampe frontale
+        - Une gourde
+        - Savon et produits d’hygiène biodégradables
+        - Votre tapis de yoga, si vous en avez un
+        - L’esprit ouvert et le sens de l’humour
+es:
+  title: Contacto
+  intro: Escríbenos, llámanos o envíanos un mensaje — respondemos en cuanto volvemos del bosque.
+  sections:
+    - heading: Cómo llegar
+      text: |-
+        The Evergreen Project está cerca del pueblo de **Anavra, en Ftiótide**, a unas 2–2,5 horas en coche de Atenas y 3,5 horas de Salónica.
+
+        - **En coche:** autopista Atenas–Salónica (A1), salida hacia Molos / Kamena Vourla y luego la carretera que sube a Anavra.
+        - **En autobús:** los autobuses interurbanos KTEL conectan Atenas con Molos y Kamena Vourla.
+        - **En tren:** la línea Atenas–Salónica para en Lianokladi (Lamía), a unos 40 minutos en coche.
+        - **En avión:** los aeropuertos más cercanos son Atenas (ATH), Volos (VOL) y Salónica (SKG).
+
+        **Cuéntanos tus planes de viaje antes de comprar los billetes** — te ayudaremos a organizar los últimos kilómetros hasta el terreno.
+    - heading: Qué traer
+      text: |-
+        - Ropa cómoda para la práctica y el trabajo, y ropa de abrigo — las noches en la montaña son frescas incluso en verano
+        - Calzado resistente para caminar y trabajar la tierra
+        - Una linterna frontal
+        - Una botella reutilizable
+        - Jabón y productos de higiene biodegradables
+        - Tu esterilla de yoga, si tienes una
+        - Mente abierta y sentido del humor
+it:
+  title: Contatti
+  intro: Scrivici, chiamaci o mandaci un messaggio — rispondiamo appena torniamo dal bosco.
+  sections:
+    - heading: Come arrivare
+      text: |-
+        The Evergreen Project si trova vicino al villaggio di **Anavra, in Ftiotide**, a circa 2–2,5 ore di auto da Atene e 3,5 ore da Salonicco.
+
+        - **In auto:** autostrada Atene–Salonicco (A1), uscita Molos / Kamena Vourla, poi la strada che sale ad Anavra.
+        - **In autobus:** gli autobus interurbani KTEL collegano Atene a Molos e Kamena Vourla.
+        - **In treno:** la linea Atene–Salonicco ferma a Lianokladi (Lamia), a circa 40 minuti d’auto.
+        - **In aereo:** gli aeroporti più vicini sono Atene (ATH), Volos (VOL) e Salonicco (SKG).
+
+        **Comunicaci i tuoi piani di viaggio prima di comprare i biglietti** — ti aiuteremo a organizzare gli ultimi chilometri fino al terreno.
+    - heading: Cosa portare
+      text: |-
+        - Abiti comodi per la pratica e il lavoro, più strati caldi — le notti in montagna sono fresche anche d’estate
+        - Scarpe robuste per camminare e lavorare la terra
+        - Una lampada frontale
+        - Una borraccia
+        - Sapone e prodotti per l’igiene biodegradabili
+        - Il tuo tappetino da yoga, se ne hai uno
+        - Mente aperta e senso dell’umorismo
+ru:
+  title: Контакты
+  intro: Напишите, позвоните или отправьте сообщение — мы ответим, как только вернёмся из леса.
+  sections:
+    - heading: Как добраться
+      text: |-
+        The Evergreen Project находится рядом с деревней **Анавра (Фтиотида)**, примерно в 2–2,5 часах езды на машине от Афин и в 3,5 часах от Салоник.
+
+        - **На машине:** автомагистраль Афины–Салоники (A1), съезд на Молос / Камена-Вурла, затем дорога вверх к Анавре.
+        - **На автобусе:** междугородние автобусы KTEL связывают Афины с Молосом и Камена-Вурлой.
+        - **На поезде:** линия Афины–Салоники останавливается в Лианоклади (Ламия), примерно в 40 минутах на машине.
+        - **На самолёте:** ближайшие аэропорты — Афины (ATH), Волос (VOL) и Салоники (SKG).
+
+        **Пожалуйста, сообщите нам о своих планах до покупки билетов** — мы поможем организовать последние километры до места.
+    - heading: Что взять с собой
+      text: |-
+        - Удобную одежду для практики и работы и тёплые вещи — ночи в горах прохладные даже летом
+        - Крепкую обувь для походов и работы на земле
+        - Налобный фонарик
+        - Многоразовую бутылку для воды
+        - Биоразлагаемое мыло и средства гигиены
+        - Свой коврик для йоги, если он у вас есть
+        - Открытость и чувство юмора
+de:
+  title: Kontakt
+  intro: Schreib uns, ruf an oder schick eine Nachricht — wir antworten, sobald wir aus dem Wald zurück sind.
+  sections:
+    - heading: Anreise
+      text: |-
+        The Evergreen Project liegt nahe dem Dorf **Anavra in Fthiotida**, etwa 2–2,5 Autostunden von Athen und 3,5 Stunden von Thessaloniki entfernt.
+
+        - **Mit dem Auto:** Autobahn Athen–Thessaloniki (A1), Ausfahrt Molos / Kamena Vourla, dann die Straße hinauf nach Anavra.
+        - **Mit dem Bus:** KTEL-Überlandbusse verbinden Athen mit Molos und Kamena Vourla.
+        - **Mit dem Zug:** Die Strecke Athen–Thessaloniki hält in Lianokladi (Lamia), etwa 40 Autominuten entfernt.
+        - **Mit dem Flugzeug:** Die nächsten Flughäfen sind Athen (ATH), Volos (VOL) und Thessaloniki (SKG).
+
+        **Bitte sag uns Bescheid, bevor du Tickets kaufst** — wir helfen dir, die letzten Kilometer bis zum Gelände zu organisieren.
+    - heading: Was du mitbringen solltest
+      text: |-
+        - Bequeme Kleidung für Praxis und Arbeit, dazu warme Schichten — die Nächte in den Bergen sind auch im Sommer kühl
+        - Feste Schuhe zum Wandern und für die Arbeit auf dem Land
+        - Eine Stirnlampe
+        - Eine wiederbefüllbare Trinkflasche
+        - Biologisch abbaubare Seife und Hygieneartikel
+        - Deine Yogamatte, falls du eine hast
+        - Offenheit und Humor
+pt:
+  title: Contacto
+  intro: Escreva-nos, ligue-nos ou envie-nos uma mensagem — respondemos assim que voltarmos da floresta.
+  sections:
+    - heading: Como chegar
+      text: |-
+        The Evergreen Project fica perto da aldeia de **Anavra, na Ftiótida**, a cerca de 2–2,5 horas de carro de Atenas e 3,5 horas de Salónica.
+
+        - **De carro:** autoestrada Atenas–Salónica (A1), saída para Molos / Kamena Vourla e depois a estrada que sobe até Anavra.
+        - **De autocarro:** os autocarros interurbanos KTEL ligam Atenas a Molos e Kamena Vourla.
+        - **De comboio:** a linha Atenas–Salónica para em Lianokladi (Lamia), a cerca de 40 minutos de carro.
+        - **De avião:** os aeroportos mais próximos são Atenas (ATH), Volos (VOL) e Salónica (SKG).
+
+        **Diga-nos os seus planos de viagem antes de comprar os bilhetes** — ajudamos a organizar os últimos quilómetros até ao terreno.
+    - heading: O que trazer
+      text: |-
+        - Roupa confortável para a prática e o trabalho, e roupa quente — as noites na montanha são frescas mesmo no verão
+        - Calçado resistente para caminhar e trabalhar na terra
+        - Uma lanterna de cabeça
+        - Uma garrafa reutilizável
+        - Sabão e produtos de higiene biodegradáveis
+        - O seu tapete de yoga, se tiver
+        - Mente aberta e sentido de humor

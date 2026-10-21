@@ -1,0 +1,21 @@
+---
+import { videoEmbed } from '../lib';
+
+// YouTube/Vimeo load only on click (fast pages, no cookies before consent); uploaded files play natively.
+const { url = '', title = '' } = Astro.props;
+const v = videoEmbed(url);
+---
+{v ? (
+  <button class="video" data-src={v.src} style={v.thumb ? `background-image:url(${v.thumb})` : undefined} aria-label={title}></button>
+) : url && <video src={url} controls preload="metadata" playsinline aria-label={title}></video>}
+
+<script>
+  document.addEventListener('click', (e) => {
+    const b = (e.target as HTMLElement).closest<HTMLElement>('button.video');
+    if (!b) return;
+    const box = document.createElement('div');
+    box.className = 'video playing';
+    box.innerHTML = `<iframe src="${b.dataset.src}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
+    b.replaceWith(box);
+  });
+</script>

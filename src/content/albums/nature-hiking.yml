@@ -1,0 +1,45 @@
+el:
+  order: 5
+  photos:
+    - /src/assets/uploads/kallidromo-peak.webp
+    - /src/assets/uploads/nevropolis-lake.webp
+    - /src/assets/uploads/lake-reflections.webp
+    - /src/assets/uploads/lake-dog.webp
+    - /src/assets/uploads/mountain-horses.webp
+    - /src/assets/uploads/meadow-cows.webp
+    - /src/assets/uploads/meadow-freedom.webp
+    - /src/assets/uploads/hiking-group.webp
+    - /src/assets/uploads/forest-hike.webp
+    - /src/assets/uploads/forest-walker.webp
+    - /src/assets/uploads/misty-mountains.webp
+    - /src/assets/uploads/plateau-spring.webp
+    - /src/assets/uploads/hill-lake.webp
+    - /src/assets/uploads/autumn-forest.webp
+    - /src/assets/uploads/forest-canopy.webp
+    - /src/assets/uploads/sunset-forest.webp
+    - /src/assets/uploads/dusk-gulf.webp
+    - /src/assets/uploads/lichadonisia.webp
+  videos: []
+  title: "Φύση & πεζοπορία"
+  description: "Το Καλλίδρομο, οι λίμνες του και η θάλασσα από ψηλά."
+en:
+  title: "Nature & hiking"
+  description: "Kallidromo, its lakes and the sea from above."
+fr:
+  title: "Nature & randonnée"
+  description: "Le Kallidromo, ses lacs et la mer vue d’en haut."
+es:
+  title: "Naturaleza y senderismo"
+  description: "El Kallidromo, sus lagos y el mar desde arriba."
+it:
+  title: "Natura ed escursioni"
+  description: "Il Kallidromo, i suoi laghi e il mare dall’alto."
+ru:
+  title: "Природа и походы"
+  description: "Каллидромо, его озёра и море с высоты."
+de:
+  title: "Natur & Wandern"
+  description: "Der Kallidromo, seine Seen und das Meer von oben."
+pt:
+  title: "Natureza e caminhadas"
+  description: "O Kallidromo, os seus lagos e o mar visto de cima."

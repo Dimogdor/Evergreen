@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Img from '../../../components/Img.astro';
+import { locales, t, type Lang } from '../../../i18n';
+import { href, list, one } from '../../../lib';
+
+export const getStaticPaths = () => locales.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const _ = t(lang);
+const page = await one('pages', 'activities', lang);
+const programs = (await list('programs', lang)).sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
+---
+<Base lang={lang} title={page.title} description={page.intro}>
+  <section class="wrap page-hero">
+    <p class="label">{_('nav.activities')}</p>
+    <h1>{page.title}</h1>
+    {page.intro && <p class="lead">{page.intro}</p>}
+  </section>
+  <section class="wrap section" style="padding-top: 0">
+    <div class="grid cols-3">
+      {programs.map((p, i) => (
+        <a class="card" href={href(lang, `activities/${p.id}`)}>
+          <div class="media"><Img src={p.image} alt="" sizes="(max-width: 700px) 100vw, 33vw" /></div>
+          <span class="label">{String(i + 1).padStart(2, '0')}</span>
+          <h3>{p.title}</h3><p>{p.summary}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

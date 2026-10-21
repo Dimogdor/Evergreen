@@ -1,0 +1,65 @@
+---
+import { getImage } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import Img from '../../components/Img.astro';
+import Video from '../../components/Video.astro';
+import { locales, t, type Lang } from '../../i18n';
+import { img, list, md, one } from '../../lib';
+
+export const getStaticPaths = () => locales.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const _ = t(lang);
+const page = await one('pages', 'gallery', lang);
+const albums = (await list('albums', lang)).sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
+// Large version for the lightbox, generated once per photo.
+const full = async (p: string) => { const m = img(p); return m ? (await getImage({ src: m, width: Math.min(m.width, 1800), format: 'webp' })).src : ''; };
+for (const a of albums) a.items = await Promise.all((a.photos ?? []).map(async (p: string) => ({ p, full: await full(p) })));
+---
+<Base lang={lang} title={page.title} description={page.intro}>
+  <section class="wrap page-hero">
+    <p class="label">{_('nav.gallery')}</p>
+    <h1>{page.title}</h1>
+    {page.intro && <p class="lead">{page.intro}</p>}
+  </section>
+
+  <section class="wrap section" style="padding-top: 0">
+    <ul class="chips">{albums.map((a) => <li><a href={`#${a.id}`}>{a.title}</a></li>)}</ul>
+    {albums.map((a) => (
+      <section id={a.id} style="padding-bottom: 72px">
+        <div class="rule"><span class="label">{a.title}</span><span class="label">{a.items.length} {_('photos')}</span></div>
+        {a.description && <div class="prose muted" style="margin-bottom: 24px" set:html={md(a.description)} />}
+        {a.videos?.length > 0 && (
+          <div class="grid cols-2" style="margin-bottom: 24px">{a.videos.map((v: any) => <Video url={v.url || v.file} title={v.title} />)}</div>
+        )}
+        <div class="masonry">
+          {a.items.filter((i: any) => i.full).map((i: any) => (
+            <button type="button" data-full={i.full} aria-label={_('photos')}><Img src={i.p} alt="" sizes="(max-width: 700px) 100vw, 33vw" /></button>
+          ))}
+        </div>
+      </section>
+    ))}
+  </section>
+
+  <dialog class="lightbox" aria-label={_('photos')}>
+    <img alt="" />
+    <button class="x" aria-label={_('close')}>✕</button>
+    <button class="prev" aria-label="←">←</button>
+    <button class="next" aria-label="→">→</button>
+  </dialog>
+</Base>
+
+<script>
+  const box = document.querySelector<HTMLDialogElement>('dialog.lightbox')!;
+  const pic = box.querySelector('img')!;
+  const items = [...document.querySelectorAll<HTMLElement>('[data-full]')];
+  let i = 0;
+  const show = (n: number) => { i = (n + items.length) % items.length; pic.src = items[i].dataset.full!; };
+  items.forEach((el, n) => el.addEventListener('click', () => { show(n); box.showModal(); }));
+  box.addEventListener('click', (e) => {
+    const b = (e.target as HTMLElement).closest('button');
+    if (b?.classList.contains('prev')) show(i - 1);
+    else if (b?.classList.contains('next')) show(i + 1);
+    else box.close();
+  });
+  box.addEventListener('keydown', (e) => { if (e.key === 'ArrowLeft') show(i - 1); if (e.key === 'ArrowRight') show(i + 1); });
+</script>

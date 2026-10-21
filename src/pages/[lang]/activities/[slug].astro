@@ -1,0 +1,70 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import Img from '../../../components/Img.astro';
+import EventList from '../../../components/EventList.astro';
+import { locales, t, type Lang } from '../../../i18n';
+import { events, href, list, md } from '../../../lib';
+
+export async function getStaticPaths() {
+  const programs = await getCollection('programs' as any);
+  return locales.flatMap((lang) => programs.map((p: any) => ({ params: { lang, slug: p.id } })));
+}
+const lang = Astro.params.lang as Lang;
+const _ = t(lang);
+const all = (await list('programs', lang)).sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
+const p = all.find((x) => x.id === Astro.params.slug)!;
+const dates = (await events(lang)).filter((e) => e.program === p.id && +e.end >= Date.now() - 864e5);
+const others = all.filter((x) => x.id !== p.id).slice(0, 3);
+---
+<Base lang={lang} title={p.title} description={p.summary} image={p.image}>
+  <section class="wrap page-hero">
+    <p class="label"><a href={href(lang, 'activities')}>{_('nav.activities')}</a></p>
+    <h1>{p.title}</h1>
+    {p.summary && <p class="lead">{p.summary}</p>}
+  </section>
+  <Img class="cover" src={p.image} alt="" eager />
+
+  <div class="wrap section">
+    <div class="block text-only" style="border:0; padding-top:0">
+      <aside>
+        {p.facts?.length > 0 && <dl class="facts" style="grid-template-columns: 1fr">{p.facts.map((f: any) => <div><dt class="label">{f.label}</dt><dd>{f.value}</dd></div>)}</dl>}
+        <div class="btns" style="margin-top: 28px">
+          {p.link && <a class="btn solid ext" href={p.link} target="_blank" rel="noopener">{p.linkLabel || _('details')}</a>}
+          <a class="btn" href={href(lang, 'contact')}>{_('contactUs')}</a>
+        </div>
+      </aside>
+      <div class="prose" set:html={md(p.body)} />
+    </div>
+
+    {p.gallery?.length > 0 && (
+      <div class="masonry" style="margin-top: 40px">{p.gallery.map((g: string) => <Img src={g} alt="" sizes="(max-width: 700px) 100vw, 33vw" />)}</div>
+    )}
+
+    {dates.length > 0 && (
+      <section style="padding-top: 80px">
+        <div class="rule"><span class="label">{_('related')}</span><a class="arrow" href={href(lang, 'calendar')}>{_('viewCalendar')}</a></div>
+        <EventList events={dates} lang={lang} />
+      </section>
+    )}
+
+    {p.faq?.length > 0 && (
+      <section class="faq" style="padding-top: 80px">
+        <div class="rule"><span class="label">{_('faq')}</span></div>
+        {p.faq.map((f: any) => <details><summary>{f.q}</summary><div class="answer" set:html={md(f.a)} /></details>)}
+      </section>
+    )}
+
+    <section style="padding-top: 80px">
+      <div class="rule"><span class="label">{_('moreActivities')}</span><a class="arrow" href={href(lang, 'activities')}>{_('allActivities')}</a></div>
+      <div class="grid cols-3">
+        {others.map((o) => (
+          <a class="card wide" href={href(lang, `activities/${o.id}`)}>
+            <div class="media"><Img src={o.image} alt="" sizes="(max-width: 700px) 100vw, 33vw" /></div>
+            <h3>{o.title}</h3><p>{o.summary}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</Base>

@@ -1,0 +1,29 @@
+el:
+  start: "2024-09-05"
+  end: "2024-09-17"
+  category: "esc"
+  program: "esc-volunteering"
+  image: "/src/assets/uploads/forest-hike.webp"
+  title: "ESC — Agroforestry and fire protection fundamentals"
+  summary: "Ομαδικό εθελοντικό πρόγραμμα δύο εβδομάδων για τη φροντίδα του δάσους και την πυροπροστασία."
+en:
+  title: "ESC — Agroforestry and fire protection fundamentals"
+  summary: "Two-week team volunteering project on forest care and fire protection."
+fr:
+  title: "ESC — Agroforestry and fire protection fundamentals"
+  summary: "Projet de volontariat en équipe de deux semaines sur le soin de la forêt et la prévention des incendies."
+es:
+  title: "ESC — Agroforestry and fire protection fundamentals"
+  summary: "Proyecto de voluntariado en equipo de dos semanas sobre el cuidado del bosque y la prevención de incendios."
+it:
+  title: "ESC — Agroforestry and fire protection fundamentals"
+  summary: "Progetto di volontariato di gruppo di due settimane sulla cura del bosco e la prevenzione degli incendi."
+ru:
+  title: "ESC — Agroforestry and fire protection fundamentals"
+  summary: "Двухнедельный командный волонтёрский проект об уходе за лесом и защите от пожаров."
+de:
+  title: "ESC — Agroforestry and fire protection fundamentals"
+  summary: "Zweiwöchiges Team-Freiwilligenprojekt zu Waldpflege und Brandschutz."
+pt:
+  title: "ESC — Agroforestry and fire protection fundamentals"
+  summary: "Projeto de voluntariado em equipa de duas semanas sobre o cuidado da floresta e a prevenção de incêndios."

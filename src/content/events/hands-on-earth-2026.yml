@@ -1,0 +1,29 @@
+el:
+  start: "2026-10-15"
+  end: "2026-11-08"
+  category: "workshop"
+  program: "natural-building"
+  image: "/src/assets/uploads/cabin-firepit.webp"
+  title: "Hands on Earth — εργαστήριο φυσικής δόμησης"
+  summary: "Μαθαίνουμε · Χτίζουμε · Ζούμε μαζί: χώμα, πηλός, ξύλο και φυσικά υλικά. Περιλαμβάνονται διαμονή, χορτοφαγικά γεύματα, κοινοτική ζωή και όλες οι δραστηριότητες."
+en:
+  title: "Hands on Earth — natural building workshop"
+  summary: "Learn · Build · Live together: earth, cob, wood and natural materials. Accommodation, vegetarian meals, community living and all activities included."
+fr:
+  title: "Hands on Earth — atelier de construction naturelle"
+  summary: "Apprendre · Construire · Vivre ensemble : terre, bauge, bois et matériaux naturels. Hébergement, repas végétariens, vie communautaire et toutes les activités inclus."
+es:
+  title: "Hands on Earth — taller de bioconstrucción"
+  summary: "Aprender · Construir · Vivir juntos: tierra, cob, madera y materiales naturales. Incluye alojamiento, comidas vegetarianas, vida comunitaria y todas las actividades."
+it:
+  title: "Hands on Earth — workshop di bioedilizia"
+  summary: "Imparare · Costruire · Vivere insieme: terra, cob, legno e materiali naturali. Alloggio, pasti vegetariani, vita di comunità e tutte le attività inclusi."
+ru:
+  title: "Hands on Earth — мастерская природного строительства"
+  summary: "Учимся · Строим · Живём вместе: земля, глина (cob), дерево и природные материалы. Проживание, вегетарианское питание, жизнь в сообществе и все занятия включены."
+de:
+  title: "Hands on Earth — Naturbau-Workshop"
+  summary: "Lernen · Bauen · Zusammenleben: Erde, Cob, Holz und natürliche Materialien. Unterkunft, vegetarische Mahlzeiten, Gemeinschaftsleben und alle Aktivitäten inklusive."
+pt:
+  title: "Hands on Earth — workshop de bioconstrução"
+  summary: "Aprender · Construir · Viver juntos: terra, cob, madeira e materiais naturais. Alojamento, refeições vegetarianas, vida comunitária e todas as atividades incluídos."

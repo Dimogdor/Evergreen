@@ -1,0 +1,25 @@
+---
+import Img from './Img.astro';
+import { md } from '../lib';
+
+// Heading / text / optional image blocks used by every content page. Images alternate sides.
+const { sections = [] } = Astro.props;
+---
+<div>
+  {sections.filter((s: any) => s?.heading || s?.text).map((s: any) =>
+    s.image ? (
+      <section class="block">
+        <div>
+          <h2>{s.heading}</h2>
+          <div class="prose" set:html={md(s.text)} />
+        </div>
+        <div class="block-media"><Img src={s.image} alt={s.imageAlt || s.heading || ''} sizes="(max-width: 860px) 100vw, 50vw" /></div>
+      </section>
+    ) : (
+      <section class="block text-only">
+        <h2>{s.heading}</h2>
+        <div class="prose" set:html={md(s.text)} />
+      </section>
+    ),
+  )}
+</div>

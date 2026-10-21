@@ -1,0 +1,256 @@
+el:
+  order: 2
+  featured: true
+  image: /src/assets/uploads/tents-fairy-lights.webp
+  gallery:
+    - /src/assets/uploads/tent-interior-bed.webp
+    - /src/assets/uploads/tent-woodstove.webp
+    - /src/assets/uploads/shared-meal-table.webp
+    - /src/assets/uploads/practice-together.webp
+  title: Μείνετε μαζί μας
+  summary: Ζήστε την κοινοτική ζωή στο δάσος για λίγες μέρες, έναν μήνα ή μια ολόκληρη εποχή — σε οποιαδήποτε ηλικία.
+  facts:
+    - label: Ανά ημέρα
+      value: 18 €
+    - label: Ένας μήνας
+      value: 300 €
+    - label: Δύο μήνες
+      value: 500 €
+    - label: Περιλαμβάνονται
+      value: Διαμονή, γεύματα, γιόγκα, κοινοτική ζωή
+  body: |-
+    Ονειρεύεστε μια ζωή στη φύση; Στηρίζουμε όσους θέλουν να αφήσουν πίσω την πόλη για λίγο — ή για πάντα — και να γνωρίσουν έναν νέο ρυθμό και μια νέα ποιότητα ζωής.
+
+    ### Τι προσφέρουμε
+    - διαμονή σε ένα όμορφο, γαλήνιο περιβάλλον, σε σκηνή bell tent κάτω από τα δέντρα
+    - φρέσκα, θρεπτικά χορτοφαγικά γεύματα
+    - πρακτική γιόγκα μαζί μας
+    - εργαλεία και γνώσεις για την προσωπική σας εξέλιξη
+    - έναν τόπο για να ζήσετε, να δημιουργήσετε και να συνδεθείτε
+
+    ### Πώς λειτουργεί
+    Οι φιλοξενούμενοι μοιράζονται την κοινοτική ζωή: κοινά γεύματα, πρακτική, κύκλους και — αν το θέλουν — δουλειά στη γη. Είναι ο ιδανικός τρόπος να γνωρίσετε την περμακουλτούρα, τη φυσική δόμηση και τη ζωή σε κοινότητα, ανεξάρτητα από ηλικία ή προέλευση.
+
+    Για να έρθετε, **στείλτε μας μήνυμα** με τις ημερομηνίες σας και λίγα λόγια για εσάς. Ας δημιουργήσουμε κάτι όμορφο μαζί!
+  faq:
+    - q: Υπάρχει όριο ηλικίας;
+      a: Όχι — όποιος νιώθει το κάλεσμα να ζήσει για λίγο στη φύση είναι ευπρόσδεκτος.
+    - q: Μπορώ να έρθω για λίγες μόνο μέρες;
+      a: Ναι. Η τιμή είναι 18 € την ημέρα· οι μεγαλύτερες διαμονές κοστίζουν λιγότερο (300 € τον μήνα, 500 € για δύο μήνες).
+en:
+  title: Stay with us
+  summary: Join community life in the forest for a few days, a month or a whole season — at any age.
+  facts:
+    - label: Per day
+      value: €18
+    - label: One month
+      value: €300
+    - label: Two months
+      value: €500
+    - label: Included
+      value: Accommodation, meals, yoga, community life
+  body: |-
+    Dreaming of a life in nature? We support those who want to leave the city behind for a while — or for good — and experience a new rhythm and quality of living.
+
+    ### What we offer
+    - a stay in a beautiful, peaceful environment, in a bell tent under the trees
+    - fresh, nutritious vegetarian meals
+    - yoga practice with us
+    - tools and knowledge for your personal growth
+    - a place to live, create and connect
+
+    ### How it works
+    Guests share community life: meals, practice, circles and — if they wish — work on the land. It is the ideal way to discover permaculture, natural building and life in community, whatever your age or background.
+
+    To come, **send us a message** with your dates and a few words about yourself. Let’s create some beauty together!
+  faq:
+    - q: Is there an age limit?
+      a: No — anyone who feels called to live in nature for a while is welcome.
+    - q: Can I come for just a few days?
+      a: Yes. The price is €18 per day; longer stays cost less (€300 for a month, €500 for two months).
+fr:
+  title: Séjourner chez nous
+  summary: Partagez la vie communautaire dans la forêt pour quelques jours, un mois ou toute une saison — à tout âge.
+  facts:
+    - label: Par jour
+      value: 18 €
+    - label: Un mois
+      value: 300 €
+    - label: Deux mois
+      value: 500 €
+    - label: Inclus
+      value: Hébergement, repas, yoga, vie communautaire
+  body: |-
+    Vous rêvez d’une vie dans la nature ? Nous accompagnons celles et ceux qui veulent quitter la ville pour un temps — ou pour de bon — et découvrir un nouveau rythme et une autre qualité de vie.
+
+    ### Ce que nous offrons
+    - un séjour dans un environnement beau et paisible, sous une tente cloche au milieu des arbres
+    - des repas végétariens frais et nourrissants
+    - la pratique du yoga avec nous
+    - des outils et des connaissances pour votre développement personnel
+    - un lieu pour vivre, créer et se relier
+
+    ### Comment ça marche
+    Les invités partagent la vie de la communauté : repas, pratique, cercles et — s’ils le souhaitent — travail de la terre. C’est la meilleure façon de découvrir la permaculture, la construction naturelle et la vie en communauté, quels que soient votre âge et votre parcours.
+
+    Pour venir, **envoyez-nous un message** avec vos dates et quelques mots sur vous. Créons ensemble quelque chose de beau !
+  faq:
+    - q: Y a-t-il une limite d’âge ?
+      a: Non — toute personne qui ressent l’appel de vivre un moment dans la nature est la bienvenue.
+    - q: Puis-je venir pour quelques jours seulement ?
+      a: Oui. Le prix est de 18 € par jour ; les séjours plus longs coûtent moins cher (300 € le mois, 500 € les deux mois).
+es:
+  title: Quédate con nosotros
+  summary: Únete a la vida comunitaria en el bosque durante unos días, un mes o toda una temporada — a cualquier edad.
+  facts:
+    - label: Por día
+      value: 18 €
+    - label: Un mes
+      value: 300 €
+    - label: Dos meses
+      value: 500 €
+    - label: Incluye
+      value: Alojamiento, comidas, yoga, vida comunitaria
+  body: |-
+    ¿Sueñas con una vida en la naturaleza? Apoyamos a quienes quieren dejar la ciudad por un tiempo — o para siempre — y descubrir un nuevo ritmo y otra calidad de vida.
+
+    ### Qué ofrecemos
+    - una estancia en un entorno bello y tranquilo, en una tienda campana bajo los árboles
+    - comidas vegetarianas frescas y nutritivas
+    - práctica de yoga con nosotros
+    - herramientas y conocimientos para tu crecimiento personal
+    - un lugar para vivir, crear y conectar
+
+    ### Cómo funciona
+    Los huéspedes comparten la vida comunitaria: comidas, práctica, círculos y — si lo desean — trabajo en la tierra. Es la mejor manera de descubrir la permacultura, la bioconstrucción y la vida en comunidad, sea cual sea tu edad o tu historia.
+
+    Para venir, **envíanos un mensaje** con tus fechas y unas palabras sobre ti. ¡Creemos algo bonito juntos!
+  faq:
+    - q: ¿Hay límite de edad?
+      a: No — cualquiera que sienta la llamada de vivir un tiempo en la naturaleza es bienvenido.
+    - q: ¿Puedo ir solo unos días?
+      a: Sí. El precio es de 18 € al día; las estancias más largas cuestan menos (300 € al mes, 500 € por dos meses).
+it:
+  title: Stai con noi
+  summary: Partecipa alla vita di comunità nel bosco per qualche giorno, un mese o un’intera stagione — a qualsiasi età.
+  facts:
+    - label: Al giorno
+      value: 18 €
+    - label: Un mese
+      value: 300 €
+    - label: Due mesi
+      value: 500 €
+    - label: Incluso
+      value: Alloggio, pasti, yoga, vita di comunità
+  body: |-
+    Sogni una vita nella natura? Sosteniamo chi vuole lasciarsi la città alle spalle per un po’ — o per sempre — e scoprire un nuovo ritmo e un’altra qualità della vita.
+
+    ### Cosa offriamo
+    - un soggiorno in un ambiente bello e tranquillo, in una tenda a campana tra gli alberi
+    - pasti vegetariani freschi e nutrienti
+    - pratica di yoga insieme a noi
+    - strumenti e conoscenze per la tua crescita personale
+    - un luogo dove vivere, creare e connettersi
+
+    ### Come funziona
+    Gli ospiti condividono la vita di comunità: pasti, pratica, cerchi e — se lo desiderano — lavoro della terra. È il modo ideale per scoprire la permacultura, la bioedilizia e la vita in comunità, qualunque sia la tua età o la tua storia.
+
+    Per venire, **mandaci un messaggio** con le tue date e qualche parola su di te. Creiamo insieme qualcosa di bello!
+  faq:
+    - q: C’è un limite di età?
+      a: No — chiunque senta il richiamo di vivere per un po’ nella natura è il benvenuto.
+    - q: Posso venire solo per qualche giorno?
+      a: Sì. Il prezzo è di 18 € al giorno; i soggiorni più lunghi costano meno (300 € al mese, 500 € per due mesi).
+ru:
+  title: Поживите у нас
+  summary: Присоединяйтесь к жизни сообщества в лесу на несколько дней, месяц или целый сезон — в любом возрасте.
+  facts:
+    - label: В день
+      value: 18 €
+    - label: Месяц
+      value: 300 €
+    - label: Два месяца
+      value: 500 €
+    - label: Включено
+      value: Проживание, питание, йога, жизнь в сообществе
+  body: |-
+    Мечтаете о жизни на природе? Мы поддерживаем тех, кто хочет оставить город на время — или навсегда — и прочувствовать новый ритм и новое качество жизни.
+
+    ### Что мы предлагаем
+    - проживание в красивом и спокойном месте, в шатре-колоколе под деревьями
+    - свежее, питательное вегетарианское питание
+    - практику йоги вместе с нами
+    - инструменты и знания для личного роста
+    - место, где можно жить, творить и общаться
+
+    ### Как это устроено
+    Гости разделяют жизнь сообщества: трапезы, практику, круги и — по желанию — работу на земле. Это лучший способ познакомиться с пермакультурой, природным строительством и жизнью в сообществе, независимо от возраста и опыта.
+
+    Чтобы приехать, **напишите нам** о желаемых датах и пару слов о себе. Давайте создадим что-то прекрасное вместе!
+  faq:
+    - q: Есть ли ограничение по возрасту?
+      a: Нет — мы рады всем, кто чувствует желание пожить какое-то время на природе.
+    - q: Можно приехать всего на несколько дней?
+      a: Да. Стоимость — 18 € в день; длительное проживание дешевле (300 € за месяц, 500 € за два месяца).
+de:
+  title: Bleib bei uns
+  summary: Lebe für ein paar Tage, einen Monat oder eine ganze Saison in unserer Gemeinschaft im Wald — in jedem Alter.
+  facts:
+    - label: Pro Tag
+      value: 18 €
+    - label: Ein Monat
+      value: 300 €
+    - label: Zwei Monate
+      value: 500 €
+    - label: Inklusive
+      value: Unterkunft, Mahlzeiten, Yoga, Gemeinschaftsleben
+  body: |-
+    Träumst du von einem Leben in der Natur? Wir unterstützen alle, die die Stadt für eine Weile — oder für immer — hinter sich lassen und einen neuen Rhythmus und eine andere Lebensqualität erfahren möchten.
+
+    ### Was wir bieten
+    - einen Aufenthalt in einer schönen, friedlichen Umgebung, in einem Glockenzelt unter Bäumen
+    - frische, nahrhafte vegetarische Mahlzeiten
+    - gemeinsame Yogapraxis
+    - Werkzeuge und Wissen für deine persönliche Entwicklung
+    - einen Ort zum Leben, Gestalten und Verbinden
+
+    ### So funktioniert es
+    Gäste teilen das Gemeinschaftsleben: Mahlzeiten, Praxis, Kreise und — wenn sie möchten — Arbeit auf dem Land. Es ist der ideale Weg, Permakultur, Naturbau und Gemeinschaftsleben kennenzulernen, egal wie alt du bist oder woher du kommst.
+
+    Wenn du kommen möchtest, **schick uns eine Nachricht** mit deinen Daten und ein paar Worten über dich. Lass uns gemeinsam etwas Schönes erschaffen!
+  faq:
+    - q: Gibt es eine Altersgrenze?
+      a: Nein — alle, die den Ruf spüren, eine Weile in der Natur zu leben, sind willkommen.
+    - q: Kann ich nur für ein paar Tage kommen?
+      a: Ja. Der Preis beträgt 18 € pro Tag; längere Aufenthalte sind günstiger (300 € für einen Monat, 500 € für zwei Monate).
+pt:
+  title: Fique connosco
+  summary: Junte-se à vida comunitária na floresta durante alguns dias, um mês ou uma estação inteira — em qualquer idade.
+  facts:
+    - label: Por dia
+      value: 18 €
+    - label: Um mês
+      value: 300 €
+    - label: Dois meses
+      value: 500 €
+    - label: Incluído
+      value: Alojamento, refeições, yoga, vida comunitária
+  body: |-
+    Sonha com uma vida na natureza? Apoiamos quem quer deixar a cidade por algum tempo — ou para sempre — e experimentar um novo ritmo e outra qualidade de vida.
+
+    ### O que oferecemos
+    - uma estadia num ambiente bonito e tranquilo, numa tenda sino debaixo das árvores
+    - refeições vegetarianas frescas e nutritivas
+    - prática de yoga connosco
+    - ferramentas e conhecimentos para o seu crescimento pessoal
+    - um lugar para viver, criar e ligar-se
+
+    ### Como funciona
+    Os hóspedes partilham a vida comunitária: refeições, prática, círculos e — se quiserem — trabalho na terra. É a forma ideal de descobrir a permacultura, a bioconstrução e a vida em comunidade, seja qual for a sua idade ou percurso.
+
+    Para vir, **envie-nos uma mensagem** com as suas datas e algumas palavras sobre si. Vamos criar algo bonito juntos!
+  faq:
+    - q: Há limite de idade?
+      a: Não — quem sentir o chamamento de viver algum tempo na natureza é bem-vindo.
+    - q: Posso ir só por alguns dias?
+      a: Sim. O preço é de 18 € por dia; as estadias mais longas custam menos (300 € por um mês, 500 € por dois meses).

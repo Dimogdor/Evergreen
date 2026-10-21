@@ -1,0 +1,38 @@
+el:
+  start: "2026-07-17"
+  end: "2026-08-07"
+  category: "yoga"
+  program: "retreats"
+  image: "/src/assets/uploads/shala-workshop.webp"
+  link: "https://www.evergreenyogagreece.com/retreats"
+  title: "Εντατική εκπαίδευση δασκάλων Vinyasa 200 ωρών"
+  summary: "22 μέρες εκπαίδευσης στο άσραμ με τα Evergreen Yoga Studios — πιστοποίηση Yoga Alliance RYT-200."
+  linkLabel: "Πληροφορίες στο Evergreen Yoga"
+en:
+  title: "200-hour Vinyasa yoga teacher training (intensive)"
+  summary: "22 days of training at the ashram with Evergreen Yoga Studios — Yoga Alliance RYT-200 certification."
+  linkLabel: "Details on Evergreen Yoga"
+fr:
+  title: "Formation intensive de professeur de vinyasa yoga (200 h)"
+  summary: "22 jours de formation à l’ashram avec Evergreen Yoga Studios — certification Yoga Alliance RYT-200."
+  linkLabel: "Détails sur Evergreen Yoga"
+es:
+  title: "Formación intensiva de profesores de vinyasa yoga (200 h)"
+  summary: "22 días de formación en el ashram con Evergreen Yoga Studios — certificación Yoga Alliance RYT-200."
+  linkLabel: "Detalles en Evergreen Yoga"
+it:
+  title: "Formazione intensiva insegnanti di vinyasa yoga (200 ore)"
+  summary: "22 giorni di formazione all’ashram con Evergreen Yoga Studios — certificazione Yoga Alliance RYT-200."
+  linkLabel: "Dettagli su Evergreen Yoga"
+ru:
+  title: "Интенсивное обучение преподавателей виньяса-йоги (200 часов)"
+  summary: "22 дня обучения в ашраме с Evergreen Yoga Studios — сертификат Yoga Alliance RYT-200."
+  linkLabel: "Подробнее на Evergreen Yoga"
+de:
+  title: "Intensive Vinyasa-Yogalehrerausbildung (200 Stunden)"
+  summary: "22 Tage Ausbildung im Ashram mit den Evergreen Yoga Studios — Zertifizierung Yoga Alliance RYT-200."
+  linkLabel: "Details bei Evergreen Yoga"
+pt:
+  title: "Formação intensiva de professores de vinyasa yoga (200 h)"
+  summary: "22 dias de formação no ashram com os Evergreen Yoga Studios — certificação Yoga Alliance RYT-200."
+  linkLabel: "Detalhes no Evergreen Yoga"

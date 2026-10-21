@@ -1,0 +1,122 @@
+---
+import Base from '../../layouts/Base.astro';
+import Img from '../../components/Img.astro';
+import EventList from '../../components/EventList.astro';
+import { locales, t, type Lang } from '../../i18n';
+import { events, href, list, md, one } from '../../lib';
+
+export const getStaticPaths = () => locales.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const _ = t(lang);
+const site = await one('settings', 'site', lang);
+const home = await one('pages', 'home', lang);
+const pages = await list('pages', lang);
+const doors = ['about', 'place', 'life', 'inhabitants'].map((id) => pages.find((p) => p.id === id)).filter(Boolean);
+const programs = (await list('programs', lang)).sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
+const upcoming = (await events(lang)).filter((e) => +e.end >= Date.now() - 864e5);
+const photos = (await list('albums', lang)).flatMap((a) => (a.photos ?? []).slice(0, 3)).slice(0, 9);
+const wa = site.whatsapp && `https://wa.me/${String(site.whatsapp).replace(/\D/g, '')}`;
+---
+<Base lang={lang} image={home.image}>
+  <section class="hero">
+    <Img src={home.image} alt="" eager />
+    <div class="wrap">
+      <p class="label">{site.tagline}</p>
+      <h1>{home.title}</h1>
+      <p>{home.subtitle}</p>
+      <div class="btns">
+        <a class="btn light" href={href(lang, 'place')}>{_('nav.place')}</a>
+        <a class="btn light" href={href(lang, 'activities/esc-volunteering')}>{_('nav.volunteer')}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="rule"><span class="label">01 — {site.name}</span><a class="arrow" href={href(lang, 'about')}>{_('nav.about')}</a></div>
+    <div class="block text-only" style="border:0; padding:0">
+      <Img src={site.logo} alt={site.name} sizes="140px" style="width: min(140px, 30vw)" />
+      <div>
+        <p class="lead">{home.manifesto}</p>
+        <div class="prose muted" set:html={md(home.intro)} />
+      </div>
+    </div>
+    {home.facts?.length > 0 && (
+      <dl class="facts stats" style="margin-top: 56px">
+        {home.facts.map((f: any) => <div><dt class="label">{f.label}</dt><dd>{f.value}</dd></div>)}
+      </dl>
+    )}
+  </section>
+
+  <section class="section wrap">
+    <div class="rule"><span class="label">02 — {_('discover')}</span></div>
+    <ol class="index">
+      {doors.map((p, i) => (
+        <li><a href={href(lang, p.id)}>
+          <span class="n">0{i + 1}</span><h3>{p.title}</h3><p>{p.intro}</p>
+          <Img src={p.image} alt="" sizes="140px" />
+        </a></li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="section wrap">
+    <div class="rule"><span class="label">03 — {_('nav.activities')}</span><a class="arrow" href={href(lang, 'activities')}>{_('allActivities')}</a></div>
+    <div class="grid cols-3">
+      {programs.filter((p) => p.featured).slice(0, 6).map((p) => (
+        <a class="card" href={href(lang, `activities/${p.id}`)}>
+          <div class="media"><Img src={p.image} alt="" sizes="(max-width: 700px) 100vw, 33vw" /></div>
+          <h3>{p.title}</h3><p>{p.summary}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section dark">
+    <div class="wrap block" style="border:0">
+      <div>
+        <p class="label">04 — {_('nav.volunteer')}</p>
+        <h2>{home.escTitle}</h2>
+        <div class="prose" set:html={md(home.escText)} />
+        <div class="btns"><a class="btn light" href={href(lang, 'activities/esc-volunteering')}>{_('readMore')}</a><a class="btn light" href={href(lang, 'activities/stay-with-us')}>{programs.find((p) => p.id === 'stay-with-us')?.title}</a></div>
+      </div>
+      <div class="block-media"><Img src={home.escImage} alt="" sizes="(max-width: 860px) 100vw, 50vw" /></div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="rule"><span class="label">05 — {_('upcoming')}</span><a class="arrow" href={href(lang, 'calendar')}>{_('viewCalendar')}</a></div>
+    <EventList events={upcoming} lang={lang} limit={3} />
+  </section>
+
+  <section class="section sand">
+    <div class="wrap block" style="border:0">
+      <div>
+        <p class="label">06 — {_('yogaKicker')}</p>
+        <h2>{home.yogaTitle}</h2>
+        <div class="prose" set:html={md(home.yogaText)} />
+        <div class="btns">
+          <a class="btn solid ext" href={site.yogaStudiosUrl} target="_blank" rel="noopener">{_('yogaCta')}</a>
+          <a class="btn ext" href={site.yogaTrainingsUrl} target="_blank" rel="noopener">{_('trainingsCta')}</a>
+        </div>
+      </div>
+      <div class="block-media"><Img src={home.yogaImage} alt="" sizes="(max-width: 860px) 100vw, 50vw" /></div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="rule"><span class="label">07 — {_('nav.gallery')}</span><a class="arrow" href={href(lang, 'gallery')}>{_('viewGallery')}</a></div>
+    <div class="masonry">
+      {photos.map((p: string) => <a href={href(lang, 'gallery')}><Img src={p} alt="" sizes="(max-width: 700px) 100vw, 33vw" /></a>)}
+    </div>
+  </section>
+
+  <section class="section wrap" style="text-align:center">
+    <h2 style="max-width: 18ch; margin-inline: auto">{home.contactTitle}</h2>
+    <div class="btns" style="justify-content:center; margin-top: 32px">
+      <a class="btn solid" href={href(lang, 'contact')}>{_('contactUs')}</a>
+      {site.email && <a class="btn" href={`mailto:${site.email}`}>{_('writeUs')}</a>}
+      {wa && <a class="btn" href={wa} target="_blank" rel="noopener">{_('whatsapp')}</a>}
+      {site.instagram && <a class="btn ext" href={site.instagram} target="_blank" rel="noopener">Instagram</a>}
+    </div>
+  </section>
+</Base>

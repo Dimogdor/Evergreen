@@ -1,0 +1,35 @@
+el:
+  kind: "animal"
+  order: 10
+  photo: "/src/assets/uploads/practice-with-dog.webp"
+  name: "Τα σκυλιά μας"
+  role: "Σύντροφοι σε πεζοπορίες & γιόγκα"
+  bio: "Πιστοί φίλοι που ακολουθούν κάθε περίπατο, κάθε μάθημα και κάθε γεύμα — συχνά ξαπλωμένοι στη μέση της σάλας."
+en:
+  name: "Our dogs"
+  role: "Hiking & yoga companions"
+  bio: "Faithful friends who follow every walk, every class and every meal — often stretched out in the middle of the shala."
+fr:
+  name: "Nos chiens"
+  role: "Compagnons de randonnée & de yoga"
+  bio: "Des amis fidèles qui suivent chaque balade, chaque cours et chaque repas — souvent étendus au milieu de la shala."
+es:
+  name: "Nuestros perros"
+  role: "Compañeros de caminatas y yoga"
+  bio: "Amigos fieles que acompañan cada paseo, cada clase y cada comida — a menudo tumbados en medio de la shala."
+it:
+  name: "I nostri cani"
+  role: "Compagni di escursioni e yoga"
+  bio: "Amici fedeli che seguono ogni passeggiata, ogni lezione e ogni pasto — spesso sdraiati in mezzo alla shala."
+ru:
+  name: "Наши собаки"
+  role: "Спутники в походах и на йоге"
+  bio: "Верные друзья, которые сопровождают каждую прогулку, каждое занятие и каждую трапезу — часто растянувшись посреди шалы."
+de:
+  name: "Unsere Hunde"
+  role: "Wander- & Yoga-Begleiter"
+  bio: "Treue Freunde, die jeden Spaziergang, jede Stunde und jede Mahlzeit begleiten — oft mitten in der Shala ausgestreckt."
+pt:
+  name: "Os nossos cães"
+  role: "Companheiros de caminhadas e yoga"
+  bio: "Amigos fiéis que seguem cada passeio, cada aula e cada refeição — muitas vezes deitados no meio da shala."

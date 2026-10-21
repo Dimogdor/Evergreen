@@ -1,0 +1,35 @@
+el:
+  kind: "plant"
+  order: 20
+  photo: "/src/assets/uploads/tents-acacia-forest.webp"
+  name: "Οι ακακίες"
+  role: "Η στέγη μας"
+  bio: "Ένα μαγικό δάσος ακακιών προστατεύει τις σκηνές, την κουζίνα και τη σάλα — σκιά το καλοκαίρι, χρυσό φως το φθινόπωρο."
+en:
+  name: "The acacias"
+  role: "Our roof"
+  bio: "A magical acacia forest shelters the tents, the kitchen and the shala — shade in summer, golden light in autumn."
+fr:
+  name: "Les acacias"
+  role: "Notre toit"
+  bio: "Une forêt d’acacias magique abrite les tentes, la cuisine et la shala — de l’ombre l’été, une lumière dorée l’automne."
+es:
+  name: "Las acacias"
+  role: "Nuestro techo"
+  bio: "Un bosque mágico de acacias cobija las tiendas, la cocina y la shala — sombra en verano, luz dorada en otoño."
+it:
+  name: "Le acacie"
+  role: "Il nostro tetto"
+  bio: "Un magico bosco di acacie protegge le tende, la cucina e la shala — ombra d’estate, luce dorata d’autunno."
+ru:
+  name: "Акации"
+  role: "Наша крыша"
+  bio: "Волшебный акациевый лес укрывает шатры, кухню и шалу — тень летом, золотой свет осенью."
+de:
+  name: "Die Akazien"
+  role: "Unser Dach"
+  bio: "Ein magischer Akazienwald beschützt Zelte, Küche und Shala — Schatten im Sommer, goldenes Licht im Herbst."
+pt:
+  name: "As acácias"
+  role: "O nosso telhado"
+  bio: "Uma floresta mágica de acácias abriga as tendas, a cozinha e a shala — sombra no verão, luz dourada no outono."

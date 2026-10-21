@@ -1,0 +1,35 @@
+el:
+  kind: "animal"
+  order: 11
+  photo: "/src/assets/uploads/mountain-horses.webp"
+  name: "Τα άλογα του Καλλιδρόμου"
+  role: "Γείτονες στο οροπέδιο"
+  bio: "Άλογα που περιφέρονται ελεύθερα στα ψηλά λιβάδια του βουνού — μια μαγική συνάντηση σε πολλές πεζοπορίες μας."
+en:
+  name: "The horses of Kallidromo"
+  role: "Neighbours on the plateau"
+  bio: "Horses roam freely on the high meadows of the mountain — a magical encounter on many of our hikes."
+fr:
+  name: "Les chevaux du Kallidromo"
+  role: "Voisins du plateau"
+  bio: "Des chevaux errent en liberté sur les hautes prairies de la montagne — une rencontre magique lors de nombreuses randonnées."
+es:
+  name: "Los caballos del Kallidromo"
+  role: "Vecinos de la meseta"
+  bio: "Caballos que vagan libres por las praderas altas de la montaña — un encuentro mágico en muchas de nuestras caminatas."
+it:
+  name: "I cavalli del Kallidromo"
+  role: "Vicini dell’altopiano"
+  bio: "Cavalli che vagano liberi sui prati alti della montagna — un incontro magico in molte delle nostre escursioni."
+ru:
+  name: "Лошади Каллидромо"
+  role: "Соседи на плато"
+  bio: "Лошади свободно бродят по высокогорным лугам — волшебная встреча во многих наших походах."
+de:
+  name: "Die Pferde des Kallidromo"
+  role: "Nachbarn auf der Hochebene"
+  bio: "Pferde streifen frei über die Hochwiesen des Gebirges — eine magische Begegnung auf vielen unserer Wanderungen."
+pt:
+  name: "Os cavalos do Kallidromo"
+  role: "Vizinhos do planalto"
+  bio: "Cavalos que vagueiam livres pelos prados altos da montanha — um encontro mágico em muitas das nossas caminhadas."

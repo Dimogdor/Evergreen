@@ -1,0 +1,35 @@
+el:
+  kind: "animal"
+  order: 13
+  photo: "/src/assets/uploads/dusk-gulf.webp"
+  name: "Άγριοι γείτονες"
+  role: "Σπάνια ορατοί, πάντα εδώ"
+  bio: "Πουλιά, έντομα, σαύρες, αλεπούδες και πολλά άλλα πλάσματα μοιράζονται το δάσος μαζί μας. Πατάμε απαλά για να μπορούν να μείνουν."
+en:
+  name: "Wild neighbours"
+  role: "Rarely seen, always there"
+  bio: "Birds, insects, lizards, foxes and many other creatures share the forest with us. We tread lightly so that they can stay."
+fr:
+  name: "Voisins sauvages"
+  role: "Rarement vus, toujours là"
+  bio: "Oiseaux, insectes, lézards, renards et bien d’autres créatures partagent la forêt avec nous. Nous marchons légèrement pour qu’ils puissent rester."
+es:
+  name: "Vecinos salvajes"
+  role: "Rara vez vistos, siempre ahí"
+  bio: "Pájaros, insectos, lagartijas, zorros y muchas otras criaturas comparten el bosque con nosotros. Pisamos con cuidado para que puedan quedarse."
+it:
+  name: "Vicini selvatici"
+  role: "Raramente visti, sempre presenti"
+  bio: "Uccelli, insetti, lucertole, volpi e tante altre creature condividono il bosco con noi. Camminiamo leggeri perché possano restare."
+ru:
+  name: "Дикие соседи"
+  role: "Редко видны, но всегда рядом"
+  bio: "Птицы, насекомые, ящерицы, лисы и многие другие существа делят с нами лес. Мы ступаем бережно, чтобы они могли остаться."
+de:
+  name: "Wilde Nachbarn"
+  role: "Selten gesehen, immer da"
+  bio: "Vögel, Insekten, Eidechsen, Füchse und viele andere Wesen teilen den Wald mit uns. Wir treten leise auf, damit sie bleiben können."
+pt:
+  name: "Vizinhos selvagens"
+  role: "Raramente vistos, sempre presentes"
+  bio: "Pássaros, insetos, lagartixas, raposas e muitas outras criaturas partilham a floresta connosco. Pisamos com cuidado para que possam ficar."

@@ -1,0 +1,14 @@
+---
+import { Image } from 'astro:assets';
+import { img } from '../lib';
+
+// Every image goes through here: resized WebP at several widths, lazy by default.
+// ponytail: WebP only — AVIF took ~10 s per image and every CMS save triggers a rebuild.
+const { src, alt = '', sizes = '100vw', eager = false, ...rest } = Astro.props;
+const meta = typeof src === 'string' ? img(src) : src;
+const widths = meta && [...[480, 800, 1200, 1600].filter((w) => w < meta.width), Math.min(meta.width, 1920)];
+---
+{meta && (
+  <Image src={meta} alt={alt} sizes={sizes} widths={widths} format="webp" quality={72}
+    loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : 'auto'} decoding="async" {...rest} />
+)}

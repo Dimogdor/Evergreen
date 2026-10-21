@@ -1,0 +1,46 @@
+el:
+  name: The Evergreen Project
+  logo: /src/assets/uploads/logo.png
+  tagline: Οικοχωριό, κοινότητα και άσραμ στο δάσος του Καλλιδρόμου
+  description: "Μη κερδοσκοπική οικοκοινότητα στην Ανάβρα Φθιώτιδας: εθελοντισμός με το Ευρωπαϊκό Σώμα Αλληλεγγύης, ρητρίτ γιόγκα, φυσική δόμηση και ζωή στη φύση."
+  address: "Ανάβρα, Καλλίδρομο, Φθιώτιδα — έδρα: Διγενή 4, 35009 Μώλος"
+  announcement: ""
+  email: evergreenecovillage@gmail.com
+  phone: "+30 694 755 8519"
+  whatsapp: "+30 694 755 8519"
+  instagram: https://www.instagram.com/ever.green.project/
+  facebook: https://www.facebook.com/EvergreenProjectGR
+  messenger: https://m.me/EvergreenProjectGR
+  lat: 38.7756
+  lng: 22.5862
+  yogaStudiosUrl: https://www.evergreenyogastudios.com
+  yogaTrainingsUrl: https://www.evergreenyogagreece.com
+  formKey: ""
+en:
+  tagline: Eco-village, community and ashram in the forest of Mount Kallidromo
+  description: "Non-profit eco-community in Anavra, Central Greece: European Solidarity Corps volunteering, yoga retreats, natural building and life in nature."
+  address: "Anavra, Mount Kallidromo, Fthiotida, Greece — office: Digeni 4, 35009 Molos"
+fr:
+  tagline: Écovillage, communauté et ashram dans la forêt du mont Kallidromo
+  description: "Écocommunauté à but non lucratif à Anavra, en Grèce centrale : volontariat du Corps européen de solidarité, retraites de yoga, construction naturelle et vie dans la nature."
+  address: "Anavra, mont Kallidromo, Phthiotide, Grèce — siège : Digeni 4, 35009 Molos"
+es:
+  tagline: Ecoaldea, comunidad y ashram en el bosque del monte Kallidromo
+  description: "Ecocomunidad sin ánimo de lucro en Anavra, Grecia central: voluntariado del Cuerpo Europeo de Solidaridad, retiros de yoga, bioconstrucción y vida en la naturaleza."
+  address: "Anavra, monte Kallidromo, Ftiótide, Grecia — sede: Digeni 4, 35009 Molos"
+it:
+  tagline: Ecovillaggio, comunità e ashram nel bosco del monte Kallidromo
+  description: "Ecocomunità senza scopo di lucro ad Anavra, Grecia centrale: volontariato del Corpo europeo di solidarietà, ritiri di yoga, bioedilizia e vita nella natura."
+  address: "Anavra, monte Kallidromo, Ftiotide, Grecia — sede: Digeni 4, 35009 Molos"
+ru:
+  tagline: Экодеревня, сообщество и ашрам в лесу горы Каллидромо
+  description: "Некоммерческое экосообщество в Анавре, Центральная Греция: волонтёрство Европейского корпуса солидарности, йога-ретриты, природное строительство и жизнь на природе."
+  address: "Анавра, гора Каллидромо, Фтиотида, Греция — офис: Digeni 4, 35009 Молос"
+de:
+  tagline: Ökodorf, Gemeinschaft und Ashram im Wald des Kallidromo-Gebirges
+  description: "Gemeinnützige Ökogemeinschaft in Anavra, Mittelgriechenland: Freiwilligendienst im Europäischen Solidaritätskorps, Yoga-Retreats, Naturbau und Leben in der Natur."
+  address: "Anavra, Kallidromo-Gebirge, Fthiotida, Griechenland — Sitz: Digeni 4, 35009 Molos"
+pt:
+  tagline: Ecoaldeia, comunidade e ashram na floresta do monte Kallidromo
+  description: "Ecocomunidade sem fins lucrativos em Anavra, Grécia Central: voluntariado do Corpo Europeu de Solidariedade, retiros de yoga, bioconstrução e vida na natureza."
+  address: "Anavra, monte Kallidromo, Ftiótida, Grécia — sede: Digeni 4, 35009 Molos"

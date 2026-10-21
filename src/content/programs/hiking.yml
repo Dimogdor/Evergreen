@@ -1,0 +1,104 @@
+el:
+  order: 8
+  featured: false
+  image: /src/assets/uploads/meadow-freedom.webp
+  gallery:
+    - /src/assets/uploads/mountain-horses.webp
+    - /src/assets/uploads/nevropolis-lake.webp
+    - /src/assets/uploads/misty-mountains.webp
+    - /src/assets/uploads/sunset-forest.webp
+  title: Πεζοπορία & φύση
+  summary: Μονοπάτια από την πόρτα μας ως τα ελατοδάση, τα οροπέδια και τις λίμνες του Καλλιδρόμου.
+  facts:
+    - label: Δυσκολία
+      value: Εύκολη έως μέτρια
+    - label: Φέρτε
+      value: Καλά παπούτσια, νερό, καπέλο
+  body: |-
+    Το Καλλίδρομο είναι η παιδική μας χαρά. Κάνουμε τακτικά **πεζοπορίες** μαζί: μέσα στο δάσος, ως τα ψηλά λιβάδια όπου βόσκουν ελεύθερα άλογα, ως τη **λίμνη της Νευρόπολης** στο οροπέδιο ή σε σημεία με θέα στον Μαλιακό κόλπο την ώρα του ηλιοβασιλέματος.
+
+    Στις ελεύθερες μέρες, εθελοντές και φιλοξενούμενοι αγαπούν επίσης μια **βαρκάδα στα Λιχαδονήσια** από τα Καμένα Βούρλα, μια βουτιά στη θάλασσα ή μια επίσκεψη στις ιστορικές Θερμοπύλες και τις ιαματικές πηγές τους.
+en:
+  title: Hiking & nature
+  summary: Trails from our door to the fir forests, plateaus and lakes of Mount Kallidromo.
+  facts:
+    - label: Difficulty
+      value: Easy to moderate
+    - label: Bring
+      value: Good shoes, water, a hat
+  body: |-
+    Mount Kallidromo is our playground. We regularly go **hiking** together: through the forest, up to the high meadows where horses graze freely, to **Lake Nevropolis** on the plateau, or to viewpoints over the Malian Gulf at sunset.
+
+    On days off, volunteers and guests also love a **boat trip to the Lichadonisia islands** from Kamena Vourla, a swim in the sea, or a visit to historic Thermopylae and its hot springs.
+fr:
+  title: Randonnée & nature
+  summary: Des sentiers qui partent de notre porte vers les sapinières, les plateaux et les lacs du mont Kallidromo.
+  facts:
+    - label: Difficulté
+      value: Facile à modérée
+    - label: À prévoir
+      value: Bonnes chaussures, eau, chapeau
+  body: |-
+    Le mont Kallidromo est notre terrain de jeu. Nous partons régulièrement en **randonnée** ensemble : à travers la forêt, jusqu’aux hautes prairies où les chevaux paissent en liberté, au **lac de Nevropolis** sur le plateau, ou vers des points de vue sur le golfe Maliaque au coucher du soleil.
+
+    Les jours de repos, volontaires et invités adorent aussi une **sortie en bateau vers les îles Lichadonisia** depuis Kamena Vourla, une baignade en mer ou une visite des Thermopyles historiques et de leurs sources chaudes.
+es:
+  title: Senderismo y naturaleza
+  summary: Senderos desde nuestra puerta hasta los abetales, las mesetas y los lagos del monte Kallidromo.
+  facts:
+    - label: Dificultad
+      value: Fácil a moderada
+    - label: Trae
+      value: Buen calzado, agua, gorra
+  body: |-
+    El monte Kallidromo es nuestro patio de juegos. Salimos a menudo de **excursión** juntos: por el bosque, hasta las praderas altas donde pastan caballos en libertad, al **lago Nevropolis** en la meseta o a miradores sobre el golfo Maliaco al atardecer.
+
+    En los días libres, voluntarios y huéspedes disfrutan también de una **excursión en barco a las islas Lichadonisia** desde Kamena Vourla, un baño en el mar o una visita a las históricas Termópilas y sus aguas termales.
+it:
+  title: Escursioni e natura
+  summary: Sentieri dalla nostra porta fino alle abetaie, agli altopiani e ai laghi del monte Kallidromo.
+  facts:
+    - label: Difficoltà
+      value: Da facile a media
+    - label: Da portare
+      value: Scarpe buone, acqua, cappello
+  body: |-
+    Il monte Kallidromo è il nostro parco giochi. Facciamo spesso **escursioni** insieme: nel bosco, fino ai prati alti dove pascolano cavalli in libertà, al **lago di Nevropolis** sull’altopiano o verso i belvedere sul golfo Maliaco al tramonto.
+
+    Nei giorni liberi, volontari e ospiti amano anche una **gita in barca alle isole Lichadonisia** da Kamena Vourla, un bagno al mare o una visita alle storiche Termopili e alle loro sorgenti termali.
+ru:
+  title: Походы и природа
+  summary: Тропы от нашей двери к пихтовым лесам, плато и озёрам горы Каллидромо.
+  facts:
+    - label: Сложность
+      value: От лёгкой до средней
+    - label: Взять с собой
+      value: Удобную обувь, воду, головной убор
+  body: |-
+    Гора Каллидромо — наша игровая площадка. Мы регулярно ходим в **походы**: через лес, на высокие луга, где свободно пасутся лошади, к **озеру Неврополис** на плато или к смотровым точкам над Малийским заливом на закате.
+
+    В выходные волонтёры и гости также любят **морскую прогулку к островам Лихадонисия** из Камена-Вурла, купание в море или поездку в исторические Фермопилы с их горячими источниками.
+de:
+  title: Wandern & Natur
+  summary: Wege von unserer Tür bis zu den Tannenwäldern, Hochebenen und Seen des Kallidromo.
+  facts:
+    - label: Schwierigkeit
+      value: Leicht bis mittel
+    - label: Mitbringen
+      value: Gute Schuhe, Wasser, Hut
+  body: |-
+    Das Kallidromo-Gebirge ist unser Spielplatz. Wir gehen regelmäßig gemeinsam **wandern**: durch den Wald, hinauf zu den Hochwiesen, auf denen Pferde frei weiden, zum **Nevropolis-See** auf der Hochebene oder zu Aussichtspunkten über dem Malischen Golf bei Sonnenuntergang.
+
+    An freien Tagen lieben Freiwillige und Gäste auch einen **Bootsausflug zu den Lichadonisia-Inseln** ab Kamena Vourla, ein Bad im Meer oder einen Besuch der historischen Thermopylen und ihrer heißen Quellen.
+pt:
+  title: Caminhadas e natureza
+  summary: Trilhos desde a nossa porta até aos abetais, planaltos e lagos do monte Kallidromo.
+  facts:
+    - label: Dificuldade
+      value: Fácil a moderada
+    - label: Traga
+      value: Bom calçado, água, chapéu
+  body: |-
+    O monte Kallidromo é o nosso recreio. Fazemos regularmente **caminhadas** juntos: pela floresta, até aos prados altos onde os cavalos pastam em liberdade, até ao **lago Nevropolis** no planalto ou a miradouros sobre o golfo Maliaco ao pôr do sol.
+
+    Nos dias livres, voluntários e hóspedes adoram também um **passeio de barco às ilhas Lichadonisia** a partir de Kamena Vourla, um mergulho no mar ou uma visita às históricas Termópilas e às suas termas.

@@ -1,0 +1,45 @@
+---
+import Img from './Img.astro';
+import { t, type Lang } from '../i18n';
+import { dateRange, href } from '../lib';
+
+// Past events are also removed in the browser, so the list stays right between two deploys.
+const { events = [], lang, limit = 0 } = Astro.props as { events: any[]; lang: Lang; limit?: number };
+const _ = t(lang);
+---
+<div class="event-list" data-limit={limit || undefined}>
+  <ol class="events">
+    {events.map((e) => (
+      <li class="event" id={e.id} data-start={e.start.toISOString()} data-end={e.end.toISOString()}>
+        <time datetime={e.start.toISOString().slice(0, 10)}>{dateRange(e.start, e.end, lang)}</time>
+        <div>
+          <span class="tag">{_(`cat.${e.category || 'other'}` as any)}</span>
+          <span class="tag now" hidden>{_('ongoing')}</span>
+          <h3>{e.title}</h3>
+          {e.summary && <p>{e.summary}</p>}
+          {e.price && <p>{_('price')}: {e.price}</p>}
+          <div class="btns">
+            {e.link && <a class="arrow ext" href={e.link} target="_blank" rel="noopener">{e.linkLabel || _('details')}</a>}
+            {e.program && <a class="arrow" href={href(lang, `activities/${e.program}`)}>{_('readMore')}</a>}
+          </div>
+        </div>
+        {e.image && <div class="thumb"><Img src={e.image} alt="" sizes="(max-width: 760px) 100vw, 180px" /></div>}
+      </li>
+    ))}
+  </ol>
+  <p class="muted empty" hidden={events.length > 0}>{_('noEvents')}</p>
+</div>
+
+<script>
+  const now = Date.now();
+  document.querySelectorAll<HTMLElement>('.event-list').forEach((list) => {
+    list.querySelectorAll<HTMLElement>('.event').forEach((el) => {
+      if (Date.parse(el.dataset.end!) + 864e5 < now) return el.remove();
+      if (Date.parse(el.dataset.start!) <= now) el.querySelector<HTMLElement>('.tag.now')!.hidden = false;
+    });
+    const items = list.querySelectorAll('.event');
+    const limit = Number(list.dataset.limit) || Infinity;
+    items.forEach((el, i) => i >= limit && el.remove());
+    if (!items.length) list.querySelector<HTMLElement>('.empty')!.hidden = false;
+  });
+</script>

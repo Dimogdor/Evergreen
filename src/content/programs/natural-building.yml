@@ -1,0 +1,183 @@
+el:
+  order: 4
+  featured: true
+  image: /src/assets/uploads/outdoor-showers.webp
+  gallery:
+    - /src/assets/uploads/cabin-firepit.webp
+    - /src/assets/uploads/compost-toilet.webp
+    - /src/assets/uploads/signs-camping.webp
+  title: Εργαστήρια φυσικής δόμησης
+  summary: Μάθετε να χτίζετε με χώμα, πηλό, ξύλο και φυσικά υλικά — ζώντας μαζί όσο χτίζετε.
+  facts:
+    - label: Τεχνικές
+      value: Χώμα, cob, ξύλο, φυσικά υλικά
+    - label: Περιλαμβάνονται
+      value: Διαμονή, χορτοφαγικά γεύματα, κοινοτική ζωή, όλες οι δραστηριότητες
+    - label: Φιλοσοφία
+      value: Μαθαίνουμε · Χτίζουμε · Ζούμε μαζί
+  body: |-
+    Τα περισσότερα από όσα στέκονται στον χώρο μας χτίστηκαν με τα χέρια: η σάλα, η κουζίνα, τα ντους, οι τουαλέτες κομποστοποίησης, τα σπίτια από πηλό. Τα εργαστήρια φυσικής δόμησης σας προσκαλούν να μάθετε αυτές τις τεχνικές πάνω σε ένα πραγματικό εργοτάξιο, όλοι μαζί.
+
+    ### Hands on Earth
+    Το φθινοπωρινό μας εργαστήριο **Hands on Earth** (15 Οκτωβρίου – 8 Νοεμβρίου 2026) εξερευνά το χτίσιμο με **χώμα, πηλό (cob), ξύλο και φυσικά υλικά**. Η διαμονή, τα χορτοφαγικά γεύματα, η κοινοτική ζωή και όλες οι δραστηριότητες περιλαμβάνονται.
+
+    ### Γιατί φυσική δόμηση
+    - χρησιμοποιεί τοπικά, μη τοξικά υλικά με ελάχιστο αποτύπωμα
+    - δημιουργεί υγιείς χώρους που αναπνέουν
+    - είναι προσιτή: μαθαίνεται με την πράξη και χτίζεται σε ομάδα
+
+    Δεν απαιτείται προηγούμενη εμπειρία — μόνο διάθεση να λερώσετε τα χέρια σας.
+en:
+  title: Natural building workshops
+  summary: Learn to build with earth, cob, wood and natural materials — and live together while you do.
+  facts:
+    - label: Techniques
+      value: Earth, cob, wood, natural materials
+    - label: Included
+      value: Accommodation, vegetarian meals, community living, all activities
+    - label: Spirit
+      value: Learn · Build · Live together
+  body: |-
+    Most of what stands on our land was built by hand: the shala, the kitchen, the showers, the compost toilets, the cob houses. Our natural building workshops invite you to learn these techniques on a real building site, together.
+
+    ### Hands on Earth
+    Our autumn workshop **Hands on Earth** (15 October – 8 November 2026) explores building with **earth, cob, wood and natural materials**. Accommodation, vegetarian meals, community living and all activities are included.
+
+    ### Why natural building
+    - it uses local, non-toxic materials with a minimal footprint
+    - it creates healthy spaces that breathe
+    - it is accessible: you learn it by doing, and build it as a team
+
+    No previous experience is required — just the will to get your hands dirty.
+fr:
+  title: Ateliers de construction naturelle
+  summary: Apprenez à construire avec la terre, la bauge, le bois et les matériaux naturels — en vivant ensemble pendant le chantier.
+  facts:
+    - label: Techniques
+      value: Terre, bauge (cob), bois, matériaux naturels
+    - label: Inclus
+      value: Hébergement, repas végétariens, vie communautaire, toutes les activités
+    - label: Esprit
+      value: Apprendre · Construire · Vivre ensemble
+  body: |-
+    La plupart de ce qui se trouve sur notre terrain a été construit à la main : la shala, la cuisine, les douches, les toilettes sèches, les maisons en bauge. Nos ateliers de construction naturelle vous invitent à apprendre ces techniques sur un vrai chantier, ensemble.
+
+    ### Hands on Earth
+    Notre atelier d’automne **Hands on Earth** (15 octobre – 8 novembre 2026) explore la construction en **terre, bauge, bois et matériaux naturels**. Hébergement, repas végétariens, vie communautaire et toutes les activités sont inclus.
+
+    ### Pourquoi la construction naturelle
+    - elle utilise des matériaux locaux, non toxiques et à faible empreinte
+    - elle crée des espaces sains qui respirent
+    - elle est accessible : on l’apprend en faisant, et on construit en équipe
+
+    Aucune expérience préalable n’est requise — seulement l’envie de mettre les mains dans la terre.
+es:
+  title: Talleres de bioconstrucción
+  summary: Aprende a construir con tierra, cob, madera y materiales naturales — y a convivir mientras lo haces.
+  facts:
+    - label: Técnicas
+      value: Tierra, cob, madera, materiales naturales
+    - label: Incluye
+      value: Alojamiento, comidas vegetarianas, vida comunitaria, todas las actividades
+    - label: Espíritu
+      value: Aprender · Construir · Vivir juntos
+  body: |-
+    Casi todo lo que hay en nuestro terreno se construyó a mano: la shala, la cocina, las duchas, los baños secos, las casas de cob. Nuestros talleres de bioconstrucción te invitan a aprender estas técnicas en una obra real, en grupo.
+
+    ### Hands on Earth
+    Nuestro taller de otoño **Hands on Earth** (15 de octubre – 8 de noviembre de 2026) explora la construcción con **tierra, cob, madera y materiales naturales**. Incluye alojamiento, comidas vegetarianas, vida comunitaria y todas las actividades.
+
+    ### Por qué bioconstrucción
+    - usa materiales locales, no tóxicos y de mínima huella
+    - crea espacios sanos que respiran
+    - es accesible: se aprende haciendo y se construye en equipo
+
+    No se necesita experiencia previa — solo ganas de mancharse las manos.
+it:
+  title: Workshop di bioedilizia
+  summary: Impara a costruire con terra, cob, legno e materiali naturali — vivendo insieme mentre costruisci.
+  facts:
+    - label: Tecniche
+      value: Terra, cob, legno, materiali naturali
+    - label: Incluso
+      value: Alloggio, pasti vegetariani, vita di comunità, tutte le attività
+    - label: Spirito
+      value: Imparare · Costruire · Vivere insieme
+  body: |-
+    Quasi tutto ciò che si trova sul nostro terreno è stato costruito a mano: la shala, la cucina, le docce, i bagni a compost, le case in cob. I nostri workshop di bioedilizia ti invitano a imparare queste tecniche in un vero cantiere, insieme.
+
+    ### Hands on Earth
+    Il nostro workshop autunnale **Hands on Earth** (15 ottobre – 8 novembre 2026) esplora la costruzione con **terra, cob, legno e materiali naturali**. Alloggio, pasti vegetariani, vita di comunità e tutte le attività sono inclusi.
+
+    ### Perché la bioedilizia
+    - usa materiali locali, non tossici e a impatto minimo
+    - crea spazi sani che respirano
+    - è accessibile: si impara facendo e si costruisce in gruppo
+
+    Non serve esperienza — solo la voglia di sporcarsi le mani.
+ru:
+  title: Мастерские природного строительства
+  summary: Научитесь строить из земли, глины (cob), дерева и природных материалов — и жить вместе, пока строите.
+  facts:
+    - label: Техники
+      value: Земля, cob, дерево, природные материалы
+    - label: Включено
+      value: Проживание, вегетарианское питание, жизнь в сообществе, все занятия
+    - label: Принцип
+      value: Учимся · Строим · Живём вместе
+  body: |-
+    Почти всё, что стоит на нашем участке, построено руками: шала, кухня, душ, компостные туалеты, глинобитные дома. Наши мастерские природного строительства приглашают освоить эти техники на настоящей стройке, вместе.
+
+    ### Hands on Earth
+    Наша осенняя мастерская **Hands on Earth** (15 октября – 8 ноября 2026) посвящена строительству из **земли, глины (cob), дерева и природных материалов**. Проживание, вегетарианское питание, жизнь в сообществе и все занятия включены.
+
+    ### Почему природное строительство
+    - местные, нетоксичные материалы с минимальным следом
+    - здоровые пространства, которые «дышат»
+    - доступность: этому учатся на практике и строят командой
+
+    Опыт не нужен — только желание испачкать руки.
+de:
+  title: Naturbau-Workshops
+  summary: Lerne, mit Erde, Cob, Holz und natürlichen Materialien zu bauen — und lebe dabei in Gemeinschaft.
+  facts:
+    - label: Techniken
+      value: Erde, Cob, Holz, natürliche Materialien
+    - label: Inklusive
+      value: Unterkunft, vegetarische Mahlzeiten, Gemeinschaftsleben, alle Aktivitäten
+    - label: Motto
+      value: Lernen · Bauen · Zusammenleben
+  body: |-
+    Das meiste auf unserem Gelände wurde von Hand gebaut: die Shala, die Küche, die Duschen, die Komposttoiletten, die Lehmhäuser. Unsere Naturbau-Workshops laden dich ein, diese Techniken auf einer echten Baustelle zu lernen — gemeinsam.
+
+    ### Hands on Earth
+    Unser Herbst-Workshop **Hands on Earth** (15. Oktober – 8. November 2026) erkundet das Bauen mit **Erde, Cob, Holz und natürlichen Materialien**. Unterkunft, vegetarische Mahlzeiten, Gemeinschaftsleben und alle Aktivitäten sind inklusive.
+
+    ### Warum Naturbau
+    - regionale, ungiftige Materialien mit minimalem Fußabdruck
+    - gesunde Räume, die atmen
+    - zugänglich: Man lernt es durch Tun und baut im Team
+
+    Vorerfahrung ist nicht nötig — nur die Lust, sich die Hände schmutzig zu machen.
+pt:
+  title: Workshops de bioconstrução
+  summary: Aprenda a construir com terra, cob, madeira e materiais naturais — e a viver em comunidade enquanto constrói.
+  facts:
+    - label: Técnicas
+      value: Terra, cob, madeira, materiais naturais
+    - label: Incluído
+      value: Alojamento, refeições vegetarianas, vida comunitária, todas as atividades
+    - label: Espírito
+      value: Aprender · Construir · Viver juntos
+  body: |-
+    Quase tudo o que existe no nosso terreno foi construído à mão: a shala, a cozinha, os duches, as casas de banho secas, as casas de cob. Os nossos workshops de bioconstrução convidam-no a aprender estas técnicas numa obra real, em conjunto.
+
+    ### Hands on Earth
+    O nosso workshop de outono **Hands on Earth** (15 de outubro – 8 de novembro de 2026) explora a construção com **terra, cob, madeira e materiais naturais**. Alojamento, refeições vegetarianas, vida comunitária e todas as atividades estão incluídos.
+
+    ### Porquê a bioconstrução
+    - usa materiais locais, não tóxicos e de pegada mínima
+    - cria espaços saudáveis que respiram
+    - é acessível: aprende-se fazendo e constrói-se em equipa
+
+    Não é preciso experiência prévia — só vontade de sujar as mãos.
