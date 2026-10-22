@@ -1,6 +1,9 @@
 el:
   order: 1
   photos:
+  - /src/assets/uploads/building-frame-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
   - /src/assets/uploads/build-team-2026.webp
   - /src/assets/uploads/build-site-2026.webp
   - /src/assets/uploads/cob-house-rudi.webp

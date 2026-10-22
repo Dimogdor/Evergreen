@@ -1,57 +1,49 @@
 el:
-  image: /src/assets/uploads/laughter-dog.webp
+  image: /src/assets/uploads/cat-and-dog-building-2026.webp
   title: Οι κάτοικοι
   intro: Άνθρωποι, ζώα και δέντρα — όλοι όσοι κάνουν το Evergreen σπίτι.
   sections:
-    - heading: Ένα κοινό σπίτι
-      text: |-
-        Το Evergreen δεν είναι μόνο οι άνθρωποι που ζουν εδώ. Είναι και τα σκυλιά που ακολουθούν κάθε πεζοπορία και κάθε μάθημα γιόγκα, τα άλογα και οι αγελάδες του Καλλιδρόμου, τα πουλιά στις ακακίες — και το ίδιο το δάσος που μας προστατεύει όλους. Ιδού μερικά από τα πλάσματα που θα συναντήσετε.
+  - heading: Ένα κοινό σπίτι
+    text: Το Evergreen δεν είναι μόνο οι άνθρωποι που ζουν εδώ. Είναι και τα σκυλιά που ακολουθούν κάθε πεζοπορία και κάθε μάθημα γιόγκα, τα άλογα και οι αγελάδες του Καλλιδρόμου, τα πουλιά στις ακακίες — και το ίδιο το δάσος που μας προστατεύει όλους. Ιδού μερικά από τα πλάσματα που θα συναντήσετε.
 en:
   title: The inhabitants
   intro: People, animals and trees — everyone who makes Evergreen a home.
   sections:
-    - heading: A shared home
-      text: |-
-        Evergreen is more than the people who live here. It is also the dogs who join every hike and every yoga class, the horses and cows of Mount Kallidromo, the birds in the acacias — and the forest itself, which shelters us all. Here are some of the beings you will meet.
+  - heading: A shared home
+    text: Evergreen is more than the people who live here. It is also the dogs who join every hike and every yoga class, the horses and cows of Mount Kallidromo, the birds in the acacias — and the forest itself, which shelters us all. Here are some of the beings you will meet.
 fr:
   title: Les habitants
   intro: Humains, animaux et arbres — tous ceux qui font d’Evergreen une maison.
   sections:
-    - heading: Une maison partagée
-      text: |-
-        Evergreen, ce ne sont pas seulement les personnes qui y vivent. Ce sont aussi les chiens qui suivent chaque randonnée et chaque cours de yoga, les chevaux et les vaches du mont Kallidromo, les oiseaux dans les acacias — et la forêt elle-même, qui nous abrite tous. Voici quelques-uns des êtres que vous rencontrerez.
+  - heading: Une maison partagée
+    text: Evergreen, ce ne sont pas seulement les personnes qui y vivent. Ce sont aussi les chiens qui suivent chaque randonnée et chaque cours de yoga, les chevaux et les vaches du mont Kallidromo, les oiseaux dans les acacias — et la forêt elle-même, qui nous abrite tous. Voici quelques-uns des êtres que vous rencontrerez.
 es:
   title: Los habitantes
   intro: Personas, animales y árboles — todos los que hacen de Evergreen un hogar.
   sections:
-    - heading: Un hogar compartido
-      text: |-
-        Evergreen es más que las personas que viven aquí. También son los perros que acompañan cada caminata y cada clase de yoga, los caballos y las vacas del monte Kallidromo, los pájaros de las acacias — y el propio bosque, que nos cobija a todos. Estos son algunos de los seres que conocerás.
+  - heading: Un hogar compartido
+    text: Evergreen es más que las personas que viven aquí. También son los perros que acompañan cada caminata y cada clase de yoga, los caballos y las vacas del monte Kallidromo, los pájaros de las acacias — y el propio bosque, que nos cobija a todos. Estos son algunos de los seres que conocerás.
 it:
   title: Gli abitanti
   intro: Persone, animali e alberi — tutti quelli che rendono Evergreen una casa.
   sections:
-    - heading: Una casa condivisa
-      text: |-
-        Evergreen non è solo le persone che ci vivono. Sono anche i cani che seguono ogni escursione e ogni lezione di yoga, i cavalli e le mucche del monte Kallidromo, gli uccelli tra le acacie — e il bosco stesso, che ci protegge tutti. Ecco alcuni degli esseri che incontrerai.
+  - heading: Una casa condivisa
+    text: Evergreen non è solo le persone che ci vivono. Sono anche i cani che seguono ogni escursione e ogni lezione di yoga, i cavalli e le mucche del monte Kallidromo, gli uccelli tra le acacie — e il bosco stesso, che ci protegge tutti. Ecco alcuni degli esseri che incontrerai.
 ru:
   title: Обитатели
   intro: Люди, животные и деревья — все, кто делает Evergreen домом.
   sections:
-    - heading: Общий дом
-      text: |-
-        Evergreen — это не только люди, которые здесь живут. Это и собаки, что сопровождают каждый поход и каждое занятие йогой, лошади и коровы горы Каллидромо, птицы в акациях — и сам лес, который укрывает нас всех. Вот некоторые из тех, с кем вы здесь встретитесь.
+  - heading: Общий дом
+    text: Evergreen — это не только люди, которые здесь живут. Это и собаки, что сопровождают каждый поход и каждое занятие йогой, лошади и коровы горы Каллидромо, птицы в акациях — и сам лес, который укрывает нас всех. Вот некоторые из тех, с кем вы здесь встретитесь.
 de:
   title: Die Bewohner
   intro: Menschen, Tiere und Bäume — alle, die Evergreen zu einem Zuhause machen.
   sections:
-    - heading: Ein gemeinsames Zuhause
-      text: |-
-        Evergreen sind nicht nur die Menschen, die hier leben. Es sind auch die Hunde, die bei jeder Wanderung und jeder Yogastunde dabei sind, die Pferde und Kühe des Kallidromo, die Vögel in den Akazien — und der Wald selbst, der uns alle beschützt. Hier sind einige der Wesen, denen du begegnen wirst.
+  - heading: Ein gemeinsames Zuhause
+    text: Evergreen sind nicht nur die Menschen, die hier leben. Es sind auch die Hunde, die bei jeder Wanderung und jeder Yogastunde dabei sind, die Pferde und Kühe des Kallidromo, die Vögel in den Akazien — und der Wald selbst, der uns alle beschützt. Hier sind einige der Wesen, denen du begegnen wirst.
 pt:
   title: Os habitantes
   intro: Pessoas, animais e árvores — todos os que fazem do Evergreen uma casa.
   sections:
-    - heading: Uma casa partilhada
-      text: |-
-        O Evergreen não é só as pessoas que aqui vivem. São também os cães que acompanham cada caminhada e cada aula de yoga, os cavalos e as vacas do monte Kallidromo, os pássaros nas acácias — e a própria floresta, que nos abriga a todos. Eis alguns dos seres que vai conhecer.
+  - heading: Uma casa partilhada
+    text: O Evergreen não é só as pessoas que aqui vivem. São também os cães que acompanham cada caminhada e cada aula de yoga, os cavalos e as vacas do monte Kallidromo, os pássaros nas acácias — e a própria floresta, que nos abriga a todos. Eis alguns dos seres que vai conhecer.

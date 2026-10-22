@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /admin/
-Sitemap: https://dimogdor.github.io/Evergreen/sitemap-index.xml

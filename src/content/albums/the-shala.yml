@@ -1,6 +1,8 @@
 el:
   order: 8
   photos:
+  - /src/assets/uploads/shala-savasana-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
   - /src/assets/uploads/shala-forest.webp
   - /src/assets/uploads/shala-roof.webp
   - /src/assets/uploads/shala-night.webp

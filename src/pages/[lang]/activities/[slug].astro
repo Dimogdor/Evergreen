@@ -3,8 +3,9 @@ import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import Img from '../../../components/Img.astro';
 import EventList from '../../../components/EventList.astro';
+import Story from '../../../components/Story.astro';
 import { locales, t, type Lang } from '../../../i18n';
-import { events, href, list, md } from '../../../lib';
+import { events, href, list, md, stories } from '../../../lib';
 
 export async function getStaticPaths() {
   const programs = await getCollection('programs' as any);
@@ -16,10 +17,11 @@ const all = (await list('programs', lang)).sort((a, b) => (a.order ?? 99) - (b.o
 const p = all.find((x) => x.id === Astro.params.slug)!;
 const dates = (await events(lang)).filter((e) => e.program === p.id && +e.end >= Date.now() - 864e5);
 const others = all.filter((x) => x.id !== p.id).slice(0, 3);
+const voices = p.id === 'esc-volunteering' ? (await stories()).slice(0, 4) : [];
 ---
 <Base lang={lang} title={p.title} description={p.summary} image={p.image}>
   <section class="wrap page-hero">
-    <p class="label"><a href={href(lang, 'activities')}>{_('nav.activities')}</a></p>
+    <p class="label"><a href={href(lang, 'activities')}>{_('nav_activities')}</a></p>
     <h1>{p.title}</h1>
     {p.summary && <p class="lead">{p.summary}</p>}
   </section>
@@ -39,6 +41,13 @@ const others = all.filter((x) => x.id !== p.id).slice(0, 3);
 
     {p.gallery?.length > 0 && (
       <div class="masonry" style="margin-top: 40px">{p.gallery.map((g: string) => <Img src={g} alt="" sizes="(max-width: 700px) 100vw, 33vw" />)}</div>
+    )}
+
+    {voices.length > 0 && (
+      <section style="padding-top: 80px">
+        <div class="rule"><span class="label">{_('nav_stories')}</span><a class="arrow" href={href(lang, 'stories')}>{_('storiesLink')}</a></div>
+        <div class="stories">{voices.map((s) => <Story s={s} />)}</div>
+      </section>
     )}
 
     {dates.length > 0 && (

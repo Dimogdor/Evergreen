@@ -1,0 +1,776 @@
+el:
+  skip: Μετάβαση στο περιεχόμενο
+  menu: Μενού
+  close: Κλείσιμο
+  language: Γλώσσα
+  nav_home: Αρχική
+  nav_about: Το πρότζεκτ
+  nav_place: Ο τόπος
+  nav_life: Τρόπος ζωής
+  nav_inhabitants: Οι κάτοικοι
+  nav_activities: Δραστηριότητες
+  nav_volunteer: Εθελοντισμός · ESC
+  nav_calendar: Ημερολόγιο
+  nav_gallery: Γκαλερί
+  nav_support: Στήριξη
+  nav_contact: Επικοινωνία
+  nav_yoga: Στούντιο γιόγκα
+  readMore: Περισσότερα
+  discover: Ανακαλύψτε
+  allActivities: Όλες οι δραστηριότητες
+  upcoming: Προσεχώς
+  past: Προηγούμενες εκδηλώσεις
+  noEvents: Δεν έχουν ανακοινωθεί νέες ημερομηνίες — ακολουθήστε μας στο Instagram για τις επόμενες.
+  viewCalendar: Όλο το ημερολόγιο
+  viewGallery: Όλη η γκαλερί
+  contactUs: Επικοινωνήστε μαζί μας
+  details: Πληροφορίες
+  dates: Ημερομηνίες
+  location: Τοποθεσία
+  price: Τιμή
+  related: Επόμενες ημερομηνίες
+  moreActivities: Περισσότερες δραστηριότητες
+  photos: Φωτογραφίες
+  videos: Βίντεο
+  all: Όλα
+  playVideo: Αναπαραγωγή βίντεο
+  prevMonth: Προηγούμενος μήνας
+  nextMonth: Επόμενος μήνας
+  ongoing: Σε εξέλιξη
+  humans: Άνθρωποι
+  animals: Ζώα
+  plants: Φυτά & δάσος
+  name: Όνομα
+  email: Email
+  message: Μήνυμα
+  send: Αποστολή
+  sent: Ευχαριστούμε! Το μήνυμά σας στάλθηκε — θα απαντήσουμε σύντομα.
+  writeUs: Γράψτε μας
+  call: Τηλέφωνο
+  followUs: Ακολουθήστε μας
+  openMap: Άνοιγμα στον χάρτη
+  address: Διεύθυνση
+  footerNote: Αστική μη κερδοσκοπική εταιρεία · Σήμα Ποιότητας Ευρωπαϊκού Σώματος Αλληλεγγύης
+  yogaCta: Evergreen Yoga Studios
+  trainingsCta: Εκπαιδεύσεις δασκάλων
+  newTab: ανοίγει σε νέα καρτέλα
+  facts: Με μια ματιά
+  faq: Ερωτήσεις & απαντήσεις
+  wishlist: Τι χρειαζόμαστε
+  notFound: Η σελίδα δεν βρέθηκε
+  notFoundText: Αυτό το μονοπάτι χάθηκε στο δάσος.
+  backHome: Επιστροφή στην αρχική
+  cat_esc: ESC
+  cat_retreat: Ρητρίτ
+  cat_yoga: Γιόγκα
+  cat_workshop: Εργαστήριο
+  cat_community: Κοινότητα
+  cat_other: Εκδήλωση
+  nav_stories: Ιστορίες
+  addToCalendar: Προσθήκη στο ημερολόγιο
+  googleCal: Google Calendar
+  appleCal: Apple / Outlook (.ics)
+  subscribeCal: Συγχρονισμός όλων των ημερομηνιών στο ημερολόγιό μου
+  timeNote: Ώρα Ελλάδας
+  donate: Κάντε μια δωρεά
+  donateText: Οι δωρεές μάς βοηθούν να αγοράζουμε υλικά και εργαλεία και να συνεχίζουμε να φιλοξενούμε. Κάθε συνεισφορά μετράει — σας ευχαριστούμε από καρδιάς.
+  accountHolder: Δικαιούχος
+  bank: Τράπεζα
+  reference: Αιτιολογία
+  referenceValue: Το όνομά σας — Δωρεά
+  copy: Αντιγραφή
+  copied: Αντιγράφηκε ✓
+  privacy: Απόρρητο
+  shareStory: Μοιραστείτε την ιστορία σας
+  shareStoryText: Ζήσατε μαζί μας ως εθελοντής, φιλοξενούμενος ή συμμετέχων; Γράψτε μας λίγα λόγια — θα εμφανιστούν εδώ μόλις τα εγκρίνει η ομάδα.
+  yourName: Το όνομά σας
+  country: Χώρα
+  experience: Πρόγραμμα & χρονιά (π.χ. ESC 2025)
+  yourStory: Η ιστορία σας
+  photoOptional: Φωτογραφία (προαιρετικά, JPG/PNG/WebP, έως 6 MB)
+  videoOptional: Σύνδεσμος βίντεο YouTube/Vimeo (προαιρετικά)
+  consent: Συμφωνώ να δημοσιευτούν στο site το όνομα, η χώρα, το κείμενο και η φωτογραφία μου, και έχω διαβάσει την πολιτική απορρήτου.
+  submitStory: Αποστολή
+  storySent: Ευχαριστούμε! Η ιστορία σας στάλθηκε και θα εμφανιστεί μόλις εγκριθεί.
+  storyError: Κάτι πήγε στραβά. Δοκιμάστε ξανά ή γράψτε μας με email.
+  noStories: Δεν υπάρχουν ακόμη δημοσιευμένες ιστορίες — η δική σας μπορεί να είναι η πρώτη.
+  storiesLink: Διαβάστε τις ιστορίες τους
+en:
+  skip: Skip to content
+  menu: Menu
+  close: Close
+  language: Language
+  nav_home: Home
+  nav_about: The project
+  nav_place: The place
+  nav_life: Way of life
+  nav_inhabitants: Inhabitants
+  nav_activities: Activities
+  nav_volunteer: Volunteer · ESC
+  nav_calendar: Calendar
+  nav_gallery: Gallery
+  nav_support: Support us
+  nav_contact: Contact
+  nav_yoga: Yoga studios
+  readMore: Read more
+  discover: Discover
+  allActivities: All activities
+  upcoming: Upcoming
+  past: Past events
+  noEvents: No dates announced right now — follow us on Instagram to hear about the next ones.
+  viewCalendar: Full calendar
+  viewGallery: Full gallery
+  contactUs: Contact us
+  details: More info
+  dates: Dates
+  location: Location
+  price: Price
+  related: Upcoming dates
+  moreActivities: More activities
+  photos: Photos
+  videos: Videos
+  all: All
+  playVideo: Play video
+  prevMonth: Previous month
+  nextMonth: Next month
+  ongoing: Happening now
+  humans: People
+  animals: Animals
+  plants: Plants & forest
+  name: Name
+  email: Email
+  message: Message
+  send: Send
+  sent: Thank you! Your message has been sent — we will answer soon.
+  writeUs: Write to us
+  call: Call
+  followUs: Follow us
+  openMap: Open in maps
+  address: Address
+  footerNote: Civil non-profit company · European Solidarity Corps Quality Label
+  yogaCta: Evergreen Yoga Studios
+  trainingsCta: Teacher trainings
+  newTab: opens in a new tab
+  facts: Key facts
+  faq: Questions & answers
+  wishlist: Our wishlist
+  notFound: Page not found
+  notFoundText: This path got lost in the forest.
+  backHome: Back to the home page
+  cat_esc: ESC
+  cat_retreat: Retreat
+  cat_yoga: Yoga
+  cat_workshop: Workshop
+  cat_community: Community
+  cat_other: Event
+  nav_stories: Stories
+  addToCalendar: Add to calendar
+  googleCal: Google Calendar
+  appleCal: Apple / Outlook (.ics)
+  subscribeCal: Sync all our dates to my calendar
+  timeNote: Greek time
+  donate: Make a donation
+  donateText: Donations help us buy materials and tools and keep welcoming people. Every contribution matters — thank you from the bottom of our hearts.
+  accountHolder: Account holder
+  bank: Bank
+  reference: Reference
+  referenceValue: Your name — Donation
+  copy: Copy
+  copied: Copied ✓
+  privacy: Privacy
+  shareStory: Share your story
+  shareStoryText: Did you live with us as a volunteer, guest or participant? Write a few words — they will appear here once our team approves them.
+  yourName: Your name
+  country: Country
+  experience: Programme & year (e.g. ESC 2025)
+  yourStory: Your story
+  photoOptional: Photo (optional, JPG/PNG/WebP, max 6 MB)
+  videoOptional: YouTube/Vimeo video link (optional)
+  consent: I agree that my name, country, text and photo may be published on this website, and I have read the privacy policy.
+  submitStory: Send my story
+  storySent: Thank you! Your story has been sent and will appear once it is approved.
+  storyError: Something went wrong. Please try again or write to us by email.
+  noStories: No stories published yet — yours could be the first.
+  storiesLink: Read their stories
+fr:
+  skip: Aller au contenu
+  menu: Menu
+  close: Fermer
+  language: Langue
+  nav_home: Accueil
+  nav_about: Le projet
+  nav_place: Le lieu
+  nav_life: Mode de vie
+  nav_inhabitants: Les habitants
+  nav_activities: Activités
+  nav_volunteer: Volontariat · CES
+  nav_calendar: Calendrier
+  nav_gallery: Galerie
+  nav_support: Nous soutenir
+  nav_contact: Contact
+  nav_yoga: Studios de yoga
+  readMore: Lire la suite
+  discover: Découvrir
+  allActivities: Toutes les activités
+  upcoming: À venir
+  past: Événements passés
+  noEvents: Aucune date annoncée pour le moment — suivez-nous sur Instagram pour les prochaines.
+  viewCalendar: Tout le calendrier
+  viewGallery: Toute la galerie
+  contactUs: Nous contacter
+  details: Plus d’infos
+  dates: Dates
+  location: Lieu
+  price: Prix
+  related: Prochaines dates
+  moreActivities: Autres activités
+  photos: Photos
+  videos: Vidéos
+  all: Tout
+  playVideo: Lire la vidéo
+  prevMonth: Mois précédent
+  nextMonth: Mois suivant
+  ongoing: En cours
+  humans: Humains
+  animals: Animaux
+  plants: Plantes & forêt
+  name: Nom
+  email: E-mail
+  message: Message
+  send: Envoyer
+  sent: Merci ! Votre message a bien été envoyé — nous répondons vite.
+  writeUs: Écrivez-nous
+  call: Appeler
+  followUs: Suivez-nous
+  openMap: Ouvrir dans Maps
+  address: Adresse
+  footerNote: Société civile à but non lucratif · Label de qualité du Corps européen de solidarité
+  yogaCta: Evergreen Yoga Studios
+  trainingsCta: Formations de professeurs
+  newTab: s’ouvre dans un nouvel onglet
+  facts: En bref
+  faq: Questions fréquentes
+  wishlist: Notre liste de souhaits
+  notFound: Page introuvable
+  notFoundText: Ce sentier s’est perdu dans la forêt.
+  backHome: Retour à l’accueil
+  cat_esc: CES
+  cat_retreat: Retraite
+  cat_yoga: Yoga
+  cat_workshop: Atelier
+  cat_community: Communauté
+  cat_other: Événement
+  nav_stories: Témoignages
+  addToCalendar: Ajouter à mon agenda
+  googleCal: Google Agenda
+  appleCal: Apple / Outlook (.ics)
+  subscribeCal: Synchroniser toutes nos dates dans mon agenda
+  timeNote: heure de Grèce
+  donate: Faire un don
+  donateText: Les dons nous aident à acheter matériaux et outils et à continuer d’accueillir. Chaque contribution compte — merci du fond du cœur.
+  accountHolder: Titulaire
+  bank: Banque
+  reference: Référence
+  referenceValue: Votre nom — Don
+  copy: Copier
+  copied: Copié ✓
+  privacy: Confidentialité
+  shareStory: Partagez votre histoire
+  shareStoryText: Vous avez vécu avec nous comme volontaire, invité ou participant ? Écrivez-nous quelques mots — ils apparaîtront ici dès que l’équipe les aura validés.
+  yourName: Votre nom
+  country: Pays
+  experience: Programme & année (ex. CES 2025)
+  yourStory: Votre histoire
+  photoOptional: Photo (facultatif, JPG/PNG/WebP, 6 Mo max.)
+  videoOptional: Lien vidéo YouTube/Vimeo (facultatif)
+  consent: J’accepte que mon nom, mon pays, mon texte et ma photo soient publiés sur ce site, et j’ai lu la politique de confidentialité.
+  submitStory: Envoyer mon témoignage
+  storySent: Merci ! Votre témoignage a été envoyé et apparaîtra dès qu’il sera validé.
+  storyError: Un problème est survenu. Réessayez ou écrivez-nous par e-mail.
+  noStories: Aucun témoignage publié pour l’instant — le vôtre pourrait être le premier.
+  storiesLink: Lire leurs témoignages
+es:
+  skip: Ir al contenido
+  menu: Menú
+  close: Cerrar
+  language: Idioma
+  nav_home: Inicio
+  nav_about: El proyecto
+  nav_place: El lugar
+  nav_life: Forma de vida
+  nav_inhabitants: Los habitantes
+  nav_activities: Actividades
+  nav_volunteer: Voluntariado · CES
+  nav_calendar: Calendario
+  nav_gallery: Galería
+  nav_support: Apóyanos
+  nav_contact: Contacto
+  nav_yoga: Estudios de yoga
+  readMore: Leer más
+  discover: Descubrir
+  allActivities: Todas las actividades
+  upcoming: Próximamente
+  past: Eventos pasados
+  noEvents: No hay fechas anunciadas por ahora — síguenos en Instagram para conocer las próximas.
+  viewCalendar: Calendario completo
+  viewGallery: Galería completa
+  contactUs: Contáctanos
+  details: Más información
+  dates: Fechas
+  location: Lugar
+  price: Precio
+  related: Próximas fechas
+  moreActivities: Más actividades
+  photos: Fotos
+  videos: Vídeos
+  all: Todo
+  playVideo: Reproducir vídeo
+  prevMonth: Mes anterior
+  nextMonth: Mes siguiente
+  ongoing: En curso
+  humans: Personas
+  animals: Animales
+  plants: Plantas y bosque
+  name: Nombre
+  email: Correo
+  message: Mensaje
+  send: Enviar
+  sent: ¡Gracias! Tu mensaje se ha enviado — te responderemos pronto.
+  writeUs: Escríbenos
+  call: Llamar
+  followUs: Síguenos
+  openMap: Abrir en mapas
+  address: Dirección
+  footerNote: Sociedad civil sin ánimo de lucro · Sello de Calidad del Cuerpo Europeo de Solidaridad
+  yogaCta: Evergreen Yoga Studios
+  trainingsCta: Formaciones de profesores
+  newTab: se abre en una pestaña nueva
+  facts: En resumen
+  faq: Preguntas frecuentes
+  wishlist: Lo que necesitamos
+  notFound: Página no encontrada
+  notFoundText: Este sendero se perdió en el bosque.
+  backHome: Volver al inicio
+  cat_esc: CES
+  cat_retreat: Retiro
+  cat_yoga: Yoga
+  cat_workshop: Taller
+  cat_community: Comunidad
+  cat_other: Evento
+  nav_stories: Testimonios
+  addToCalendar: Añadir al calendario
+  googleCal: Google Calendar
+  appleCal: Apple / Outlook (.ics)
+  subscribeCal: Sincronizar todas nuestras fechas en mi calendario
+  timeNote: hora de Grecia
+  donate: Hacer una donación
+  donateText: Las donaciones nos ayudan a comprar materiales y herramientas y a seguir acogiendo. Cada aportación cuenta — gracias de corazón.
+  accountHolder: Titular
+  bank: Banco
+  reference: Concepto
+  referenceValue: Tu nombre — Donación
+  copy: Copiar
+  copied: Copiado ✓
+  privacy: Privacidad
+  shareStory: Comparte tu historia
+  shareStoryText: ¿Viviste con nosotros como voluntario, huésped o participante? Escríbenos unas palabras — aparecerán aquí en cuanto el equipo las apruebe.
+  yourName: Tu nombre
+  country: País
+  experience: Programa y año (p. ej. CES 2025)
+  yourStory: Tu historia
+  photoOptional: Foto (opcional, JPG/PNG/WebP, máx. 6 MB)
+  videoOptional: Enlace de vídeo YouTube/Vimeo (opcional)
+  consent: Acepto que mi nombre, país, texto y foto se publiquen en este sitio y he leído la política de privacidad.
+  submitStory: Enviar mi testimonio
+  storySent: ¡Gracias! Tu testimonio se ha enviado y aparecerá en cuanto se apruebe.
+  storyError: Algo ha fallado. Inténtalo de nuevo o escríbenos por correo.
+  noStories: Aún no hay testimonios publicados — el tuyo podría ser el primero.
+  storiesLink: Lee sus testimonios
+it:
+  skip: Vai al contenuto
+  menu: Menu
+  close: Chiudi
+  language: Lingua
+  nav_home: Home
+  nav_about: Il progetto
+  nav_place: Il luogo
+  nav_life: Stile di vita
+  nav_inhabitants: Gli abitanti
+  nav_activities: Attività
+  nav_volunteer: Volontariato · CES
+  nav_calendar: Calendario
+  nav_gallery: Galleria
+  nav_support: Sostienici
+  nav_contact: Contatti
+  nav_yoga: Studi di yoga
+  readMore: Leggi di più
+  discover: Scopri
+  allActivities: Tutte le attività
+  upcoming: Prossimamente
+  past: Eventi passati
+  noEvents: Nessuna data annunciata al momento — seguici su Instagram per le prossime.
+  viewCalendar: Calendario completo
+  viewGallery: Galleria completa
+  contactUs: Contattaci
+  details: Maggiori info
+  dates: Date
+  location: Luogo
+  price: Prezzo
+  related: Prossime date
+  moreActivities: Altre attività
+  photos: Foto
+  videos: Video
+  all: Tutto
+  playVideo: Riproduci video
+  prevMonth: Mese precedente
+  nextMonth: Mese successivo
+  ongoing: In corso
+  humans: Persone
+  animals: Animali
+  plants: Piante e bosco
+  name: Nome
+  email: Email
+  message: Messaggio
+  send: Invia
+  sent: Grazie! Il tuo messaggio è stato inviato — ti risponderemo presto.
+  writeUs: Scrivici
+  call: Chiama
+  followUs: Seguici
+  openMap: Apri nelle mappe
+  address: Indirizzo
+  footerNote: Società civile senza scopo di lucro · Marchio di qualità del Corpo europeo di solidarietà
+  yogaCta: Evergreen Yoga Studios
+  trainingsCta: Formazioni insegnanti
+  newTab: si apre in una nuova scheda
+  facts: In breve
+  faq: Domande frequenti
+  wishlist: Di cosa abbiamo bisogno
+  notFound: Pagina non trovata
+  notFoundText: Questo sentiero si è perso nel bosco.
+  backHome: Torna alla home
+  cat_esc: CES
+  cat_retreat: Ritiro
+  cat_yoga: Yoga
+  cat_workshop: Workshop
+  cat_community: Comunità
+  cat_other: Evento
+  nav_stories: Testimonianze
+  addToCalendar: Aggiungi al calendario
+  googleCal: Google Calendar
+  appleCal: Apple / Outlook (.ics)
+  subscribeCal: Sincronizza tutte le nostre date nel mio calendario
+  timeNote: ora greca
+  donate: Fai una donazione
+  donateText: Le donazioni ci aiutano ad acquistare materiali e attrezzi e a continuare ad accogliere. Ogni contributo conta — grazie di cuore.
+  accountHolder: Intestatario
+  bank: Banca
+  reference: Causale
+  referenceValue: Il tuo nome — Donazione
+  copy: Copia
+  copied: Copiato ✓
+  privacy: Privacy
+  shareStory: Condividi la tua storia
+  shareStoryText: Hai vissuto con noi come volontario, ospite o partecipante? Scrivici qualche parola — comparirà qui appena il team l’avrà approvata.
+  yourName: Il tuo nome
+  country: Paese
+  experience: Programma e anno (es. CES 2025)
+  yourStory: La tua storia
+  photoOptional: Foto (facoltativa, JPG/PNG/WebP, max 6 MB)
+  videoOptional: Link video YouTube/Vimeo (facoltativo)
+  consent: Accetto che il mio nome, paese, testo e foto siano pubblicati su questo sito e ho letto l’informativa sulla privacy.
+  submitStory: Invia la mia storia
+  storySent: Grazie! La tua storia è stata inviata e comparirà appena approvata.
+  storyError: Qualcosa è andato storto. Riprova o scrivici per email.
+  noStories: Ancora nessuna storia pubblicata — la tua potrebbe essere la prima.
+  storiesLink: Leggi le loro storie
+ru:
+  skip: Перейти к содержанию
+  menu: Меню
+  close: Закрыть
+  language: Язык
+  nav_home: Главная
+  nav_about: О проекте
+  nav_place: Место
+  nav_life: Образ жизни
+  nav_inhabitants: Обитатели
+  nav_activities: Программы
+  nav_volunteer: Волонтёрство · ESC
+  nav_calendar: Календарь
+  nav_gallery: Галерея
+  nav_support: Поддержать
+  nav_contact: Контакты
+  nav_yoga: Студии йоги
+  readMore: Подробнее
+  discover: Узнать больше
+  allActivities: Все программы
+  upcoming: Скоро
+  past: Прошедшие события
+  noEvents: Новых дат пока нет — следите за нами в Instagram, чтобы не пропустить.
+  viewCalendar: Весь календарь
+  viewGallery: Вся галерея
+  contactUs: Связаться с нами
+  details: Подробнее
+  dates: Даты
+  location: Место
+  price: Цена
+  related: Ближайшие даты
+  moreActivities: Другие программы
+  photos: Фото
+  videos: Видео
+  all: Все
+  playVideo: Смотреть видео
+  prevMonth: Предыдущий месяц
+  nextMonth: Следующий месяц
+  ongoing: Идёт сейчас
+  humans: Люди
+  animals: Животные
+  plants: Растения и лес
+  name: Имя
+  email: Эл. почта
+  message: Сообщение
+  send: Отправить
+  sent: Спасибо! Сообщение отправлено — мы скоро ответим.
+  writeUs: Напишите нам
+  call: Позвонить
+  followUs: Мы в соцсетях
+  openMap: Открыть на карте
+  address: Адрес
+  footerNote: Некоммерческая гражданская компания · Знак качества Европейского корпуса солидарности
+  yogaCta: Evergreen Yoga Studios
+  trainingsCta: Обучение преподавателей
+  newTab: откроется в новой вкладке
+  facts: Коротко
+  faq: Вопросы и ответы
+  wishlist: Что нам нужно
+  notFound: Страница не найдена
+  notFoundText: Эта тропинка затерялась в лесу.
+  backHome: На главную
+  cat_esc: ESC
+  cat_retreat: Ретрит
+  cat_yoga: Йога
+  cat_workshop: Мастерская
+  cat_community: Сообщество
+  cat_other: Событие
+  nav_stories: Истории
+  addToCalendar: Добавить в календарь
+  googleCal: Google Календарь
+  appleCal: Apple / Outlook (.ics)
+  subscribeCal: Синхронизировать все даты с моим календарём
+  timeNote: по греческому времени
+  donate: Сделать пожертвование
+  donateText: Пожертвования помогают нам покупать материалы и инструменты и продолжать принимать людей. Важен каждый вклад — спасибо от всего сердца.
+  accountHolder: Получатель
+  bank: Банк
+  reference: Назначение платежа
+  referenceValue: Ваше имя — Пожертвование
+  copy: Копировать
+  copied: Скопировано ✓
+  privacy: Конфиденциальность
+  shareStory: Поделитесь своей историей
+  shareStoryText: Вы жили у нас как волонтёр, гость или участник? Напишите пару слов — они появятся здесь после одобрения командой.
+  yourName: Ваше имя
+  country: Страна
+  experience: Программа и год (напр. ESC 2025)
+  yourStory: Ваша история
+  photoOptional: Фото (по желанию, JPG/PNG/WebP, до 6 МБ)
+  videoOptional: Ссылка на видео YouTube/Vimeo (по желанию)
+  consent: Я согласен(на) на публикацию моего имени, страны, текста и фото на этом сайте и прочитал(а) политику конфиденциальности.
+  submitStory: Отправить
+  storySent: Спасибо! Ваша история отправлена и появится после одобрения.
+  storyError: Что-то пошло не так. Попробуйте ещё раз или напишите нам на почту.
+  noStories: Пока нет опубликованных историй — ваша может стать первой.
+  storiesLink: Читать их истории
+de:
+  skip: Zum Inhalt springen
+  menu: Menü
+  close: Schließen
+  language: Sprache
+  nav_home: Start
+  nav_about: Das Projekt
+  nav_place: Der Ort
+  nav_life: Lebensweise
+  nav_inhabitants: Die Bewohner
+  nav_activities: Angebote
+  nav_volunteer: Freiwillige · ESK
+  nav_calendar: Kalender
+  nav_gallery: Galerie
+  nav_support: Unterstützen
+  nav_contact: Kontakt
+  nav_yoga: Yogastudios
+  readMore: Weiterlesen
+  discover: Entdecken
+  allActivities: Alle Angebote
+  upcoming: Demnächst
+  past: Vergangene Termine
+  noEvents: Gerade sind keine Termine angekündigt — folge uns auf Instagram, um die nächsten zu erfahren.
+  viewCalendar: Ganzer Kalender
+  viewGallery: Ganze Galerie
+  contactUs: Kontakt aufnehmen
+  details: Mehr Infos
+  dates: Termine
+  location: Ort
+  price: Preis
+  related: Nächste Termine
+  moreActivities: Weitere Angebote
+  photos: Fotos
+  videos: Videos
+  all: Alle
+  playVideo: Video abspielen
+  prevMonth: Vorheriger Monat
+  nextMonth: Nächster Monat
+  ongoing: Läuft gerade
+  humans: Menschen
+  animals: Tiere
+  plants: Pflanzen & Wald
+  name: Name
+  email: E-Mail
+  message: Nachricht
+  send: Senden
+  sent: Danke! Deine Nachricht wurde gesendet — wir antworten bald.
+  writeUs: Schreib uns
+  call: Anrufen
+  followUs: Folge uns
+  openMap: In Karten öffnen
+  address: Adresse
+  footerNote: Gemeinnützige Zivilgesellschaft · Qualitätssiegel des Europäischen Solidaritätskorps
+  yogaCta: Evergreen Yoga Studios
+  trainingsCta: Lehrerausbildungen
+  newTab: öffnet in neuem Tab
+  facts: Auf einen Blick
+  faq: Fragen & Antworten
+  wishlist: Unsere Wunschliste
+  notFound: Seite nicht gefunden
+  notFoundText: Dieser Pfad hat sich im Wald verlaufen.
+  backHome: Zur Startseite
+  cat_esc: ESK
+  cat_retreat: Retreat
+  cat_yoga: Yoga
+  cat_workshop: Workshop
+  cat_community: Gemeinschaft
+  cat_other: Termin
+  nav_stories: Erfahrungen
+  addToCalendar: Zum Kalender hinzufügen
+  googleCal: Google Kalender
+  appleCal: Apple / Outlook (.ics)
+  subscribeCal: Alle Termine mit meinem Kalender synchronisieren
+  timeNote: griechische Zeit
+  donate: Spenden
+  donateText: Spenden helfen uns, Material und Werkzeug zu kaufen und weiter Menschen aufzunehmen. Jeder Beitrag zählt — von Herzen danke.
+  accountHolder: Kontoinhaber
+  bank: Bank
+  reference: Verwendungszweck
+  referenceValue: Dein Name — Spende
+  copy: Kopieren
+  copied: Kopiert ✓
+  privacy: Datenschutz
+  shareStory: Teile deine Geschichte
+  shareStoryText: Warst du als Freiwillige·r, Gast oder Teilnehmer·in bei uns? Schreib ein paar Worte — sie erscheinen hier, sobald unser Team sie freigegeben hat.
+  yourName: Dein Name
+  country: Land
+  experience: Programm & Jahr (z. B. ESK 2025)
+  yourStory: Deine Geschichte
+  photoOptional: Foto (optional, JPG/PNG/WebP, max. 6 MB)
+  videoOptional: YouTube/Vimeo-Videolink (optional)
+  consent: Ich bin einverstanden, dass Name, Land, Text und Foto auf dieser Website veröffentlicht werden, und habe die Datenschutzerklärung gelesen.
+  submitStory: Absenden
+  storySent: Danke! Deine Geschichte wurde gesendet und erscheint nach der Freigabe.
+  storyError: Etwas ist schiefgelaufen. Versuch es erneut oder schreib uns eine E-Mail.
+  noStories: Noch keine Geschichten veröffentlicht — deine könnte die erste sein.
+  storiesLink: Ihre Geschichten lesen
+pt:
+  skip: Ir para o conteúdo
+  menu: Menu
+  close: Fechar
+  language: Idioma
+  nav_home: Início
+  nav_about: O projeto
+  nav_place: O lugar
+  nav_life: Modo de vida
+  nav_inhabitants: Os habitantes
+  nav_activities: Atividades
+  nav_volunteer: Voluntariado · CES
+  nav_calendar: Calendário
+  nav_gallery: Galeria
+  nav_support: Apoie-nos
+  nav_contact: Contacto
+  nav_yoga: Estúdios de yoga
+  readMore: Ler mais
+  discover: Descobrir
+  allActivities: Todas as atividades
+  upcoming: Em breve
+  past: Eventos passados
+  noEvents: Ainda não há datas anunciadas — siga-nos no Instagram para saber as próximas.
+  viewCalendar: Calendário completo
+  viewGallery: Galeria completa
+  contactUs: Fale connosco
+  details: Mais informações
+  dates: Datas
+  location: Local
+  price: Preço
+  related: Próximas datas
+  moreActivities: Mais atividades
+  photos: Fotos
+  videos: Vídeos
+  all: Tudo
+  playVideo: Reproduzir vídeo
+  prevMonth: Mês anterior
+  nextMonth: Mês seguinte
+  ongoing: A decorrer
+  humans: Pessoas
+  animals: Animais
+  plants: Plantas e floresta
+  name: Nome
+  email: E-mail
+  message: Mensagem
+  send: Enviar
+  sent: Obrigado! A sua mensagem foi enviada — responderemos em breve.
+  writeUs: Escreva-nos
+  call: Ligar
+  followUs: Siga-nos
+  openMap: Abrir no mapa
+  address: Morada
+  footerNote: Sociedade civil sem fins lucrativos · Selo de Qualidade do Corpo Europeu de Solidariedade
+  yogaCta: Evergreen Yoga Studios
+  trainingsCta: Formações de professores
+  newTab: abre num novo separador
+  facts: Em resumo
+  faq: Perguntas frequentes
+  wishlist: Do que precisamos
+  notFound: Página não encontrada
+  notFoundText: Este trilho perdeu-se na floresta.
+  backHome: Voltar ao início
+  cat_esc: CES
+  cat_retreat: Retiro
+  cat_yoga: Yoga
+  cat_workshop: Workshop
+  cat_community: Comunidade
+  cat_other: Evento
+  nav_stories: Testemunhos
+  addToCalendar: Adicionar ao calendário
+  googleCal: Google Agenda
+  appleCal: Apple / Outlook (.ics)
+  subscribeCal: Sincronizar todas as datas no meu calendário
+  timeNote: hora da Grécia
+  donate: Fazer um donativo
+  donateText: Os donativos ajudam-nos a comprar materiais e ferramentas e a continuar a acolher. Cada contribuição conta — obrigado do fundo do coração.
+  accountHolder: Titular
+  bank: Banco
+  reference: Referência
+  referenceValue: O seu nome — Donativo
+  copy: Copiar
+  copied: Copiado ✓
+  privacy: Privacidade
+  shareStory: Partilhe a sua história
+  shareStoryText: Viveu connosco como voluntário, hóspede ou participante? Escreva algumas palavras — vão aparecer aqui assim que a equipa as aprovar.
+  yourName: O seu nome
+  country: País
+  experience: Programa e ano (ex. CES 2025)
+  yourStory: A sua história
+  photoOptional: Foto (opcional, JPG/PNG/WebP, máx. 6 MB)
+  videoOptional: Link de vídeo YouTube/Vimeo (opcional)
+  consent: Aceito que o meu nome, país, texto e foto sejam publicados neste site e li a política de privacidade.
+  submitStory: Enviar o meu testemunho
+  storySent: Obrigado! O seu testemunho foi enviado e vai aparecer assim que for aprovado.
+  storyError: Algo correu mal. Tente de novo ou escreva-nos por e-mail.
+  noStories: Ainda não há testemunhos publicados — o seu pode ser o primeiro.
+  storiesLink: Ler os seus testemunhos

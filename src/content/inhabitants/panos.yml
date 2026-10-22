@@ -1,34 +1,34 @@
 el:
-  kind: "human"
-  order: 1
-  name: "Panos Katsandris"
-  role: "Ιδρυτής του Evergreen Yoga · φορέας του οράματος"
-  bio: "Με σπουδές πολιτικού μηχανικού και αρχιτεκτονικής, ίδρυσε τα Evergreen Yoga Studios στην Αθήνα το 2012. Οδηγεί τις εκπαιδεύσεις δασκάλων και τα εντατικά προγράμματα στο άσραμ."
+  kind: human
+  order: 3
+  name: Panos Katsandris
+  role: Ιδρυτής του Evergreen Yoga · φορέας του οράματος
+  bio: Με σπουδές πολιτικού μηχανικού και αρχιτεκτονικής, ίδρυσε τα Evergreen Yoga Studios στην Αθήνα το 2012. Οδηγεί τις εκπαιδεύσεις δασκάλων και τα εντατικά προγράμματα στο άσραμ.
 en:
-  name: "Panos Katsandris"
-  role: "Founder of Evergreen Yoga · vision holder"
-  bio: "With a background in civil engineering and architecture, he founded Evergreen Yoga Studios in Athens in 2012. He leads the teacher trainings and immersions at the ashram."
+  name: Panos Katsandris
+  role: Founder of Evergreen Yoga · vision holder
+  bio: With a background in civil engineering and architecture, he founded Evergreen Yoga Studios in Athens in 2012. He leads the teacher trainings and immersions at the ashram.
 fr:
-  name: "Panos Katsandris"
-  role: "Fondateur d’Evergreen Yoga · porteur de la vision"
-  bio: "Ingénieur civil et architecte de formation, il a fondé Evergreen Yoga Studios à Athènes en 2012. Il guide les formations de professeurs et les immersions à l’ashram."
+  name: Panos Katsandris
+  role: Fondateur d’Evergreen Yoga · porteur de la vision
+  bio: Ingénieur civil et architecte de formation, il a fondé Evergreen Yoga Studios à Athènes en 2012. Il guide les formations de professeurs et les immersions à l’ashram.
 es:
-  name: "Panos Katsandris"
-  role: "Fundador de Evergreen Yoga · guardián de la visión"
-  bio: "Con formación en ingeniería civil y arquitectura, fundó Evergreen Yoga Studios en Atenas en 2012. Guía las formaciones de profesores y las inmersiones en el ashram."
+  name: Panos Katsandris
+  role: Fundador de Evergreen Yoga · guardián de la visión
+  bio: Con formación en ingeniería civil y arquitectura, fundó Evergreen Yoga Studios en Atenas en 2012. Guía las formaciones de profesores y las inmersiones en el ashram.
 it:
-  name: "Panos Katsandris"
-  role: "Fondatore di Evergreen Yoga · custode della visione"
-  bio: "Con una formazione in ingegneria civile e architettura, ha fondato Evergreen Yoga Studios ad Atene nel 2012. Guida le formazioni insegnanti e le immersioni all’ashram."
+  name: Panos Katsandris
+  role: Fondatore di Evergreen Yoga · custode della visione
+  bio: Con una formazione in ingegneria civile e architettura, ha fondato Evergreen Yoga Studios ad Atene nel 2012. Guida le formazioni insegnanti e le immersioni all’ashram.
 ru:
-  name: "Panos Katsandris"
-  role: "Основатель Evergreen Yoga · хранитель видения"
-  bio: "Инженер-строитель и архитектор по образованию, он основал Evergreen Yoga Studios в Афинах в 2012 году. Ведёт обучение преподавателей и интенсивы в ашраме."
+  name: Panos Katsandris
+  role: Основатель Evergreen Yoga · хранитель видения
+  bio: Инженер-строитель и архитектор по образованию, он основал Evergreen Yoga Studios в Афинах в 2012 году. Ведёт обучение преподавателей и интенсивы в ашраме.
 de:
-  name: "Panos Katsandris"
-  role: "Gründer von Evergreen Yoga · Träger der Vision"
-  bio: "Mit einem Hintergrund in Bauingenieurwesen und Architektur gründete er 2012 die Evergreen Yoga Studios in Athen. Er leitet die Lehrerausbildungen und Intensivwochen im Ashram."
+  name: Panos Katsandris
+  role: Gründer von Evergreen Yoga · Träger der Vision
+  bio: Mit einem Hintergrund in Bauingenieurwesen und Architektur gründete er 2012 die Evergreen Yoga Studios in Athen. Er leitet die Lehrerausbildungen und Intensivwochen im Ashram.
 pt:
-  name: "Panos Katsandris"
-  role: "Fundador do Evergreen Yoga · guardião da visão"
-  bio: "Com formação em engenharia civil e arquitetura, fundou os Evergreen Yoga Studios em Atenas em 2012. Orienta as formações de professores e as imersões no ashram."
+  name: Panos Katsandris
+  role: Fundador do Evergreen Yoga · guardião da visão
+  bio: Com formação em engenharia civil e arquitetura, fundou os Evergreen Yoga Studios em Atenas em 2012. Orienta as formações de professores e as imersões no ashram.

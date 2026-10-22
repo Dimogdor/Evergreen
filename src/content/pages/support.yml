@@ -1,5 +1,5 @@
 el:
-  image: /src/assets/uploads/shala-sign.webp
+  image: /src/assets/uploads/building-frame-2026.webp
   title: Στηρίξτε μας
   intro: Το Evergreen μεγαλώνει χάρη σε πολλά χέρια — δείτε πώς μπορούν να βοηθήσουν και τα δικά σας.
   sections:
@@ -9,7 +9,7 @@ el:
   - heading: Δωρίστε υλικά & εργαλεία
     text: Χτίζουμε ένα οικοχωριό με πολύ περιορισμένα μέσα. Καλά εργαλεία και μεταχειρισμένα υλικά κάνουν τεράστια διαφορά — δείτε τη λίστα παρακάτω. Αν μπορείτε να δώσετε, να δανείσετε ή να μεταφέρετε κάτι, [επικοινωνήστε μαζί μας](/el/contact/).
   - heading: Γίνετε εθελοντής
-    text: Ελάτε μέσω του [Ευρωπαϊκού Σώματος Αλληλεγγύης](/el/activities/esc-volunteering/) αν είστε 18–30 ετών, ή [μείνετε μαζί μας](/el/activities/stay-with-us/) σε οποιαδήποτε ηλικία. Κάθε ζευγάρι χέρια βοηθά τον κήπο, τα κτίρια και την κοινότητα να μεγαλώσουν.
+    text: Ελάτε μέσω του [Ευρωπαϊκού Σώματος Αλληλεγγύης](/el/activities/esc-volunteering/) αν είστε 18–30 ετών, ή [μείνετε μαζί μας](/el/activities/stay-with-us/). Κάθε ζευγάρι χέρια βοηθά τον κήπο, τα κτίρια και την κοινότητα να μεγαλώσουν.
   - heading: Βοήθεια από μακριά
     text: Δεν είστε κοντά; Πάντα υπάρχουν δουλειές που γίνονται εξ αποστάσεως — σχεδιασμός, μεταφράσεις, επικοινωνία, εύρεση υλικών. Μπορείτε επίσης να γίνετε **πρεσβευτής του Evergreen**, βοηθώντας την κοινότητα να μεγαλώσει και να συναντήσει ανθρώπους με την ίδια καρδιά.
   - heading: Συμμετέχετε σε ένα πρόγραμμα
@@ -49,7 +49,7 @@ en:
   - heading: Donate materials & tools
     text: We are building an eco-village with very limited means. Good tools and second-hand materials make a huge difference — see the wishlist below. If you can give, lend or transport something, please [contact us](/en/contact/).
   - heading: Volunteer
-    text: Join us through the [European Solidarity Corps](/en/activities/esc-volunteering/) if you are 18–30, or [stay with us](/en/activities/stay-with-us/) at any age. Every pair of hands helps the garden, the buildings and the community grow.
+    text: Join us through the [European Solidarity Corps](/en/activities/esc-volunteering/) if you are 18–30, or [stay with us](/en/activities/stay-with-us/). Every pair of hands helps the garden, the buildings and the community grow.
   - heading: Help from afar
     text: Not nearby? There are always tasks to be done remotely — design, translation, communication, finding materials. You can also become an **Evergreen ambassador**, helping us grow our community and connect with like-hearted people.
   - heading: Join a programme
@@ -89,7 +89,7 @@ fr:
   - heading: Donner du matériel & des outils
     text: Nous construisons un écovillage avec des moyens très limités. De bons outils et des matériaux de seconde main font une énorme différence — voir la liste ci-dessous. Si vous pouvez donner, prêter ou transporter quelque chose, [contactez-nous](/fr/contact/).
   - heading: Devenir volontaire
-    text: Rejoignez-nous via le [Corps européen de solidarité](/fr/activities/esc-volunteering/) si vous avez 18 à 30 ans, ou [séjournez chez nous](/fr/activities/stay-with-us/) à tout âge. Chaque paire de mains aide le jardin, les bâtiments et la communauté à grandir.
+    text: Rejoignez-nous via le [Corps européen de solidarité](/fr/activities/esc-volunteering/) si vous avez 18 à 30 ans, ou [séjournez chez nous](/fr/activities/stay-with-us/). Chaque paire de mains aide le jardin, les bâtiments et la communauté à grandir.
   - heading: Aider à distance
     text: Pas à côté ? Il y a toujours des tâches à faire à distance — graphisme, traduction, communication, recherche de matériaux. Vous pouvez aussi devenir **ambassadeur d’Evergreen** et nous aider à faire grandir la communauté.
   - heading: Participer à un programme
@@ -129,7 +129,7 @@ es:
   - heading: Dona materiales y herramientas
     text: Estamos construyendo una ecoaldea con medios muy limitados. Buenas herramientas y materiales de segunda mano marcan una enorme diferencia — mira la lista de abajo. Si puedes dar, prestar o transportar algo, [contáctanos](/es/contact/).
   - heading: Hazte voluntario
-    text: Únete a través del [Cuerpo Europeo de Solidaridad](/es/activities/esc-volunteering/) si tienes entre 18 y 30 años, o [quédate con nosotros](/es/activities/stay-with-us/) a cualquier edad. Cada par de manos ayuda a que la huerta, los edificios y la comunidad crezcan.
+    text: Únete a través del [Cuerpo Europeo de Solidaridad](/es/activities/esc-volunteering/) si tienes entre 18 y 30 años, o [quédate con nosotros](/es/activities/stay-with-us/). Cada par de manos ayuda a que la huerta, los edificios y la comunidad crezcan.
   - heading: Ayudar a distancia
     text: ¿No estás cerca? Siempre hay tareas que hacer a distancia — diseño, traducción, comunicación, búsqueda de materiales. También puedes ser **embajador de Evergreen** y ayudarnos a hacer crecer la comunidad.
   - heading: Participa en un programa
@@ -169,7 +169,7 @@ it:
   - heading: Dona materiali e attrezzi
     text: Stiamo costruendo un ecovillaggio con mezzi molto limitati. Buoni attrezzi e materiali di seconda mano fanno un’enorme differenza — vedi la lista qui sotto. Se puoi donare, prestare o trasportare qualcosa, [contattaci](/it/contact/).
   - heading: Diventa volontario
-    text: Unisciti a noi con il [Corpo europeo di solidarietà](/it/activities/esc-volunteering/) se hai tra i 18 e i 30 anni, oppure [vieni a stare da noi](/it/activities/stay-with-us/) a qualsiasi età. Ogni paio di mani aiuta l’orto, gli edifici e la comunità a crescere.
+    text: Unisciti a noi con il [Corpo europeo di solidarietà](/it/activities/esc-volunteering/) se hai tra i 18 e i 30 anni, oppure [vieni a stare da noi](/it/activities/stay-with-us/). Ogni paio di mani aiuta l’orto, gli edifici e la comunità a crescere.
   - heading: Aiutare a distanza
     text: Non sei vicino? Ci sono sempre compiti da svolgere a distanza — grafica, traduzioni, comunicazione, ricerca di materiali. Puoi anche diventare **ambasciatore di Evergreen** e aiutarci a far crescere la comunità.
   - heading: Partecipa a un programma
@@ -209,7 +209,7 @@ ru:
   - heading: Подарите материалы и инструменты
     text: Мы строим экодеревню с очень скромными средствами. Хорошие инструменты и б/у материалы очень много значат — посмотрите список ниже. Если вы можете что-то подарить, одолжить или привезти, [свяжитесь с нами](/ru/contact/).
   - heading: Станьте волонтёром
-    text: Приезжайте по программе [Европейского корпуса солидарности](/ru/activities/esc-volunteering/), если вам 18–30 лет, или [поживите у нас](/ru/activities/stay-with-us/) в любом возрасте. Каждая пара рук помогает расти огороду, постройкам и сообществу.
+    text: Приезжайте по программе [Европейского корпуса солидарности](/ru/activities/esc-volunteering/), если вам 18–30 лет, или [поживите у нас](/ru/activities/stay-with-us/). Каждая пара рук помогает расти огороду, постройкам и сообществу.
   - heading: Помощь издалека
     text: Вы не рядом? Всегда есть задачи, которые можно делать удалённо, — дизайн, переводы, коммуникация, поиск материалов. Вы также можете стать **амбассадором Evergreen** и помочь сообществу расти.
   - heading: Примите участие в программе
@@ -249,7 +249,7 @@ de:
   - heading: Material & Werkzeug spenden
     text: Wir bauen ein Ökodorf mit sehr begrenzten Mitteln. Gutes Werkzeug und gebrauchte Materialien machen einen riesigen Unterschied — siehe unsere Wunschliste unten. Wenn du etwas geben, leihen oder transportieren kannst, [melde dich bei uns](/de/contact/).
   - heading: Freiwillig mitmachen
-    text: Komm über das [Europäische Solidaritätskorps](/de/activities/esc-volunteering/), wenn du 18–30 bist, oder [bleib eine Weile bei uns](/de/activities/stay-with-us/) — in jedem Alter. Jedes Paar Hände hilft Garten, Gebäuden und Gemeinschaft beim Wachsen.
+    text: Komm über das [Europäische Solidaritätskorps](/de/activities/esc-volunteering/), wenn du 18–30 bist, oder [bleib eine Weile bei uns](/de/activities/stay-with-us/). Jedes Paar Hände hilft Garten, Gebäuden und Gemeinschaft beim Wachsen.
   - heading: Aus der Ferne helfen
     text: Nicht in der Nähe? Es gibt immer Aufgaben, die man aus der Ferne erledigen kann — Gestaltung, Übersetzung, Kommunikation, Materialsuche. Du kannst auch **Evergreen-Botschafter·in** werden und uns helfen, die Gemeinschaft wachsen zu lassen.
   - heading: An einem Programm teilnehmen
@@ -289,7 +289,7 @@ pt:
   - heading: Doe materiais e ferramentas
     text: Estamos a construir uma ecoaldeia com meios muito limitados. Boas ferramentas e materiais em segunda mão fazem uma enorme diferença — veja a lista abaixo. Se puder dar, emprestar ou transportar algo, [contacte-nos](/pt/contact/).
   - heading: Seja voluntário
-    text: Junte-se a nós através do [Corpo Europeu de Solidariedade](/pt/activities/esc-volunteering/) se tiver entre 18 e 30 anos, ou [fique connosco](/pt/activities/stay-with-us/) em qualquer idade. Cada par de mãos ajuda a horta, os edifícios e a comunidade a crescer.
+    text: Junte-se a nós através do [Corpo Europeu de Solidariedade](/pt/activities/esc-volunteering/) se tiver entre 18 e 30 anos, ou [fique connosco](/pt/activities/stay-with-us/). Cada par de mãos ajuda a horta, os edifícios e a comunidade a crescer.
   - heading: Ajudar à distância
     text: Não está perto? Há sempre tarefas para fazer à distância — design, tradução, comunicação, procura de materiais. Também pode tornar-se **embaixador do Evergreen** e ajudar-nos a fazer crescer a comunidade.
   - heading: Participe num programa

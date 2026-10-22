@@ -1,5 +1,4 @@
 # Builds the site and publishes it on GitHub Pages at every push to main.
-# (Switch to Cloudflare Pages later: see README — then this file can be deleted.)
 name: Deploy to GitHub Pages
 on:
   push:
@@ -27,8 +26,9 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          SITE_URL: https://dimogdor.github.io
-          BASE_PATH: /Evergreen
+          # Own domain: set the repository variables SITE_URL (https://evergreenproject.gr) and BASE_PATH (/) — see README.
+          SITE_URL: ${{ vars.SITE_URL || 'https://dimogdor.github.io' }}
+          BASE_PATH: ${{ vars.BASE_PATH || '/Evergreen' }}
       - uses: actions/configure-pages@v5
         with:
           enablement: true

@@ -7,6 +7,7 @@ on:
     paths: ['public/uploads/videos/**']
 permissions:
   contents: write
+  actions: write # to start the deploy: pushes made by this workflow don't trigger it
 jobs:
   compress:
     runs-on: ubuntu-latest
@@ -26,8 +27,10 @@ jobs:
             sed -i "s#/uploads/videos/$(basename "$f")#/uploads/videos/$(basename "$out")#g" src/content/albums/*.yml
           done
       - name: Commit
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A public/uploads/videos src/content/albums
-          if ! git diff --cached --quiet; then git commit -m "Compress uploaded videos" && git push; fi
+          if ! git diff --cached --quiet; then git commit -m "Compress uploaded videos" && git push && gh workflow run deploy.yml; fi

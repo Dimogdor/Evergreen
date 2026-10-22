@@ -1,0 +1,13 @@
+---
+import Img from './Img.astro';
+import Video from './Video.astro';
+
+// A visitor's story. Text is shown exactly as written (escaped, never interpreted as HTML).
+const { s } = Astro.props;
+---
+<figure class="story">
+  {s.photo && <div class="media"><Img src={s.photo} alt={s.name} sizes="120px" /></div>}
+  <blockquote>{s.quote}</blockquote>
+  <figcaption><strong>{s.name}</strong>{s.country && ` · ${s.country}`}{s.project && <span class="label"> — {s.project}</span>}</figcaption>
+  {s.video && <Video url={s.video} title={s.name} />}
+</figure>

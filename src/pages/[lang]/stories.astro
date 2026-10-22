@@ -1,0 +1,62 @@
+---
+import Base from '../../layouts/Base.astro';
+import Story from '../../components/Story.astro';
+import { locales, t, type Lang } from '../../i18n';
+import { href, one, stories } from '../../lib';
+
+export const getStaticPaths = () => locales.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const _ = t(lang);
+const page = await one('pages', 'stories', lang);
+const site = await one('settings', 'site', lang);
+const list = await stories();
+const api = String(site.apiUrl || '').replace(/\/$/, '');
+---
+<Base lang={lang} title={page.title} description={page.intro}>
+  <section class="wrap page-hero">
+    <p class="label">{_('nav_stories')}</p>
+    <h1>{page.title}</h1>
+    {page.intro && <p class="lead">{page.intro}</p>}
+  </section>
+
+  <section class="wrap section" style="padding-top: 0">
+    {list.length ? <div class="stories">{list.map((s) => <Story s={s} />)}</div> : <p class="muted">{_('noStories')}</p>}
+  </section>
+
+  <section class="section sand-box" id="share">
+    <div class="wrap block text-only" style="border: 0; padding-block: 0">
+      <div>
+        <h2>{_('shareStory')}</h2>
+        <p class="muted">{_('shareStoryText')}</p>
+      </div>
+      {api ? (
+        <form class="contact" method="POST" action={`${api}/testimonial`} enctype="multipart/form-data">
+          <p class="notice" hidden data-status="sent">{_('storySent')}</p>
+          <p class="notice error" hidden data-status="error">{_('storyError')}</p>
+          <input type="hidden" name="return" value={new URL(href(lang, 'stories'), Astro.site).href} />
+          <input type="hidden" name="t" value="" />
+          <label class="hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off" /></label>
+          <label>{_('yourName')}<input name="name" required maxlength="80" autocomplete="name" /></label>
+          <label>{_('country')}<input name="country" maxlength="60" autocomplete="country-name" /></label>
+          <label>{_('experience')}<input name="project" maxlength="80" /></label>
+          <label>{_('yourStory')}<textarea name="quote" required minlength="20" maxlength="2500"></textarea></label>
+          <label>{_('photoOptional')}<input type="file" name="photo" accept="image/jpeg,image/png,image/webp" /></label>
+          <label>{_('videoOptional')}<input type="url" name="video" maxlength="200" placeholder="https://youtu.be/…" /></label>
+          <label class="check"><input type="checkbox" name="consent" value="yes" required /> <span>{_('consent')} <a href={href(lang, 'privacy')}>{_('privacy')}</a></span></label>
+          {site.turnstileKey && <div class="cf-turnstile" data-sitekey={site.turnstileKey}></div>}
+          <button class="btn solid" type="submit">{_('submitStory')}</button>
+        </form>
+      ) : (
+        <p><a class="btn solid" href={`mailto:${site.email}?subject=${encodeURIComponent(_('shareStory'))}`}>{_('writeUs')}</a></p>
+      )}
+    </div>
+  </section>
+  {site.turnstileKey && <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>}
+</Base>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>('form[action$="/testimonial"]');
+  if (form) (form.elements.namedItem('t') as HTMLInputElement).value = String(Date.now());
+  const status = new URLSearchParams(location.search).get('story');
+  if (status) document.querySelector<HTMLElement>(`[data-status="${status === 'sent' ? 'sent' : 'error'}"]`)!.hidden = false;
+</script>

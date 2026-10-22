@@ -1,6 +1,10 @@
 el:
   order: 6
   photos:
+  - /src/assets/uploads/cat-on-frame-2026.webp
+  - /src/assets/uploads/cat-and-dog-building-2026.webp
+  - /src/assets/uploads/cat-supervisor-2026.webp
+  - /src/assets/uploads/cat-tent-frame-2026.webp
   - /src/assets/uploads/cat-lap.webp
   - /src/assets/uploads/kitten-shoulder.webp
   - /src/assets/uploads/cat-blanket.webp

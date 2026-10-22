@@ -1,5 +1,5 @@
 ---
-// Generic content page: about, place, life, inhabitants, support, contact (+ any page added in the CMS).
+// Generic content page: about, place, life, inhabitants, support, contact, privacy — and every "Extra page" made in /admin.
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Img from '../../components/Img.astro';
@@ -8,20 +8,27 @@ import { locales, t, type Lang } from '../../i18n';
 import { href, list, md, one } from '../../lib';
 
 export async function getStaticPaths() {
-  // home, activities, calendar and gallery have their own templates
-  const pages = (await getCollection('pages' as any)).filter((p: any) => !['home', 'activities', 'calendar', 'gallery'].includes(p.id));
-  return locales.flatMap((lang) => pages.map((p: any) => ({ params: { lang, page: p.id } })));
+  // These have their own templates.
+  const own = ['home', 'activities', 'calendar', 'gallery', 'stories'];
+  const pages = (await getCollection('pages' as any)).filter((p: any) => !own.includes(p.id)).map((p: any) => p.id);
+  const reserved = [...own, ...pages, 'events', 'admin'];
+  const extra = (await list('extra', 'en')).map((p: any) => p.id).filter((id: string) => !reserved.includes(id));
+  const all = [...pages.map((id: string) => [id, 'pages']), ...extra.map((id: string) => [id, 'extra'])];
+  return locales.flatMap((lang) => all.map(([page, collection]) => ({ params: { lang, page }, props: { collection } })));
 }
 const lang = Astro.params.lang as Lang;
 const id = Astro.params.page!;
 const _ = t(lang);
-const page = await one('pages', id, lang);
+const page = await one(Astro.props.collection, id, lang);
 const site = await one('settings', 'site', lang);
 
 const kinds = [['human', 'humans'], ['animal', 'animals'], ['plant', 'plants']] as const;
 const beings = id === 'inhabitants' ? (await list('inhabitants', lang)).sort((a, b) => (a.order ?? 99) - (b.order ?? 99)) : [];
-const wa = site.whatsapp && `https://wa.me/${String(site.whatsapp).replace(/\D/g, '')}`;
+const initials = (name = '') => { const w = name.match(/\p{L}+/gu) ?? []; return ((w[0]?.[0] ?? '') + (w.length > 1 ? w.at(-1)![0] : '')).toUpperCase(); };
+const tel = (p: string) => `tel:${p.replace(/[^\d+]/g, '')}`;
 const { lat, lng } = site;
+const iban = String(site.iban || '').replace(/\s/g, '');
+const ibanPretty = iban.replace(/(.{4})/g, '$1 ').trim();
 ---
 <Base lang={lang} title={page.title} description={page.intro} image={page.image}>
   <section class="wrap page-hero">
@@ -32,6 +39,22 @@ const { lat, lng } = site;
   {page.image && <Img class="cover" src={page.image} alt="" eager />}
 
   <div class="wrap section">
+    {id === 'support' && iban && (
+      <section class="donate" id="donate">
+        <div>
+          <p class="label">{_('donate')}</p>
+          <h2>{_('donate')}</h2>
+          <p class="muted">{_('donateText')}</p>
+        </div>
+        <dl class="facts" style="grid-template-columns: 1fr">
+          <div><dt class="label">IBAN</dt><dd class="iban"><span>{ibanPretty}</span> <button type="button" class="btn copy" data-copy={iban} data-done={_('copied')}>{_('copy')}</button></dd></div>
+          {site.accountHolder && <div><dt class="label">{_('accountHolder')}</dt><dd>{site.accountHolder}</dd></div>}
+          {site.bank && <div><dt class="label">{_('bank')}</dt><dd>{site.bank}{site.bic && ` · BIC ${site.bic}`}</dd></div>}
+          <div><dt class="label">{_('reference')}</dt><dd>{_('referenceValue')}</dd></div>
+        </dl>
+      </section>
+    )}
+
     <Blocks sections={page.sections} />
 
     {page.facts?.length > 0 && (
@@ -59,7 +82,7 @@ const { lat, lng } = site;
           <div class="grid cols-4">
             {group.map((b) => (
               <article class="card person">
-                <div class="media" style="border-radius: 50%; width: min(100%, 240px)"><Img src={b.photo} alt={b.name} sizes="240px" /></div>
+                <div class="media avatar">{b.photo ? <Img src={b.photo} alt={b.name} sizes="240px" /> : <span aria-hidden="true">{initials(b.name)}</span>}</div>
                 {b.role && <p class="role">{b.role}</p>}
                 <h3>{b.name}</h3>
                 {b.bio && <div class="muted" set:html={md(b.bio)} />}
@@ -75,8 +98,7 @@ const { lat, lng } = site;
         <div>
           <ul class="contact-list">
             {site.email && <li><span class="label">{_('email')}</span><a href={`mailto:${site.email}`}>{site.email}</a></li>}
-            {site.phone && <li><span class="label">{_('call')}</span><a href={`tel:${site.phone.replace(/\s/g, '')}`}>{site.phone}</a></li>}
-            {wa && <li><span class="label">{_('whatsapp')}</span><a href={wa} target="_blank" rel="noopener">{site.phone}</a></li>}
+            {site.phone && <li><span class="label">{_('call')}</span><a href={tel(site.phone)}>{site.phone}</a></li>}
             {site.messenger && <li><span class="label">Messenger</span><a class="ext" href={site.messenger} target="_blank" rel="noopener">{site.name}</a></li>}
             {site.instagram && <li><span class="label">Instagram</span><a class="ext" href={site.instagram} target="_blank" rel="noopener">@{site.instagram.split('/').filter(Boolean).pop()}</a></li>}
             {site.facebook && <li><span class="label">Facebook</span><a class="ext" href={site.facebook} target="_blank" rel="noopener">{site.name}</a></li>}
@@ -88,23 +110,36 @@ const { lat, lng } = site;
             <p style="margin-top: 12px"><a class="arrow ext" href={`https://www.google.com/maps/search/?api=1&query=${lat},${lng}`} target="_blank" rel="noopener">{_('openMap')}</a></p>
           </>}
         </div>
-        {site.formKey ? (
-          <form class="contact" id="form" action="https://api.web3forms.com/submit" method="POST">
-            <h2>{_('writeUs')}</h2>
-            <p class="notice" hidden id="sent">{_('sent')}</p>
-            <input type="hidden" name="access_key" value={site.formKey} />
-            <input type="hidden" name="subject" value={`${site.name} — website (${lang})`} />
-            <input type="hidden" name="redirect" value={new URL(href(lang, 'contact') + '?sent#form', Astro.site).href} />
-            <input type="checkbox" name="botcheck" hidden style="display:none" />
-            <label>{_('name')}<input name="name" required autocomplete="name" /></label>
-            <label>{_('email')}<input type="email" name="email" required autocomplete="email" /></label>
-            <label>{_('message')}<textarea name="message" required></textarea></label>
-            <button class="btn solid" type="submit">{_('send')}</button>
-            <script is:inline>if (location.search.includes('sent')) document.getElementById('sent').hidden = false;</script>
-          </form>
-        ) : (
-          <div><h2>{_('writeUs')}</h2><p><a class="btn solid" href={`mailto:${site.email}`}>{site.email}</a></p></div>
-        )}
+        <div>
+          {site.formKey ? (
+            <form class="contact" id="form" action="https://api.web3forms.com/submit" method="POST">
+              <h2>{_('writeUs')}</h2>
+              <p class="notice" hidden id="sent">{_('sent')}</p>
+              <input type="hidden" name="access_key" value={site.formKey} />
+              <input type="hidden" name="subject" value={`${site.name} — website (${lang})`} />
+              <input type="hidden" name="redirect" value={new URL(href(lang, 'contact') + '?sent#form', Astro.site).href} />
+              <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" />
+              <label>{_('name')}<input name="name" required autocomplete="name" /></label>
+              <label>{_('email')}<input type="email" name="email" required autocomplete="email" /></label>
+              <label>{_('message')}<textarea name="message" required></textarea></label>
+              <button class="btn solid" type="submit">{_('send')}</button>
+            </form>
+          ) : (
+            <><h2>{_('writeUs')}</h2><p><a class="btn solid" href={`mailto:${site.email}`}>{site.email}</a></p></>
+          )}
+          {site.otherContacts?.length > 0 && (
+            <ul class="contact-list" style="margin-top: 40px">
+              {site.otherContacts.map((c: any) => (
+                <li>
+                  <span class="label">{c.label}</span>
+                  {c.phone && <a href={tel(c.phone)} style="font-size: 1.1rem">{c.phone}</a>}
+                  {c.email && <a href={`mailto:${c.email}`} style="font-size: 1.1rem">{c.email}</a>}
+                  {c.url && <a class="ext" href={c.url} target="_blank" rel="noopener" style="font-size: 1.1rem">{c.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')}</a>}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
       </section>
     )}
 
@@ -116,3 +151,13 @@ const { lat, lng } = site;
     )}
   </div>
 </Base>
+
+<script>
+  if (location.search.includes('sent')) document.getElementById('sent')?.removeAttribute('hidden');
+  document.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach((b) =>
+    b.addEventListener('click', async () => {
+      await navigator.clipboard.writeText(b.dataset.copy!);
+      b.textContent = b.dataset.done!;
+    }),
+  );
+</script>

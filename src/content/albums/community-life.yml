@@ -1,6 +1,9 @@
 el:
   order: 9
   photos:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
   - /src/assets/uploads/shared-meal-table.webp
   - /src/assets/uploads/kitchen-chopping.webp
   - /src/assets/uploads/kitchen-cooking.webp

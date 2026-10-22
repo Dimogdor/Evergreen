@@ -1,7 +1,9 @@
+import fs from 'node:fs';
 import { getCollection } from 'astro:content';
 import type { ImageMetadata } from 'astro';
 import { marked } from 'marked';
 import type { Lang } from './i18n';
+import { fmtTime, ymd, type CalEvent } from './calendar';
 
 const isObj = (v: unknown): v is Record<string, unknown> => !!v && Object.getPrototypeOf(v) === Object.prototype;
 const empty = (v: unknown) => v == null || v === '' || (Array.isArray(v) && v.length === 0);
@@ -20,19 +22,28 @@ function merge(base: any, over: any): any {
 }
 
 // CMS files store every language under its code (el:, en:, …). Fallback order: lang → English → Greek.
-export const localize = (data: any, lang: Lang) => merge(merge(data?.el ?? {}, data?.en), data?.[lang]);
+// Single-language collections (testimonials) have no language keys and are returned as is.
+export const localize = (data: any, lang: Lang) =>
+  data && (data.el || data.en) ? merge(merge(data.el ?? {}, data.en), data[lang]) : data;
 
 export async function list(name: string, lang: Lang): Promise<any[]> {
+  // Collections that start empty (stories, extra pages) are skipped instead of logging a warning on every page.
+  if (!fs.readdirSync(`src/content/${name}`).some((f) => f.endsWith('.yml'))) return [];
   const entries = await getCollection(name as any);
   return entries.map((e: any) => ({ id: e.id, ...localize(e.data, lang) }));
 }
 export const one = async (name: string, id: string, lang: Lang) =>
   (await list(name, lang)).find((e) => e.id === id) ?? {};
 
+// Visitors' stories: only those an admin has ticked "Published", newest first.
+export async function stories() {
+  return (await list('testimonials', 'en')).filter((s) => s.published && s.quote).sort((a, b) => String(b.date).localeCompare(String(a.date)));
+}
+
 export async function events(lang: Lang) {
   return (await list('events', lang))
     .filter((e) => e.start && !e.draft)
-    .map((e) => ({ ...e, start: new Date(e.start), end: new Date(e.end || e.start) }))
+    .map((e) => ({ ...e, startDay: ymd(e.start), endDay: ymd(e.end || e.start), start: new Date(ymd(e.start)), end: new Date(ymd(e.end || e.start)) }))
     .sort((a, b) => +a.start - +b.start);
 }
 
@@ -47,6 +58,9 @@ export const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 // Internal links written in the CMS (/en/contact/) get the prefix too.
 export const md = (s?: string) => (s ? (marked.parse(s, { async: false }) as string).replaceAll('href="/', `href="${base}/`) : '');
 
+// JSON for <script type="application/ld+json">, safe against "</script>" in CMS text.
+export const jsonLd = (o: unknown) => JSON.stringify(o).replace(/</g, '\\u003c');
+
 export const href = (lang: Lang, path = '') => `${base}/${lang}/${path ? path.replace(/^\/|\/?$/g, '') + '/' : ''}`;
 
 export const dateRange = (start: Date, end: Date, lang: Lang) =>
@@ -59,3 +73,10 @@ export function videoEmbed(url = '') {
   if (vimeo) return { src: `https://player.vimeo.com/video/${vimeo}?autoplay=1&dnt=1`, thumb: '' };
   return undefined;
 }
+
+// Event → calendar entry ("Add to calendar" links and .ics files).
+export const toCal = (e: any, site: URL, lang: Lang = 'en'): CalEvent => ({
+  id: e.id, title: e.title, summary: e.summary, location: e.location || 'The Evergreen Project, Anavra, Fthiotida, Greece',
+  url: new URL(href(lang, 'calendar') + '#' + e.id, site).href,
+  start: e.startDay, end: e.endDay, startTime: fmtTime(e.startTime), endTime: fmtTime(e.endTime),
+});

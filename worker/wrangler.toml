@@ -1,0 +1,16 @@
+# Deploy: npx wrangler deploy   (from this folder) — or paste index.js into the Cloudflare dashboard.
+name = "evergreen-api"
+main = "index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+REPO = "Dimogdor/Evergreen"
+BRANCH = "main"
+SITE_URL = "https://dimogdor.github.io/Evergreen"
+ALLOWED_ORIGINS = "https://dimogdor.github.io"
+
+# Max 3 stories per minute per visitor IP (free Workers rate-limiting binding).
+[[ratelimits]]
+name = "LIMITER"
+namespace_id = "1001"
+simple = { limit = 3, period = 60 }

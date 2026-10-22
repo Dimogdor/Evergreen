@@ -2,34 +2,34 @@ el:
   kind: animal
   order: 13
   photo: /src/assets/uploads/fresh-eggs.webp
-  name: Οι κότες μας
+  name: Οι κότες & ο κόκορας
   role: Οι «φτερωτές θεές» μας
-  bio: 'Κάθε άνοιξη ξαναρχίζουν να γεννούν: μικρά αλλά ολόφρεσκα αυγά, τα πρώτα δώρα της σεζόν.'
+  bio: Κάθε άνοιξη ξαναρχίζουν να γεννούν μικρά αλλά ολόφρεσκα αυγά — και ο κόκορας φροντίζει να μην κοιμηθεί κανείς πολύ.
 en:
-  name: Our hens
+  name: Our hens & rooster
   role: Our feathery goddesses
-  bio: 'Every spring they start laying again: small but super fresh eggs, the first gifts of the season.'
+  bio: Every spring they start laying small but super fresh eggs again — and the rooster makes sure nobody sleeps in.
 fr:
-  name: Nos poules
+  name: Nos poules & notre coq
   role: Nos déesses à plumes
-  bio: 'Chaque printemps, elles se remettent à pondre : des œufs petits mais très frais, premiers cadeaux de la saison.'
+  bio: Chaque printemps, elles recommencent à pondre de petits œufs tout frais — et le coq veille à ce que personne ne fasse la grasse matinée.
 es:
-  name: Nuestras gallinas
+  name: Nuestras gallinas y el gallo
   role: Nuestras diosas emplumadas
-  bio: 'Cada primavera vuelven a poner: huevos pequeños pero fresquísimos, los primeros regalos de la temporada.'
+  bio: Cada primavera vuelven a poner huevos pequeños pero fresquísimos — y el gallo se asegura de que nadie se quede dormido.
 it:
-  name: Le nostre galline
+  name: Le nostre galline e il gallo
   role: Le nostre dee piumate
-  bio: 'Ogni primavera ricominciano a deporre: uova piccole ma freschissime, i primi doni della stagione.'
+  bio: Ogni primavera ricominciano a deporre uova piccole ma freschissime — e il gallo si assicura che nessuno dorma troppo.
 ru:
-  name: Наши куры
+  name: Наши куры и петух
   role: Наши пернатые богини
-  bio: 'Каждую весну снова начинают нестись: маленькие, но очень свежие яйца — первые подарки сезона.'
+  bio: Каждую весну они снова несут маленькие, но очень свежие яйца, а петух следит, чтобы никто не проспал.
 de:
-  name: Unsere Hühner
+  name: Unsere Hühner & der Hahn
   role: Unsere gefiederten Göttinnen
-  bio: 'Jeden Frühling legen sie wieder: kleine, aber ganz frische Eier, die ersten Geschenke der Saison.'
+  bio: Jeden Frühling legen sie wieder kleine, aber ganz frische Eier — und der Hahn sorgt dafür, dass niemand verschläft.
 pt:
-  name: As nossas galinhas
+  name: As nossas galinhas e o galo
   role: As nossas deusas de penas
-  bio: 'Todas as primaveras voltam a pôr: ovos pequenos mas fresquíssimos, os primeiros presentes da estação.'
+  bio: Todas as primaveras voltam a pôr ovos pequenos mas fresquíssimos — e o galo garante que ninguém fica a dormir até tarde.

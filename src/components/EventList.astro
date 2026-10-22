@@ -1,26 +1,39 @@
 ---
 import Img from './Img.astro';
 import { t, type Lang } from '../i18n';
-import { dateRange, href } from '../lib';
+import { base, dateRange, href, toCal } from '../lib';
+import { fmtTime, googleUrl } from '../calendar';
 
 // Past events are also removed in the browser, so the list stays right between two deploys.
 const { events = [], lang, limit = 0 } = Astro.props as { events: any[]; lang: Lang; limit?: number };
 const _ = t(lang);
+const cal = (e: any) => googleUrl(toCal(e, Astro.site!, lang));
 ---
 <div class="event-list" data-limit={limit || undefined}>
   <ol class="events">
     {events.map((e) => (
-      <li class="event" id={e.id} data-start={e.start.toISOString()} data-end={e.end.toISOString()}>
-        <time datetime={e.start.toISOString().slice(0, 10)}>{dateRange(e.start, e.end, lang)}</time>
+      <li class="event" id={e.id} data-end={e.end.toISOString()} data-start={e.start.toISOString()}>
         <div>
-          <span class="tag">{_(`cat.${e.category || 'other'}` as any)}</span>
+          <time datetime={e.startDay}>{dateRange(e.start, e.end, lang)}</time>
+          {fmtTime(e.startTime) && <p class="muted">{fmtTime(e.startTime)}{fmtTime(e.endTime) && ` – ${fmtTime(e.endTime)}`} · {_('timeNote')}</p>}
+        </div>
+        <div>
+          <span class="tag">{_(`cat_${e.category || 'other'}`)}</span>
           <span class="tag now" hidden>{_('ongoing')}</span>
           <h3>{e.title}</h3>
           {e.summary && <p>{e.summary}</p>}
           {e.price && <p>{_('price')}: {e.price}</p>}
+          {e.location && <p>{_('location')}: {e.location}</p>}
           <div class="btns">
             {e.link && <a class="arrow ext" href={e.link} target="_blank" rel="noopener">{e.linkLabel || _('details')}</a>}
             {e.program && <a class="arrow" href={href(lang, `activities/${e.program}`)}>{_('readMore')}</a>}
+            <details class="addcal">
+              <summary class="arrow">{_('addToCalendar')}</summary>
+              <ul>
+                <li><a href={cal(e)} target="_blank" rel="noopener">{_('googleCal')}</a></li>
+                <li><a href={`${base}/events/${e.id}.ics`} download>{_('appleCal')}</a></li>
+              </ul>
+            </details>
           </div>
         </div>
         {e.image && <div class="thumb"><Img src={e.image} alt="" sizes="(max-width: 760px) 100vw, 180px" /></div>}

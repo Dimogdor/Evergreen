@@ -2,12 +2,11 @@ el:
   name: The Evergreen Project
   logo: /src/assets/uploads/logo.png
   tagline: Οικοχωριό, κοινότητα και άσραμ στο δάσος του Καλλιδρόμου
-  description: "Μη κερδοσκοπική οικοκοινότητα στην Ανάβρα Φθιώτιδας: εθελοντισμός με το Ευρωπαϊκό Σώμα Αλληλεγγύης, ρητρίτ γιόγκα, φυσική δόμηση και ζωή στη φύση."
-  address: "Ανάβρα, Καλλίδρομο, Φθιώτιδα — έδρα: Διγενή 4, 35009 Μώλος"
-  announcement: ""
+  description: 'Μη κερδοσκοπική οικοκοινότητα στην Ανάβρα Φθιώτιδας: εθελοντισμός με το Ευρωπαϊκό Σώμα Αλληλεγγύης, ρητρίτ γιόγκα, φυσική δόμηση και ζωή στη φύση.'
+  address: 'Ανάβρα, Καλλίδρομο, Φθιώτιδα — έδρα: Διγενή 4, 35009 Μώλος'
+  announcement: ''
   email: evergreenecovillage@gmail.com
-  phone: "+30 694 755 8519"
-  whatsapp: "+30 694 755 8519"
+  phone: +30 694 755 8519
   instagram: https://www.instagram.com/ever.green.project/
   facebook: https://www.facebook.com/EvergreenProjectGR
   messenger: https://m.me/EvergreenProjectGR
@@ -15,32 +14,94 @@ el:
   lng: 22.5862
   yogaStudiosUrl: https://www.evergreenyogastudios.com
   yogaTrainingsUrl: https://www.evergreenyogagreece.com
-  formKey: ""
+  formKey: ''
+  shareImage: /src/assets/uploads/shala-savasana-wide.webp
+  yogaRetreatsUrl: https://www.evergreenyogaretreats.com
+  apiUrl: ''
+  turnstileKey: ''
+  taxId: '996875733'
+  iban: GR7701103910000039100269800
+  bic: ETHNGRAA
+  accountHolder: Evergreen Project
+  theme:
+    background: '#f4f0e6'
+    background2: '#e8e2d1'
+    text: '#17231a'
+    green: '#3d673f'
+    darkGreen: '#22402a'
+    accent: '#b0622a'
+  otherContacts:
+  - label: Μαθήματα γιόγκα στην Αθήνα — Evergreen Yoga Studios
+    phone: +30 698 088 2888
+    url: https://www.evergreenyogastudios.com
+  - label: Ρητρίτ γιόγκα σε όλη την Ελλάδα — Evergreen Yoga Retreats
+    phone: +30 697 473 2879
+    email: evergreenyogaretreats@gmail.com
+    url: https://www.evergreenyogaretreats.com
+  - label: Εκπαιδεύσεις δασκάλων γιόγκα
+    email: evergreenyogatrainings@gmail.com
+    url: https://www.evergreenyogagreece.com
+  bank: Εθνική Τράπεζα της Ελλάδος
 en:
   tagline: Eco-village, community and ashram in the forest of Mount Kallidromo
-  description: "Non-profit eco-community in Anavra, Central Greece: European Solidarity Corps volunteering, yoga retreats, natural building and life in nature."
-  address: "Anavra, Mount Kallidromo, Fthiotida, Greece — office: Digeni 4, 35009 Molos"
+  description: 'Non-profit eco-community in Anavra, Central Greece: European Solidarity Corps volunteering, yoga retreats, natural building and life in nature.'
+  address: 'Anavra, Mount Kallidromo, Fthiotida, Greece — office: Digeni 4, 35009 Molos'
+  bank: National Bank of Greece
+  otherContacts:
+  - label: Yoga classes in Athens — Evergreen Yoga Studios
+  - label: Yoga retreats across Greece — Evergreen Yoga Retreats
+  - label: Yoga teacher trainings
 fr:
   tagline: Écovillage, communauté et ashram dans la forêt du mont Kallidromo
-  description: "Écocommunauté à but non lucratif à Anavra, en Grèce centrale : volontariat du Corps européen de solidarité, retraites de yoga, construction naturelle et vie dans la nature."
-  address: "Anavra, mont Kallidromo, Phthiotide, Grèce — siège : Digeni 4, 35009 Molos"
+  description: 'Écocommunauté à but non lucratif à Anavra, en Grèce centrale : volontariat du Corps européen de solidarité, retraites de yoga, construction naturelle et vie dans la nature.'
+  address: 'Anavra, mont Kallidromo, Phthiotide, Grèce — siège : Digeni 4, 35009 Molos'
+  bank: Banque nationale de Grèce
+  otherContacts:
+  - label: Cours de yoga à Athènes — Evergreen Yoga Studios
+  - label: Retraites de yoga en Grèce — Evergreen Yoga Retreats
+  - label: Formations de professeurs de yoga
 es:
   tagline: Ecoaldea, comunidad y ashram en el bosque del monte Kallidromo
-  description: "Ecocomunidad sin ánimo de lucro en Anavra, Grecia central: voluntariado del Cuerpo Europeo de Solidaridad, retiros de yoga, bioconstrucción y vida en la naturaleza."
-  address: "Anavra, monte Kallidromo, Ftiótide, Grecia — sede: Digeni 4, 35009 Molos"
+  description: 'Ecocomunidad sin ánimo de lucro en Anavra, Grecia central: voluntariado del Cuerpo Europeo de Solidaridad, retiros de yoga, bioconstrucción y vida en la naturaleza.'
+  address: 'Anavra, monte Kallidromo, Ftiótide, Grecia — sede: Digeni 4, 35009 Molos'
+  bank: Banco Nacional de Grecia
+  otherContacts:
+  - label: Clases de yoga en Atenas — Evergreen Yoga Studios
+  - label: Retiros de yoga en Grecia — Evergreen Yoga Retreats
+  - label: Formaciones de profesores de yoga
 it:
   tagline: Ecovillaggio, comunità e ashram nel bosco del monte Kallidromo
-  description: "Ecocomunità senza scopo di lucro ad Anavra, Grecia centrale: volontariato del Corpo europeo di solidarietà, ritiri di yoga, bioedilizia e vita nella natura."
-  address: "Anavra, monte Kallidromo, Ftiotide, Grecia — sede: Digeni 4, 35009 Molos"
+  description: 'Ecocomunità senza scopo di lucro ad Anavra, Grecia centrale: volontariato del Corpo europeo di solidarietà, ritiri di yoga, bioedilizia e vita nella natura.'
+  address: 'Anavra, monte Kallidromo, Ftiotide, Grecia — sede: Digeni 4, 35009 Molos'
+  bank: Banca Nazionale di Grecia
+  otherContacts:
+  - label: Lezioni di yoga ad Atene — Evergreen Yoga Studios
+  - label: Ritiri di yoga in Grecia — Evergreen Yoga Retreats
+  - label: Formazioni insegnanti di yoga
 ru:
   tagline: Экодеревня, сообщество и ашрам в лесу горы Каллидромо
-  description: "Некоммерческое экосообщество в Анавре, Центральная Греция: волонтёрство Европейского корпуса солидарности, йога-ретриты, природное строительство и жизнь на природе."
-  address: "Анавра, гора Каллидромо, Фтиотида, Греция — офис: Digeni 4, 35009 Молос"
+  description: 'Некоммерческое экосообщество в Анавре, Центральная Греция: волонтёрство Европейского корпуса солидарности, йога-ретриты, природное строительство и жизнь на природе.'
+  address: 'Анавра, гора Каллидромо, Фтиотида, Греция — офис: Digeni 4, 35009 Молос'
+  bank: Национальный банк Греции
+  otherContacts:
+  - label: Йога в Афинах — Evergreen Yoga Studios
+  - label: Йога-ретриты по Греции — Evergreen Yoga Retreats
+  - label: Обучение преподавателей йоги
 de:
   tagline: Ökodorf, Gemeinschaft und Ashram im Wald des Kallidromo-Gebirges
-  description: "Gemeinnützige Ökogemeinschaft in Anavra, Mittelgriechenland: Freiwilligendienst im Europäischen Solidaritätskorps, Yoga-Retreats, Naturbau und Leben in der Natur."
-  address: "Anavra, Kallidromo-Gebirge, Fthiotida, Griechenland — Sitz: Digeni 4, 35009 Molos"
+  description: 'Gemeinnützige Ökogemeinschaft in Anavra, Mittelgriechenland: Freiwilligendienst im Europäischen Solidaritätskorps, Yoga-Retreats, Naturbau und Leben in der Natur.'
+  address: 'Anavra, Kallidromo-Gebirge, Fthiotida, Griechenland — Sitz: Digeni 4, 35009 Molos'
+  bank: Griechische Nationalbank
+  otherContacts:
+  - label: Yogakurse in Athen — Evergreen Yoga Studios
+  - label: Yoga-Retreats in Griechenland — Evergreen Yoga Retreats
+  - label: Yogalehrer-Ausbildungen
 pt:
   tagline: Ecoaldeia, comunidade e ashram na floresta do monte Kallidromo
-  description: "Ecocomunidade sem fins lucrativos em Anavra, Grécia Central: voluntariado do Corpo Europeu de Solidariedade, retiros de yoga, bioconstrução e vida na natureza."
-  address: "Anavra, monte Kallidromo, Ftiótida, Grécia — sede: Digeni 4, 35009 Molos"
+  description: 'Ecocomunidade sem fins lucrativos em Anavra, Grécia Central: voluntariado do Corpo Europeu de Solidariedade, retiros de yoga, bioconstrução e vida na natureza.'
+  address: 'Anavra, monte Kallidromo, Ftiótida, Grécia — sede: Digeni 4, 35009 Molos'
+  bank: Banco Nacional da Grécia
+  otherContacts:
+  - label: Aulas de yoga em Atenas — Evergreen Yoga Studios
+  - label: Retiros de yoga na Grécia — Evergreen Yoga Retreats
+  - label: Formações de professores de yoga

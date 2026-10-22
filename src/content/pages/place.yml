@@ -6,7 +6,7 @@ el:
   - heading: Ένα δάσος για να ζεις
     image: /src/assets/uploads/tent-forest-2.webp
     text: |-
-      Το Evergreen Project βρίσκεται σε μια δασωμένη έκταση περίπου 22 στρεμμάτων κοντά στο χωριό Ανάβρα της Φθιώτιδας, στην Κεντρική Ελλάδα. Ακακίες, βελανιδιές και πεύκα σκιάζουν τις σκηνές, την κουζίνα και τη σάλα πρακτικής· μονοπάτια περνούν ανάμεσά τους και οι ήχοι του δάσους αλλάζουν κάθε ώρα της μέρας.
+      Το Evergreen Project βρίσκεται σε μια δασωμένη έκταση κοντά στο χωριό Ανάβρα της Φθιώτιδας, στην Κεντρική Ελλάδα. Ακακίες, βελανιδιές και πεύκα σκιάζουν τις σκηνές, την κουζίνα και τη σάλα πρακτικής· μονοπάτια περνούν ανάμεσά τους και οι ήχοι του δάσους αλλάζουν κάθε ώρα της μέρας.
 
       Μακριά από τον θόρυβο και τη βιασύνη της πόλης, ο τόπος προσφέρει ένα απλό — καμιά φορά λιτό — περιβάλλον, ιδανικό για αυτομελέτη και για να επιβραδύνεις.
   - heading: Το Καλλίδρομο
@@ -28,7 +28,7 @@ el:
   - title: Στον χώρο
     items:
     - title: Σκηνές bell tent
-      text: Επτά μεγάλες σκηνές για 3–4 άτομα η καθεμία, με άνετα στρώματα — μερικές με μικρή ξυλόσομπα για τις δροσερές νύχτες.
+      text: Μεγάλες υφασμάτινες σκηνές με άνετα στρώματα, που τις στήνουμε μαζί κάθε άνοιξη κάτω από τα δέντρα.
     - title: Το σπιτάκι του χορού
       text: Ένα μικρό ξύλινο σπίτι χτισμένο από πολλά χέρια — και πολλά πόδια που χόρευαν — για κίνηση, μουσική και ιστορίες.
     - title: Η αιωρούμενη εξέδρα
@@ -42,11 +42,9 @@ el:
     - title: Υπαίθρια κουζίνα
       text: Μια πλήρως εξοπλισμένη κουζίνα χτισμένη με βιώσιμο τρόπο, όπου μαγειρεύουμε όλοι μαζί.
     - title: Τουαλέτες κομποστοποίησης
-      text: Τέσσερις ξηρές τουαλέτες που μετατρέπουν τα απόβλητα σε γόνιμο χώμα.
+      text: Ξηρές τουαλέτες που μετατρέπουν τα απόβλητα σε γόνιμο χώμα.
     - title: Υπαίθρια ντους
       text: Ντους με ζεστό νερό κάτω από τα δέντρα.
-    - title: Πλατεία της κοινότητας
-      text: Ένας χώρος συνάντησης για κύκλους, φαγητό, μουσική και φωτιές.
     - title: Ήσυχες γωνιές
       text: Αιώρες και χώροι συγκέντρωσης για διάβασμα, μελέτη και ξεκούραση.
     - title: Ηλιακή ενέργεια & Wi-Fi
@@ -69,7 +67,7 @@ en:
   sections:
   - heading: A forest to live in
     text: |-
-      The Evergreen Project lives on about 5.4 acres (2.2 ha) of forested land near the village of Anavra in Fthiotida, Central Greece. Acacias, oaks and pines shade our tents, our kitchen and our shala; paths wind between them, and the sounds of the forest change with every hour of the day.
+      The Evergreen Project lives on a piece of forested land near the village of Anavra in Fthiotida, Central Greece. Acacias, oaks and pines shade our tents, our kitchen and our shala; paths wind between them, and the sounds of the forest change with every hour of the day.
 
       Away from the noise and hurry of the city, the land offers a simple — sometimes austere — environment, ideal for self-study and for slowing down.
   - heading: Mount Kallidromo
@@ -88,7 +86,7 @@ en:
   - title: On the land
     items:
     - title: Bell tents
-      text: Seven large bell tents for 3–4 people each, with comfortable mattresses — some with a small wood stove for cool nights.
+      text: Large canvas tents with comfortable mattresses, pitched together every spring under the trees.
     - title: The dance house
       text: A small wooden house built by many hands — and many dancing feet — for movement, music and stories.
     - title: The floating deck
@@ -102,11 +100,9 @@ en:
     - title: Outdoor kitchen
       text: A sustainably built, fully equipped kitchen where we cook together.
     - title: Compost toilets
-      text: Four dry toilets that turn waste into fertile soil.
+      text: Dry toilets that turn waste into fertile soil.
     - title: Outdoor showers
       text: Warm-water showers under the trees.
-    - title: Community square
-      text: A meeting place for circles, meals, music and fires.
     - title: Quiet corners
       text: Hammocks and concentration spaces for reading, study and rest.
     - title: Solar power & Wi-Fi
@@ -129,7 +125,7 @@ fr:
   sections:
   - heading: Une forêt où vivre
     text: |-
-      The Evergreen Project s’étend sur environ 2,2 hectares (5,4 acres) de terrain boisé près du village d’Anavra, en Phthiotide, en Grèce centrale. Acacias, chênes et pins ombragent nos tentes, notre cuisine et notre shala ; des sentiers serpentent entre eux et les sons de la forêt changent à chaque heure de la journée.
+      The Evergreen Project s’étend sur un terrain boisé près du village d’Anavra, en Phthiotide, en Grèce centrale. Acacias, chênes et pins ombragent nos tentes, notre cuisine et notre shala ; des sentiers serpentent entre eux et les sons de la forêt changent à chaque heure de la journée.
 
       Loin du bruit et de l’agitation de la ville, le lieu offre un environnement simple — parfois austère — idéal pour l’introspection et pour ralentir.
   - heading: Le mont Kallidromo
@@ -148,7 +144,7 @@ fr:
   - title: Sur le terrain
     items:
     - title: Tentes cloches
-      text: Sept grandes tentes cloches pour 3 à 4 personnes, avec de vrais matelas — certaines avec un petit poêle à bois pour les nuits fraîches.
+      text: De grandes tentes en toile avec de bons matelas, montées ensemble chaque printemps sous les arbres.
     - title: La maison de la danse
       text: Une petite maison en bois construite par beaucoup de mains — et de pieds dansants — pour le mouvement, la musique et les histoires.
     - title: La plateforme suspendue
@@ -162,11 +158,9 @@ fr:
     - title: Cuisine en plein air
       text: Une cuisine entièrement équipée, construite de manière durable, où nous cuisinons ensemble.
     - title: Toilettes sèches
-      text: Quatre toilettes à compost qui transforment les déchets en terre fertile.
+      text: Des toilettes sèches qui transforment les déchets en terre fertile.
     - title: Douches extérieures
       text: Des douches à eau chaude sous les arbres.
-    - title: Place commune
-      text: Un lieu de rencontre pour les cercles, les repas, la musique et les feux.
     - title: Coins calmes
       text: Hamacs et espaces de concentration pour lire, étudier et se reposer.
     - title: Énergie solaire & Wi-Fi
@@ -189,7 +183,7 @@ es:
   sections:
   - heading: Un bosque para vivir
     text: |-
-      The Evergreen Project ocupa unas 2,2 hectáreas (5,4 acres) de terreno boscoso cerca del pueblo de Anavra, en Ftiótide, Grecia central. Acacias, robles y pinos dan sombra a nuestras tiendas, a la cocina y a la shala; los senderos serpentean entre ellos y los sonidos del bosque cambian a cada hora del día.
+      The Evergreen Project ocupa un terreno boscoso cerca del pueblo de Anavra, en Ftiótide, Grecia central. Acacias, robles y pinos dan sombra a nuestras tiendas, a la cocina y a la shala; los senderos serpentean entre ellos y los sonidos del bosque cambian a cada hora del día.
 
       Lejos del ruido y las prisas de la ciudad, el lugar ofrece un entorno sencillo — a veces austero —, ideal para el autoconocimiento y para bajar el ritmo.
   - heading: El monte Kallidromo
@@ -208,7 +202,7 @@ es:
   - title: En el terreno
     items:
     - title: Tiendas campana
-      text: Siete grandes tiendas campana para 3–4 personas, con colchones cómodos — algunas con una pequeña estufa de leña para las noches frescas.
+      text: Grandes tiendas de lona con colchones cómodos, que montamos juntos cada primavera bajo los árboles.
     - title: La casa del baile
       text: Una casita de madera construida por muchas manos — y muchos pies bailando — para el movimiento, la música y las historias.
     - title: La plataforma flotante
@@ -222,11 +216,9 @@ es:
     - title: Cocina al aire libre
       text: Una cocina totalmente equipada y construida de forma sostenible, donde cocinamos juntos.
     - title: Baños secos
-      text: Cuatro baños de compostaje que convierten los residuos en tierra fértil.
+      text: Baños secos que convierten los residuos en tierra fértil.
     - title: Duchas exteriores
       text: Duchas de agua caliente bajo los árboles.
-    - title: Plaza comunitaria
-      text: Un lugar de encuentro para círculos, comidas, música y fogatas.
     - title: Rincones tranquilos
       text: Hamacas y espacios de concentración para leer, estudiar y descansar.
     - title: Energía solar y wifi
@@ -249,7 +241,7 @@ it:
   sections:
   - heading: Un bosco in cui vivere
     text: |-
-      The Evergreen Project si estende su circa 2,2 ettari (5,4 acri) di terreno boscoso vicino al villaggio di Anavra, in Ftiotide, nella Grecia centrale. Acacie, querce e pini fanno ombra alle nostre tende, alla cucina e alla shala; i sentieri si snodano tra gli alberi e i suoni del bosco cambiano a ogni ora del giorno.
+      The Evergreen Project si estende su un terreno boscoso vicino al villaggio di Anavra, in Ftiotide, nella Grecia centrale. Acacie, querce e pini fanno ombra alle nostre tende, alla cucina e alla shala; i sentieri si snodano tra gli alberi e i suoni del bosco cambiano a ogni ora del giorno.
 
       Lontano dal rumore e dalla fretta della città, il luogo offre un ambiente semplice — a volte essenziale — ideale per l’introspezione e per rallentare.
   - heading: Il monte Kallidromo
@@ -268,7 +260,7 @@ it:
   - title: Sul terreno
     items:
     - title: Tende a campana
-      text: Sette grandi tende a campana per 3–4 persone, con materassi comodi — alcune con una piccola stufa a legna per le notti fresche.
+      text: Grandi tende di tela con materassi comodi, montate insieme ogni primavera sotto gli alberi.
     - title: La casa della danza
       text: Una casetta di legno costruita da tante mani — e tanti piedi danzanti — per movimento, musica e storie.
     - title: La piattaforma sospesa
@@ -282,11 +274,9 @@ it:
     - title: Cucina all’aperto
       text: Una cucina completamente attrezzata e costruita in modo sostenibile, dove cuciniamo insieme.
     - title: Compost toilet
-      text: Quattro bagni a secco che trasformano i rifiuti in terra fertile.
+      text: Bagni a secco che trasformano i rifiuti in terra fertile.
     - title: Docce all’aperto
       text: Docce con acqua calda sotto gli alberi.
-    - title: Piazza della comunità
-      text: Un luogo d’incontro per cerchi, pasti, musica e fuochi.
     - title: Angoli tranquilli
       text: Amache e spazi di concentrazione per leggere, studiare e riposare.
     - title: Energia solare e Wi-Fi
@@ -309,7 +299,7 @@ ru:
   sections:
   - heading: Лес, в котором живут
     text: |-
-      The Evergreen Project расположен на лесном участке площадью около 2,2 га (5,4 акра) рядом с деревней Анавра во Фтиотиде, в Центральной Греции. Акации, дубы и сосны дают тень нашим шатрам, кухне и шале; между ними вьются тропинки, а звуки леса меняются каждый час.
+      The Evergreen Project расположен на лесном участке рядом с деревней Анавра во Фтиотиде, в Центральной Греции. Акации, дубы и сосны дают тень нашим шатрам, кухне и шале; между ними вьются тропинки, а звуки леса меняются каждый час.
 
       Вдали от шума и спешки города это место предлагает простую — порой аскетичную — среду, идеальную для самопознания и замедления.
   - heading: Гора Каллидромо
@@ -328,7 +318,7 @@ ru:
   - title: На участке
     items:
     - title: Шатры-колокола
-      text: Семь больших шатров на 3–4 человека с удобными матрасами — в некоторых есть небольшая дровяная печка для прохладных ночей.
+      text: Большие брезентовые шатры с удобными матрасами — каждую весну мы ставим их вместе под деревьями.
     - title: Дом для танцев
       text: Маленький деревянный дом, построенный многими руками — и танцующими ногами — для движения, музыки и историй.
     - title: Парящий настил
@@ -342,11 +332,9 @@ ru:
     - title: Летняя кухня
       text: Полностью оборудованная кухня, построенная экологично, где мы готовим вместе.
     - title: Компостные туалеты
-      text: Четыре сухих туалета, превращающих отходы в плодородную почву.
+      text: Сухие туалеты, превращающие отходы в плодородную почву.
     - title: Уличный душ
       text: Душ с горячей водой под деревьями.
-    - title: Общая площадь
-      text: Место встреч для кругов, трапез, музыки и костров.
     - title: Тихие уголки
       text: Гамаки и пространства для чтения, учёбы и отдыха.
     - title: Солнечная энергия и Wi-Fi
@@ -369,7 +357,7 @@ de:
   sections:
   - heading: Ein Wald zum Leben
     text: |-
-      The Evergreen Project liegt auf rund 2,2 Hektar (5,4 Acres) bewaldetem Land nahe dem Dorf Anavra in Fthiotida, Mittelgriechenland. Akazien, Eichen und Kiefern spenden unseren Zelten, der Küche und der Shala Schatten; Wege schlängeln sich dazwischen, und die Geräusche des Waldes ändern sich mit jeder Stunde des Tages.
+      The Evergreen Project liegt auf einem bewaldeten Stück Land nahe dem Dorf Anavra in Fthiotida, Mittelgriechenland. Akazien, Eichen und Kiefern spenden unseren Zelten, der Küche und der Shala Schatten; Wege schlängeln sich dazwischen, und die Geräusche des Waldes ändern sich mit jeder Stunde des Tages.
 
       Fern vom Lärm und der Hektik der Stadt bietet der Ort eine einfache — manchmal karge — Umgebung, ideal zur Selbsterforschung und zum Langsamerwerden.
   - heading: Das Kallidromo-Gebirge
@@ -388,7 +376,7 @@ de:
   - title: Auf dem Gelände
     items:
     - title: Glockenzelte
-      text: Sieben große Glockenzelte für je 3–4 Personen mit bequemen Matratzen — einige mit kleinem Holzofen für kühle Nächte.
+      text: Große Leinenzelte mit bequemen Matratzen, die wir jeden Frühling gemeinsam unter den Bäumen aufbauen.
     - title: Das Tanzhaus
       text: Ein kleines Holzhaus, gebaut von vielen Händen — und tanzenden Füßen — für Bewegung, Musik und Geschichten.
     - title: Das schwebende Deck
@@ -402,11 +390,9 @@ de:
     - title: Outdoor-Küche
       text: Eine nachhaltig gebaute, voll ausgestattete Küche, in der wir gemeinsam kochen.
     - title: Komposttoiletten
-      text: Vier Trockentoiletten, die Abfall in fruchtbare Erde verwandeln.
+      text: Trockentoiletten, die Abfall in fruchtbare Erde verwandeln.
     - title: Außenduschen
       text: Warmwasserduschen unter den Bäumen.
-    - title: Gemeinschaftsplatz
-      text: Ein Treffpunkt für Kreise, Mahlzeiten, Musik und Feuer.
     - title: Ruhige Ecken
       text: Hängematten und Rückzugsräume zum Lesen, Lernen und Ausruhen.
     - title: Solarstrom & WLAN
@@ -429,7 +415,7 @@ pt:
   sections:
   - heading: Uma floresta para viver
     text: |-
-      The Evergreen Project ocupa cerca de 2,2 hectares (5,4 acres) de terreno florestal perto da aldeia de Anavra, na Ftiótida, Grécia Central. Acácias, carvalhos e pinheiros dão sombra às nossas tendas, à cozinha e à shala; os caminhos serpenteiam entre eles e os sons da floresta mudam a cada hora do dia.
+      The Evergreen Project ocupa um terreno florestal perto da aldeia de Anavra, na Ftiótida, Grécia Central. Acácias, carvalhos e pinheiros dão sombra às nossas tendas, à cozinha e à shala; os caminhos serpenteiam entre eles e os sons da floresta mudam a cada hora do dia.
 
       Longe do ruído e da pressa da cidade, o lugar oferece um ambiente simples — por vezes austero — ideal para o autoconhecimento e para abrandar.
   - heading: O monte Kallidromo
@@ -448,7 +434,7 @@ pt:
   - title: No terreno
     items:
     - title: Tendas sino
-      text: Sete grandes tendas sino para 3–4 pessoas, com colchões confortáveis — algumas com um pequeno fogão a lenha para as noites frescas.
+      text: Grandes tendas de lona com colchões confortáveis, montadas em conjunto todas as primaveras debaixo das árvores.
     - title: A casa da dança
       text: Uma casinha de madeira construída por muitas mãos — e muitos pés a dançar — para movimento, música e histórias.
     - title: A plataforma suspensa
@@ -462,11 +448,9 @@ pt:
     - title: Cozinha ao ar livre
       text: Uma cozinha totalmente equipada e construída de forma sustentável, onde cozinhamos juntos.
     - title: Casas de banho secas
-      text: Quatro sanitários de compostagem que transformam resíduos em terra fértil.
+      text: Casas de banho secas que transformam resíduos em terra fértil.
     - title: Duches exteriores
       text: Duches de água quente debaixo das árvores.
-    - title: Praça comunitária
-      text: Um ponto de encontro para círculos, refeições, música e fogueiras.
     - title: Recantos tranquilos
       text: Redes e espaços de concentração para ler, estudar e descansar.
     - title: Energia solar e Wi-Fi

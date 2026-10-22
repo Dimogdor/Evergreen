@@ -1,0 +1,27 @@
+el:
+  kind: human
+  order: 2
+  name: Kostas Trigazis
+  role: Συνιδρυτής
+  bio: Σύντροφος της Κατερίνας και συνιδρυτής του Evergreen Project. Μαζί είναι η καρδιά του πρότζεκτ και της καθημερινής ζωής στη γη.
+en:
+  role: Co-founder
+  bio: Katerina’s partner and co-founder of the Evergreen Project. Together they are the heart of the project and of daily life on the land.
+fr:
+  role: Cofondateur
+  bio: Compagnon de Katerina et cofondateur de l’Evergreen Project. Ensemble, ils sont le cœur du projet et de la vie quotidienne sur le terrain.
+es:
+  role: Cofundador
+  bio: Pareja de Katerina y cofundador del Evergreen Project. Juntos son el corazón del proyecto y de la vida diaria en la tierra.
+it:
+  role: Cofondatore
+  bio: Compagno di Katerina e cofondatore dell’Evergreen Project. Insieme sono il cuore del progetto e della vita quotidiana sulla terra.
+ru:
+  role: Сооснователь
+  bio: Спутник Катерины и сооснователь Evergreen Project. Вместе они — сердце проекта и повседневной жизни на земле.
+de:
+  role: Mitgründer
+  bio: Katerinas Partner und Mitgründer des Evergreen Project. Gemeinsam sind sie das Herz des Projekts und des Alltags auf dem Land.
+pt:
+  role: Cofundador
+  bio: Companheiro da Katerina e cofundador do Evergreen Project. Juntos são o coração do projeto e do dia a dia na terra.

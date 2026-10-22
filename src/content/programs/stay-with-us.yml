@@ -12,7 +12,7 @@ el:
   - /src/assets/uploads/cat-lap.webp
   - /src/assets/uploads/misty-tents.webp
   title: Μείνετε μαζί μας
-  summary: Ζήστε την κοινοτική ζωή στο δάσος για λίγες μέρες, έναν μήνα ή μια ολόκληρη εποχή — σε οποιαδήποτε ηλικία.
+  summary: Ζήστε την κοινοτική ζωή στο δάσος για λίγες μέρες, έναν μήνα ή μια ολόκληρη εποχή.
   facts:
   - label: Ανά ημέρα
     value: 18 €
@@ -33,20 +33,18 @@ el:
     - έναν τόπο για να ζήσετε, να δημιουργήσετε και να συνδεθείτε
 
     ### Πώς λειτουργεί
-    Οι φιλοξενούμενοι μοιράζονται την κοινοτική ζωή: κοινά γεύματα, πρακτική, κύκλους και — αν το θέλουν — δουλειά στη γη. Είναι ο ιδανικός τρόπος να γνωρίσετε την περμακουλτούρα, τη φυσική δόμηση και τη ζωή σε κοινότητα, ανεξάρτητα από ηλικία ή προέλευση.
+    Οι φιλοξενούμενοι μοιράζονται την κοινοτική ζωή: κοινά γεύματα, πρακτική, κύκλους και — αν το θέλουν — δουλειά στη γη. Είναι ο ιδανικός τρόπος να γνωρίσετε την περμακουλτούρα, τη φυσική δόμηση και τη ζωή σε κοινότητα, ανεξάρτητα από την προέλευσή σας.
 
     Για να έρθετε, **στείλτε μας μήνυμα** με τις ημερομηνίες σας και λίγα λόγια για εσάς. Ας δημιουργήσουμε κάτι όμορφο μαζί!
 
     ### Καλοκαίρι στο δάσος, χειμώνας στο χωριό
     Από τον Μάιο έως τις αρχές Νοεμβρίου ζούμε στο δάσος, σε σκηνές bell tent και στους χώρους μας από πηλό. Τον χειμώνα η κοινότητα μετακομίζει σε ένα ζεστό σπίτι με τζάκι στην Ανάβρα, 15 λεπτά με τα πόδια από τον χώρο.
   faq:
-  - q: Υπάρχει όριο ηλικίας;
-    a: Όχι — όποιος νιώθει το κάλεσμα να ζήσει για λίγο στη φύση είναι ευπρόσδεκτος.
   - q: Μπορώ να έρθω για λίγες μόνο μέρες;
     a: Ναι. Η τιμή είναι 18 € την ημέρα· οι μεγαλύτερες διαμονές κοστίζουν λιγότερο (300 € τον μήνα, 500 € για δύο μήνες).
 en:
   title: Stay with us
-  summary: Join community life in the forest for a few days, a month or a whole season — at any age.
+  summary: Join community life in the forest for a few days, a month or a whole season.
   facts:
   - label: Per day
     value: €18
@@ -67,20 +65,18 @@ en:
     - a place to live, create and connect
 
     ### How it works
-    Guests share community life: meals, practice, circles and — if they wish — work on the land. It is the ideal way to discover permaculture, natural building and life in community, whatever your age or background.
+    Guests share community life: meals, practice, circles and — if they wish — work on the land. It is the ideal way to discover permaculture, natural building and life in community, whatever your background.
 
     To come, **send us a message** with your dates and a few words about yourself. Let’s create some beauty together!
 
     ### Summer in the forest, winter in the village
     From May to early November we live in the forest, in bell tents and our cob spaces. In winter the community moves to a cosy house with a fireplace in the village of Anavra, a 15-minute walk from the land.
   faq:
-  - q: Is there an age limit?
-    a: No — anyone who feels called to live in nature for a while is welcome.
   - q: Can I come for just a few days?
     a: Yes. The price is €18 per day; longer stays cost less (€300 for a month, €500 for two months).
 fr:
   title: Séjourner chez nous
-  summary: Partagez la vie communautaire dans la forêt pour quelques jours, un mois ou toute une saison — à tout âge.
+  summary: Partagez la vie communautaire dans la forêt pour quelques jours, un mois ou toute une saison.
   facts:
   - label: Par jour
     value: 18 €
@@ -101,20 +97,18 @@ fr:
     - un lieu pour vivre, créer et se relier
 
     ### Comment ça marche
-    Les invités partagent la vie de la communauté : repas, pratique, cercles et — s’ils le souhaitent — travail de la terre. C’est la meilleure façon de découvrir la permaculture, la construction naturelle et la vie en communauté, quels que soient votre âge et votre parcours.
+    Les invités partagent la vie de la communauté : repas, pratique, cercles et — s’ils le souhaitent — travail de la terre. C’est la meilleure façon de découvrir la permaculture, la construction naturelle et la vie en communauté, quel que soit votre parcours.
 
     Pour venir, **envoyez-nous un message** avec vos dates et quelques mots sur vous. Créons ensemble quelque chose de beau !
 
     ### L’été dans la forêt, l’hiver au village
     De mai à début novembre, nous vivons dans la forêt, sous tentes cloches et dans nos espaces en bauge. L’hiver, la communauté s’installe dans une maison chaleureuse avec cheminée au village d’Anavra, à 15 minutes à pied du terrain.
   faq:
-  - q: Y a-t-il une limite d’âge ?
-    a: Non — toute personne qui ressent l’appel de vivre un moment dans la nature est la bienvenue.
   - q: Puis-je venir pour quelques jours seulement ?
     a: Oui. Le prix est de 18 € par jour ; les séjours plus longs coûtent moins cher (300 € le mois, 500 € les deux mois).
 es:
   title: Quédate con nosotros
-  summary: Únete a la vida comunitaria en el bosque durante unos días, un mes o toda una temporada — a cualquier edad.
+  summary: Únete a la vida comunitaria en el bosque durante unos días, un mes o toda una temporada.
   facts:
   - label: Por día
     value: 18 €
@@ -135,20 +129,18 @@ es:
     - un lugar para vivir, crear y conectar
 
     ### Cómo funciona
-    Los huéspedes comparten la vida comunitaria: comidas, práctica, círculos y — si lo desean — trabajo en la tierra. Es la mejor manera de descubrir la permacultura, la bioconstrucción y la vida en comunidad, sea cual sea tu edad o tu historia.
+    Los huéspedes comparten la vida comunitaria: comidas, práctica, círculos y — si lo desean — trabajo en la tierra. Es la mejor manera de descubrir la permacultura, la bioconstrucción y la vida en comunidad, sea cual sea tu historia.
 
     Para venir, **envíanos un mensaje** con tus fechas y unas palabras sobre ti. ¡Creemos algo bonito juntos!
 
     ### Verano en el bosque, invierno en el pueblo
     De mayo a principios de noviembre vivimos en el bosque, en tiendas campana y en nuestros espacios de cob. En invierno la comunidad se traslada a una casa acogedora con chimenea en el pueblo de Anavra, a 15 minutos a pie del terreno.
   faq:
-  - q: ¿Hay límite de edad?
-    a: No — cualquiera que sienta la llamada de vivir un tiempo en la naturaleza es bienvenido.
   - q: ¿Puedo ir solo unos días?
     a: Sí. El precio es de 18 € al día; las estancias más largas cuestan menos (300 € al mes, 500 € por dos meses).
 it:
   title: Stai con noi
-  summary: Partecipa alla vita di comunità nel bosco per qualche giorno, un mese o un’intera stagione — a qualsiasi età.
+  summary: Partecipa alla vita di comunità nel bosco per qualche giorno, un mese o un’intera stagione.
   facts:
   - label: Al giorno
     value: 18 €
@@ -169,20 +161,18 @@ it:
     - un luogo dove vivere, creare e connettersi
 
     ### Come funziona
-    Gli ospiti condividono la vita di comunità: pasti, pratica, cerchi e — se lo desiderano — lavoro della terra. È il modo ideale per scoprire la permacultura, la bioedilizia e la vita in comunità, qualunque sia la tua età o la tua storia.
+    Gli ospiti condividono la vita di comunità: pasti, pratica, cerchi e — se lo desiderano — lavoro della terra. È il modo ideale per scoprire la permacultura, la bioedilizia e la vita in comunità, qualunque sia la tua storia.
 
     Per venire, **mandaci un messaggio** con le tue date e qualche parola su di te. Creiamo insieme qualcosa di bello!
 
     ### Estate nel bosco, inverno nel villaggio
     Da maggio all’inizio di novembre viviamo nel bosco, nelle tende a campana e nei nostri spazi in cob. D’inverno la comunità si sposta in una casa accogliente con camino nel villaggio di Anavra, a 15 minuti a piedi dal terreno.
   faq:
-  - q: C’è un limite di età?
-    a: No — chiunque senta il richiamo di vivere per un po’ nella natura è il benvenuto.
   - q: Posso venire solo per qualche giorno?
     a: Sì. Il prezzo è di 18 € al giorno; i soggiorni più lunghi costano meno (300 € al mese, 500 € per due mesi).
 ru:
   title: Поживите у нас
-  summary: Присоединяйтесь к жизни сообщества в лесу на несколько дней, месяц или целый сезон — в любом возрасте.
+  summary: Присоединяйтесь к жизни сообщества в лесу на несколько дней, месяц или целый сезон.
   facts:
   - label: В день
     value: 18 €
@@ -203,20 +193,18 @@ ru:
     - место, где можно жить, творить и общаться
 
     ### Как это устроено
-    Гости разделяют жизнь сообщества: трапезы, практику, круги и — по желанию — работу на земле. Это лучший способ познакомиться с пермакультурой, природным строительством и жизнью в сообществе, независимо от возраста и опыта.
+    Гости разделяют жизнь сообщества: трапезы, практику, круги и — по желанию — работу на земле. Это лучший способ познакомиться с пермакультурой, природным строительством и жизнью в сообществе, независимо от опыта.
 
     Чтобы приехать, **напишите нам** о желаемых датах и пару слов о себе. Давайте создадим что-то прекрасное вместе!
 
     ### Лето в лесу, зима в деревне
     С мая до начала ноября мы живём в лесу — в шатрах и наших глиняных домиках. Зимой сообщество переезжает в уютный дом с камином в деревне Анавра, в 15 минутах ходьбы от участка.
   faq:
-  - q: Есть ли ограничение по возрасту?
-    a: Нет — мы рады всем, кто чувствует желание пожить какое-то время на природе.
   - q: Можно приехать всего на несколько дней?
     a: Да. Стоимость — 18 € в день; длительное проживание дешевле (300 € за месяц, 500 € за два месяца).
 de:
   title: Bleib bei uns
-  summary: Lebe für ein paar Tage, einen Monat oder eine ganze Saison in unserer Gemeinschaft im Wald — in jedem Alter.
+  summary: Lebe für ein paar Tage, einen Monat oder eine ganze Saison in unserer Gemeinschaft im Wald.
   facts:
   - label: Pro Tag
     value: 18 €
@@ -237,20 +225,18 @@ de:
     - einen Ort zum Leben, Gestalten und Verbinden
 
     ### So funktioniert es
-    Gäste teilen das Gemeinschaftsleben: Mahlzeiten, Praxis, Kreise und — wenn sie möchten — Arbeit auf dem Land. Es ist der ideale Weg, Permakultur, Naturbau und Gemeinschaftsleben kennenzulernen, egal wie alt du bist oder woher du kommst.
+    Gäste teilen das Gemeinschaftsleben: Mahlzeiten, Praxis, Kreise und — wenn sie möchten — Arbeit auf dem Land. Es ist der ideale Weg, Permakultur, Naturbau und Gemeinschaftsleben kennenzulernen, egal woher du kommst.
 
     Wenn du kommen möchtest, **schick uns eine Nachricht** mit deinen Daten und ein paar Worten über dich. Lass uns gemeinsam etwas Schönes erschaffen!
 
     ### Sommer im Wald, Winter im Dorf
     Von Mai bis Anfang November leben wir im Wald, in Glockenzelten und unseren Lehmräumen. Im Winter zieht die Gemeinschaft in ein gemütliches Haus mit Kamin im Dorf Anavra, 15 Gehminuten vom Gelände entfernt.
   faq:
-  - q: Gibt es eine Altersgrenze?
-    a: Nein — alle, die den Ruf spüren, eine Weile in der Natur zu leben, sind willkommen.
   - q: Kann ich nur für ein paar Tage kommen?
     a: Ja. Der Preis beträgt 18 € pro Tag; längere Aufenthalte sind günstiger (300 € für einen Monat, 500 € für zwei Monate).
 pt:
   title: Fique connosco
-  summary: Junte-se à vida comunitária na floresta durante alguns dias, um mês ou uma estação inteira — em qualquer idade.
+  summary: Junte-se à vida comunitária na floresta durante alguns dias, um mês ou uma estação inteira.
   facts:
   - label: Por dia
     value: 18 €
@@ -271,14 +257,12 @@ pt:
     - um lugar para viver, criar e ligar-se
 
     ### Como funciona
-    Os hóspedes partilham a vida comunitária: refeições, prática, círculos e — se quiserem — trabalho na terra. É a forma ideal de descobrir a permacultura, a bioconstrução e a vida em comunidade, seja qual for a sua idade ou percurso.
+    Os hóspedes partilham a vida comunitária: refeições, prática, círculos e — se quiserem — trabalho na terra. É a forma ideal de descobrir a permacultura, a bioconstrução e a vida em comunidade, seja qual for o seu percurso.
 
     Para vir, **envie-nos uma mensagem** com as suas datas e algumas palavras sobre si. Vamos criar algo bonito juntos!
 
     ### Verão na floresta, inverno na aldeia
     De maio ao início de novembro vivemos na floresta, em tendas sino e nos nossos espaços de cob. No inverno a comunidade muda-se para uma casa acolhedora com lareira na aldeia de Anavra, a 15 minutos a pé do terreno.
   faq:
-  - q: Há limite de idade?
-    a: Não — quem sentir o chamamento de viver algum tempo na natureza é bem-vindo.
   - q: Posso ir só por alguns dias?
     a: Sim. O preço é de 18 € por dia; as estadias mais longas custam menos (300 € por um mês, 500 € por dois meses).
