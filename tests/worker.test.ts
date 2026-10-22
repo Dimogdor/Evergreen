@@ -1,10 +1,10 @@
-// Run: npm test — the admin sign-in popup and the testimonial endpoint, with GitHub mocked.
+// Run: npm test — admin sign-in, the storage relay and the testimonial endpoint, with the repository API mocked.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import worker from '../worker/index.js';
 
 const env = {
-  GITHUB_CLIENT_ID: 'cid', GITHUB_CLIENT_SECRET: 'secret', GITHUB_TOKEN: 'tok', REPO: 'o/r', BRANCH: 'main',
+  ADMINS: 'katerina@example.gr=forest-2026; kostas@example.gr=other', SESSION_KEY: 'k'.repeat(40), GITHUB_TOKEN: 'ghp_server_secret', REPO: 'o/r', BRANCH: 'main',
   ALLOWED_ORIGINS: 'https://site.example', SITE_URL: 'https://site.example/sub',
 };
 const call = (path: string, init?: RequestInit) => worker.fetch(new Request('https://api.example' + path, init), env);
@@ -12,12 +12,11 @@ const call = (path: string, init?: RequestInit) => worker.fetch(new Request('htt
 function mockGitHub() {
   const calls: { url: string; method: string; body: any }[] = [];
   globalThis.fetch = (async (url: string, init: any = {}) => {
-    const body = init.body ? JSON.parse(init.body) : undefined;
+    const body = typeof init.body === 'string' ? JSON.parse(init.body) : init.body;
     calls.push({ url, method: init.method || 'GET', body });
     const sha = { sha: 'x' + calls.length };
     if (url.includes('/git/ref/heads/')) return Response.json({ object: { sha: 'parent' } });
     if (url.includes('/git/commits/parent')) return Response.json({ tree: { sha: 'tree0' } });
-    if (url.includes('access_token')) return Response.json({ access_token: 'gho_abc' });
     return Response.json(sha, { status: 201 });
   }) as any;
   return calls;
@@ -30,22 +29,41 @@ function form(fields: Record<string, string | Blob>) {
 }
 const valid = () => ({ name: 'Ana Silva', country: 'Portugal', project: 'ESC 2025', quote: 'Five months in the forest changed how I live.', consent: 'yes', t: String(Date.now() - 60_000), return: 'https://site.example/sub/en/stories/' });
 
-test('sign-in: redirects to GitHub with a state cookie, rejects a forged callback', async () => {
-  const r = await call('/auth?provider=github&site_id=x');
-  assert.equal(r.status, 302);
-  assert.match(r.headers.get('Location')!, /^https:\/\/github\.com\/login\/oauth\/authorize\?client_id=cid&scope=public_repo&state=/);
-  assert.match(r.headers.get('Set-Cookie')!, /oauth_state=[\w-]+; HttpOnly; Secure/);
-  const bad = await (await call('/callback?code=c&state=forged', { headers: { Cookie: 'oauth_state=real' } })).text();
-  assert.match(bad, /authorization:github:error:/);
+const signIn = async (email: string, password: string) => {
+  const f = new FormData(); f.append('email', email); f.append('password', password);
+  return call('/auth?provider=github&site_id=x', { method: 'POST', body: f });
+};
+const tokenOf = (html: string) => JSON.parse(html.match(/msg = ("authorization:github:success:.*?");/)![1]).split('success:')[1];
+
+test('sign-in: e-mail + password form, wrong password refused', async () => {
+  assert.match(await (await call('/auth?provider=github')).text(), /type="password"/);
+  const bad = await signIn('katerina@example.gr', 'nope');
+  assert.equal(bad.status, 401);
+  assert.doesNotMatch(await bad.text(), /authorization:github:success/);
+  assert.equal((await signIn('stranger@example.gr', 'forest-2026')).status, 401);
 });
 
-test('sign-in: token is only posted back to allowed origins', async () => {
-  mockGitHub();
-  const html = await (await call('/callback?code=c&state=s1', { headers: { Cookie: 'oauth_state=s1' } })).text();
-  assert.match(html, /authorization:github:success:/);
-  assert.match(html, /gho_abc/);
+test('sign-in: session is only posted back to allowed origins', async () => {
+  const html = await (await signIn(' Katerina@Example.gr ', 'forest-2026')).text();
   assert.match(html, /allowed\.includes\(e\.origin\)/);
   assert.ok(html.includes('["https://site.example"]'));
+  assert.ok(!html.includes('ghp_server_secret'), 'the repository token never reaches the browser');
+});
+
+test('relay: forwards admin calls with the server token, rejects forged sessions', async () => {
+  const calls = mockGitHub();
+  const token = JSON.parse(tokenOf(await (await signIn('katerina@example.gr', 'forest-2026')).text())).token;
+  const headers = { Authorization: `token ${token}`, Origin: 'https://site.example' };
+  const r = await call('/api/v3/repos/o/r/contents/x.yml?ref=main', { headers });
+  assert.equal(r.headers.get('Access-Control-Allow-Origin'), 'https://site.example');
+  assert.equal(calls[0].url, 'https://api.github.com/repos/o/r/contents/x.yml?ref=main');
+  await call('/api/graphql', { method: 'POST', headers, body: '{"query":"{viewer{login}}"}' });
+  assert.equal(calls[1].url, 'https://api.github.com/graphql');
+  const forged = token.replace(/.$/, (c: string) => (c === 'A' ? 'B' : 'A'));
+  assert.equal((await call('/api/v3/user', { headers: { ...headers, Authorization: `token ${forged}` } })).status, 401);
+  const removed = await worker.fetch(new Request('https://api.example/api/v3/user', { headers }), { ...env, ADMINS: 'kostas@example.gr=other' });
+  assert.equal(removed.status, 401);
+  assert.equal(calls.length, 2);
 });
 
 test('story: honeypot and too-fast submissions are dropped silently', async () => {

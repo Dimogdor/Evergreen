@@ -1,21 +1,25 @@
-// Evergreen API — one free Cloudflare Worker, two jobs:
-//   GET  /auth, /callback  "Sign in with GitHub" for the admin panel (Sveltia CMS OAuth popup)
-//   POST /testimonial      a visitor's story → saved UNPUBLISHED in the repo + a GitHub issue that
-//                          e-mails the admins; it goes online only when an admin ticks "Published".
+// Evergreen API — one free Cloudflare Worker, so the admins never need a GitHub account:
+//   GET/POST /auth                    admin sign-in with e-mail + password (popup used by the admin panel)
+//   *        /api/v3/*, /api/graphql  the admin panel's storage calls, relayed to the content repository
+//                                     with the server-side token once the admin's session is checked
+//   POST     /testimonial             a visitor's story → saved UNPUBLISHED + e-mail to the team;
+//                                     it goes online only when an admin ticks "Published".
 // Setup: worker/README.md. Settings (Worker → Settings → Variables and secrets):
-//   secrets  GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET (OAuth app), GITHUB_TOKEN (fine-grained, this repo only:
-//            Contents + Issues read/write), optional TURNSTILE_SECRET (anti-spam)
-//   vars     REPO ("Dimogdor/Evergreen"), BRANCH ("main"), ALLOWED_ORIGINS ("https://dimogdor.github.io,…"), SITE_URL
+//   secrets  ADMINS ("katerina@mail.gr=password;kostas@mail.gr=password"), SESSION_KEY (long random text),
+//            GITHUB_TOKEN (fine-grained, content repository only: Contents + Issues read/write), optional TURNSTILE_SECRET
+//   vars     REPO, BRANCH, ALLOWED_ORIGINS ("https://dimogdor.github.io,…"), SITE_URL,
+//            optional MAIL_FROM + MAIL_TO with the MAIL send_email binding (e-mail notifications)
 
 const PHOTO_MAX = 6 * 1024 * 1024;
 const PHOTO_TYPES = { 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp' };
+const SESSION_DAYS = 30;
 
 export default {
   async fetch(req, env) {
     const url = new URL(req.url);
     try {
-      if (req.method === 'GET' && url.pathname === '/auth') return auth(url, env);
-      if (req.method === 'GET' && url.pathname === '/callback') return await callback(req, url, env);
+      if (url.pathname === '/auth') return req.method === 'POST' ? await login(req, env) : page(loginForm(''));
+      if (url.pathname.startsWith('/api/')) return await relay(req, url, env);
       if (req.method === 'POST' && url.pathname === '/testimonial') return await testimonial(req, env);
       return new Response('Not found', { status: 404 });
     } catch (e) {
@@ -27,56 +31,94 @@ export default {
 
 const allowedOrigins = (env) => (env.ALLOWED_ORIGINS || '').split(',').map((s) => s.trim().replace(/\/$/, '')).filter(Boolean);
 const script = (v) => JSON.stringify(v).replace(/</g, '\\u003c');
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
+const limited = async (req, env) =>
+  !!env.LIMITER && !(await env.LIMITER.limit({ key: req.headers.get('CF-Connecting-IP') || '' })).success;
 
-// ───────────── Admin sign-in (same protocol as sveltia-cms-auth) ─────────────
+// ───────────── Admin sign-in (same popup protocol as sveltia-cms-auth) ─────────────
 
-function auth(url, env) {
-  if (url.searchParams.get('provider') !== 'github') return new Response('Unsupported provider', { status: 400 });
-  const state = crypto.randomUUID();
-  // ponytail: public_repo is enough while the repository is public; set SCOPE=repo if it becomes private.
-  const q = new URLSearchParams({ client_id: env.GITHUB_CLIENT_ID, scope: env.SCOPE || 'public_repo', state });
-  return new Response(null, {
-    status: 302,
-    headers: { Location: `https://github.com/login/oauth/authorize?${q}`, 'Set-Cookie': `oauth_state=${state}; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=600` },
-  });
+const page = (body, status = 200) => new Response(`<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Evergreen — Admin</title><style>body{font:16px/1.5 system-ui,sans-serif;background:#f4f0e6;color:#17231a;display:grid;place-items:center;min-height:100vh;margin:0}
+form{display:grid;gap:12px;width:min(320px,90vw)}input,button{font:inherit;padding:10px;border:1px solid #17231a;border-radius:6px;width:100%;box-sizing:border-box}button{background:#22402a;color:#fff;cursor:pointer}.err{color:#a3341f}</style>${body}</html>`, {
+  status,
+  headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store', 'X-Frame-Options': 'DENY', 'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; form-action 'self'" },
+});
+
+const loginForm = (error) => `<form method="post">
+<h1 style="margin:0;font-weight:500">Evergreen · Admin</h1>
+${error ? `<p class="err">${esc(error)}</p>` : ''}
+<label>Email<input name="email" type="email" required autocomplete="username"></label>
+<label>Κωδικός · Password<input name="password" type="password" required autocomplete="current-password"></label>
+<button>Σύνδεση · Sign in</button></form>`;
+
+// ADMINS secret: "email=password;email=password" (kept in Cloudflare's encrypted secrets, never in the repository).
+const admins = (env) => new Map(String(env.ADMINS || '').split(/[;\n]/).map((l) => l.trim().split('=')).filter(([e, p]) => e && p).map(([e, p]) => [e.toLowerCase(), p]));
+
+async function login(req, env) {
+  if (await limited(req, env)) return page(loginForm('Too many attempts — wait a minute.'), 429);
+  const form = await req.formData();
+  const email = String(form.get('email') || '').trim().toLowerCase();
+  const expected = admins(env).get(email);
+  // Compare HMACs so the check takes the same time whatever the password.
+  const ok = expected !== undefined && (await sign(env, `pw:${form.get('password')}`)) === (await sign(env, `pw:${expected}`));
+  if (!ok) return page(loginForm('Wrong e-mail or password.'), 401);
+  const payload = `${email}|${Date.now() + SESSION_DAYS * 864e5}`;
+  return popup(env, `${btoa(payload)}.${await sign(env, payload)}`);
 }
 
-async function callback(req, url, env) {
-  const cookie = /(?:^|;\s*)oauth_state=([\w-]+)/.exec(req.headers.get('Cookie') || '')?.[1];
-  const code = url.searchParams.get('code');
-  if (!code || !cookie || url.searchParams.get('state') !== cookie) return popup(env, { error: 'Sign-in expired, please try again.' });
-  const r = await fetch('https://github.com/login/oauth/access_token', {
-    method: 'POST',
-    headers: { Accept: 'application/json', 'Content-Type': 'application/json' },
-    body: JSON.stringify({ client_id: env.GITHUB_CLIENT_ID, client_secret: env.GITHUB_CLIENT_SECRET, code }),
-  });
-  const data = await r.json().catch(() => ({}));
-  return popup(env, data.access_token ? { token: data.access_token } : { error: data.error_description || 'Sign-in failed.' });
-}
-
-// The popup hands the token only to the admin page of an allowed site (never to any other opener).
-function popup(env, result) {
-  const msg = `authorization:github:${result.token ? 'success' : 'error'}:${JSON.stringify({ provider: 'github', ...result })}`;
-  const html = `<!doctype html><meta charset="utf-8"><title>Signing in…</title><p>Signing in…</p><script>
+// The popup hands the session only to the admin page of an allowed site (never to any other opener).
+function popup(env, token) {
+  const msg = `authorization:github:success:${JSON.stringify({ provider: 'github', token })}`;
+  return page(`<p>Signing in…</p><script>
 const allowed = ${script(allowedOrigins(env))}, msg = ${script(msg)};
 addEventListener('message', (e) => {
   if (e.source === window.opener && allowed.includes(e.origin) && e.data === 'authorizing:github') window.opener.postMessage(msg, e.origin);
 });
 if (window.opener) window.opener.postMessage('authorizing:github', '*');
-</script>`;
-  return new Response(html, {
-    headers: {
-      'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store',
-      'Content-Security-Policy': "default-src 'none'; script-src 'unsafe-inline'",
-      'Set-Cookie': 'oauth_state=; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=0',
-    },
-  });
+</script>`);
+}
+
+async function sign(env, text) {
+  if (!env.SESSION_KEY) throw new Error('SESSION_KEY secret missing');
+  const key = await crypto.subtle.importKey('raw', new TextEncoder().encode(env.SESSION_KEY), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']);
+  const mac = new Uint8Array(await crypto.subtle.sign('HMAC', key, new TextEncoder().encode(text)));
+  return btoa(String.fromCharCode(...mac)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+
+async function session(env, header) {
+  const [b64, mac] = String(header || '').replace(/^(Bearer|token) /i, '').split('.');
+  if (!b64 || !mac) return null;
+  let payload;
+  try { payload = atob(b64); } catch { return null; }
+  const [email, exp] = payload.split('|');
+  if (mac !== (await sign(env, payload)) || !(Date.now() < Number(exp)) || !admins(env).has(email)) return null;
+  return email; // removing someone from ADMINS ends their sessions at once
+}
+
+// ───────────── Storage relay for the admin panel ─────────────
+
+async function relay(req, url, env) {
+  const origin = req.headers.get('Origin') || '';
+  const cors = allowedOrigins(env).includes(origin)
+    ? { 'Access-Control-Allow-Origin': origin, 'Access-Control-Allow-Headers': 'Authorization, Content-Type, Accept, If-None-Match', 'Access-Control-Allow-Methods': 'GET, POST, PUT, PATCH, DELETE', 'Access-Control-Expose-Headers': 'ETag, Link', 'Access-Control-Max-Age': '86400', Vary: 'Origin' }
+    : {};
+  if (req.method === 'OPTIONS') return new Response(null, { status: 204, headers: cors });
+  if (!(await session(env, req.headers.get('Authorization')))) return Response.json({ message: 'Bad credentials' }, { status: 401, headers: cors });
+  // /api/v3/x → https://api.github.com/x, /api/graphql → https://api.github.com/graphql
+  const path = url.pathname === '/api/graphql' ? '/graphql' : url.pathname.replace(/^\/api\/v3/, '');
+  const headers = new Headers({ Authorization: `Bearer ${env.GITHUB_TOKEN}`, 'User-Agent': 'evergreen-api', Accept: req.headers.get('Accept') || 'application/vnd.github+json' });
+  if (req.headers.get('Content-Type')) headers.set('Content-Type', req.headers.get('Content-Type'));
+  const r = await fetch(`https://api.github.com${path}${url.search}`, { method: req.method, headers, body: ['GET', 'HEAD'].includes(req.method) ? undefined : await req.arrayBuffer() });
+  const out = new Headers(r.headers);
+  for (const [k, v] of Object.entries(cors)) out.set(k, v);
+  return new Response(r.body, { status: r.status, headers: out });
 }
 
 // ───────────── Testimonials ─────────────
 
 const clean = (v, max) => String(v ?? '').replace(/[\u0000-\u0008\u000B-\u001F\u007F]/g, '').trim().slice(0, max);
 const slug = (s) => s.normalize('NFKD').replace(/[^\w\s-]/g, '').trim().toLowerCase().replace(/[\s_-]+/g, '-').slice(0, 30) || 'guest';
+const quiet = (v) => v.replace(/@/g, '@​'); // no @mentions in repository issues: visitors can't notify strangers
 
 function looksLike(type, b) {
   if (type === 'image/jpeg') return b[0] === 0xff && b[1] === 0xd8 && b[2] === 0xff;
@@ -100,7 +142,7 @@ async function testimonial(req, env) {
     : Response.json({ status }, { status: status === 'sent' ? 200 : 400 }));
 
   // Anti-spam: per-IP rate limit (wrangler.toml), hidden field filled by bots, form sent faster than a human can type, optional Turnstile.
-  if (env.LIMITER && !(await env.LIMITER.limit({ key: req.headers.get('CF-Connecting-IP') || '' })).success) return reply('error');
+  if (await limited(req, env)) return reply('error');
   const started = Number(form.get('t'));
   if (form.get('website') || !started || Date.now() - started < 4000) return reply('sent');
   if (env.TURNSTILE_SECRET) {
@@ -138,17 +180,27 @@ async function testimonial(req, env) {
 
   await commit(env, files, `New story from ${entry.name} (waiting for approval)`);
   const site = (env.SITE_URL || '').replace(/\/$/, '');
-  const quiet = (v) => v.replace(/@/g, '@\u200b'); // no @mentions: visitors can't make GitHub notify strangers
-  await gh(env, `/repos/${env.REPO}/issues`, {
-    title: quiet(`New story from ${entry.name} — waiting for your approval`),
-    body: quiet(`**${entry.name}**${entry.country ? ` (${entry.country})` : ''}${entry.project ? ` · ${entry.project}` : ''}\n\n> ${entry.quote.replace(/\n/g, '\n> ')}\n\n`)
-      + `To publish it: open ${site}/admin/#/collections/testimonials/entries/${id}, tick **Published** and save. To refuse it, delete the entry.\n\nThen close this issue.`,
-    labels: ['testimonial'],
-  }).catch((e) => console.error('issue', e)); // the story is saved even if the notification fails
+  const subject = `New story from ${entry.name} — waiting for your approval`;
+  const text = `${entry.name}${entry.country ? ` (${entry.country})` : ''}${entry.project ? ` · ${entry.project}` : ''}\n\n> ${entry.quote.replace(/\n/g, '\n> ')}\n\n`
+    + `To publish it: open ${site}/admin/#/collections/testimonials/entries/${id}, tick “Published” and save. To refuse it, delete the entry.`;
+  await notify(env, id, subject, text).catch((e) => console.error('notify', e)); // the story is saved even if the notification fails
   return reply('sent');
 }
 
-// ───────────── GitHub API ─────────────
+// E-mail through Cloudflare (MAIL send_email binding, needs the domain on Cloudflare); otherwise a repository issue.
+async function notify(env, id, subject, text) {
+  if (env.MAIL && env.MAIL_FROM && env.MAIL_TO) {
+    const { EmailMessage } = await import('cloudflare:email');
+    const b64 = (s) => base64(new TextEncoder().encode(s));
+    const raw = [`From: Evergreen website <${env.MAIL_FROM}>`, `To: ${env.MAIL_TO}`, `Subject: =?UTF-8?B?${b64(subject)}?=`,
+      `Message-ID: <${id}@${env.MAIL_FROM.split('@')[1]}>`, `Date: ${new Date().toUTCString()}`, 'MIME-Version: 1.0',
+      'Content-Type: text/plain; charset=utf-8', 'Content-Transfer-Encoding: base64', '', b64(text)].join('\r\n');
+    return env.MAIL.send(new EmailMessage(env.MAIL_FROM, env.MAIL_TO, raw));
+  }
+  return gh(env, `/repos/${env.REPO}/issues`, { title: quiet(subject), body: `${quiet(text)}\n\nThen close this issue.`, labels: ['testimonial'] });
+}
+
+// ───────────── Content repository (GitHub API, used only by this worker — swap here to migrate) ─────────────
 
 async function gh(env, path, body, method = body ? 'POST' : 'GET') {
   const r = await fetch(`https://api.github.com${path}`, {

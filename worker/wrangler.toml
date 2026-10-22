@@ -14,3 +14,9 @@ ALLOWED_ORIGINS = "https://dimogdor.github.io"
 name = "LIMITER"
 namespace_id = "1001"
 simple = { limit = 3, period = 60 }
+
+# E-mail notifications for new stories (once the site's domain is on Cloudflare with Email Routing on,
+# and MAIL_TO verified there as a destination address). Uncomment and set:
+# [[send_email]]
+# name = "MAIL"
+# [vars]  → add MAIL_FROM = "website@evergreenproject.gr", MAIL_TO = "evergreenecovillage@gmail.com"

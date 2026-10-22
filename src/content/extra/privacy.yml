@@ -5,11 +5,11 @@ el:
   intro: Αυτός ο ιστότοπος δεν χρησιμοποιεί cookies, διαφημίσεις ή εργαλεία παρακολούθησης.
   sections:
   - heading: Όταν απλώς περιηγείστε
-    text: Δεν συλλέγουμε τίποτα. Ο ιστότοπος φιλοξενείται στο GitHub Pages, το οποίο —όπως κάθε πάροχος φιλοξενίας— μπορεί να κρατά τεχνικά αρχεία καταγραφής (διεύθυνση IP, πρόγραμμα περιήγησης) για λόγους ασφαλείας.
+    text: Δεν συλλέγουμε τίποτα. Όπως κάθε πάροχος φιλοξενίας ιστοσελίδων, ο πάροχός μας μπορεί να κρατά τεχνικά αρχεία καταγραφής (διεύθυνση IP, πρόγραμμα περιήγησης) για λόγους ασφαλείας.
   - heading: Όταν μας γράφετε
     text: Αν μας στείλετε email, μας τηλεφωνήσετε ή χρησιμοποιήσετε τη φόρμα επικοινωνίας, χρησιμοποιούμε το μήνυμά σας μόνο για να σας απαντήσουμε. Τα μηνύματα της φόρμας παραδίδονται στο email μας μέσω της υπηρεσίας Web3Forms.
   - heading: Όταν μοιράζεστε την ιστορία σας
-    text: Λαμβάνουμε το όνομά σας, τη χώρα σας, το κείμενό σας και, αν το επιλέξετε, μια φωτογραφία ή έναν σύνδεσμο βίντεο. Αποθηκεύονται στο δημόσιο αποθετήριο κώδικα του ιστότοπου (στο GitHub) και εμφανίζονται στη σελίδα «Ιστορίες» μόνο αφού τα εγκρίνει η ομάδα μας. Μπορείτε να ζητήσετε διόρθωση ή διαγραφή οποιαδήποτε στιγμή.
+    text: Λαμβάνουμε το όνομά σας, τη χώρα σας, το κείμενό σας και, αν το επιλέξετε, μια φωτογραφία ή έναν σύνδεσμο βίντεο. Τα διαβάζει η ομάδα μας και εμφανίζονται στη σελίδα «Ιστορίες» μόνο αφού εγκριθούν. Μπορείτε να ζητήσετε διόρθωση ή διαγραφή οποιαδήποτε στιγμή.
   - heading: Ενσωματωμένο περιεχόμενο
     text: Ο χάρτης στη σελίδα επικοινωνίας προέρχεται από το OpenStreetMap και ορισμένα βίντεο από το YouTube (λειτουργία βελτιωμένου απορρήτου). Φορτώνονται μόνο στις σελίδες όπου εμφανίζονται.
   - heading: Τα δικαιώματά σας
@@ -19,11 +19,11 @@ en:
   intro: This website uses no cookies, no advertising and no tracking.
   sections:
   - heading: When you simply browse
-    text: We collect nothing. The site is hosted on GitHub Pages, which — like any web host — may keep technical logs (IP address, browser) for security.
+    text: We collect nothing. Like any web host, our hosting provider may keep technical logs (IP address, browser) for security.
   - heading: When you write to us
     text: If you email us, call us or use the contact form, we only use your message to reply to you. Contact-form messages are delivered to our inbox by the Web3Forms service.
   - heading: When you share your story
-    text: We receive your name, country, text and, if you choose, a photo or a video link. They are stored in the website’s public code repository (on GitHub) and appear on the Stories page only after our team approves them. You can ask us to correct or remove them at any time.
+    text: We receive your name, country, text and, if you choose, a photo or a video link. Our team reads them, and they appear on the Stories page only once approved. You can ask us to correct or remove them at any time.
   - heading: Embedded content
     text: The map on the contact page comes from OpenStreetMap and some videos from YouTube (privacy-enhanced mode). They only load on the pages where they appear.
   - heading: Your rights
@@ -33,11 +33,11 @@ fr:
   intro: Ce site n’utilise ni cookies, ni publicité, ni pistage.
   sections:
   - heading: Quand vous naviguez
-    text: Nous ne collectons rien. Le site est hébergé sur GitHub Pages qui, comme tout hébergeur, peut conserver des journaux techniques (adresse IP, navigateur) pour la sécurité.
+    text: Nous ne collectons rien. Comme tout hébergeur, notre hébergeur peut conserver des journaux techniques (adresse IP, navigateur) pour la sécurité.
   - heading: Quand vous nous écrivez
     text: Si vous nous écrivez, nous appelez ou utilisez le formulaire de contact, nous utilisons votre message uniquement pour vous répondre. Les messages du formulaire nous sont transmis par le service Web3Forms.
   - heading: Quand vous partagez votre témoignage
-    text: Nous recevons votre nom, votre pays, votre texte et, si vous le souhaitez, une photo ou un lien vidéo. Ils sont enregistrés dans le dépôt de code public du site (sur GitHub) et n’apparaissent sur la page Témoignages qu’après validation par notre équipe. Vous pouvez demander à tout moment leur correction ou leur suppression.
+    text: Nous recevons votre nom, votre pays, votre texte et, si vous le souhaitez, une photo ou un lien vidéo. Notre équipe les lit, et ils n’apparaissent sur la page Témoignages qu’après validation. Vous pouvez demander à tout moment leur correction ou leur suppression.
   - heading: Contenus intégrés
     text: La carte de la page contact provient d’OpenStreetMap et certaines vidéos de YouTube (mode confidentialité renforcée). Ils ne se chargent que sur les pages où ils apparaissent.
   - heading: Vos droits
@@ -47,11 +47,11 @@ es:
   intro: Este sitio no usa cookies, ni publicidad, ni rastreo.
   sections:
   - heading: Cuando solo navegas
-    text: No recogemos nada. El sitio está alojado en GitHub Pages, que —como cualquier alojamiento web— puede guardar registros técnicos (dirección IP, navegador) por seguridad.
+    text: No recogemos nada. Como cualquier alojamiento web, nuestro proveedor puede guardar registros técnicos (dirección IP, navegador) por seguridad.
   - heading: Cuando nos escribes
     text: Si nos escribes, nos llamas o usas el formulario de contacto, usamos tu mensaje solo para responderte. Los mensajes del formulario nos llegan a través del servicio Web3Forms.
   - heading: Cuando compartes tu historia
-    text: Recibimos tu nombre, país, texto y, si quieres, una foto o un enlace de vídeo. Se guardan en el repositorio de código público del sitio (en GitHub) y solo aparecen en la página Historias cuando nuestro equipo los aprueba. Puedes pedirnos que los corrijamos o eliminemos en cualquier momento.
+    text: Recibimos tu nombre, país, texto y, si quieres, una foto o un enlace de vídeo. Nuestro equipo los lee y solo aparecen en la página Historias una vez aprobados. Puedes pedirnos que los corrijamos o eliminemos en cualquier momento.
   - heading: Contenido integrado
     text: El mapa de la página de contacto viene de OpenStreetMap y algunos vídeos de YouTube (modo de privacidad mejorada). Solo se cargan en las páginas donde aparecen.
   - heading: Tus derechos
@@ -61,11 +61,11 @@ it:
   intro: Questo sito non usa cookie, pubblicità né tracciamento.
   sections:
   - heading: Quando navighi
-    text: Non raccogliamo nulla. Il sito è ospitato su GitHub Pages che, come ogni hosting, può conservare log tecnici (indirizzo IP, browser) per sicurezza.
+    text: Non raccogliamo nulla. Come ogni hosting, il nostro fornitore può conservare log tecnici (indirizzo IP, browser) per sicurezza.
   - heading: Quando ci scrivi
     text: Se ci scrivi, ci chiami o usi il modulo di contatto, usiamo il tuo messaggio solo per risponderti. I messaggi del modulo ci arrivano tramite il servizio Web3Forms.
   - heading: Quando condividi la tua storia
-    text: Riceviamo il tuo nome, il paese, il testo e, se vuoi, una foto o un link video. Sono salvati nel repository pubblico del codice del sito (su GitHub) e compaiono nella pagina Storie solo dopo l’approvazione del nostro team. Puoi chiederci in qualsiasi momento di correggerli o rimuoverli.
+    text: Riceviamo il tuo nome, il paese, il testo e, se vuoi, una foto o un link video. Il nostro team li legge e compaiono nella pagina Storie solo dopo l’approvazione. Puoi chiederci in qualsiasi momento di correggerli o rimuoverli.
   - heading: Contenuti incorporati
     text: La mappa della pagina contatti proviene da OpenStreetMap e alcuni video da YouTube (modalità privacy avanzata). Si caricano solo nelle pagine in cui compaiono.
   - heading: I tuoi diritti
@@ -75,11 +75,11 @@ ru:
   intro: Этот сайт не использует cookies, рекламу и отслеживание.
   sections:
   - heading: Когда вы просто просматриваете сайт
-    text: Мы ничего не собираем. Сайт размещён на GitHub Pages, который, как любой хостинг, может хранить технические журналы (IP-адрес, браузер) в целях безопасности.
+    text: Мы ничего не собираем. Как любой хостинг, наш провайдер может хранить технические журналы (IP-адрес, браузер) в целях безопасности.
   - heading: Когда вы нам пишете
     text: Если вы пишете, звоните или используете форму обратной связи, мы используем ваше сообщение только для ответа. Сообщения из формы доставляются нам через сервис Web3Forms.
   - heading: Когда вы делитесь своей историей
-    text: Мы получаем ваше имя, страну, текст и, по желанию, фото или ссылку на видео. Они хранятся в публичном репозитории кода сайта (на GitHub) и появляются на странице «Истории» только после одобрения нашей командой. Вы можете в любой момент попросить исправить или удалить их.
+    text: Мы получаем ваше имя, страну, текст и, по желанию, фото или ссылку на видео. Наша команда их читает, и они появляются на странице «Истории» только после одобрения. Вы можете в любой момент попросить исправить или удалить их.
   - heading: Встроенный контент
     text: Карта на странице контактов загружается с OpenStreetMap, некоторые видео — с YouTube (режим повышенной конфиденциальности). Они загружаются только на тех страницах, где показаны.
   - heading: Ваши права
@@ -89,11 +89,11 @@ de:
   intro: Diese Website verwendet keine Cookies, keine Werbung und kein Tracking.
   sections:
   - heading: Wenn du nur surfst
-    text: Wir erheben nichts. Die Website wird bei GitHub Pages gehostet, das — wie jeder Hoster — aus Sicherheitsgründen technische Protokolle (IP-Adresse, Browser) speichern kann.
+    text: Wir erheben nichts. Wie jeder Hoster kann unser Hosting-Anbieter aus Sicherheitsgründen technische Protokolle (IP-Adresse, Browser) speichern.
   - heading: Wenn du uns schreibst
     text: Wenn du uns schreibst, anrufst oder das Kontaktformular nutzt, verwenden wir deine Nachricht nur, um dir zu antworten. Nachrichten aus dem Formular werden über den Dienst Web3Forms an uns zugestellt.
   - heading: Wenn du deine Geschichte teilst
-    text: Wir erhalten deinen Namen, dein Land, deinen Text und auf Wunsch ein Foto oder einen Videolink. Sie werden im öffentlichen Code-Repository der Website (auf GitHub) gespeichert und erscheinen auf der Seite „Geschichten“ erst, nachdem unser Team sie freigegeben hat. Du kannst jederzeit Korrektur oder Löschung verlangen.
+    text: Wir erhalten deinen Namen, dein Land, deinen Text und auf Wunsch ein Foto oder einen Videolink. Unser Team liest sie, und sie erscheinen auf der Seite „Geschichten“ erst nach Freigabe. Du kannst jederzeit Korrektur oder Löschung verlangen.
   - heading: Eingebettete Inhalte
     text: Die Karte auf der Kontaktseite stammt von OpenStreetMap, einige Videos von YouTube (erweiterter Datenschutzmodus). Sie werden nur auf den Seiten geladen, auf denen sie erscheinen.
   - heading: Deine Rechte
@@ -103,11 +103,11 @@ pt:
   intro: Este site não usa cookies, publicidade nem rastreamento.
   sections:
   - heading: Quando apenas navega
-    text: Não recolhemos nada. O site está alojado no GitHub Pages que, como qualquer alojamento, pode guardar registos técnicos (endereço IP, navegador) por segurança.
+    text: Não recolhemos nada. Como qualquer alojamento, o nosso fornecedor pode guardar registos técnicos (endereço IP, navegador) por segurança.
   - heading: Quando nos escreve
     text: Se nos escrever, ligar ou usar o formulário de contacto, usamos a sua mensagem apenas para lhe responder. As mensagens do formulário chegam-nos através do serviço Web3Forms.
   - heading: Quando partilha a sua história
-    text: Recebemos o seu nome, país, texto e, se quiser, uma foto ou um link de vídeo. São guardados no repositório de código público do site (no GitHub) e só aparecem na página Histórias depois de aprovados pela nossa equipa. Pode pedir-nos a qualquer momento que os corrijamos ou apaguemos.
+    text: Recebemos o seu nome, país, texto e, se quiser, uma foto ou um link de vídeo. A nossa equipa lê-os e só aparecem na página Histórias depois de aprovados. Pode pedir-nos a qualquer momento que os corrijamos ou apaguemos.
   - heading: Conteúdo incorporado
     text: O mapa da página de contacto vem do OpenStreetMap e alguns vídeos do YouTube (modo de privacidade melhorada). Só são carregados nas páginas onde aparecem.
   - heading: Os seus direitos

@@ -1,49 +1,50 @@
 # evergreen-api (Cloudflare Worker, free plan)
 
-Two jobs: **admin sign-in** ("Sign in with GitHub" in `/admin`) and **visitors' stories** (testimonials).
+One worker so that **Katerina, Kostas and the other admins never need a GitHub account**:
 
-## 1. Create the GitHub OAuth app (sign-in)
-GitHub → Settings → Developer settings → **OAuth Apps → New OAuth App**
-- Homepage URL: `https://dimogdor.github.io/Evergreen/`
-- Authorization callback URL: `https://evergreen-api.<your-account>.workers.dev/callback`
+- **Admin sign-in with e-mail + password** (the admin panel's sign-in button opens a small login window).
+- **Storage relay**: the admin panel saves through the worker, which holds the only key to the content repository.
+- **Visitors' stories**: saved unpublished, the team is notified, an admin ticks “Published”.
 
-Copy the **Client ID** and generate a **Client secret**.
-
-## 2. Create the token used to save stories
+## 1. Create the key to the content repository (once)
 GitHub → Settings → Developer settings → **Fine-grained tokens → Generate new token**
-- Repository access: **only** `Dimogdor/Evergreen`
+- Repository access: **only** `Dimogdor/Evergreen` · Expiration: the longest allowed (set a reminder to renew it)
 - Permissions: **Contents: Read and write**, **Issues: Read and write** (nothing else)
 
-## 3. Deploy the worker
-Recommended (also turns on the anti-flood limit of 3 stories per minute per visitor from `wrangler.toml`):
-`npx wrangler deploy` in this folder, then `npx wrangler secret put GITHUB_CLIENT_ID` (same for the other secrets below).
+## 2. Deploy the worker
+Recommended (also turns on the limit of 3 attempts per minute per visitor, for logins and stories):
+```bash
+cd worker
+npx wrangler deploy
+npx wrangler secret put GITHUB_TOKEN    # from step 1
+npx wrangler secret put SESSION_KEY     # any long random text, e.g. from: openssl rand -base64 32
+npx wrangler secret put ADMINS          # katerina@mail.gr=a-good-password;kostas@mail.gr=another-password
+```
+Without a terminal: Cloudflare dashboard → **Workers & Pages → Create → Worker** `evergreen-api` → **Edit code**, paste
+`index.js`, Deploy, then add the same secrets and the variables of `wrangler.toml` in **Settings → Variables and secrets**
+(no rate limit this way: turn on Turnstile below).
 
-Without a terminal: Cloudflare dashboard → **Workers & Pages → Create → Worker** → name it `evergreen-api` → Deploy →
-**Edit code**, paste `index.js`, Deploy (no rate limit this way: turn on Turnstile below). Then **Settings → Variables and secrets**:
+**Add / remove an admin or change a password:** edit the `ADMINS` secret (one `email=password` per admin, separated by `;`).
+Removing someone signs them out immediately. Sessions last 30 days.
 
-| Name | Type | Value |
-|---|---|---|
-| `GITHUB_CLIENT_ID` | Secret | from step 1 |
-| `GITHUB_CLIENT_SECRET` | Secret | from step 1 |
-| `GITHUB_TOKEN` | Secret | from step 2 |
-| `REPO` | Text | `Dimogdor/Evergreen` |
-| `BRANCH` | Text | `main` |
-| `SITE_URL` | Text | `https://dimogdor.github.io/Evergreen` (or the final domain) |
-| `ALLOWED_ORIGINS` | Text | `https://dimogdor.github.io` (comma-separated; add the final domain later) |
-| `TURNSTILE_SECRET` | Secret | optional, see below |
+## 3. Connect the admin panel and the site
+- `public/admin/config.yml`: uncomment `base_url` and `api_root` with the worker address (one-time edit).
+- `/admin` → **Settings → Site, contact & bank → Website API address**: the worker address (turns on the stories form).
+- `ALLOWED_ORIGINS` in `wrangler.toml`: every address the site is served from (add the own domain when there is one).
 
-## 4. Connect the site
-In `/admin` → **Settings → Site & contact → Website API address**, paste `https://evergreen-api.<your-account>.workers.dev`,
-and in `public/admin/config.yml` set `base_url:` to the same address (one-time edit on GitHub).
+## 4. Notifications for new stories
+- With the site's own domain on Cloudflare: turn on **Email Routing**, verify `evergreenecovillage@gmail.com` as a destination,
+  then uncomment the `send_email` block in `wrangler.toml` (and set `MAIL_FROM` / `MAIL_TO`) → a plain e-mail for each story.
+- Until then, each story opens an issue in the repository (an e-mail goes to whoever watches it — e.g. the developer).
+- The admins can always open `/admin` → **Stories → ⏳ Waiting for approval**.
 
 ## Optional: Cloudflare Turnstile (stronger anti-spam)
-Cloudflare → Turnstile → Add site (your domain). Put the **site key** in `/admin` → Settings → "Anti-spam site key"
-and the **secret key** as the `TURNSTILE_SECRET` secret of the worker.
+Cloudflare → Turnstile → Add site. **Site key** → `/admin` → Settings → “Anti-spam site key”; **secret key** → `TURNSTILE_SECRET`.
 
-## How stories are moderated
-A story is committed as `src/content/testimonials/<id>.yml` with `published: false` (+ the photo if any), and a GitHub
-issue "New story from … — waiting for your approval" is opened: everyone watching the repository gets an e-mail.
-Admins open `/admin` → **Stories**, read it, tick **Published** and save (or delete it). Unpublished stories never
-appear on the site — but the repository is public, so a refused story should be deleted (it then stays only in the git history).
+## Leaving GitHub completely (later)
+The content is plain YAML files and photos; GitHub is only the storage behind the worker.
+- **Hosting**: Cloudflare Pages (see the main README) — the repository can then be made private.
+- **Storage elsewhere** (GitLab, Forgejo/Codeberg…): change `backend` in `public/admin/config.yml` (Sveltia supports `gitlab`
+  and `gitea`), and the two GitHub functions at the bottom of `index.js` (`gh`, `commit`) plus the relay target.
 
-Tests: `npm test` (root of the repo).
+Tests: `npm test` (root of the repository).

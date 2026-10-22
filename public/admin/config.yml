@@ -1,13 +1,15 @@
 # Sveltia CMS — admin panel at /admin/
 # Docs: https://sveltiacms.app/en/docs  ·  Guide for this site: docs/GUIDE-ADMIN.md
-# Every save = one commit on GitHub = automatic rebuild of the site (≈2 min).
+# Every save rebuilds the website automatically (≈2 min).
 
 backend:
+  # Content storage (the admins never see it). Migrating later = change these lines + the worker.
   name: github
   repo: Dimogdor/Evergreen
   branch: main
-  # Login helper (worker/README.md). Without it, sign in with “Sign in using access token”.
+  # E-mail + password sign-in for the admins (no GitHub account needed) — after deploying worker/README.md, uncomment:
   # base_url: https://evergreen-api.YOUR-ACCOUNT.workers.dev
+  # api_root: https://evergreen-api.YOUR-ACCOUNT.workers.dev/api/v3
 
 app_title: Evergreen — Admin
 logo:

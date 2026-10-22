@@ -30,7 +30,7 @@ En ligne : **https://dimogdor.github.io/Evergreen/** · Admin : **/admin/**
 | Générer le site | [Astro](https://astro.build) (HTML statique, optimisation d'images) |
 | Administration | [Sveltia CMS](https://sveltiacms.app) (version figée + empreinte d'intégrité), contenu en YAML dans ce dépôt — chaque modification est versionnée |
 | Hébergement | GitHub Pages (gratuit), rebuild automatique à chaque modification |
-| Connexion admin + formulaire de témoignages | Un Worker Cloudflare gratuit : [worker/README.md](worker/README.md) |
+| Connexion admin (e-mail + mot de passe) + témoignages | Un Worker Cloudflare gratuit : [worker/README.md](worker/README.md) |
 | Formulaire de contact | [Web3Forms](https://web3forms.com) (gratuit, optionnel) |
 | Sécurité | Content-Security-Policy stricte (scripts hachés), aucun cookie ni traceur |
 
@@ -50,9 +50,10 @@ worker/             ← Worker Cloudflare (connexion GitHub + témoignages)
 
 Guide pas-à-pas (grec + anglais) : **[docs/GUIDE-ADMIN.md](docs/GUIDE-ADMIN.md)**.
 
-1. Chaque administrateur crée un compte GitHub gratuit ; l'ajouter dans **Settings → Collaborators** du dépôt.
-2. Pour le bouton « Sign in with GitHub » et le formulaire de témoignages : déployer le Worker ([worker/README.md](worker/README.md)). En attendant : « Sign in using access token ».
-3. Pour recevoir les notifications de témoignages par e-mail : **Watch → All Activity** sur le dépôt.
+**Aucun compte GitHub n'est nécessaire** : les admins se connectent avec e-mail + mot de passe grâce au Worker Cloudflare gratuit ([worker/README.md](worker/README.md)), qui garde seul la clé d'accès au contenu.
+1. Déployer le Worker et y mettre les admins (`ADMINS` = `katerina@…=motdepasse;kostas@…=motdepasse`).
+2. Décommenter `base_url` et `api_root` dans `public/admin/config.yml`.
+3. Mettre l'adresse du Worker dans *Admin → Settings → Website API address* (active le formulaire de témoignages).
 
 ## Nom de domaine propre
 
@@ -63,6 +64,14 @@ Une fois le domaine acheté (ex. `evergreenproject.gr`) :
 2. Dépôt → **Settings → Pages → Custom domain** : `evergreenproject.gr`, puis cocher **Enforce HTTPS**.
 3. Dépôt → **Settings → Secrets and variables → Actions → Variables** : `SITE_URL` = `https://evergreenproject.gr`, `BASE_PATH` = `/`. Relancer le déploiement (onglet Actions).
 4. `public/admin/config.yml` : `site_url` / `display_url` ; Worker : ajouter le domaine à `ALLOWED_ORIGINS` et changer `SITE_URL`.
+
+## Quitter GitHub (préparé)
+
+Le site est 100 % statique et le contenu n'est que des fichiers YAML + photos : rien ne dépend de GitHub côté visiteurs ni côté admins (après l'étape « Administrateurs »).
+1. **Hébergement → Cloudflare Pages** (gratuit, illimité) : Workers & Pages → Create → Pages → Connect to Git → ce dépôt ; *Build command* `npm run build`, *Output* `dist` ; variables `SITE_URL` = `https://evergreenproject.gr`, `BASE_PATH` = `/`. Brancher le domaine dans *Custom domains*. Les en-têtes de sécurité/cache de `public/_headers` y sont appliqués automatiquement.
+2. Désactiver GitHub Pages et supprimer `.github/workflows/deploy.yml` ; le dépôt peut alors devenir **privé**.
+3. Notifications de témoignages par e-mail : activer Email Routing sur le domaine (voir [worker/README.md](worker/README.md)).
+4. Stockage ailleurs que GitHub plus tard (GitLab, Codeberg…) : changer `backend` dans `public/admin/config.yml` et les fonctions `gh`/`commit` du Worker. Note : la recompression automatique des vidéos est une GitHub Action — ailleurs, privilégier les liens YouTube.
 
 ## Développement
 
