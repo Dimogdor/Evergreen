@@ -1,0 +1,29 @@
+el:
+  start: '2026-09-04'
+  end: '2026-12-13'
+  category: esc
+  program: esc-volunteering
+  image: /src/assets/uploads/friends-smiles.webp
+  title: ESC — Εθελοντισμός 3 μηνών
+  summary: 'Τρεις εθελοντές ζουν μαζί μας: φυσική δόμηση, κήπος και αγροδασοπονία, υποστήριξη ρητρίτ και εκδηλώσεων, γιόγκα και μαθήματα ταϊλανδέζικου μασάζ.'
+en:
+  title: ESC — 3-month volunteering
+  summary: 'Three volunteers live with us: natural building, gardening and agroforestry, supporting retreats and events, yoga and Thai massage mini-courses.'
+fr:
+  title: CES — volontariat de 3 mois
+  summary: 'Trois volontaires vivent avec nous : construction naturelle, jardin et agroforesterie, soutien aux retraites et événements, yoga et mini-cours de massage thaï.'
+es:
+  title: CES — voluntariado de 3 meses
+  summary: 'Tres voluntarios viven con nosotros: bioconstrucción, huerta y agroforestería, apoyo a retiros y eventos, yoga y minicursos de masaje tailandés.'
+it:
+  title: CES — volontariato di 3 mesi
+  summary: 'Tre volontari vivono con noi: bioedilizia, orto e agroforestazione, supporto a ritiri ed eventi, yoga e mini-corsi di massaggio thai.'
+ru:
+  title: ESC — волонтёрство на 3 месяца
+  summary: 'Трое волонтёров живут с нами: природное строительство, огород и агролесоводство, помощь на ретритах и событиях, йога и мини-курсы тайского массажа.'
+de:
+  title: ESK — 3 Monate Freiwilligendienst
+  summary: 'Drei Freiwillige leben bei uns: Naturbau, Garten und Agroforst, Unterstützung von Retreats und Veranstaltungen, Yoga und Thai-Massage-Minikurse.'
+pt:
+  title: CES — voluntariado de 3 meses
+  summary: 'Três voluntários vivem connosco: bioconstrução, horta e agrofloresta, apoio a retiros e eventos, yoga e minicursos de massagem tailandesa.'

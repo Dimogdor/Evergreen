@@ -1,0 +1,29 @@
+el:
+  start: '2025-05-23'
+  end: '2025-05-25'
+  category: workshop
+  program: natural-building
+  image: /src/assets/uploads/floating-deck.webp
+  title: 'Εργαστήριο: ξύλινη εξέδρα στα δέντρα'
+  summary: Χτίσαμε μια αιωρούμενη πλατφόρμα ανάμεσα στα φύλλα για γιόγκα και ξεκούραση — τα πρώτα βήματα για όποιον ονειρεύεται ένα δεντρόσπιτο.
+en:
+  title: 'Workshop: a wooden deck on living trees'
+  summary: We built a floating platform among the leaves for yoga and rest — first steps for anyone dreaming of a treehouse.
+fr:
+  title: 'Atelier : une plateforme en bois sur les arbres'
+  summary: Nous avons construit une plateforme suspendue dans les feuillages pour le yoga et le repos — les premiers pas vers une cabane dans les arbres.
+es:
+  title: 'Taller: una plataforma de madera en los árboles'
+  summary: Construimos una plataforma flotante entre las hojas para yoga y descanso — primeros pasos para quien sueña con una casa en el árbol.
+it:
+  title: 'Workshop: una piattaforma in legno sugli alberi'
+  summary: Abbiamo costruito una piattaforma sospesa tra le foglie per yoga e riposo — i primi passi per chi sogna una casa sull’albero.
+ru:
+  title: 'Мастерская: деревянный настил на деревьях'
+  summary: Мы построили парящую платформу среди листвы для йоги и отдыха — первые шаги для всех, кто мечтает о домике на дереве.
+de:
+  title: 'Workshop: Holzdeck auf lebenden Bäumen'
+  summary: Wir haben eine schwebende Plattform zwischen den Blättern für Yoga und Ruhe gebaut — erste Schritte für alle, die von einem Baumhaus träumen.
+pt:
+  title: 'Workshop: plataforma de madeira nas árvores'
+  summary: Construímos uma plataforma suspensa entre as folhas para yoga e descanso — os primeiros passos para quem sonha com uma casa na árvore.

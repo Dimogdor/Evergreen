@@ -1,0 +1,29 @@
+el:
+  start: '2026-01-03'
+  end: '2026-01-06'
+  category: community
+  program: gatherings
+  image: /src/assets/uploads/mandala-drawing.webp
+  title: Gathering — Πρωτοχρονιά στο δάσος
+  summary: Γιόγκα, πεζοπορίες, φωτιές, ιαματικά λουτρά, φροντίδα της γης και μάνταλα κάτω από την πανσέληνο.
+en:
+  title: Gathering — New Year in the forest
+  summary: Yoga, hikes, fire circles, thermal baths, care for the land and mandalas under the full moon.
+fr:
+  title: Rassemblement — Nouvel An en forêt
+  summary: Yoga, randonnées, cercles autour du feu, bains thermaux, soin de la terre et mandalas sous la pleine lune.
+es:
+  title: Encuentro — Año Nuevo en el bosque
+  summary: Yoga, caminatas, círculos junto al fuego, baños termales, cuidado de la tierra y mandalas bajo la luna llena.
+it:
+  title: Incontro — Capodanno nel bosco
+  summary: Yoga, escursioni, cerchi intorno al fuoco, bagni termali, cura della terra e mandala sotto la luna piena.
+ru:
+  title: Встреча — Новый год в лесу
+  summary: Йога, походы, круги у костра, термальные источники, забота о земле и мандалы под полной луной.
+de:
+  title: Gathering — Neujahr im Wald
+  summary: Yoga, Wanderungen, Feuerkreise, Thermalbäder, Landpflege und Mandalas unter dem Vollmond.
+pt:
+  title: Encontro — Ano Novo na floresta
+  summary: Yoga, caminhadas, círculos à volta da fogueira, banhos termais, cuidado da terra e mandalas sob a lua cheia.

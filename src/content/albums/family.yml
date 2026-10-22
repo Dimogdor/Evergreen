@@ -1,0 +1,32 @@
+el:
+  order: 7
+  photos:
+  - /src/assets/uploads/family-picnic.webp
+  - /src/assets/uploads/kids-forest.webp
+  - /src/assets/uploads/kids-tree.webp
+  - /src/assets/uploads/tree-climb.webp
+  - /src/assets/uploads/tree-climb-2.webp
+  - /src/assets/uploads/tree-climb-winter.webp
+  title: Οικογενειακό ρητρίτ
+  description: Μικρά πόδια, μεγάλες περιπέτειες στην καρδιά του δάσους.
+en:
+  title: Family retreat
+  description: Little feet, big adventures in the heart of the forest.
+fr:
+  title: Retraite en famille
+  description: Petits pieds, grandes aventures au cœur de la forêt.
+es:
+  title: Retiro en familia
+  description: Pies pequeños, grandes aventuras en el corazón del bosque.
+it:
+  title: Ritiro per famiglie
+  description: Piccoli piedi, grandi avventure nel cuore del bosco.
+ru:
+  title: Семейный ретрит
+  description: Маленькие ножки, большие приключения в сердце леса.
+de:
+  title: Familien-Retreat
+  description: Kleine Füße, große Abenteuer im Herzen des Waldes.
+pt:
+  title: Retiro em família
+  description: Pés pequenos, grandes aventuras no coração da floresta.

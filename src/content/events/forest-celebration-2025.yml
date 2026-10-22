@@ -1,0 +1,29 @@
+el:
+  start: '2025-10-10'
+  end: '2025-10-12'
+  category: community
+  program: gatherings
+  image: /src/assets/uploads/fire-night.webp
+  title: Γιορτή του δάσους
+  summary: Γιόγκα, χορός και μουσική, καθαρισμός των μονοπατιών του βουνού και ιαματικές πηγές.
+en:
+  title: Forest celebration
+  summary: Yoga, dance and music, reviving and cleaning the mountain trails, and the healing hot springs.
+fr:
+  title: Fête de la forêt
+  summary: Yoga, danse et musique, nettoyage des sentiers de montagne et sources chaudes.
+es:
+  title: Fiesta del bosque
+  summary: Yoga, danza y música, limpieza de los senderos de montaña y aguas termales.
+it:
+  title: Festa del bosco
+  summary: Yoga, danza e musica, pulizia dei sentieri di montagna e sorgenti termali.
+ru:
+  title: Праздник леса
+  summary: Йога, танцы и музыка, расчистка горных троп и горячие источники.
+de:
+  title: Waldfest
+  summary: Yoga, Tanz und Musik, Pflege der Bergpfade und heiße Quellen.
+pt:
+  title: Festa da floresta
+  summary: Yoga, dança e música, limpeza dos trilhos de montanha e termas.

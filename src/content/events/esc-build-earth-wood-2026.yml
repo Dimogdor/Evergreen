@@ -1,0 +1,29 @@
+el:
+  start: '2026-10-15'
+  end: '2026-11-08'
+  category: esc
+  program: esc-volunteering
+  image: /src/assets/uploads/volunteers-autumn-2026.webp
+  title: ESC Teams — Build with Earth & Wood
+  summary: '25 μέρες για νέους 18–30: φυσική δόμηση με ξύλο, πηλό και χώμα για τη νέα χειμερινή σάλα, κοινοτική ζωή και κλείσιμο της καλοκαιρινής σεζόν.'
+en:
+  title: ESC Teams — Build with Earth & Wood
+  summary: '25 days for 18–30 year-olds: natural building with wood, cob and earth for our new winter shala, community life and closing the summer season.'
+fr:
+  title: ESC Teams — Build with Earth & Wood
+  summary: '25 jours pour les 18–30 ans : construction naturelle en bois, bauge et terre pour notre nouvelle shala d’hiver, vie communautaire et clôture de la saison d’été.'
+es:
+  title: ESC Teams — Build with Earth & Wood
+  summary: '25 días para jóvenes de 18–30 años: bioconstrucción con madera, cob y tierra para nuestra nueva shala de invierno, vida comunitaria y cierre de la temporada.'
+it:
+  title: ESC Teams — Build with Earth & Wood
+  summary: '25 giorni per 18–30enni: bioedilizia con legno, cob e terra per la nuova shala invernale, vita di comunità e chiusura della stagione estiva.'
+ru:
+  title: ESC Teams — Build with Earth & Wood
+  summary: '25 дней для молодёжи 18–30 лет: природное строительство из дерева, глины и земли для новой зимней шалы, жизнь в сообществе и закрытие летнего сезона.'
+de:
+  title: ESC Teams — Build with Earth & Wood
+  summary: '25 Tage für 18- bis 30-Jährige: Naturbau mit Holz, Cob und Erde für unsere neue Winter-Shala, Gemeinschaftsleben und Abschluss der Sommersaison.'
+pt:
+  title: ESC Teams — Build with Earth & Wood
+  summary: '25 dias para jovens dos 18 aos 30: bioconstrução com madeira, cob e terra para a nova shala de inverno, vida comunitária e encerramento da temporada.'

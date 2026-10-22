@@ -1,35 +1,35 @@
 el:
-  kind: "human"
+  kind: human
   order: 3
-  photo: "/src/assets/uploads/acro-play.webp"
-  name: "Φιλοξενούμενοι, γιόγκι & οικογένειες"
-  role: "Περαστικοί — που συχνά ξαναγυρίζουν"
-  bio: "Συμμετέχοντες σε ρητρίτ, εκπαιδευόμενοι δάσκαλοι, οικογένειες και ταξιδιώτες που μένουν μαζί μας για λίγο."
+  photo: /src/assets/uploads/family-picnic.webp
+  name: Φιλοξενούμενοι, γιόγκι & οικογένειες
+  role: Περαστικοί — που συχνά ξαναγυρίζουν
+  bio: Συμμετέχοντες σε ρητρίτ, εκπαιδευόμενοι δάσκαλοι, οικογένειες και ταξιδιώτες που μένουν μαζί μας για λίγο.
 en:
-  name: "Guests, yogis & families"
-  role: "Passing through — and often coming back"
-  bio: "Retreat participants, teacher trainees, families and travellers who stay with us for a while."
+  name: Guests, yogis & families
+  role: Passing through — and often coming back
+  bio: Retreat participants, teacher trainees, families and travellers who stay with us for a while.
 fr:
-  name: "Invités, yogis & familles"
-  role: "De passage — et souvent de retour"
-  bio: "Participants aux retraites, futurs professeurs, familles et voyageurs qui restent un temps avec nous."
+  name: Invités, yogis & familles
+  role: De passage — et souvent de retour
+  bio: Participants aux retraites, futurs professeurs, familles et voyageurs qui restent un temps avec nous.
 es:
-  name: "Huéspedes, yoguis y familias"
-  role: "De paso — y a menudo de vuelta"
-  bio: "Participantes en retiros, futuros profesores, familias y viajeros que se quedan un tiempo con nosotros."
+  name: Huéspedes, yoguis y familias
+  role: De paso — y a menudo de vuelta
+  bio: Participantes en retiros, futuros profesores, familias y viajeros que se quedan un tiempo con nosotros.
 it:
-  name: "Ospiti, yogi e famiglie"
-  role: "Di passaggio — e spesso di ritorno"
-  bio: "Partecipanti ai ritiri, insegnanti in formazione, famiglie e viaggiatori che restano un po’ con noi."
+  name: Ospiti, yogi e famiglie
+  role: Di passaggio — e spesso di ritorno
+  bio: Partecipanti ai ritiri, insegnanti in formazione, famiglie e viaggiatori che restano un po’ con noi.
 ru:
-  name: "Гости, йоги и семьи"
-  role: "Проездом — и часто возвращаются"
-  bio: "Участники ретритов, будущие преподаватели, семьи и путешественники, которые живут у нас какое-то время."
+  name: Гости, йоги и семьи
+  role: Проездом — и часто возвращаются
+  bio: Участники ретритов, будущие преподаватели, семьи и путешественники, которые живут у нас какое-то время.
 de:
-  name: "Gäste, Yogis & Familien"
-  role: "Auf der Durchreise — und oft wieder da"
-  bio: "Retreat-Teilnehmende, angehende Lehrer·innen, Familien und Reisende, die eine Weile bei uns bleiben."
+  name: Gäste, Yogis & Familien
+  role: Auf der Durchreise — und oft wieder da
+  bio: Retreat-Teilnehmende, angehende Lehrer·innen, Familien und Reisende, die eine Weile bei uns bleiben.
 pt:
-  name: "Hóspedes, yogis e famílias"
-  role: "De passagem — e muitas vezes de regresso"
-  bio: "Participantes em retiros, professores em formação, famílias e viajantes que ficam algum tempo connosco."
+  name: Hóspedes, yogis e famílias
+  role: De passagem — e muitas vezes de regresso
+  bio: Participantes em retiros, professores em formação, famílias e viajantes que ficam algum tempo connosco.

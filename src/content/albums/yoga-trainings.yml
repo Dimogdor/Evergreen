@@ -1,39 +1,52 @@
 el:
   order: 4
   photos:
-    - /src/assets/uploads/shala-gathering.webp
-    - /src/assets/uploads/shala-workshop.webp
-    - /src/assets/uploads/outdoor-class.webp
-    - /src/assets/uploads/workshop-circle.webp
-    - /src/assets/uploads/teacher-talk.webp
-    - /src/assets/uploads/study-session.webp
-    - /src/assets/uploads/group-learning.webp
-    - /src/assets/uploads/journaling.webp
-    - /src/assets/uploads/movement-class.webp
-    - /src/assets/uploads/partner-practice.webp
-    - /src/assets/uploads/practice-together.webp
-    - /src/assets/uploads/yoga-on-rocks.webp
-  videos: []
-  title: "Γιόγκα & εκπαιδεύσεις"
-  description: "Πρακτική, μελέτη και εκπαιδεύσεις δασκάλων στο άσραμ."
+  - /src/assets/uploads/yin-shala.webp
+  - /src/assets/uploads/deck-meditation.webp
+  - /src/assets/uploads/deck-practice.webp
+  - /src/assets/uploads/deck-sitting.webp
+  - /src/assets/uploads/yoga-circle-outdoor.webp
+  - /src/assets/uploads/outdoor-meditation.webp
+  - /src/assets/uploads/yoga-adjustment.webp
+  - /src/assets/uploads/savasana.webp
+  - /src/assets/uploads/ytt-study.webp
+  - /src/assets/uploads/shala-mats-top.webp
+  - /src/assets/uploads/shala-class-2025.webp
+  - /src/assets/uploads/shala-gathering.webp
+  - /src/assets/uploads/shala-workshop.webp
+  - /src/assets/uploads/outdoor-class.webp
+  - /src/assets/uploads/workshop-circle.webp
+  - /src/assets/uploads/teacher-talk.webp
+  - /src/assets/uploads/study-session.webp
+  - /src/assets/uploads/group-learning.webp
+  - /src/assets/uploads/journaling.webp
+  - /src/assets/uploads/movement-class.webp
+  - /src/assets/uploads/partner-practice.webp
+  - /src/assets/uploads/practice-together.webp
+  - /src/assets/uploads/yoga-on-rocks.webp
+  videos:
+  - title: Yoga Teacher Training — 2025
+    file: /uploads/videos/yoga-training-2025.mp4
+  title: Γιόγκα & εκπαιδεύσεις
+  description: Πρακτική, μελέτη και εκπαιδεύσεις δασκάλων στο άσραμ.
 en:
-  title: "Yoga & trainings"
-  description: "Practice, study and teacher trainings at the ashram."
+  title: Yoga & trainings
+  description: Practice, study and teacher trainings at the ashram.
 fr:
-  title: "Yoga & formations"
-  description: "Pratique, étude et formations de professeurs à l’ashram."
+  title: Yoga & formations
+  description: Pratique, étude et formations de professeurs à l’ashram.
 es:
-  title: "Yoga y formaciones"
-  description: "Práctica, estudio y formaciones de profesores en el ashram."
+  title: Yoga y formaciones
+  description: Práctica, estudio y formaciones de profesores en el ashram.
 it:
-  title: "Yoga e formazioni"
-  description: "Pratica, studio e formazioni insegnanti all’ashram."
+  title: Yoga e formazioni
+  description: Pratica, studio e formazioni insegnanti all’ashram.
 ru:
-  title: "Йога и обучение"
-  description: "Практика, учёба и обучение преподавателей в ашраме."
+  title: Йога и обучение
+  description: Практика, учёба и обучение преподавателей в ашраме.
 de:
-  title: "Yoga & Ausbildungen"
-  description: "Praxis, Studium und Lehrerausbildungen im Ashram."
+  title: Yoga & Ausbildungen
+  description: Praxis, Studium und Lehrerausbildungen im Ashram.
 pt:
-  title: "Yoga e formações"
-  description: "Prática, estudo e formações de professores no ashram."
+  title: Yoga e formações
+  description: Prática, estudo e formações de professores no ashram.

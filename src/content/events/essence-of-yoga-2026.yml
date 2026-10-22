@@ -1,38 +1,38 @@
 el:
-  start: "2026-11-28"
-  end: "2026-12-05"
-  category: "retreat"
-  program: "retreats"
-  image: "/src/assets/uploads/shala-candles.webp"
-  link: "https://bookretreats.com/r/8-day-essence-of-yoga-and-immersion-retreat-in-anavra-greece"
-  title: "Essence of Yoga — χειμερινό εντατικό με τον Panos Katsandris"
-  summary: "Οκτώ μέρες θεματικής πρακτικής, πραναγιάμα, διαλογισμού και σατσάνγκ με έμφαση στη Μπαγκαβάντ Γκίτα — με περιπάτους στη φύση και ιαματικά λουτρά."
-  linkLabel: "Κρατήσεις στο BookRetreats"
+  start: '2026-11-28'
+  end: '2026-12-05'
+  category: retreat
+  program: retreats
+  image: /src/assets/uploads/yin-shala.webp
+  link: https://bookretreats.com/r/8-day-essence-of-yoga-and-immersion-retreat-in-anavra-greece
+  title: Essence of Yoga — χειμερινό εντατικό με τον Panos Katsandris
+  summary: Οκτώ μέρες θεματικής πρακτικής, πραναγιάμα, διαλογισμού και σατσάνγκ με έμφαση στη Μπαγκαβάντ Γκίτα — με περιπάτους στη φύση και ιαματικά λουτρά.
+  linkLabel: Κρατήσεις στο BookRetreats
 en:
-  title: "Essence of Yoga — winter immersion with Panos Katsandris"
-  summary: "Eight days of themed practice, pranayama, meditation and satsang with a focus on the Bhagavad Gita — with nature walks and thermal baths."
-  linkLabel: "Book on BookRetreats"
+  title: Essence of Yoga — winter immersion with Panos Katsandris
+  summary: Eight days of themed practice, pranayama, meditation and satsang with a focus on the Bhagavad Gita — with nature walks and thermal baths.
+  linkLabel: Book on BookRetreats
 fr:
-  title: "Essence of Yoga — immersion d’hiver avec Panos Katsandris"
-  summary: "Huit jours de pratique thématique, pranayama, méditation et satsang autour de la Bhagavad Gita — avec balades dans la nature et bains thermaux."
-  linkLabel: "Réserver sur BookRetreats"
+  title: Essence of Yoga — immersion d’hiver avec Panos Katsandris
+  summary: Huit jours de pratique thématique, pranayama, méditation et satsang autour de la Bhagavad Gita — avec balades dans la nature et bains thermaux.
+  linkLabel: Réserver sur BookRetreats
 es:
-  title: "Essence of Yoga — inmersión de invierno con Panos Katsandris"
-  summary: "Ocho días de práctica temática, pranayama, meditación y satsang centrados en el Bhagavad Gita — con paseos por la naturaleza y baños termales."
-  linkLabel: "Reservar en BookRetreats"
+  title: Essence of Yoga — inmersión de invierno con Panos Katsandris
+  summary: Ocho días de práctica temática, pranayama, meditación y satsang centrados en el Bhagavad Gita — con paseos por la naturaleza y baños termales.
+  linkLabel: Reservar en BookRetreats
 it:
-  title: "Essence of Yoga — immersione invernale con Panos Katsandris"
-  summary: "Otto giorni di pratica tematica, pranayama, meditazione e satsang con un focus sulla Bhagavad Gita — con passeggiate nella natura e bagni termali."
-  linkLabel: "Prenota su BookRetreats"
+  title: Essence of Yoga — immersione invernale con Panos Katsandris
+  summary: Otto giorni di pratica tematica, pranayama, meditazione e satsang con un focus sulla Bhagavad Gita — con passeggiate nella natura e bagni termali.
+  linkLabel: Prenota su BookRetreats
 ru:
-  title: "Essence of Yoga — зимний интенсив с Паносом Кацандрисом"
-  summary: "Восемь дней тематической практики, пранаямы, медитации и сатсанга с акцентом на Бхагавад-гиту — с прогулками на природе и термальными источниками."
-  linkLabel: "Забронировать на BookRetreats"
+  title: Essence of Yoga — зимний интенсив с Паносом Кацандрисом
+  summary: Восемь дней тематической практики, пранаямы, медитации и сатсанга с акцентом на Бхагавад-гиту — с прогулками на природе и термальными источниками.
+  linkLabel: Забронировать на BookRetreats
 de:
-  title: "Essence of Yoga — Winter-Immersion mit Panos Katsandris"
-  summary: "Acht Tage thematische Praxis, Pranayama, Meditation und Satsang mit Schwerpunkt Bhagavad Gita — mit Naturspaziergängen und Thermalbädern."
-  linkLabel: "Bei BookRetreats buchen"
+  title: Essence of Yoga — Winter-Immersion mit Panos Katsandris
+  summary: Acht Tage thematische Praxis, Pranayama, Meditation und Satsang mit Schwerpunkt Bhagavad Gita — mit Naturspaziergängen und Thermalbädern.
+  linkLabel: Bei BookRetreats buchen
 pt:
-  title: "Essence of Yoga — imersão de inverno com Panos Katsandris"
-  summary: "Oito dias de prática temática, pranayama, meditação e satsang com foco na Bhagavad Gita — com passeios na natureza e banhos termais."
-  linkLabel: "Reservar no BookRetreats"
+  title: Essence of Yoga — imersão de inverno com Panos Katsandris
+  summary: Oito dias de prática temática, pranayama, meditação e satsang com foco na Bhagavad Gita — com passeios na natureza e banhos termais.
+  linkLabel: Reservar no BookRetreats

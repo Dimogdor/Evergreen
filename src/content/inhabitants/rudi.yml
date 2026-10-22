@@ -1,0 +1,35 @@
+el:
+  kind: animal
+  order: 9
+  photo: /src/assets/uploads/cob-house-rudi.webp
+  name: Rudi
+  role: Επόπτης του δάσους
+  bio: Ελέγχει προσεκτικά κάθε τελευταία πινελιά στο σπίτι από πηλό.
+en:
+  name: Rudi
+  role: Forest supervisor
+  bio: Carefully checks that every last touch on the cob house is done properly.
+fr:
+  name: Rudi
+  role: Superviseur de la forêt
+  bio: Vérifie avec soin que chaque finition de la maison en bauge est bien faite.
+es:
+  name: Rudi
+  role: Supervisor del bosque
+  bio: Comprueba con atención que cada último detalle de la casa de cob quede bien hecho.
+it:
+  name: Rudi
+  role: Supervisore del bosco
+  bio: Controlla con attenzione che ogni ultimo ritocco della casa in cob sia fatto a regola d’arte.
+ru:
+  name: Rudi
+  role: Смотритель леса
+  bio: Внимательно следит, чтобы каждый последний штрих на глиняном доме был сделан как надо.
+de:
+  name: Rudi
+  role: Waldaufseher
+  bio: Prüft sorgfältig, dass jeder letzte Handgriff am Lehmhaus sitzt.
+pt:
+  name: Rudi
+  role: Supervisor da floresta
+  bio: Verifica com cuidado que cada último retoque da casa de cob fica bem feito.

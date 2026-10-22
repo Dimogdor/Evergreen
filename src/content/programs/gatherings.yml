@@ -1,63 +1,248 @@
 el:
-  order: 7
-  featured: false
+  order: 3
+  featured: true
   image: /src/assets/uploads/circle-dance.webp
   gallery:
-    - /src/assets/uploads/campfire-evening.webp
-    - /src/assets/uploads/group-play.webp
-    - /src/assets/uploads/acro-play.webp
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/spring-gathering.webp
   title: Γιορτές της κοινότητας
-  summary: Γιορτές, ανοιχτές μέρες και εποχικά φεστιβάλ που φέρνουν φίλους και γείτονες στο δάσος.
+  summary: 'Τριήμερα και τετραήμερα στο δάσος σχεδόν κάθε μήνα: γιόγκα, πεζοπορίες, ιαματικές πηγές, βραδιές γύρω από τη φωτιά και φροντίδα της γης όλοι μαζί.'
   body: |-
-    Αρκετές φορές τον χρόνο ανοίγουμε τον χώρο για **γιορτές της κοινότητας**: Σαββατοκύριακα με γιόγκα, μουσική, εργαστήρια, κοινό φαγητό και γιορτή. Τον Σεπτέμβριο του 2026, για παράδειγμα, το **Community Celebration** μάζεψε παλιούς και νέους φίλους για τρεις μέρες στο δάσος.
+    Οι **συναντήσεις (gatherings)** μας είναι μια πρόσκληση να ζήσετε την καθημερινότητα στο Evergreen — όχι ως επισκέπτες, αλλά ως μέλη της κοινότητας. Δουλεύουμε μαζί, μαγειρεύουμε και τρώμε στο ίδιο τραπέζι, περπατάμε στα μονοπάτια του βουνού, κάνουμε γιόγκα, χαλαρώνουμε στις ιαματικές πηγές και μοιραζόμαστε μουσική, ιστορίες, σιωπή και γέλιο.
 
-    Οι γιορτές είναι ο καλύτερος τρόπος να γνωρίσετε την κοινότητα, να ανακαλύψετε τον τόπο — και ίσως να επιστρέψετε για περισσότερο. Δείτε το [ημερολόγιο](/el/calendar/) και τα social media μας για τις επόμενες ημερομηνίες.
+    ### Κάθε εποχή έχει τη συνάντησή της
+    - **Πρωτοχρονιά** στο δάσος, με μάνταλα κάτω από την πανσέληνο (Ιανουάριος)
+    - Ρητρίτ **Καθαράς Δευτέρας**, για να αφήσουμε πίσω τον χειμώνα (Φεβρουάριος)
+    - **Εαρινή ισημερία**, με 108 χαιρετισμούς στον ήλιο (Μάρτιος)
+    - **Άνοιγμα της σεζόν**: στήνουμε μαζί τις σκηνές (Μάιος)
+    - **Βότανα του Καλλιδρόμου**: άγρια βότανα, φύτεμα στον κήπο και φυσικά σαπούνια (Ιούνιος)
+    - **Γιορτή του δάσους** και η ετήσια **Community Celebration** με τα Evergreen Yoga Studios (Σεπτέμβριος–Οκτώβριος)
+    - **Κλείσιμο της σεζόν**: μαζεύουμε τις σκηνές πριν μετακομίσουμε για τον χειμώνα στο σπίτι του χωριού (Νοέμβριος)
+
+    ### Πρακτικές πληροφορίες
+    - **Διαμονή:** σκηνές glamping και ο χειροποίητος ξενώνας μας από πηλό το καλοκαίρι· ένα ζεστό σπίτι με τζάκι τον χειμώνα
+    - **Φαγητό:** χορτοφαγικά γεύματα, που μαγειρεύουμε μαζί
+    - **Συνεισφορά:** προτεινόμενη δωρεά 18 € ανά άτομο την ημέρα (κάθε επιπλέον στήριξη είναι ευπρόσδεκτη)· προκαταβολή 18 € για να κλείσετε θέση
+    - **Πρόσβαση:** οργανώνουμε κοινή χρήση αυτοκινήτων σε ομαδική συνομιλία μετά την εγγραφή· με λεωφορείο, ελάτε ως τον Μώλο — μπορούμε να σας παραλάβουμε
+
+    Οι θέσεις είναι περιορισμένες: η εγγραφή γίνεται με τη φόρμα που δημοσιεύουμε στο Instagram και στο Facebook — δείτε το [ημερολόγιο](/el/calendar/) για τις επόμενες ημερομηνίες.
+  facts:
+  - label: Διάρκεια
+    value: 3–4 μέρες
+  - label: Συνεισφορά
+    value: 18 € / άτομο / ημέρα (προτεινόμενη δωρεά)
+  - label: Περιλαμβάνονται
+    value: Διαμονή, χορτοφαγικά γεύματα, δραστηριότητες
 en:
   title: Community gatherings
-  summary: Celebrations, open days and seasonal festivals that bring friends and neighbours to the forest.
+  summary: 'Three- and four-day weekends in the forest, almost every month: yoga, hikes, hot springs, fire evenings and caring for the land together.'
   body: |-
-    Several times a year we open the land for **community gatherings**: weekends of yoga, music, workshops, shared food and celebration. In September 2026, for example, our **Community Celebration** brought old and new friends together for three days in the forest.
+    Our **gatherings** are an invitation to experience everyday life at Evergreen — not as visitors, but as part of the community. We work together, cook and eat around the same table, walk the mountain trails, practise yoga, soak in the hot springs and share music, stories, silence and laughter.
 
-    Gatherings are the best way to meet the community, discover the place — and perhaps come back for longer. Check the [calendar](/en/calendar/) and our social media for the next dates.
+    ### Every season has its gathering
+    - **New Year** in the forest, with mandalas under the full moon (January)
+    - **Clean Monday** retreat, letting go of winter (February)
+    - **Spring Equinox**, with 108 sun salutations (March)
+    - **Opening of the season**: we pitch the bell tents together (May)
+    - **Herbs of Kallidromo**: wild herbs, garden planting and natural soap-making (June)
+    - **Forest celebration** and the annual **Community Celebration** with Evergreen Yoga Studios (September–October)
+    - **Season closing**: we take down the tents before moving to our village home for winter (November)
+
+    ### Practical information
+    - **Accommodation:** glamping bell tents and our handmade cob guest space in summer; a cosy house with a fireplace in winter
+    - **Food:** vegetarian meals, cooked together
+    - **Contribution:** suggested donation of €18 per person per day (extra support is always welcome); a deposit of €18 secures your spot
+    - **Getting there:** carpooling is organised in a group chat after registration; by bus, come to Molos — pick-up is possible
+
+    Spots are limited: registration is through the form linked on our Instagram and Facebook — see the [calendar](/en/calendar/) for the next dates.
+  facts:
+  - label: Duration
+    value: 3–4 days
+  - label: Contribution
+    value: €18 / person / day (suggested donation)
+  - label: Included
+    value: Accommodation, vegetarian meals, activities
 fr:
   title: Rassemblements de la communauté
-  summary: Fêtes, journées portes ouvertes et festivals de saison qui amènent amis et voisins dans la forêt.
+  summary: 'Des week-ends de trois ou quatre jours dans la forêt, presque chaque mois : yoga, randonnées, sources chaudes, soirées au coin du feu et soin de la terre ensemble.'
   body: |-
-    Plusieurs fois par an, nous ouvrons le terrain pour des **rassemblements** : des week-ends de yoga, de musique, d’ateliers, de repas partagés et de fête. En septembre 2026, par exemple, notre **Community Celebration** a réuni anciens et nouveaux amis pendant trois jours dans la forêt.
+    Nos **rassemblements** sont une invitation à vivre le quotidien d’Evergreen — non pas en visiteur, mais en membre de la communauté. Nous travaillons ensemble, cuisinons et mangeons à la même table, marchons sur les sentiers de la montagne, pratiquons le yoga, nous baignons dans les sources chaudes et partageons musique, histoires, silence et rires.
 
-    Les rassemblements sont la meilleure façon de rencontrer la communauté, de découvrir le lieu — et peut-être de revenir plus longtemps. Consultez le [calendrier](/fr/calendar/) et nos réseaux sociaux pour les prochaines dates.
+    ### Chaque saison a son rassemblement
+    - **Nouvel An** dans la forêt, avec des mandalas sous la pleine lune (janvier)
+    - Retraite du **Lundi pur** (Clean Monday), pour laisser partir l’hiver (février)
+    - **Équinoxe de printemps**, avec 108 salutations au soleil (mars)
+    - **Ouverture de la saison** : nous montons ensemble les tentes cloches (mai)
+    - **Herbes du Kallidromo** : plantes sauvages, plantations au jardin et fabrication de savons naturels (juin)
+    - **Fête de la forêt** et la **Community Celebration** annuelle avec Evergreen Yoga Studios (septembre–octobre)
+    - **Clôture de la saison** : nous démontons les tentes avant de rejoindre notre maison du village pour l’hiver (novembre)
+
+    ### Infos pratiques
+    - **Hébergement :** tentes glamping et notre maison d’hôtes en bauge faite main en été ; une maison chaleureuse avec cheminée en hiver
+    - **Repas :** végétariens, cuisinés ensemble
+    - **Participation :** don suggéré de 18 € par personne et par jour (tout soutien supplémentaire est le bienvenu) ; un acompte de 18 € réserve votre place
+    - **Venir :** du covoiturage est organisé dans un groupe de discussion après l’inscription ; en bus, venez jusqu’à Molos — nous pouvons venir vous chercher
+
+    Places limitées : l’inscription se fait via le formulaire publié sur notre Instagram et notre Facebook — voir le [calendrier](/fr/calendar/) pour les prochaines dates.
+  facts:
+  - label: Durée
+    value: 3–4 jours
+  - label: Participation
+    value: 18 € / personne / jour (don suggéré)
+  - label: Inclus
+    value: Hébergement, repas végétariens, activités
 es:
   title: Encuentros comunitarios
-  summary: Celebraciones, jornadas de puertas abiertas y festivales de temporada que traen amigos y vecinos al bosque.
+  summary: 'Fines de semana de tres o cuatro días en el bosque, casi cada mes: yoga, caminatas, aguas termales, noches junto al fuego y cuidado de la tierra en común.'
   body: |-
-    Varias veces al año abrimos el terreno para **encuentros comunitarios**: fines de semana de yoga, música, talleres, comida compartida y celebración. En septiembre de 2026, por ejemplo, nuestra **Community Celebration** reunió a amigos antiguos y nuevos durante tres días en el bosque.
+    Nuestros **encuentros** son una invitación a vivir el día a día de Evergreen — no como visitantes, sino como parte de la comunidad. Trabajamos juntos, cocinamos y comemos en la misma mesa, caminamos por los senderos de la montaña, practicamos yoga, nos bañamos en las aguas termales y compartimos música, historias, silencio y risas.
 
-    Los encuentros son la mejor forma de conocer la comunidad, descubrir el lugar — y quizá volver por más tiempo. Consulta el [calendario](/es/calendar/) y nuestras redes para las próximas fechas.
+    ### Cada estación tiene su encuentro
+    - **Año Nuevo** en el bosque, con mandalas bajo la luna llena (enero)
+    - Retiro del **Lunes Limpio**, para despedir el invierno (febrero)
+    - **Equinoccio de primavera**, con 108 saludos al sol (marzo)
+    - **Apertura de la temporada**: montamos juntos las tiendas campana (mayo)
+    - **Hierbas del Kallidromo**: plantas silvestres, siembra en la huerta y jabones naturales (junio)
+    - **Fiesta del bosque** y la **Community Celebration** anual con Evergreen Yoga Studios (septiembre–octubre)
+    - **Cierre de la temporada**: desmontamos las tiendas antes de mudarnos a nuestra casa del pueblo para el invierno (noviembre)
+
+    ### Información práctica
+    - **Alojamiento:** tiendas glamping y nuestra casita de cob hecha a mano en verano; una casa acogedora con chimenea en invierno
+    - **Comida:** vegetariana, cocinada en grupo
+    - **Aportación:** donativo sugerido de 18 € por persona y día (cualquier apoyo extra es bienvenido); una señal de 18 € asegura tu plaza
+    - **Cómo llegar:** organizamos coches compartidos en un chat de grupo tras la inscripción; en autobús, ven hasta Molos — podemos recogerte
+
+    Plazas limitadas: la inscripción se hace con el formulario que publicamos en Instagram y Facebook — consulta el [calendario](/es/calendar/) para las próximas fechas.
+  facts:
+  - label: Duración
+    value: 3–4 días
+  - label: Aportación
+    value: 18 € / persona / día (donativo sugerido)
+  - label: Incluye
+    value: Alojamiento, comidas vegetarianas, actividades
 it:
   title: Incontri di comunità
-  summary: Feste, giornate aperte e festival di stagione che portano amici e vicini nel bosco.
+  summary: 'Weekend di tre o quattro giorni nel bosco, quasi ogni mese: yoga, escursioni, sorgenti termali, serate intorno al fuoco e cura della terra insieme.'
   body: |-
-    Diverse volte all’anno apriamo il terreno per **incontri di comunità**: fine settimana di yoga, musica, workshop, cibo condiviso e festa. A settembre 2026, per esempio, la nostra **Community Celebration** ha riunito vecchi e nuovi amici per tre giorni nel bosco.
+    I nostri **incontri** sono un invito a vivere la quotidianità di Evergreen — non da visitatori, ma come parte della comunità. Lavoriamo insieme, cuciniamo e mangiamo alla stessa tavola, camminiamo sui sentieri della montagna, pratichiamo yoga, ci immergiamo nelle sorgenti termali e condividiamo musica, storie, silenzio e risate.
 
-    Gli incontri sono il modo migliore per conoscere la comunità, scoprire il luogo — e magari tornare per più tempo. Guarda il [calendario](/it/calendar/) e i nostri social per le prossime date.
+    ### Ogni stagione ha il suo incontro
+    - **Capodanno** nel bosco, con mandala sotto la luna piena (gennaio)
+    - Ritiro del **Lunedì Puro**, per lasciar andare l’inverno (febbraio)
+    - **Equinozio di primavera**, con 108 saluti al sole (marzo)
+    - **Apertura della stagione**: montiamo insieme le tende a campana (maggio)
+    - **Erbe del Kallidromo**: erbe selvatiche, semina nell’orto e saponi naturali (giugno)
+    - **Festa del bosco** e l’annuale **Community Celebration** con Evergreen Yoga Studios (settembre–ottobre)
+    - **Chiusura della stagione**: smontiamo le tende prima di trasferirci nella casa del villaggio per l’inverno (novembre)
+
+    ### Informazioni pratiche
+    - **Alloggio:** tende glamping e la nostra casetta in cob fatta a mano d’estate; una casa accogliente con camino d’inverno
+    - **Cibo:** vegetariano, cucinato insieme
+    - **Contributo:** donazione suggerita di 18 € a persona al giorno (ogni sostegno in più è benvenuto); un acconto di 18 € blocca il tuo posto
+    - **Come arrivare:** organizziamo passaggi condivisi in una chat di gruppo dopo l’iscrizione; in autobus, arriva fino a Molos — possiamo venirti a prendere
+
+    Posti limitati: l’iscrizione avviene tramite il modulo pubblicato su Instagram e Facebook — guarda il [calendario](/it/calendar/) per le prossime date.
+  facts:
+  - label: Durata
+    value: 3–4 giorni
+  - label: Contributo
+    value: 18 € / persona / giorno (donazione suggerita)
+  - label: Incluso
+    value: Alloggio, pasti vegetariani, attività
 ru:
   title: Встречи сообщества
-  summary: Праздники, дни открытых дверей и сезонные фестивали, которые собирают друзей и соседей в лесу.
+  summary: 'Трёх- и четырёхдневные выходные в лесу почти каждый месяц: йога, походы, горячие источники, вечера у костра и совместная забота о земле.'
   body: |-
-    Несколько раз в год мы открываем участок для **встреч сообщества**: выходные с йогой, музыкой, мастерскими, общей едой и праздником. Например, в сентябре 2026 года наш **Community Celebration** на три дня собрал в лесу старых и новых друзей.
+    Наши **встречи (gatherings)** — это приглашение прожить обычную жизнь Evergreen не гостем, а частью сообщества. Мы вместе работаем, готовим и едим за одним столом, ходим по горным тропам, занимаемся йогой, отдыхаем в горячих источниках и делимся музыкой, историями, тишиной и смехом.
 
-    Встречи — лучший способ познакомиться с сообществом, открыть для себя место и, возможно, вернуться надолго. Следите за [календарём](/ru/calendar/) и нашими соцсетями.
+    ### У каждого сезона своя встреча
+    - **Новый год** в лесу, с мандалами под полной луной (январь)
+    - Ретрит **Чистого понедельника** — прощаемся с зимой (февраль)
+    - **Весеннее равноденствие** со 108 приветствиями солнцу (март)
+    - **Открытие сезона**: вместе ставим шатры (май)
+    - **Травы Каллидромо**: дикие травы, посадки в огороде и натуральное мыло (июнь)
+    - **Праздник леса** и ежегодный **Community Celebration** с Evergreen Yoga Studios (сентябрь–октябрь)
+    - **Закрытие сезона**: снимаем шатры и переезжаем на зиму в дом в деревне (ноябрь)
+
+    ### Практическая информация
+    - **Проживание:** летом — шатры-глэмпинг и наш гостевой дом из глины, сделанный своими руками; зимой — уютный дом с камином
+    - **Питание:** вегетарианское, готовим вместе
+    - **Взнос:** рекомендуемое пожертвование 18 € с человека в день (любая дополнительная поддержка приветствуется); предоплата 18 € закрепляет место
+    - **Как добраться:** после регистрации организуем совместные поездки в групповом чате; на автобусе — до Молоса, откуда мы можем вас забрать
+
+    Мест немного: регистрация — по форме, которую мы публикуем в Instagram и Facebook. Ближайшие даты — в [календаре](/ru/calendar/).
+  facts:
+  - label: Длительность
+    value: 3–4 дня
+  - label: Взнос
+    value: 18 € / чел. / день (рекомендуемое пожертвование)
+  - label: Включено
+    value: Проживание, вегетарианское питание, занятия
 de:
   title: Gemeinschaftstreffen
-  summary: Feste, offene Tage und saisonale Festivals, die Freund·innen und Nachbarn in den Wald bringen.
+  summary: 'Drei- und viertägige Wochenenden im Wald, fast jeden Monat: Yoga, Wanderungen, heiße Quellen, Abende am Feuer und gemeinsame Pflege des Landes.'
   body: |-
-    Mehrmals im Jahr öffnen wir das Gelände für **Gemeinschaftstreffen**: Wochenenden mit Yoga, Musik, Workshops, gemeinsamem Essen und Feiern. Im September 2026 zum Beispiel brachte unsere **Community Celebration** alte und neue Freund·innen für drei Tage im Wald zusammen.
+    Unsere **Gatherings** sind eine Einladung, den Alltag bei Evergreen zu erleben — nicht als Besucher·in, sondern als Teil der Gemeinschaft. Wir arbeiten zusammen, kochen und essen am selben Tisch, wandern über die Bergpfade, praktizieren Yoga, baden in den heißen Quellen und teilen Musik, Geschichten, Stille und Lachen.
 
-    Die Treffen sind der beste Weg, die Gemeinschaft kennenzulernen, den Ort zu entdecken — und vielleicht für länger wiederzukommen. Die nächsten Termine findest du im [Kalender](/de/calendar/) und in unseren sozialen Medien.
+    ### Jede Jahreszeit hat ihr Gathering
+    - **Neujahr** im Wald, mit Mandalas unter dem Vollmond (Januar)
+    - Retreat zum **Reinen Montag**, um den Winter loszulassen (Februar)
+    - **Frühlings-Tagundnachtgleiche** mit 108 Sonnengrüßen (März)
+    - **Saisoneröffnung**: Wir bauen gemeinsam die Glockenzelte auf (Mai)
+    - **Kräuter des Kallidromo**: Wildkräuter, Pflanzen im Garten und Naturseife (Juni)
+    - **Waldfest** und die jährliche **Community Celebration** mit den Evergreen Yoga Studios (September–Oktober)
+    - **Saisonabschluss**: Wir bauen die Zelte ab, bevor wir für den Winter ins Dorfhaus ziehen (November)
+
+    ### Praktisches
+    - **Unterkunft:** im Sommer Glamping-Zelte und unser handgebautes Gästehaus aus Lehm; im Winter ein gemütliches Haus mit Kamin
+    - **Essen:** vegetarisch, gemeinsam gekocht
+    - **Beitrag:** empfohlene Spende von 18 € pro Person und Tag (zusätzliche Unterstützung ist immer willkommen); eine Anzahlung von 18 € sichert deinen Platz
+    - **Anreise:** Fahrgemeinschaften organisieren wir nach der Anmeldung in einem Gruppenchat; mit dem Bus bis Molos — Abholung ist möglich
+
+    Die Plätze sind begrenzt: Die Anmeldung läuft über das Formular, das wir auf Instagram und Facebook veröffentlichen — die nächsten Termine stehen im [Kalender](/de/calendar/).
+  facts:
+  - label: Dauer
+    value: 3–4 Tage
+  - label: Beitrag
+    value: 18 € / Person / Tag (empfohlene Spende)
+  - label: Inklusive
+    value: Unterkunft, vegetarische Mahlzeiten, Aktivitäten
 pt:
   title: Encontros da comunidade
-  summary: Celebrações, dias abertos e festivais sazonais que trazem amigos e vizinhos à floresta.
+  summary: 'Fins de semana de três ou quatro dias na floresta, quase todos os meses: yoga, caminhadas, termas, noites à volta da fogueira e cuidado da terra em conjunto.'
   body: |-
-    Várias vezes por ano abrimos o terreno para **encontros da comunidade**: fins de semana de yoga, música, workshops, comida partilhada e celebração. Em setembro de 2026, por exemplo, a nossa **Community Celebration** reuniu amigos antigos e novos durante três dias na floresta.
+    Os nossos **encontros** são um convite para viver o dia a dia do Evergreen — não como visitante, mas como parte da comunidade. Trabalhamos juntos, cozinhamos e comemos à mesma mesa, percorremos os trilhos da montanha, praticamos yoga, banhamo-nos nas termas e partilhamos música, histórias, silêncio e gargalhadas.
 
-    Os encontros são a melhor forma de conhecer a comunidade, descobrir o lugar — e talvez voltar por mais tempo. Veja o [calendário](/pt/calendar/) e as nossas redes sociais para as próximas datas.
+    ### Cada estação tem o seu encontro
+    - **Ano Novo** na floresta, com mandalas sob a lua cheia (janeiro)
+    - Retiro da **Segunda-feira Limpa**, para deixar ir o inverno (fevereiro)
+    - **Equinócio da primavera**, com 108 saudações ao sol (março)
+    - **Abertura da temporada**: montamos juntos as tendas sino (maio)
+    - **Ervas do Kallidromo**: plantas silvestres, plantação na horta e sabonetes naturais (junho)
+    - **Festa da floresta** e a **Community Celebration** anual com os Evergreen Yoga Studios (setembro–outubro)
+    - **Encerramento da temporada**: desmontamos as tendas antes de irmos para a casa da aldeia no inverno (novembro)
+
+    ### Informações práticas
+    - **Alojamento:** tendas de glamping e a nossa casinha de cob feita à mão no verão; uma casa acolhedora com lareira no inverno
+    - **Comida:** vegetariana, cozinhada em conjunto
+    - **Contribuição:** donativo sugerido de 18 € por pessoa por dia (qualquer apoio extra é bem-vindo); um sinal de 18 € garante o seu lugar
+    - **Como chegar:** organizamos boleias num chat de grupo após a inscrição; de autocarro, venha até Molos — podemos ir buscá-lo
+
+    Lugares limitados: a inscrição faz-se através do formulário publicado no Instagram e no Facebook — veja o [calendário](/pt/calendar/) para as próximas datas.
+  facts:
+  - label: Duração
+    value: 3–4 dias
+  - label: Contribuição
+    value: 18 € / pessoa / dia (donativo sugerido)
+  - label: Incluído
+    value: Alojamento, refeições vegetarianas, atividades

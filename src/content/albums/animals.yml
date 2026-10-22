@@ -1,0 +1,42 @@
+el:
+  order: 6
+  photos:
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/kitten-shoulder.webp
+  - /src/assets/uploads/cat-blanket.webp
+  - /src/assets/uploads/dogs-play.webp
+  - /src/assets/uploads/dogs-meadow.webp
+  - /src/assets/uploads/dog-pillow.webp
+  - /src/assets/uploads/dog-hug.webp
+  - /src/assets/uploads/dog-shala.webp
+  - /src/assets/uploads/white-dog.webp
+  - /src/assets/uploads/dog-rest.webp
+  - /src/assets/uploads/deck-dog.webp
+  - /src/assets/uploads/lakis-fields.webp
+  - /src/assets/uploads/lakis-path.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
+  title: Τα ζώα
+  description: Σκυλιά, γάτες, κότες — και οι γείτονες του βουνού.
+en:
+  title: The animals
+  description: Dogs, cats, hens — and our mountain neighbours.
+fr:
+  title: Les animaux
+  description: Chiens, chats, poules — et nos voisins de la montagne.
+es:
+  title: Los animales
+  description: Perros, gatos, gallinas — y nuestros vecinos de la montaña.
+it:
+  title: Gli animali
+  description: Cani, gatti, galline — e i nostri vicini di montagna.
+ru:
+  title: Животные
+  description: Собаки, кошки, куры — и наши горные соседи.
+de:
+  title: Die Tiere
+  description: Hunde, Katzen, Hühner — und unsere Nachbarn am Berg.
+pt:
+  title: Os animais
+  description: Cães, gatos, galinhas — e os nossos vizinhos da montanha.

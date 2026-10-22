@@ -1,0 +1,29 @@
+el:
+  start: '2026-04-30'
+  end: '2026-05-03'
+  category: retreat
+  program: retreats
+  image: /src/assets/uploads/herb-wreath.webp
+  title: Offline Nature Retreat
+  summary: 'Τέσσερις μέρες χωρίς κινητό στο δάσος: σιωπηλή yin yoga, διαλογισμός, περίπατοι, τέχνη και το πρωτομαγιάτικο στεφάνι.'
+en:
+  title: Offline Nature Retreat
+  summary: 'Four phone-free days in the forest: silent yin yoga, meditation, walks, art and the May Day wreath ritual.'
+fr:
+  title: Offline Nature Retreat
+  summary: 'Quatre jours sans téléphone en forêt : yin yoga en silence, méditation, marches, art et rituel de la couronne du 1er mai.'
+es:
+  title: Offline Nature Retreat
+  summary: 'Cuatro días sin móvil en el bosque: yin yoga en silencio, meditación, paseos, arte y el ritual de la corona del 1 de mayo.'
+it:
+  title: Offline Nature Retreat
+  summary: 'Quattro giorni senza telefono nel bosco: yin yoga in silenzio, meditazione, passeggiate, arte e il rito della corona del Primo Maggio.'
+ru:
+  title: Offline Nature Retreat
+  summary: 'Четыре дня без телефона в лесу: инь-йога в тишине, медитация, прогулки, творчество и первомайский венок.'
+de:
+  title: Offline Nature Retreat
+  summary: 'Vier handyfreie Tage im Wald: stilles Yin Yoga, Meditation, Spaziergänge, Kunst und das Maikranz-Ritual.'
+pt:
+  title: Offline Nature Retreat
+  summary: 'Quatro dias sem telemóvel na floresta: yin yoga em silêncio, meditação, caminhadas, arte e o ritual da coroa do 1.º de maio.'

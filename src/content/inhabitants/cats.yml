@@ -1,0 +1,35 @@
+el:
+  kind: animal
+  order: 12
+  photo: /src/assets/uploads/kitten-shoulder.webp
+  name: Οι γάτες μας
+  role: Ειδικοί στην αγκαλιά
+  bio: Βρίσκουν πάντα το πιο ζεστό γόνατο, την πιο μαλακή κουβέρτα — και καμιά φορά τον ώμο σας.
+en:
+  name: Our cats
+  role: Cuddle specialists
+  bio: They always find the warmest lap, the softest blanket — and sometimes your shoulder.
+fr:
+  name: Nos chats
+  role: Spécialistes des câlins
+  bio: Ils trouvent toujours les genoux les plus chauds, la couverture la plus douce — et parfois votre épaule.
+es:
+  name: Nuestros gatos
+  role: Especialistas en mimos
+  bio: Siempre encuentran el regazo más cálido, la manta más suave — y a veces tu hombro.
+it:
+  name: I nostri gatti
+  role: Esperte di coccole
+  bio: Trovano sempre il grembo più caldo, la coperta più morbida — e a volte la tua spalla.
+ru:
+  name: Наши кошки
+  role: Специалисты по обнимашкам
+  bio: Всегда находят самые тёплые колени, самый мягкий плед — а иногда и ваше плечо.
+de:
+  name: Unsere Katzen
+  role: Kuschel-Expertinnen
+  bio: Sie finden immer den wärmsten Schoß, die weichste Decke — und manchmal deine Schulter.
+pt:
+  name: Os nossos gatos
+  role: Especialistas em mimos
+  bio: Encontram sempre o colo mais quente, a manta mais macia — e às vezes o seu ombro.

@@ -1,16 +1,21 @@
 el:
-  order: 6
-  featured: true
+  order: 7
+  featured: false
   image: /src/assets/uploads/practice-together.webp
   gallery:
-    - /src/assets/uploads/journaling.webp
-    - /src/assets/uploads/meadow-rest.webp
-    - /src/assets/uploads/shala-candles.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/outdoor-meditation.webp
+  - /src/assets/uploads/yin-shala.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/journaling.webp
+  - /src/assets/uploads/meadow-rest.webp
   title: Ευεξία & εσωτερική δουλειά
   summary: Γιόγκα, διαλογισμός, οικοθεραπεία, δραματοθεραπεία και ομαδική διαδικασία — για να συνδεθείτε με τα συναισθήματά σας και με τη φύση.
   facts:
-    - label: Προσεγγίσεις
-      value: Γιόγκα, διαλογισμός, οικοθεραπεία, δραματοθεραπεία, ψυχοθεραπεία ομαδικής διαδικασίας
+  - label: Προσεγγίσεις
+    value: Γιόγκα, διαλογισμός, οικοθεραπεία, δραματοθεραπεία, ψυχοθεραπεία ομαδικής διαδικασίας
   body: |-
     Στην καρδιά του πρότζεκτ βρίσκεται μια απλή πρόθεση: να **θεραπεύουμε και να ενδυναμώνουμε τους ανθρώπους**, βοηθώντας τους να συνδεθούν με τα συναισθήματά τους και να εμβαθύνουν στην αυτογνωσία.
 
@@ -23,12 +28,15 @@ el:
     - **Υγιεινή διατροφή** και χορτοφαγική κουζίνα
 
     Οι πρακτικές αυτές είναι υφασμένες στα εθελοντικά μας προγράμματα και στα ρητρίτ, και μπορούν να προσφερθούν σε ομάδες κατόπιν αιτήματος.
+
+    ### Στο δάσος μας αγαπάμε να καθόμαστε σε κύκλο
+    Κύκλοι **ανοίγματος**, όπου καλωσορίζουμε ο ένας τον άλλον και φτάνουμε ολόκληροι στον χώρο. Κύκλοι **μοιράσματος**, όπου οι ιστορίες και τα συναισθήματα μας φέρνουν πιο κοντά. Κύκλοι **κλεισίματος**, όπου τιμούμε όσα ζήσαμε μαζί. Και κύκλοι **διαδικασίας**, όπου τα πιο μόνιμα μέλη ανοίγονται, βρίσκουν διαύγεια και στηρίζουν ο ένας τον άλλον στις δυσκολίες. Γιατί σε έναν κύκλο, όλοι είναι ορατοί — όλοι ανήκουν.
 en:
   title: Wellbeing & inner work
   summary: Yoga, meditation, eco-therapy, dramatherapy and group process — to connect with your emotions and with nature.
   facts:
-    - label: Approaches
-      value: Yoga, meditation, eco-therapy, dramatherapy, group-process psychotherapy
+  - label: Approaches
+    value: Yoga, meditation, eco-therapy, dramatherapy, group-process psychotherapy
   body: |-
     At the heart of the project lies a simple intention: to **heal and empower people**, helping them connect with their emotions and deepen their self-knowledge.
 
@@ -41,12 +49,15 @@ en:
     - **Healthy nutrition** and a vegetarian kitchen
 
     These practices are woven into our volunteering projects and retreats, and can be offered to groups on request.
+
+    ### In our forest, we love to sit in circles
+    Circles of **opening**, where we welcome each other and arrive fully into the space. Circles of **sharing**, where stories and feelings weave us closer together. Circles of **closing**, where we honour what we lived together. And circles of **process**, where the more permanent members open up, find clarity and hold each other through challenges. Because in a circle, everyone is seen — everyone belongs.
 fr:
   title: Bien-être & travail intérieur
   summary: Yoga, méditation, écothérapie, dramathérapie et processus de groupe — pour se relier à ses émotions et à la nature.
   facts:
-    - label: Approches
-      value: Yoga, méditation, écothérapie, dramathérapie, psychothérapie de processus de groupe
+  - label: Approches
+    value: Yoga, méditation, écothérapie, dramathérapie, psychothérapie de processus de groupe
   body: |-
     Au cœur du projet se trouve une intention simple : **soigner et renforcer les personnes**, en les aidant à se relier à leurs émotions et à approfondir la connaissance d’elles-mêmes.
 
@@ -59,12 +70,15 @@ fr:
     - **Alimentation saine** et cuisine végétarienne
 
     Ces pratiques sont tissées dans nos projets de volontariat et nos retraites, et peuvent être proposées à des groupes sur demande.
+
+    ### Dans notre forêt, nous aimons nous asseoir en cercle
+    Des cercles d’**ouverture**, pour nous accueillir et arriver pleinement. Des cercles de **partage**, où histoires et émotions nous rapprochent. Des cercles de **clôture**, pour honorer ce que nous avons vécu ensemble. Et des cercles de **processus**, où les membres permanents s’ouvrent, trouvent de la clarté et se soutiennent dans les difficultés. Parce que dans un cercle, chacun est vu — chacun a sa place.
 es:
   title: Bienestar y trabajo interior
   summary: Yoga, meditación, ecoterapia, dramaterapia y proceso grupal — para conectar con tus emociones y con la naturaleza.
   facts:
-    - label: Enfoques
-      value: Yoga, meditación, ecoterapia, dramaterapia, psicoterapia de proceso grupal
+  - label: Enfoques
+    value: Yoga, meditación, ecoterapia, dramaterapia, psicoterapia de proceso grupal
   body: |-
     En el corazón del proyecto hay una intención sencilla: **sanar y empoderar a las personas**, ayudándolas a conectar con sus emociones y a profundizar en el conocimiento de sí mismas.
 
@@ -77,12 +91,15 @@ es:
     - **Alimentación sana** y cocina vegetariana
 
     Estas prácticas forman parte de nuestros proyectos de voluntariado y retiros, y pueden ofrecerse a grupos bajo petición.
+
+    ### En nuestro bosque nos encanta sentarnos en círculo
+    Círculos de **apertura**, para darnos la bienvenida y llegar del todo. Círculos de **compartir**, donde las historias y los sentimientos nos acercan. Círculos de **cierre**, para honrar lo vivido juntos. Y círculos de **proceso**, donde los miembros más permanentes se abren, encuentran claridad y se sostienen en los retos. Porque en un círculo, todo el mundo es visto — todo el mundo pertenece.
 it:
   title: Benessere e lavoro interiore
   summary: Yoga, meditazione, ecoterapia, drammaterapia e processo di gruppo — per entrare in contatto con le proprie emozioni e con la natura.
   facts:
-    - label: Approcci
-      value: Yoga, meditazione, ecoterapia, drammaterapia, psicoterapia di processo di gruppo
+  - label: Approcci
+    value: Yoga, meditazione, ecoterapia, drammaterapia, psicoterapia di processo di gruppo
   body: |-
     Al cuore del progetto c’è un’intenzione semplice: **guarire e rafforzare le persone**, aiutandole a entrare in contatto con le proprie emozioni e ad approfondire la conoscenza di sé.
 
@@ -95,12 +112,15 @@ it:
     - **Alimentazione sana** e cucina vegetariana
 
     Queste pratiche sono intrecciate nei nostri progetti di volontariato e nei ritiri, e possono essere proposte ai gruppi su richiesta.
+
+    ### Nel nostro bosco amiamo sederci in cerchio
+    Cerchi di **apertura**, per accoglierci e arrivare davvero. Cerchi di **condivisione**, dove storie ed emozioni ci avvicinano. Cerchi di **chiusura**, per onorare ciò che abbiamo vissuto insieme. E cerchi di **processo**, dove i membri più stabili si aprono, trovano chiarezza e si sostengono nelle difficoltà. Perché in un cerchio tutti sono visti — tutti appartengono.
 ru:
   title: Благополучие и внутренняя работа
   summary: Йога, медитация, экотерапия, драматерапия и групповой процесс — чтобы соединиться со своими чувствами и с природой.
   facts:
-    - label: Подходы
-      value: Йога, медитация, экотерапия, драматерапия, групповая процессуальная психотерапия
+  - label: Подходы
+    value: Йога, медитация, экотерапия, драматерапия, групповая процессуальная психотерапия
   body: |-
     В основе проекта лежит простое намерение: **исцелять и поддерживать людей**, помогая им соединиться со своими эмоциями и глубже познать себя.
 
@@ -113,12 +133,15 @@ ru:
     - **Здоровое питание** и вегетарианская кухня
 
     Эти практики вплетены в наши волонтёрские проекты и ретриты, а для групп их можно организовать по запросу.
+
+    ### В нашем лесу мы любим садиться в круг
+    Круги **открытия** — чтобы поприветствовать друг друга и полностью прибыть. Круги **шеринга**, где истории и чувства сближают нас. Круги **закрытия** — чтобы почтить прожитое вместе. И **процессные** круги, где постоянные участники открываются, находят ясность и поддерживают друг друга в трудностях. Потому что в круге каждого видно — каждый на своём месте.
 de:
   title: Wohlbefinden & innere Arbeit
   summary: Yoga, Meditation, Ökotherapie, Dramatherapie und Gruppenprozess — um mit den eigenen Gefühlen und der Natur in Kontakt zu kommen.
   facts:
-    - label: Ansätze
-      value: Yoga, Meditation, Ökotherapie, Dramatherapie, Gruppenprozess-Psychotherapie
+  - label: Ansätze
+    value: Yoga, Meditation, Ökotherapie, Dramatherapie, Gruppenprozess-Psychotherapie
   body: |-
     Im Herzen des Projekts steht eine einfache Absicht: **Menschen zu heilen und zu stärken**, indem wir ihnen helfen, mit ihren Gefühlen in Kontakt zu kommen und sich selbst besser kennenzulernen.
 
@@ -131,12 +154,15 @@ de:
     - **Gesunde Ernährung** und vegetarische Küche
 
     Diese Praktiken sind Teil unserer Freiwilligenprojekte und Retreats und können auf Anfrage auch für Gruppen angeboten werden.
+
+    ### In unserem Wald sitzen wir gern im Kreis
+    Kreise des **Ankommens**, um einander willkommen zu heißen. Kreise des **Teilens**, in denen Geschichten und Gefühle uns näher zusammenbringen. Kreise des **Abschlusses**, um das gemeinsam Erlebte zu würdigen. Und **Prozess**-Kreise, in denen die festen Mitglieder sich öffnen, Klarheit finden und sich durch Herausforderungen tragen. Denn im Kreis wird jede·r gesehen — alle gehören dazu.
 pt:
   title: Bem-estar e trabalho interior
   summary: Yoga, meditação, ecoterapia, dramaterapia e processo de grupo — para se ligar às suas emoções e à natureza.
   facts:
-    - label: Abordagens
-      value: Yoga, meditação, ecoterapia, dramaterapia, psicoterapia de processo de grupo
+  - label: Abordagens
+    value: Yoga, meditação, ecoterapia, dramaterapia, psicoterapia de processo de grupo
   body: |-
     No coração do projeto está uma intenção simples: **curar e capacitar as pessoas**, ajudando-as a ligar-se às suas emoções e a aprofundar o autoconhecimento.
 
@@ -149,3 +175,6 @@ pt:
     - **Alimentação saudável** e cozinha vegetariana
 
     Estas práticas fazem parte dos nossos projetos de voluntariado e retiros, e podem ser oferecidas a grupos mediante pedido.
+
+    ### Na nossa floresta adoramos sentar-nos em círculo
+    Círculos de **abertura**, para nos acolhermos e chegarmos por inteiro. Círculos de **partilha**, onde histórias e sentimentos nos aproximam. Círculos de **encerramento**, para honrar o que vivemos juntos. E círculos de **processo**, onde os membros mais permanentes se abrem, encontram clareza e se apoiam nos desafios. Porque num círculo todos são vistos — todos pertencem.

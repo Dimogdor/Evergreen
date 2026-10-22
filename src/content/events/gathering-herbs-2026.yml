@@ -1,0 +1,29 @@
+el:
+  start: '2026-06-12'
+  end: '2026-06-14'
+  category: community
+  program: gatherings
+  image: /src/assets/uploads/herbs-table.webp
+  title: Gathering — Τα βότανα του Καλλιδρόμου
+  summary: Άγρια βότανα, φύτεμα καλοκαιρινών λαχανικών, χτίσιμο της αποθήκης από πηλό, πρωινή γιόγκα, φυσικά σαπούνια και βραδιές γύρω από τη φωτιά.
+en:
+  title: Gathering — Herbs of Kallidromo
+  summary: Wild herbs, planting summer vegetables, building our cob storage, morning yoga, natural soap-making and evenings around the fire.
+fr:
+  title: Rassemblement — Les herbes du Kallidromo
+  summary: Herbes sauvages, plantation des légumes d’été, construction de notre abri en bauge, yoga du matin, savons naturels et soirées autour du feu.
+es:
+  title: Encuentro — Hierbas del Kallidromo
+  summary: Hierbas silvestres, siembra de verduras de verano, construcción del almacén de cob, yoga matinal, jabones naturales y noches junto al fuego.
+it:
+  title: Incontro — Erbe del Kallidromo
+  summary: Erbe selvatiche, semina delle verdure estive, costruzione del deposito in cob, yoga del mattino, saponi naturali e serate intorno al fuoco.
+ru:
+  title: Встреча — Травы Каллидромо
+  summary: Дикие травы, посадка летних овощей, строительство глиняной кладовой, утренняя йога, натуральное мыло и вечера у костра.
+de:
+  title: Gathering — Kräuter des Kallidromo
+  summary: Wildkräuter, Sommergemüse pflanzen, Bau unseres Cob-Lagers, Morgenyoga, Naturseife und Abende am Feuer.
+pt:
+  title: Encontro — Ervas do Kallidromo
+  summary: Ervas silvestres, plantação dos legumes de verão, construção do armazém de cob, yoga matinal, sabonetes naturais e noites à volta da fogueira.

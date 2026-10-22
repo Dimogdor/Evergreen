@@ -1,39 +1,39 @@
 el:
-  order: 3
+  order: 9
   photos:
-    - /src/assets/uploads/shared-meal-table.webp
-    - /src/assets/uploads/kitchen-chopping.webp
-    - /src/assets/uploads/kitchen-cooking.webp
-    - /src/assets/uploads/campfire-circle.webp
-    - /src/assets/uploads/campfire-evening.webp
-    - /src/assets/uploads/sharing-circle.webp
-    - /src/assets/uploads/circle-dance.webp
-    - /src/assets/uploads/group-play.webp
-    - /src/assets/uploads/acro-play.webp
-    - /src/assets/uploads/laughter-dog.webp
-    - /src/assets/uploads/practice-with-dog.webp
-    - /src/assets/uploads/meadow-rest.webp
+  - /src/assets/uploads/shared-meal-table.webp
+  - /src/assets/uploads/kitchen-chopping.webp
+  - /src/assets/uploads/kitchen-cooking.webp
+  - /src/assets/uploads/campfire-circle.webp
+  - /src/assets/uploads/campfire-evening.webp
+  - /src/assets/uploads/sharing-circle.webp
+  - /src/assets/uploads/circle-dance.webp
+  - /src/assets/uploads/group-play.webp
+  - /src/assets/uploads/acro-play.webp
+  - /src/assets/uploads/laughter-dog.webp
+  - /src/assets/uploads/practice-with-dog.webp
+  - /src/assets/uploads/meadow-rest.webp
   videos: []
-  title: "Κοινοτική ζωή"
-  description: "Γεύματα, κύκλοι, φωτιές και γέλια."
+  title: Κοινοτική ζωή
+  description: Γεύματα, κύκλοι, φωτιές και γέλια.
 en:
-  title: "Community life"
-  description: "Meals, circles, fires and laughter."
+  title: Community life
+  description: Meals, circles, fires and laughter.
 fr:
-  title: "Vie communautaire"
-  description: "Repas, cercles, feux et rires."
+  title: Vie communautaire
+  description: Repas, cercles, feux et rires.
 es:
-  title: "Vida comunitaria"
-  description: "Comidas, círculos, fogatas y risas."
+  title: Vida comunitaria
+  description: Comidas, círculos, fogatas y risas.
 it:
-  title: "Vita di comunità"
-  description: "Pasti, cerchi, fuochi e risate."
+  title: Vita di comunità
+  description: Pasti, cerchi, fuochi e risate.
 ru:
-  title: "Жизнь сообщества"
-  description: "Трапезы, круги, костры и смех."
+  title: Жизнь сообщества
+  description: Трапезы, круги, костры и смех.
 de:
-  title: "Gemeinschaftsleben"
-  description: "Mahlzeiten, Kreise, Feuer und Lachen."
+  title: Gemeinschaftsleben
+  description: Mahlzeiten, Kreise, Feuer und Lachen.
 pt:
-  title: "Vida comunitária"
-  description: "Refeições, círculos, fogueiras e gargalhadas."
+  title: Vida comunitária
+  description: Refeições, círculos, fogueiras e gargalhadas.

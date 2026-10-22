@@ -3,9 +3,9 @@ el:
   featured: false
   image: /src/assets/uploads/outdoor-class.webp
   gallery:
-    - /src/assets/uploads/workshop-circle.webp
-    - /src/assets/uploads/study-session.webp
-    - /src/assets/uploads/group-learning.webp
+  - /src/assets/uploads/workshop-circle.webp
+  - /src/assets/uploads/study-session.webp
+  - /src/assets/uploads/group-learning.webp
   title: Ομάδες & οργανισμοί
   summary: Ομάδες νέων, σχολεία, σύλλογοι και ομάδες εργασίας — φιλοξενούμε και σχεδιάζουμε μαζί προγράμματα στη φύση.
   body: |-

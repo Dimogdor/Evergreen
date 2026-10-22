@@ -1,0 +1,29 @@
+el:
+  start: '2025-07-11'
+  end: '2025-07-13'
+  category: retreat
+  program: retreats
+  image: /src/assets/uploads/forest-dusk.webp
+  title: Into the Forest
+  summary: Ένα Σαββατοκύριακο σωματικών πρακτικών, τελετουργιών στο δάσος, δημιουργικής έκφρασης και απλής ζωής κάτω από τα δέντρα.
+en:
+  title: Into the Forest
+  summary: A weekend of somatic practices, forest rituals, creative expression and simple living under the trees.
+fr:
+  title: Into the Forest
+  summary: Un week-end de pratiques somatiques, rituels en forêt, expression créative et vie simple sous les arbres.
+es:
+  title: Into the Forest
+  summary: Un fin de semana de prácticas somáticas, rituales en el bosque, expresión creativa y vida sencilla bajo los árboles.
+it:
+  title: Into the Forest
+  summary: Un weekend di pratiche somatiche, rituali nel bosco, espressione creativa e vita semplice sotto gli alberi.
+ru:
+  title: Into the Forest
+  summary: Выходные соматических практик, лесных ритуалов, творческого самовыражения и простой жизни под деревьями.
+de:
+  title: Into the Forest
+  summary: Ein Wochenende mit somatischen Praktiken, Waldritualen, kreativem Ausdruck und einfachem Leben unter Bäumen.
+pt:
+  title: Into the Forest
+  summary: Um fim de semana de práticas somáticas, rituais na floresta, expressão criativa e vida simples debaixo das árvores.

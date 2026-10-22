@@ -1,0 +1,35 @@
+el:
+  kind: animal
+  order: 10
+  photo: /src/assets/uploads/lakis-path.webp
+  name: Lakis
+  role: Ο σκύλος του χωριού
+  bio: Ο αγαπημένος μας αδέσποτος σκύλος, που φροντίζει όλο το χωριό της Ανάβρας.
+en:
+  name: Lakis
+  role: The village dog
+  bio: Our beloved stray dog, who looks after the whole village of Anavra.
+fr:
+  name: Lakis
+  role: Le chien du village
+  bio: Notre chien errant adoré, qui veille sur tout le village d’Anavra.
+es:
+  name: Lakis
+  role: El perro del pueblo
+  bio: Nuestro querido perro callejero, que cuida de todo el pueblo de Anavra.
+it:
+  name: Lakis
+  role: Il cane del villaggio
+  bio: Il nostro amato cane randagio, che si prende cura di tutto il villaggio di Anavra.
+ru:
+  name: Lakis
+  role: Деревенский пёс
+  bio: Наш любимый бездомный пёс, который присматривает за всей деревней Анавра.
+de:
+  name: Lakis
+  role: Der Dorfhund
+  bio: Unser geliebter Streuner, der auf das ganze Dorf Anavra aufpasst.
+pt:
+  name: Lakis
+  role: O cão da aldeia
+  bio: O nosso querido cão de rua, que cuida de toda a aldeia de Anavra.

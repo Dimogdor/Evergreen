@@ -1,183 +1,192 @@
 el:
-  order: 4
+  order: 5
   featured: true
   image: /src/assets/uploads/outdoor-showers.webp
   gallery:
-    - /src/assets/uploads/cabin-firepit.webp
-    - /src/assets/uploads/compost-toilet.webp
-    - /src/assets/uploads/signs-camping.webp
+  - /src/assets/uploads/cob-house-rudi.webp
+  - /src/assets/uploads/cob-hands.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/cob-bricks.webp
+  - /src/assets/uploads/dance-house-build.webp
+  - /src/assets/uploads/dance-house-frame.webp
+  - /src/assets/uploads/dance-house-inside.webp
+  - /src/assets/uploads/floating-deck.webp
+  - /src/assets/uploads/shelter-frame-3.webp
+  - /src/assets/uploads/shelter-frame-2.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/build-site-2026.webp
   title: Εργαστήρια φυσικής δόμησης
   summary: Μάθετε να χτίζετε με χώμα, πηλό, ξύλο και φυσικά υλικά — ζώντας μαζί όσο χτίζετε.
   facts:
-    - label: Τεχνικές
-      value: Χώμα, cob, ξύλο, φυσικά υλικά
-    - label: Περιλαμβάνονται
-      value: Διαμονή, χορτοφαγικά γεύματα, κοινοτική ζωή, όλες οι δραστηριότητες
-    - label: Φιλοσοφία
-      value: Μαθαίνουμε · Χτίζουμε · Ζούμε μαζί
+  - label: Τεχνικές
+    value: Χώμα, cob, ξύλο, φυσικά υλικά
+  - label: Περιλαμβάνονται
+    value: Διαμονή, χορτοφαγικά γεύματα, κοινοτική ζωή, όλες οι δραστηριότητες
+  - label: Φιλοσοφία
+    value: Μαθαίνουμε · Χτίζουμε · Ζούμε μαζί
   body: |-
-    Τα περισσότερα από όσα στέκονται στον χώρο μας χτίστηκαν με τα χέρια: η σάλα, η κουζίνα, τα ντους, οι τουαλέτες κομποστοποίησης, τα σπίτια από πηλό. Τα εργαστήρια φυσικής δόμησης σας προσκαλούν να μάθετε αυτές τις τεχνικές πάνω σε ένα πραγματικό εργοτάξιο, όλοι μαζί.
+    Σχεδόν ό,τι υπάρχει στον χώρο μας χτίστηκε με τα χέρια — με πολλά χέρια. Η φυσική δόμηση είναι ο τρόπος που μεγαλώνουμε — και ένας από τους καλύτερους τρόπους να έρθετε κοντά μας: παίρνουμε χώμα από το χωράφι, το ανακατεύουμε με άμμο, άχυρο και νερό και πλάθουμε χωμάτινα «καρβέλια» που γίνονται οι τοίχοι των κατασκευών μας από πηλό. Ένας αργός, γειωτικός τρόπος να χτίζουμε **με** τη γη, όχι πάνω της.
 
-    ### Hands on Earth
-    Το φθινοπωρινό μας εργαστήριο **Hands on Earth** (15 Οκτωβρίου – 8 Νοεμβρίου 2026) εξερευνά το χτίσιμο με **χώμα, πηλό (cob), ξύλο και φυσικά υλικά**. Η διαμονή, τα χορτοφαγικά γεύματα, η κοινοτική ζωή και όλες οι δραστηριότητες περιλαμβάνονται.
+    ### Όσα έχουμε χτίσει μαζί
+    - **Ένα καταφύγιο από χώμα και ξύλο** — δύο Σαββατοκύριακα εργαστηρίων την άνοιξη του 2025
+    - **Μια ξύλινη εξέδρα πάνω σε ζωντανά δέντρα** — μια αιωρούμενη πλατφόρμα για γιόγκα και ξεκούραση ανάμεσα στα φύλλα (Μάιος 2025)
+    - **Το σπιτάκι του χορού** — χτισμένο με πολλή δουλειά, πολλά χέρια και άφθονο χορό ενδιάμεσα (καλοκαίρι 2025)
+    - **Το σπίτι από πηλό** — το χωμάτινο σπίτι μας, έτοιμο να φιλοξενεί και τον χειμώνα (φθινόπωρο 2025)
+    - **Μια αποθήκη από πηλό** (2026) και, αυτή τη στιγμή, **η νέα χειμερινή μας σάλα**
 
-    ### Γιατί φυσική δόμηση
-    - χρησιμοποιεί τοπικά, μη τοξικά υλικά με ελάχιστο αποτύπωμα
-    - δημιουργεί υγιείς χώρους που αναπνέουν
-    - είναι προσιτή: μαθαίνεται με την πράξη και χτίζεται σε ομάδα
-
-    Δεν απαιτείται προηγούμενη εμπειρία — μόνο διάθεση να λερώσετε τα χέρια σας.
+    ### Hands on Earth — 15 Οκτωβρίου – 8 Νοεμβρίου 2026
+    Για 25 μέρες το Evergreen Project γίνεται ένα ζωντανό εργαστήρι στο δάσος του Καλλιδρόμου: χώμα, πηλός, ξύλο και φυσικά υλικά, μαθαίνοντας από τη διαδικασία και δημιουργώντας δίπλα δίπλα. **Μπορείτε να έρθετε ακόμα και για 3 μέρες — ή να μείνετε για όλο το ταξίδι.** Περιλαμβάνονται διαμονή, χορτοφαγικά γεύματα, όλες οι δραστηριότητες και η κοινοτική ζωή. Δεν χρειάζεται εμπειρία — μόνο περιέργεια και διάθεση να λασπωθείτε λίγο. Για ημερομηνίες και συμμετοχή, στείλτε μας μήνυμα.
 en:
   title: Natural building workshops
   summary: Learn to build with earth, cob, wood and natural materials — and live together while you do.
   facts:
-    - label: Techniques
-      value: Earth, cob, wood, natural materials
-    - label: Included
-      value: Accommodation, vegetarian meals, community living, all activities
-    - label: Spirit
-      value: Learn · Build · Live together
+  - label: Techniques
+    value: Earth, cob, wood, natural materials
+  - label: Included
+    value: Accommodation, vegetarian meals, community living, all activities
+  - label: Spirit
+    value: Learn · Build · Live together
   body: |-
-    Most of what stands on our land was built by hand: the shala, the kitchen, the showers, the compost toilets, the cob houses. Our natural building workshops invite you to learn these techniques on a real building site, together.
+    Almost everything on our land was built by hand, by many hands. Natural building is how we grow — and one of the best ways to join us: we take soil from the field, mix it with sand, straw and water, and shape earthen loaves that become the walls of our cob creations. A slow, grounding way of building **with** the earth, not on it.
 
-    ### Hands on Earth
-    Our autumn workshop **Hands on Earth** (15 October – 8 November 2026) explores building with **earth, cob, wood and natural materials**. Accommodation, vegetarian meals, community living and all activities are included.
+    ### What we have built together
+    - **An eco-shelter of earth and wood** — two workshop weekends in spring 2025
+    - **A wooden deck held by living trees** — a floating platform for yoga and rest among the leaves (May 2025)
+    - **The dance house** — built with a lot of work, many hands and plenty of dancing in between (summer 2025)
+    - **The cob house** — our earthen home, ready to welcome guests through the winter (autumn 2025)
+    - **A cob storage space** (2026) and, right now, **our new winter shala**
 
-    ### Why natural building
-    - it uses local, non-toxic materials with a minimal footprint
-    - it creates healthy spaces that breathe
-    - it is accessible: you learn it by doing, and build it as a team
-
-    No previous experience is required — just the will to get your hands dirty.
+    ### Hands on Earth — 15 October – 8 November 2026
+    For 25 days the Evergreen Project becomes a living workshop in the forest of Mt. Kallidromo: earth, cob, wood and natural materials, learning from the process and creating side by side. **Join for as little as 3 days — or stay for the whole journey.** Accommodation, vegetarian meals, all activities and community living are included. No experience needed — just curiosity and the will to get a little muddy. For dates and participation, send us a message.
 fr:
   title: Ateliers de construction naturelle
   summary: Apprenez à construire avec la terre, la bauge, le bois et les matériaux naturels — en vivant ensemble pendant le chantier.
   facts:
-    - label: Techniques
-      value: Terre, bauge (cob), bois, matériaux naturels
-    - label: Inclus
-      value: Hébergement, repas végétariens, vie communautaire, toutes les activités
-    - label: Esprit
-      value: Apprendre · Construire · Vivre ensemble
+  - label: Techniques
+    value: Terre, bauge (cob), bois, matériaux naturels
+  - label: Inclus
+    value: Hébergement, repas végétariens, vie communautaire, toutes les activités
+  - label: Esprit
+    value: Apprendre · Construire · Vivre ensemble
   body: |-
-    La plupart de ce qui se trouve sur notre terrain a été construit à la main : la shala, la cuisine, les douches, les toilettes sèches, les maisons en bauge. Nos ateliers de construction naturelle vous invitent à apprendre ces techniques sur un vrai chantier, ensemble.
+    Presque tout ce qui se trouve sur notre terrain a été construit à la main, par beaucoup de mains. La construction naturelle est notre façon de grandir — et l’une des meilleures manières de nous rejoindre : nous prenons la terre du champ, la mélangeons avec du sable, de la paille et de l’eau, et façonnons des « pains » de terre qui deviennent les murs de nos constructions en bauge. Une manière lente et ancrée de construire **avec** la terre, pas sur elle.
 
-    ### Hands on Earth
-    Notre atelier d’automne **Hands on Earth** (15 octobre – 8 novembre 2026) explore la construction en **terre, bauge, bois et matériaux naturels**. Hébergement, repas végétariens, vie communautaire et toutes les activités sont inclus.
+    ### Ce que nous avons construit ensemble
+    - **Un abri en terre et bois** — deux week-ends d’atelier au printemps 2025
+    - **Une plateforme en bois portée par des arbres vivants** — un espace suspendu pour le yoga et le repos au milieu des feuilles (mai 2025)
+    - **La maison de la danse** — construite avec beaucoup de travail, beaucoup de mains et pas mal de danse entre les deux (été 2025)
+    - **La maison en bauge** — notre maison de terre, prête à accueillir aussi en hiver (automne 2025)
+    - **Un abri de rangement en bauge** (2026) et, en ce moment, **notre nouvelle shala d’hiver**
 
-    ### Pourquoi la construction naturelle
-    - elle utilise des matériaux locaux, non toxiques et à faible empreinte
-    - elle crée des espaces sains qui respirent
-    - elle est accessible : on l’apprend en faisant, et on construit en équipe
-
-    Aucune expérience préalable n’est requise — seulement l’envie de mettre les mains dans la terre.
+    ### Hands on Earth — 15 octobre – 8 novembre 2026
+    Pendant 25 jours, Evergreen Project devient un atelier vivant dans la forêt du mont Kallidromo : terre, bauge, bois et matériaux naturels, en apprenant du processus et en créant côte à côte. **Venez pour 3 jours seulement — ou restez tout le voyage.** Hébergement, repas végétariens, toutes les activités et la vie communautaire sont inclus. Aucune expérience requise — juste de la curiosité et l’envie de se salir un peu. Pour les dates et l’inscription, envoyez-nous un message.
 es:
   title: Talleres de bioconstrucción
   summary: Aprende a construir con tierra, cob, madera y materiales naturales — y a convivir mientras lo haces.
   facts:
-    - label: Técnicas
-      value: Tierra, cob, madera, materiales naturales
-    - label: Incluye
-      value: Alojamiento, comidas vegetarianas, vida comunitaria, todas las actividades
-    - label: Espíritu
-      value: Aprender · Construir · Vivir juntos
+  - label: Técnicas
+    value: Tierra, cob, madera, materiales naturales
+  - label: Incluye
+    value: Alojamiento, comidas vegetarianas, vida comunitaria, todas las actividades
+  - label: Espíritu
+    value: Aprender · Construir · Vivir juntos
   body: |-
-    Casi todo lo que hay en nuestro terreno se construyó a mano: la shala, la cocina, las duchas, los baños secos, las casas de cob. Nuestros talleres de bioconstrucción te invitan a aprender estas técnicas en una obra real, en grupo.
+    Casi todo lo que hay en nuestro terreno se construyó a mano, con muchas manos. La bioconstrucción es nuestra forma de crecer — y una de las mejores maneras de unirte a nosotros: tomamos tierra del campo, la mezclamos con arena, paja y agua y damos forma a «panes» de tierra que se convierten en las paredes de nuestras construcciones de cob. Una manera lenta y arraigada de construir **con** la tierra, no sobre ella.
 
-    ### Hands on Earth
-    Nuestro taller de otoño **Hands on Earth** (15 de octubre – 8 de noviembre de 2026) explora la construcción con **tierra, cob, madera y materiales naturales**. Incluye alojamiento, comidas vegetarianas, vida comunitaria y todas las actividades.
+    ### Lo que hemos construido juntos
+    - **Un refugio de tierra y madera** — dos fines de semana de taller en la primavera de 2025
+    - **Una plataforma de madera sostenida por árboles vivos** — un espacio flotante para yoga y descanso entre las hojas (mayo de 2025)
+    - **La casa del baile** — construida con mucho trabajo, muchas manos y bastante baile entremedias (verano de 2025)
+    - **La casa de cob** — nuestro hogar de tierra, listo para acoger también en invierno (otoño de 2025)
+    - **Un almacén de cob** (2026) y, ahora mismo, **nuestra nueva shala de invierno**
 
-    ### Por qué bioconstrucción
-    - usa materiales locales, no tóxicos y de mínima huella
-    - crea espacios sanos que respiran
-    - es accesible: se aprende haciendo y se construye en equipo
-
-    No se necesita experiencia previa — solo ganas de mancharse las manos.
+    ### Hands on Earth — 15 de octubre – 8 de noviembre de 2026
+    Durante 25 días, Evergreen Project se convierte en un taller vivo en el bosque del monte Kallidromo: tierra, cob, madera y materiales naturales, aprendiendo del proceso y creando codo con codo. **Ven aunque sea 3 días — o quédate todo el viaje.** Incluye alojamiento, comidas vegetarianas, todas las actividades y la vida comunitaria. No hace falta experiencia — solo curiosidad y ganas de mancharte un poco. Para fechas e inscripción, envíanos un mensaje.
 it:
   title: Workshop di bioedilizia
   summary: Impara a costruire con terra, cob, legno e materiali naturali — vivendo insieme mentre costruisci.
   facts:
-    - label: Tecniche
-      value: Terra, cob, legno, materiali naturali
-    - label: Incluso
-      value: Alloggio, pasti vegetariani, vita di comunità, tutte le attività
-    - label: Spirito
-      value: Imparare · Costruire · Vivere insieme
+  - label: Tecniche
+    value: Terra, cob, legno, materiali naturali
+  - label: Incluso
+    value: Alloggio, pasti vegetariani, vita di comunità, tutte le attività
+  - label: Spirito
+    value: Imparare · Costruire · Vivere insieme
   body: |-
-    Quasi tutto ciò che si trova sul nostro terreno è stato costruito a mano: la shala, la cucina, le docce, i bagni a compost, le case in cob. I nostri workshop di bioedilizia ti invitano a imparare queste tecniche in un vero cantiere, insieme.
+    Quasi tutto ciò che c’è sul nostro terreno è stato costruito a mano, da tante mani. La bioedilizia è il nostro modo di crescere — e uno dei modi migliori per unirti a noi: prendiamo la terra del campo, la mescoliamo con sabbia, paglia e acqua e modelliamo «pagnotte» di terra che diventano i muri delle nostre costruzioni in cob. Un modo lento e radicato di costruire **con** la terra, non sopra di essa.
 
-    ### Hands on Earth
-    Il nostro workshop autunnale **Hands on Earth** (15 ottobre – 8 novembre 2026) esplora la costruzione con **terra, cob, legno e materiali naturali**. Alloggio, pasti vegetariani, vita di comunità e tutte le attività sono inclusi.
+    ### Cosa abbiamo costruito insieme
+    - **Un rifugio in terra e legno** — due weekend di workshop nella primavera 2025
+    - **Una piattaforma in legno sorretta da alberi vivi** — uno spazio sospeso per yoga e riposo tra le foglie (maggio 2025)
+    - **La casa della danza** — costruita con tanto lavoro, tante mani e parecchia danza nel mezzo (estate 2025)
+    - **La casa in cob** — la nostra casa di terra, pronta ad accogliere anche d’inverno (autunno 2025)
+    - **Un deposito in cob** (2026) e, proprio ora, **la nostra nuova shala invernale**
 
-    ### Perché la bioedilizia
-    - usa materiali locali, non tossici e a impatto minimo
-    - crea spazi sani che respirano
-    - è accessibile: si impara facendo e si costruisce in gruppo
-
-    Non serve esperienza — solo la voglia di sporcarsi le mani.
+    ### Hands on Earth — 15 ottobre – 8 novembre 2026
+    Per 25 giorni Evergreen Project diventa un laboratorio vivente nel bosco del monte Kallidromo: terra, cob, legno e materiali naturali, imparando dal processo e creando fianco a fianco. **Puoi venire anche solo per 3 giorni — o restare per tutto il viaggio.** Alloggio, pasti vegetariani, tutte le attività e la vita di comunità sono inclusi. Non serve esperienza — solo curiosità e voglia di sporcarsi un po’. Per date e partecipazione, scrivici.
 ru:
   title: Мастерские природного строительства
   summary: Научитесь строить из земли, глины (cob), дерева и природных материалов — и жить вместе, пока строите.
   facts:
-    - label: Техники
-      value: Земля, cob, дерево, природные материалы
-    - label: Включено
-      value: Проживание, вегетарианское питание, жизнь в сообществе, все занятия
-    - label: Принцип
-      value: Учимся · Строим · Живём вместе
+  - label: Техники
+    value: Земля, cob, дерево, природные материалы
+  - label: Включено
+    value: Проживание, вегетарианское питание, жизнь в сообществе, все занятия
+  - label: Принцип
+    value: Учимся · Строим · Живём вместе
   body: |-
-    Почти всё, что стоит на нашем участке, построено руками: шала, кухня, душ, компостные туалеты, глинобитные дома. Наши мастерские природного строительства приглашают освоить эти техники на настоящей стройке, вместе.
+    Почти всё на нашем участке построено руками — множеством рук. Природное строительство — это то, как мы растём, и один из лучших способов присоединиться к нам: мы берём землю с поля, смешиваем её с песком, соломой и водой и лепим земляные «буханки», из которых встают стены наших глиняных построек. Медленный, заземляющий способ строить **вместе** с землёй, а не на ней.
 
-    ### Hands on Earth
-    Наша осенняя мастерская **Hands on Earth** (15 октября – 8 ноября 2026) посвящена строительству из **земли, глины (cob), дерева и природных материалов**. Проживание, вегетарианское питание, жизнь в сообществе и все занятия включены.
+    ### Что мы построили вместе
+    - **Укрытие из земли и дерева** — два выходных мастерских весной 2025 года
+    - **Деревянный настил на живых деревьях** — парящая платформа для йоги и отдыха среди листвы (май 2025)
+    - **Дом для танцев** — построенный большим трудом, многими руками и с танцами в перерывах (лето 2025)
+    - **Глиняный дом** — наш земляной дом, готовый принимать гостей и зимой (осень 2025)
+    - **Глиняная кладовая** (2026) и прямо сейчас — **наша новая зимняя шала**
 
-    ### Почему природное строительство
-    - местные, нетоксичные материалы с минимальным следом
-    - здоровые пространства, которые «дышат»
-    - доступность: этому учатся на практике и строят командой
-
-    Опыт не нужен — только желание испачкать руки.
+    ### Hands on Earth — 15 октября – 8 ноября 2026
+    На 25 дней Evergreen Project превращается в живую мастерскую в лесу горы Каллидромо: земля, глина, дерево и природные материалы, учимся у самого процесса и создаём бок о бок. **Можно приехать всего на 3 дня — или остаться на всё путешествие.** Проживание, вегетарианское питание, все занятия и жизнь в сообществе включены. Опыт не нужен — только любопытство и готовность немного испачкаться. О датах и участии — пишите нам.
 de:
   title: Naturbau-Workshops
   summary: Lerne, mit Erde, Cob, Holz und natürlichen Materialien zu bauen — und lebe dabei in Gemeinschaft.
   facts:
-    - label: Techniken
-      value: Erde, Cob, Holz, natürliche Materialien
-    - label: Inklusive
-      value: Unterkunft, vegetarische Mahlzeiten, Gemeinschaftsleben, alle Aktivitäten
-    - label: Motto
-      value: Lernen · Bauen · Zusammenleben
+  - label: Techniken
+    value: Erde, Cob, Holz, natürliche Materialien
+  - label: Inklusive
+    value: Unterkunft, vegetarische Mahlzeiten, Gemeinschaftsleben, alle Aktivitäten
+  - label: Motto
+    value: Lernen · Bauen · Zusammenleben
   body: |-
-    Das meiste auf unserem Gelände wurde von Hand gebaut: die Shala, die Küche, die Duschen, die Komposttoiletten, die Lehmhäuser. Unsere Naturbau-Workshops laden dich ein, diese Techniken auf einer echten Baustelle zu lernen — gemeinsam.
+    Fast alles auf unserem Gelände wurde von Hand gebaut, von vielen Händen. Naturbau ist unsere Art zu wachsen — und eine der besten Möglichkeiten, bei uns mitzumachen: Wir nehmen Erde vom Feld, mischen sie mit Sand, Stroh und Wasser und formen Lehm-„Brote“, die zu den Wänden unserer Cob-Bauten werden. Eine langsame, erdende Art, **mit** der Erde zu bauen, nicht auf ihr.
 
-    ### Hands on Earth
-    Unser Herbst-Workshop **Hands on Earth** (15. Oktober – 8. November 2026) erkundet das Bauen mit **Erde, Cob, Holz und natürlichen Materialien**. Unterkunft, vegetarische Mahlzeiten, Gemeinschaftsleben und alle Aktivitäten sind inklusive.
+    ### Was wir gemeinsam gebaut haben
+    - **Ein Unterstand aus Erde und Holz** — zwei Workshop-Wochenenden im Frühjahr 2025
+    - **Ein Holzdeck, getragen von lebenden Bäumen** — eine schwebende Plattform für Yoga und Ruhe zwischen den Blättern (Mai 2025)
+    - **Das Tanzhaus** — gebaut mit viel Arbeit, vielen Händen und reichlich Tanz zwischendurch (Sommer 2025)
+    - **Das Lehmhaus** — unser Erdhaus, bereit, auch im Winter Gäste zu empfangen (Herbst 2025)
+    - **Ein Lagerraum aus Cob** (2026) und gerade jetzt **unsere neue Winter-Shala**
 
-    ### Warum Naturbau
-    - regionale, ungiftige Materialien mit minimalem Fußabdruck
-    - gesunde Räume, die atmen
-    - zugänglich: Man lernt es durch Tun und baut im Team
-
-    Vorerfahrung ist nicht nötig — nur die Lust, sich die Hände schmutzig zu machen.
+    ### Hands on Earth — 15. Oktober – 8. November 2026
+    25 Tage lang wird das Evergreen Project zu einer lebendigen Werkstatt im Wald des Kallidromo: Erde, Cob, Holz und natürliche Materialien — vom Prozess lernen und Seite an Seite gestalten. **Komm schon für 3 Tage — oder bleib die ganze Reise.** Unterkunft, vegetarische Mahlzeiten, alle Aktivitäten und Gemeinschaftsleben sind inklusive. Erfahrung ist nicht nötig — nur Neugier und die Bereitschaft, ein bisschen schmutzig zu werden. Für Termine und Teilnahme schreib uns eine Nachricht.
 pt:
   title: Workshops de bioconstrução
   summary: Aprenda a construir com terra, cob, madeira e materiais naturais — e a viver em comunidade enquanto constrói.
   facts:
-    - label: Técnicas
-      value: Terra, cob, madeira, materiais naturais
-    - label: Incluído
-      value: Alojamento, refeições vegetarianas, vida comunitária, todas as atividades
-    - label: Espírito
-      value: Aprender · Construir · Viver juntos
+  - label: Técnicas
+    value: Terra, cob, madeira, materiais naturais
+  - label: Incluído
+    value: Alojamento, refeições vegetarianas, vida comunitária, todas as atividades
+  - label: Espírito
+    value: Aprender · Construir · Viver juntos
   body: |-
-    Quase tudo o que existe no nosso terreno foi construído à mão: a shala, a cozinha, os duches, as casas de banho secas, as casas de cob. Os nossos workshops de bioconstrução convidam-no a aprender estas técnicas numa obra real, em conjunto.
+    Quase tudo no nosso terreno foi construído à mão, por muitas mãos. A bioconstrução é a nossa forma de crescer — e uma das melhores maneiras de se juntar a nós: tiramos terra do campo, misturamo-la com areia, palha e água e moldamos «pães» de terra que se tornam as paredes das nossas construções de cob. Uma forma lenta e enraizada de construir **com** a terra, e não sobre ela.
 
-    ### Hands on Earth
-    O nosso workshop de outono **Hands on Earth** (15 de outubro – 8 de novembro de 2026) explora a construção com **terra, cob, madeira e materiais naturais**. Alojamento, refeições vegetarianas, vida comunitária e todas as atividades estão incluídos.
+    ### O que construímos juntos
+    - **Um abrigo de terra e madeira** — dois fins de semana de workshop na primavera de 2025
+    - **Uma plataforma de madeira sustentada por árvores vivas** — um espaço suspenso para yoga e descanso entre as folhas (maio de 2025)
+    - **A casa da dança** — construída com muito trabalho, muitas mãos e bastante dança pelo meio (verão de 2025)
+    - **A casa de cob** — a nossa casa de terra, pronta para acolher também no inverno (outono de 2025)
+    - **Um armazém de cob** (2026) e, neste momento, **a nossa nova shala de inverno**
 
-    ### Porquê a bioconstrução
-    - usa materiais locais, não tóxicos e de pegada mínima
-    - cria espaços saudáveis que respiram
-    - é acessível: aprende-se fazendo e constrói-se em equipa
-
-    Não é preciso experiência prévia — só vontade de sujar as mãos.
+    ### Hands on Earth — 15 de outubro – 8 de novembro de 2026
+    Durante 25 dias, o Evergreen Project torna-se uma oficina viva na floresta do monte Kallidromo: terra, cob, madeira e materiais naturais, aprendendo com o processo e criando lado a lado. **Venha nem que seja por 3 dias — ou fique a viagem toda.** Alojamento, refeições vegetarianas, todas as atividades e a vida comunitária estão incluídos. Não é preciso experiência — só curiosidade e vontade de se sujar um pouco. Para datas e participação, envie-nos uma mensagem.

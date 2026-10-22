@@ -1,35 +1,35 @@
 el:
-  kind: "plant"
+  kind: plant
   order: 23
-  photo: "/src/assets/uploads/kitchen-chopping.webp"
-  name: "Ο κήπος"
-  role: "Μεγαλώνει κάθε εποχή"
-  bio: "Ο κήπος περμακουλτούρας μεγαλώνει λίγο κάθε χρόνο, θρέφει την κουζίνα και μας μαθαίνει υπομονή."
+  photo: /src/assets/uploads/garden-table.webp
+  name: Ο κήπος
+  role: Μεγαλώνει κάθε εποχή
+  bio: Ο κήπος περμακουλτούρας μεγαλώνει λίγο κάθε χρόνο, θρέφει την κουζίνα και μας μαθαίνει υπομονή.
 en:
-  name: "The garden"
-  role: "Growing every season"
-  bio: "Our permaculture garden grows a little more each year, feeding the kitchen and teaching us patience."
+  name: The garden
+  role: Growing every season
+  bio: Our permaculture garden grows a little more each year, feeding the kitchen and teaching us patience.
 fr:
-  name: "Le jardin"
-  role: "Grandit à chaque saison"
-  bio: "Notre jardin en permaculture grandit un peu chaque année, nourrit la cuisine et nous apprend la patience."
+  name: Le jardin
+  role: Grandit à chaque saison
+  bio: Notre jardin en permaculture grandit un peu chaque année, nourrit la cuisine et nous apprend la patience.
 es:
-  name: "La huerta"
-  role: "Crece cada temporada"
-  bio: "Nuestra huerta de permacultura crece un poco cada año, alimenta la cocina y nos enseña paciencia."
+  name: La huerta
+  role: Crece cada temporada
+  bio: Nuestra huerta de permacultura crece un poco cada año, alimenta la cocina y nos enseña paciencia.
 it:
-  name: "L’orto"
-  role: "Cresce ogni stagione"
-  bio: "Il nostro orto in permacultura cresce un po’ ogni anno, nutre la cucina e ci insegna la pazienza."
+  name: L’orto
+  role: Cresce ogni stagione
+  bio: Il nostro orto in permacultura cresce un po’ ogni anno, nutre la cucina e ci insegna la pazienza.
 ru:
-  name: "Огород"
-  role: "Растёт каждый сезон"
-  bio: "Наш пермакультурный огород с каждым годом растёт, кормит кухню и учит нас терпению."
+  name: Огород
+  role: Растёт каждый сезон
+  bio: Наш пермакультурный огород с каждым годом растёт, кормит кухню и учит нас терпению.
 de:
-  name: "Der Garten"
-  role: "Wächst mit jeder Saison"
-  bio: "Unser Permakulturgarten wächst jedes Jahr ein Stück, nährt die Küche und lehrt uns Geduld."
+  name: Der Garten
+  role: Wächst mit jeder Saison
+  bio: Unser Permakulturgarten wächst jedes Jahr ein Stück, nährt die Küche und lehrt uns Geduld.
 pt:
-  name: "A horta"
-  role: "Cresce a cada estação"
-  bio: "A nossa horta em permacultura cresce um pouco todos os anos, alimenta a cozinha e ensina-nos paciência."
+  name: A horta
+  role: Cresce a cada estação
+  bio: A nossa horta em permacultura cresce um pouco todos os anos, alimenta a cozinha e ensina-nos paciência.

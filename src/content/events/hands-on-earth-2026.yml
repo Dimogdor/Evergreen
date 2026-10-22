@@ -1,29 +1,29 @@
 el:
-  start: "2026-10-15"
-  end: "2026-11-08"
-  category: "workshop"
-  program: "natural-building"
-  image: "/src/assets/uploads/cabin-firepit.webp"
-  title: "Hands on Earth — εργαστήριο φυσικής δόμησης"
-  summary: "Μαθαίνουμε · Χτίζουμε · Ζούμε μαζί: χώμα, πηλός, ξύλο και φυσικά υλικά. Περιλαμβάνονται διαμονή, χορτοφαγικά γεύματα, κοινοτική ζωή και όλες οι δραστηριότητες."
+  start: '2026-10-15'
+  end: '2026-11-08'
+  category: workshop
+  program: natural-building
+  image: /src/assets/uploads/build-site-2026.webp
+  title: Hands on Earth — εργαστήριο φυσικής δόμησης
+  summary: 25 μέρες ζωντανού εργαστηρίου στο δάσος — χώμα, πηλός, ξύλο. Ελάτε από 3 έως 25 μέρες· περιλαμβάνονται διαμονή, χορτοφαγικά γεύματα και όλες οι δραστηριότητες.
 en:
-  title: "Hands on Earth — natural building workshop"
-  summary: "Learn · Build · Live together: earth, cob, wood and natural materials. Accommodation, vegetarian meals, community living and all activities included."
+  title: Hands on Earth — natural building workshop
+  summary: A 25-day living workshop in the forest — earth, cob, wood. Join for 3 to 25 days; accommodation, vegetarian meals and all activities included.
 fr:
-  title: "Hands on Earth — atelier de construction naturelle"
-  summary: "Apprendre · Construire · Vivre ensemble : terre, bauge, bois et matériaux naturels. Hébergement, repas végétariens, vie communautaire et toutes les activités inclus."
+  title: Hands on Earth — atelier de construction naturelle
+  summary: Un atelier vivant de 25 jours en forêt — terre, bauge, bois. Venez de 3 à 25 jours ; hébergement, repas végétariens et toutes les activités inclus.
 es:
-  title: "Hands on Earth — taller de bioconstrucción"
-  summary: "Aprender · Construir · Vivir juntos: tierra, cob, madera y materiales naturales. Incluye alojamiento, comidas vegetarianas, vida comunitaria y todas las actividades."
+  title: Hands on Earth — taller de bioconstrucción
+  summary: Un taller vivo de 25 días en el bosque — tierra, cob, madera. Ven de 3 a 25 días; incluye alojamiento, comidas vegetarianas y todas las actividades.
 it:
-  title: "Hands on Earth — workshop di bioedilizia"
-  summary: "Imparare · Costruire · Vivere insieme: terra, cob, legno e materiali naturali. Alloggio, pasti vegetariani, vita di comunità e tutte le attività inclusi."
+  title: Hands on Earth — workshop di bioedilizia
+  summary: Un laboratorio vivente di 25 giorni nel bosco — terra, cob, legno. Vieni da 3 a 25 giorni; alloggio, pasti vegetariani e tutte le attività inclusi.
 ru:
-  title: "Hands on Earth — мастерская природного строительства"
-  summary: "Учимся · Строим · Живём вместе: земля, глина (cob), дерево и природные материалы. Проживание, вегетарианское питание, жизнь в сообществе и все занятия включены."
+  title: Hands on Earth — мастерская природного строительства
+  summary: 25-дневная живая мастерская в лесу — земля, глина, дерево. Приезжайте на срок от 3 до 25 дней; проживание, вегетарианское питание и все занятия включены.
 de:
-  title: "Hands on Earth — Naturbau-Workshop"
-  summary: "Lernen · Bauen · Zusammenleben: Erde, Cob, Holz und natürliche Materialien. Unterkunft, vegetarische Mahlzeiten, Gemeinschaftsleben und alle Aktivitäten inklusive."
+  title: Hands on Earth — Naturbau-Workshop
+  summary: Eine 25-tägige lebendige Werkstatt im Wald — Erde, Cob, Holz. Komm für 3 bis 25 Tage; Unterkunft, vegetarische Mahlzeiten und alle Aktivitäten inklusive.
 pt:
-  title: "Hands on Earth — workshop de bioconstrução"
-  summary: "Aprender · Construir · Viver juntos: terra, cob, madeira e materiais naturais. Alojamento, refeições vegetarianas, vida comunitária e todas as atividades incluídos."
+  title: Hands on Earth — workshop de bioconstrução
+  summary: Uma oficina viva de 25 dias na floresta — terra, cob, madeira. Venha de 3 a 25 dias; alojamento, refeições vegetarianas e todas as atividades incluídos.

@@ -1,25 +1,33 @@
 el:
-  order: 3
+  order: 4
   featured: true
   image: /src/assets/uploads/shala-class.webp
   gallery:
-    - /src/assets/uploads/shala-candles.webp
-    - /src/assets/uploads/shala-practice-shade.webp
-    - /src/assets/uploads/movement-class.webp
-    - /src/assets/uploads/shala-night.webp
-  link: https://bookretreats.com/centers/c/the-evergreen-project
+  - /src/assets/uploads/yin-shala.webp
+  - /src/assets/uploads/deck-meditation.webp
+  - /src/assets/uploads/yoga-circle-outdoor.webp
+  - /src/assets/uploads/outdoor-meditation.webp
+  - /src/assets/uploads/savasana.webp
+  - /src/assets/uploads/yoga-adjustment.webp
+  - /src/assets/uploads/ytt-study.webp
+  - /src/assets/uploads/shala-mats-top.webp
+  - /src/assets/uploads/family-picnic.webp
+  - /src/assets/uploads/kids-tree.webp
+  - /src/assets/uploads/shala-candles.webp
+  - /src/assets/uploads/shala-night.webp
+  link: https://www.evergreenyogaretreats.com
   title: Ρητρίτ & εντατικά προγράμματα γιόγκα
   summary: Μέρες πρακτικής, φιλοσοφίας και διαλογισμού στη σάλα — με δάσκαλο το ίδιο το δάσος.
-  linkLabel: Κρατήσεις στο BookRetreats
+  linkLabel: Evergreen Yoga Retreats
   facts:
-    - label: Πού
-      value: Στη σάλα του Evergreen Project
-    - label: Επίπεδο
-      value: Όλα τα επίπεδα
-    - label: Διατροφή
-      value: Χορτοφαγική / vegan
-    - label: Σε συνεργασία με
-      value: Evergreen Yoga Studios
+  - label: Πού
+    value: Στη σάλα του Evergreen Project
+  - label: Επίπεδο
+    value: Όλα τα επίπεδα
+  - label: Διατροφή
+    value: Χορτοφαγική / vegan
+  - label: Σε συνεργασία με
+    value: Evergreen Yoga Studios
   body: |-
     Το άσραμ μας προσφέρει το ιδανικό απλό περιβάλλον για να ξεδιπλωθεί το μονοπάτι της γιόγκα. Μέσα στη χρονιά φιλοξενούμε **ρητρίτ και εντατικά προγράμματα** — όπως το *Essence of Yoga*, ένα οκταήμερο χειμερινό πρόγραμμα με τον Panos Katsandris που συνδυάζει θεματική πρακτική, πραναγιάμα, διαλογισμό, σατσάνγκ και μελέτη της Μπαγκαβάντ Γκίτα — καθώς και **οικογενειακά ρητρίτ** για γονείς και παιδιά μαζί.
 
@@ -30,19 +38,27 @@ el:
 
     ### Εκπαιδεύσεις δασκάλων
     Τα Evergreen Yoga Studios πραγματοποιούν εδώ την **εκπαίδευση δασκάλων 200 ωρών της Yoga Alliance** και τα εντατικά τους προγράμματα. Προγράμματα, τιμές και κρατήσεις για τις εκπαιδεύσεις θα βρείτε στη [δική τους ιστοσελίδα](https://www.evergreenyogagreece.com).
+
+    ### Πρόσφατα ρητρίτ στο δάσος
+    - **Spring Awakening – ρητρίτ ισημερίας** (Μάρτιος): 108 χαιρετισμοί στον ήλιο, yin yoga, πεζοπορία, μάνταλα, τελετή φωτιάς, ιαματικά λουτρά και ελεύθερος χορός
+    - **Offline Nature Retreat** (Απρίλιος–Μάιος): τέσσερις μέρες χωρίς κινητά, με σιωπηλή yin yoga, περιπάτους στο δάσος, διαλογισμό, τέχνη και πρωτομαγιάτικο στεφάνι
+    - **Οικογενειακό ρητρίτ γιόγκα**: τρεις μέρες παιχνιδιού, γιόγκα και φύσης για παιδιά και γονείς
+    - **Εντατική εκπαίδευση δασκάλων 200 ωρών** (21 μέρες, κάθε καλοκαίρι)
+
+    Τα ρητρίτ μας έχουν πλέον το δικό τους σπίτι: **[Evergreen Yoga Retreats](https://www.evergreenyogaretreats.com)**.
 en:
   title: Yoga retreats & immersions
   summary: Days of practice, philosophy and meditation in the shala — with the forest as a teacher.
-  linkLabel: Book on BookRetreats
+  linkLabel: Evergreen Yoga Retreats
   facts:
-    - label: Where
-      value: The shala at The Evergreen Project
-    - label: Level
-      value: All levels welcome
-    - label: Food
-      value: Vegetarian / vegan
-    - label: Run with
-      value: Evergreen Yoga Studios
+  - label: Where
+    value: The shala at The Evergreen Project
+  - label: Level
+    value: All levels welcome
+  - label: Food
+    value: Vegetarian / vegan
+  - label: Run with
+    value: Evergreen Yoga Studios
   body: |-
     Our ashram offers the ideal simple environment for the yoga path to unfold. Throughout the year we host **retreats and immersions** — like *Essence of Yoga*, an eight-day winter immersion with Panos Katsandris combining themed practice, pranayama, meditation, satsang and the study of the Bhagavad Gita — as well as **family retreats** that welcome parents and children together.
 
@@ -53,19 +69,27 @@ en:
 
     ### Teacher trainings
     Evergreen Yoga Studios also holds its **200-hour Yoga Alliance teacher training** and its immersions here. Programmes, prices and bookings for trainings are on [their website](https://www.evergreenyogagreece.com).
+
+    ### Recent retreats in the forest
+    - **Spring Awakening – Equinox retreat** (March): 108 sun salutations, yin yoga, hiking, mandalas, fire ceremony, hot baths and free dance
+    - **Offline Nature Retreat** (April–May): four phone-free days of silent yin yoga, forest walks, meditation, art and a May Day wreath ritual
+    - **Family Yoga Retreat**: three days of play, yoga and nature for children and parents
+    - **Intensive 200-hour Yoga Teacher Training** (21 days, every summer)
+
+    Our retreats now have their own home: **[Evergreen Yoga Retreats](https://www.evergreenyogaretreats.com)**.
 fr:
   title: Retraites & immersions de yoga
   summary: Des journées de pratique, de philosophie et de méditation dans la shala — avec la forêt pour enseignante.
-  linkLabel: Réserver sur BookRetreats
+  linkLabel: Evergreen Yoga Retreats
   facts:
-    - label: Où
-      value: La shala de The Evergreen Project
-    - label: Niveau
-      value: Tous niveaux
-    - label: Repas
-      value: Végétariens / vegan
-    - label: Avec
-      value: Evergreen Yoga Studios
+  - label: Où
+    value: La shala de The Evergreen Project
+  - label: Niveau
+    value: Tous niveaux
+  - label: Repas
+    value: Végétariens / vegan
+  - label: Avec
+    value: Evergreen Yoga Studios
   body: |-
     Notre ashram offre l’environnement simple idéal pour que la voie du yoga se déploie. Tout au long de l’année, nous accueillons des **retraites et immersions** — comme *Essence of Yoga*, une immersion hivernale de huit jours avec Panos Katsandris qui associe pratique thématique, pranayama, méditation, satsang et étude de la Bhagavad Gita — ainsi que des **retraites familiales** qui accueillent parents et enfants ensemble.
 
@@ -76,19 +100,27 @@ fr:
 
     ### Formations de professeurs
     Evergreen Yoga Studios organise aussi ici sa **formation de professeurs de 200 heures Yoga Alliance** et ses immersions. Programmes, tarifs et réservations des formations sont sur [leur site](https://www.evergreenyogagreece.com).
+
+    ### Retraites récentes dans la forêt
+    - **Spring Awakening – retraite d’équinoxe** (mars) : 108 salutations au soleil, yin yoga, randonnée, mandalas, cérémonie du feu, bains chauds et danse libre
+    - **Offline Nature Retreat** (avril–mai) : quatre jours sans téléphone avec yin yoga en silence, marches en forêt, méditation, art et rituel de la couronne du 1er mai
+    - **Retraite yoga en famille** : trois jours de jeu, de yoga et de nature pour enfants et parents
+    - **Formation intensive de professeur de yoga 200 h** (21 jours, chaque été)
+
+    Nos retraites ont désormais leur propre site : **[Evergreen Yoga Retreats](https://www.evergreenyogaretreats.com)**.
 es:
   title: Retiros e inmersiones de yoga
   summary: Días de práctica, filosofía y meditación en la shala — con el bosque como maestro.
-  linkLabel: Reservar en BookRetreats
+  linkLabel: Evergreen Yoga Retreats
   facts:
-    - label: Dónde
-      value: La shala de The Evergreen Project
-    - label: Nivel
-      value: Todos los niveles
-    - label: Comida
-      value: Vegetariana / vegana
-    - label: Con
-      value: Evergreen Yoga Studios
+  - label: Dónde
+    value: La shala de The Evergreen Project
+  - label: Nivel
+    value: Todos los niveles
+  - label: Comida
+    value: Vegetariana / vegana
+  - label: Con
+    value: Evergreen Yoga Studios
   body: |-
     Nuestro ashram ofrece el entorno sencillo ideal para que el camino del yoga se despliegue. A lo largo del año acogemos **retiros e inmersiones** — como *Essence of Yoga*, una inmersión invernal de ocho días con Panos Katsandris que combina práctica temática, pranayama, meditación, satsang y estudio del Bhagavad Gita — y también **retiros familiares** para madres, padres e hijos juntos.
 
@@ -99,19 +131,27 @@ es:
 
     ### Formaciones de profesores
     Evergreen Yoga Studios también imparte aquí su **formación de profesores de 200 horas de Yoga Alliance** y sus inmersiones. Programas, precios y reservas de las formaciones están en [su web](https://www.evergreenyogagreece.com).
+
+    ### Retiros recientes en el bosque
+    - **Spring Awakening – retiro de equinoccio** (marzo): 108 saludos al sol, yin yoga, senderismo, mandalas, ceremonia del fuego, baños termales y danza libre
+    - **Offline Nature Retreat** (abril–mayo): cuatro días sin móvil con yin yoga en silencio, paseos por el bosque, meditación, arte y el ritual de la corona del 1 de mayo
+    - **Retiro de yoga en familia**: tres días de juego, yoga y naturaleza para niños y padres
+    - **Formación intensiva de profesores de yoga de 200 h** (21 días, cada verano)
+
+    Nuestros retiros tienen ahora su propia casa: **[Evergreen Yoga Retreats](https://www.evergreenyogaretreats.com)**.
 it:
   title: Ritiri e immersioni di yoga
   summary: Giornate di pratica, filosofia e meditazione nella shala — con il bosco come maestro.
-  linkLabel: Prenota su BookRetreats
+  linkLabel: Evergreen Yoga Retreats
   facts:
-    - label: Dove
-      value: La shala di The Evergreen Project
-    - label: Livello
-      value: Tutti i livelli
-    - label: Cibo
-      value: Vegetariano / vegano
-    - label: In collaborazione con
-      value: Evergreen Yoga Studios
+  - label: Dove
+    value: La shala di The Evergreen Project
+  - label: Livello
+    value: Tutti i livelli
+  - label: Cibo
+    value: Vegetariano / vegano
+  - label: In collaborazione con
+    value: Evergreen Yoga Studios
   body: |-
     Il nostro ashram offre l’ambiente semplice ideale perché il sentiero dello yoga si dispieghi. Durante l’anno ospitiamo **ritiri e immersioni** — come *Essence of Yoga*, un’immersione invernale di otto giorni con Panos Katsandris che unisce pratica tematica, pranayama, meditazione, satsang e studio della Bhagavad Gita — oltre a **ritiri per famiglie** che accolgono genitori e bambini insieme.
 
@@ -122,19 +162,27 @@ it:
 
     ### Formazioni per insegnanti
     Evergreen Yoga Studios tiene qui anche la sua **formazione insegnanti di 200 ore Yoga Alliance** e le sue immersioni. Programmi, prezzi e prenotazioni delle formazioni sono sul [loro sito](https://www.evergreenyogagreece.com).
+
+    ### Ritiri recenti nel bosco
+    - **Spring Awakening – ritiro dell’equinozio** (marzo): 108 saluti al sole, yin yoga, escursioni, mandala, cerimonia del fuoco, bagni caldi e danza libera
+    - **Offline Nature Retreat** (aprile–maggio): quattro giorni senza telefono con yin yoga in silenzio, passeggiate nel bosco, meditazione, arte e il rito della corona del Primo Maggio
+    - **Ritiro yoga per famiglie**: tre giorni di gioco, yoga e natura per bambini e genitori
+    - **Formazione intensiva insegnanti yoga 200 ore** (21 giorni, ogni estate)
+
+    I nostri ritiri hanno ora una casa tutta loro: **[Evergreen Yoga Retreats](https://www.evergreenyogaretreats.com)**.
 ru:
   title: Йога-ретриты и интенсивы
   summary: Дни практики, философии и медитации в шале — где учителем становится сам лес.
-  linkLabel: Забронировать на BookRetreats
+  linkLabel: Evergreen Yoga Retreats
   facts:
-    - label: Где
-      value: Шала The Evergreen Project
-    - label: Уровень
-      value: Любой
-    - label: Питание
-      value: Вегетарианское / веганское
-    - label: Совместно с
-      value: Evergreen Yoga Studios
+  - label: Где
+    value: Шала The Evergreen Project
+  - label: Уровень
+    value: Любой
+  - label: Питание
+    value: Вегетарианское / веганское
+  - label: Совместно с
+    value: Evergreen Yoga Studios
   body: |-
     Наш ашрам — идеальная простая среда, в которой раскрывается путь йоги. В течение года мы принимаем **ретриты и интенсивы** — например, *Essence of Yoga*, восьмидневный зимний интенсив с Паносом Кацандрисом, объединяющий тематическую практику, пранаяму, медитацию, сатсанг и изучение Бхагавад-гиты, — а также **семейные ретриты** для родителей с детьми.
 
@@ -145,19 +193,27 @@ ru:
 
     ### Обучение преподавателей
     Evergreen Yoga Studios также проводит здесь **200-часовое обучение преподавателей Yoga Alliance** и свои интенсивы. Программы, цены и бронирование — на [их сайте](https://www.evergreenyogagreece.com).
+
+    ### Недавние ретриты в лесу
+    - **Spring Awakening – ретрит равноденствия** (март): 108 приветствий солнцу, инь-йога, походы, мандалы, огненная церемония, горячие ванны и свободный танец
+    - **Offline Nature Retreat** (апрель–май): четыре дня без телефона — инь-йога в тишине, лесные прогулки, медитация, творчество и первомайский ритуал венков
+    - **Семейный йога-ретрит**: три дня игр, йоги и природы для детей и родителей
+    - **Интенсивное обучение преподавателей йоги, 200 часов** (21 день, каждое лето)
+
+    Теперь у наших ретритов есть свой дом: **[Evergreen Yoga Retreats](https://www.evergreenyogaretreats.com)**.
 de:
   title: Yoga-Retreats & Intensivwochen
   summary: Tage voller Praxis, Philosophie und Meditation in der Shala — mit dem Wald als Lehrer.
-  linkLabel: Bei BookRetreats buchen
+  linkLabel: Evergreen Yoga Retreats
   facts:
-    - label: Wo
-      value: Die Shala von The Evergreen Project
-    - label: Niveau
-      value: Alle Niveaus willkommen
-    - label: Essen
-      value: Vegetarisch / vegan
-    - label: Gemeinsam mit
-      value: Evergreen Yoga Studios
+  - label: Wo
+    value: Die Shala von The Evergreen Project
+  - label: Niveau
+    value: Alle Niveaus willkommen
+  - label: Essen
+    value: Vegetarisch / vegan
+  - label: Gemeinsam mit
+    value: Evergreen Yoga Studios
   body: |-
     Unser Ashram bietet die ideale, einfache Umgebung, in der sich der Yogaweg entfalten kann. Das ganze Jahr über finden hier **Retreats und Intensivwochen** statt — etwa *Essence of Yoga*, eine achttägige Winter-Immersion mit Panos Katsandris aus thematischer Praxis, Pranayama, Meditation, Satsang und dem Studium der Bhagavad Gita — sowie **Familien-Retreats** für Eltern und Kinder gemeinsam.
 
@@ -168,19 +224,27 @@ de:
 
     ### Lehrerausbildungen
     Die Evergreen Yoga Studios veranstalten hier auch ihre **200-Stunden-Lehrerausbildung (Yoga Alliance)** und ihre Intensivwochen. Programme, Preise und Buchungen findest du auf [ihrer Website](https://www.evergreenyogagreece.com).
+
+    ### Jüngste Retreats im Wald
+    - **Spring Awakening – Retreat zur Tagundnachtgleiche** (März): 108 Sonnengrüße, Yin Yoga, Wandern, Mandalas, Feuerzeremonie, heiße Bäder und freier Tanz
+    - **Offline Nature Retreat** (April–Mai): vier handyfreie Tage mit stillem Yin Yoga, Waldspaziergängen, Meditation, Kunst und Maikranz-Ritual
+    - **Familien-Yoga-Retreat**: drei Tage Spiel, Yoga und Natur für Kinder und Eltern
+    - **Intensive 200-Stunden-Yogalehrerausbildung** (21 Tage, jeden Sommer)
+
+    Unsere Retreats haben jetzt ein eigenes Zuhause: **[Evergreen Yoga Retreats](https://www.evergreenyogaretreats.com)**.
 pt:
   title: Retiros e imersões de yoga
   summary: Dias de prática, filosofia e meditação na shala — com a floresta como mestra.
-  linkLabel: Reservar no BookRetreats
+  linkLabel: Evergreen Yoga Retreats
   facts:
-    - label: Onde
-      value: A shala do The Evergreen Project
-    - label: Nível
-      value: Todos os níveis
-    - label: Alimentação
-      value: Vegetariana / vegana
-    - label: Em parceria com
-      value: Evergreen Yoga Studios
+  - label: Onde
+    value: A shala do The Evergreen Project
+  - label: Nível
+    value: Todos os níveis
+  - label: Alimentação
+    value: Vegetariana / vegana
+  - label: Em parceria com
+    value: Evergreen Yoga Studios
   body: |-
     O nosso ashram oferece o ambiente simples ideal para que o caminho do yoga se revele. Ao longo do ano acolhemos **retiros e imersões** — como *Essence of Yoga*, uma imersão de inverno de oito dias com Panos Katsandris que junta prática temática, pranayama, meditação, satsang e o estudo da Bhagavad Gita — e também **retiros em família** para pais e filhos.
 
@@ -191,3 +255,11 @@ pt:
 
     ### Formações de professores
     Os Evergreen Yoga Studios realizam também aqui a sua **formação de professores de 200 horas da Yoga Alliance** e as suas imersões. Programas, preços e reservas das formações estão no [site deles](https://www.evergreenyogagreece.com).
+
+    ### Retiros recentes na floresta
+    - **Spring Awakening – retiro do equinócio** (março): 108 saudações ao sol, yin yoga, caminhadas, mandalas, cerimónia do fogo, banhos termais e dança livre
+    - **Offline Nature Retreat** (abril–maio): quatro dias sem telemóvel com yin yoga em silêncio, caminhadas na floresta, meditação, arte e o ritual da coroa do 1.º de maio
+    - **Retiro de yoga em família**: três dias de brincadeira, yoga e natureza para crianças e pais
+    - **Formação intensiva de professores de yoga de 200 h** (21 dias, todos os verões)
+
+    Os nossos retiros têm agora a sua própria casa: **[Evergreen Yoga Retreats](https://www.evergreenyogaretreats.com)**.
