@@ -1,6 +1,7 @@
 el:
   order: 6
   photos:
+  - /src/assets/uploads/dog-mountain-view.webp
   - /src/assets/uploads/cat-on-frame-2026.webp
   - /src/assets/uploads/cat-and-dog-building-2026.webp
   - /src/assets/uploads/cat-supervisor-2026.webp

@@ -1,7 +1,7 @@
 el:
   kind: animal
   order: 10
-  photo: /src/assets/uploads/dogs-play.webp
+  photo: /src/assets/uploads/dog-mountain-view.webp
   name: Τα σκυλιά μας
   role: Σύντροφοι σε πεζοπορίες & γιόγκα
   bio: Πιστοί φίλοι που ακολουθούν κάθε περίπατο, κάθε μάθημα και κάθε γεύμα — συχνά ξαπλωμένοι στη μέση της σάλας.
