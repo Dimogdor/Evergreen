@@ -6,6 +6,88 @@
   <meta name="robots" content="noindex" />
   <title>Evergreen — Admin</title>
   <link rel="icon" href="logo.png" type="image/png" />
+  <style>
+    .eg-btn { position: fixed; z-index: 99999; font: 600 12px/1 system-ui, sans-serif; padding: 7px 10px; border: 0; border-radius: 999px; background: #22402a; color: #fff; cursor: pointer; box-shadow: 0 2px 8px #0003; }
+    .eg-panel { position: fixed; z-index: 99999; right: 16px; bottom: 16px; width: min(460px, calc(100vw - 32px)); max-height: 70vh; overflow: auto; background: #fff; color: #17231a; border-radius: 12px; box-shadow: 0 8px 32px #0004; padding: 16px; font: 14px/1.5 system-ui, sans-serif; }
+    .eg-panel pre { white-space: pre-wrap; font: inherit; background: #f4f0e6; padding: 10px; border-radius: 8px; margin: 8px 0; }
+    .eg-panel ul { margin: 6px 0; padding-left: 18px; color: #5a6459; }
+    .eg-panel .row { display: flex; gap: 8px; justify-content: flex-end; margin-top: 10px; }
+    .eg-panel button { font: inherit; padding: 8px 14px; border-radius: 8px; border: 1px solid #22402a; background: #fff; cursor: pointer; }
+    .eg-panel button.ok { background: #22402a; color: #fff; }
+  </style>
+  <script>
+    // Writing help for the admins (needs the website API, see worker/README.md):
+    //  • "✓ Correct" next to the text being edited → a corrected version to accept or not;
+    //  • after a save, Greek texts are translated automatically on the server → the page refreshes to show them.
+    (() => {
+      const T = (el, en) => `${el} · ${en}`;
+      const toast = (html, ms) => {
+        const p = Object.assign(document.createElement('div'), { className: 'eg-panel', innerHTML: html });
+        document.body.append(p);
+        if (ms) setTimeout(() => p.remove(), ms);
+        return p;
+      };
+      const editing = () => /\/(new|entries\/)/.test(location.hash);
+
+      // Saves translated by the server: refresh once the editor is closed, so the new languages appear.
+      const fetch0 = window.fetch;
+      window.fetch = async (...args) => {
+        const r = await fetch0(...args);
+        if (r.headers.get('X-Evergreen-Translated')) {
+          const p = toast(`<b>✓ ${T('Μεταφράστηκε αυτόματα σε 7 γλώσσες', 'Translated into 7 languages')}</b><div class="row"><button class="ok">${T('Ανανέωση', 'Refresh')}</button></div>`);
+          p.querySelector('button').onclick = () => location.reload();
+          const wait = setInterval(() => !editing() && (clearInterval(wait), setTimeout(() => location.reload(), 1200)), 500);
+        }
+        return r;
+      };
+
+      // Proofreading.
+      let api = '';
+      fetch0('config.yml').then((r) => r.text()).then((y) => (api = (y.match(/^\s*api_root:\s*(\S+)/m)?.[1] || '').replace(/\/api\/v3\/?$/, '')));
+      const token = () => { try { return JSON.parse(localStorage.getItem('sveltia-cms.user') || '{}').token; } catch { return ''; } };
+      const btn = Object.assign(document.createElement('button'), { className: 'eg-btn', type: 'button', textContent: '✓ ' + T('Διόρθωση', 'Correct'), hidden: true });
+      let field = null;
+      const isText = (el) => editing() && el.matches?.('textarea, input[type="text"]:not([role="searchbox"]), input:not([type]):not([role="searchbox"]), [contenteditable="true"]') && !el.closest('.eg-panel');
+      document.addEventListener('focusin', (e) => {
+        if (!api || !token() || !isText(e.target)) return;
+        field = e.target;
+        const r = field.getBoundingClientRect();
+        Object.assign(btn.style, { top: `${Math.max(8, r.top - 30)}px`, left: `${Math.max(8, r.right - 150)}px` });
+        btn.hidden = false;
+        document.body.append(btn);
+      });
+      document.addEventListener('focusout', () => setTimeout(() => ![btn, field].includes(document.activeElement) && (btn.hidden = true), 200));
+      btn.addEventListener('mousedown', (e) => e.preventDefault()); // keep the focus in the field
+      btn.addEventListener('click', async () => {
+        const el = field, rich = el.isContentEditable, text = rich ? el.innerText : el.value;
+        if (!text.trim()) return;
+        btn.textContent = '…';
+        try {
+          const r = await fetch0(`${api}/api/ai/proofread`, { method: 'POST', headers: { Authorization: `token ${token()}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ text }) });
+          if (!r.ok) throw new Error(r.status);
+          const { corrected, changes } = await r.json();
+          if (!changes.length || corrected === text) return toast(`✓ ${T('Κανένα λάθος', 'No mistakes found')}`, 2500);
+          // Rich text with bold/links: show the correction to copy, so no formatting is lost.
+          const safe = !rich || !el.querySelector('a, strong, b, em, i, ul, ol, h1, h2, h3, h4');
+          const p = toast(`<b>${T('Προτεινόμενη διόρθωση', 'Suggested correction')}</b><ul></ul><pre></pre><div class="row"><button>${T('Άκυρο', 'Cancel')}</button><button class="ok">${safe ? T('Εφαρμογή', 'Apply') : T('Αντιγραφή', 'Copy')}</button></div>`);
+          p.querySelector('ul').append(...changes.map((c) => Object.assign(document.createElement('li'), { textContent: c })));
+          p.querySelector('pre').textContent = corrected;
+          const [cancel, ok] = p.querySelectorAll('button');
+          cancel.onclick = () => p.remove();
+          ok.onclick = () => {
+            if (!safe) navigator.clipboard.writeText(corrected);
+            else if (rich) { el.focus(); document.getSelection().selectAllChildren(el); document.execCommand('insertText', false, corrected); }
+            else {
+              Object.getOwnPropertyDescriptor(Object.getPrototypeOf(el), 'value').set.call(el, corrected);
+              el.dispatchEvent(new Event('input', { bubbles: true }));
+            }
+            p.remove();
+          };
+        } catch { toast(T('Η διόρθωση δεν είναι διαθέσιμη τώρα', 'Correction unavailable right now'), 3000); }
+        finally { btn.textContent = '✓ ' + T('Διόρθωση', 'Correct'); }
+      });
+    })();
+  </script>
 </head>
 <body>
   <!-- Sveltia CMS, pinned + integrity-checked. To update: see docs/GUIDE-ADMIN.md (“Updating the admin”). Config: ./config.yml -->

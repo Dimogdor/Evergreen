@@ -39,8 +39,9 @@
 - Σύρετε πολλές φωτογραφίες μαζί· **συμπιέζονται αυτόματα** — ανεβάστε τες κατευθείαν από το κινητό. Η πρώτη φωτογραφία εμφανίζεται πρώτη· σύρετε για αλλαγή σειράς.
 - Βίντεο: καλύτερα στο YouTube («Μη καταχωρισμένο») και επικόλληση συνδέσμου. Μικρά κλιπ (< 40 MB) ανεβαίνουν και ως αρχείο και συμπιέζονται αυτόματα.
 
-### Μεταφράσεις (8 γλώσσες)
-Αριστερά γράφετε στα **ελληνικά**, δεξιά βλέπετε άλλη γλώσσα. Αν μια γλώσσα μείνει κενή, το site δείχνει το αγγλικό (ή το ελληνικό) κείμενο. Το κουμπί **文A** μεταφράζει αυτόματα, αφού βάλετε **μία φορά** ένα κλειδί υπηρεσίας μετάφρασης: λογαριασμός → **Settings → Internationalization** (π.χ. Google Gemini, δωρεάν κλειδί από aistudio.google.com).
+### Διόρθωση & μεταφράσεις (8 γλώσσες)
+- Γράφετε **μόνο στα ελληνικά** (αριστερά). Όταν πατάτε **Save**, κάθε νέο ή αλλαγμένο κείμενο **μεταφράζεται αυτόματα** στις άλλες 7 γλώσσες· εμφανίζεται το μήνυμα «Μεταφράστηκε αυτόματα σε 7 γλώσσες» και η σελίδα ανανεώνεται. Αν διορθώσετε μόνοι σας μια μετάφραση, η αλλαγή σας κρατιέται.
+- Δίπλα στο πεδίο που γράφετε εμφανίζεται το κουμπί **✓ Διόρθωση**: προτείνει διορθώσεις (ορθογραφία, γραμματική, στίξη). Πατήστε **Εφαρμογή** για να τις δεχτείτε ή **Άκυρο**.
 
 ### Κάτι πήγε στραβά;
 - Το site δεν άλλαξε; Περιμένετε 2 λεπτά και ανανεώστε (Ctrl+F5 / τραβήξτε προς τα κάτω στο κινητό).
@@ -70,8 +71,8 @@
 ### Stories — moderation
 A visitor sends a story → you get an **e-mail** with a link → **Stories → ⏳ Waiting for approval** → open it, edit if needed, tick **Published**, **Save** (or **Delete** to refuse). You can add stories and photos yourself with **New**.
 
-### Translations
-Greek on the left, any other language on the right; empty languages fall back to English, then Greek. The **文A** button translates automatically once a translation key is set (account → **Settings → Internationalization**, e.g. a free Google Gemini key).
+### Correction & translations
+Write **in Greek only**. On **Save**, every new or changed text is **translated automatically** into the 7 other languages (“Translated into 7 languages”, then the page refreshes); a translation you fixed by hand is kept. The **✓ Correct** button next to the field you are typing in suggests corrections — **Apply** or **Cancel**.
 
 ### Something went wrong?
 Wait 2 minutes and refresh. To restore an older version, open the entry and use the **history** (clock) icon.

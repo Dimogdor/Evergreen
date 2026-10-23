@@ -2,13 +2,18 @@
 //   GET/POST /auth                    admin sign-in with e-mail + password (popup used by the admin panel)
 //   *        /api/v3/*, /api/graphql  the admin panel's storage calls, relayed to the content repository
 //                                     with the server-side token once the admin's session is checked
+//   POST     /ai/proofread            "✓ Correct" button of the admin panel (see ai.js; saves are also auto-translated there)
 //   POST     /testimonial             a visitor's story → saved UNPUBLISHED + e-mail to the team;
 //                                     it goes online only when an admin ticks "Published".
 // Setup: worker/README.md. Settings (Worker → Settings → Variables and secrets):
 //   secrets  ADMINS ("katerina@mail.gr=password;kostas@mail.gr=password"), SESSION_KEY (long random text),
-//            GITHUB_TOKEN (fine-grained, content repository only: Contents + Issues read/write), optional TURNSTILE_SECRET
+//            GITHUB_TOKEN (fine-grained, content repository only: Contents + Issues read/write),
+//            optional ANTHROPIC_API_KEY (proofreading + automatic translation), optional TURNSTILE_SECRET
 //   vars     REPO, BRANCH, ALLOWED_ORIGINS ("https://dimogdor.github.io,…"), SITE_URL,
 //            optional MAIL_FROM + MAIL_TO with the MAIL send_email binding (e-mail notifications)
+
+import { i18nFields, proofread, translateFile } from './ai.js';
+import YAML from 'yaml';
 
 const PHOTO_MAX = 6 * 1024 * 1024;
 const PHOTO_TYPES = { 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp' };
@@ -100,18 +105,73 @@ async function session(env, header) {
 async function relay(req, url, env) {
   const origin = req.headers.get('Origin') || '';
   const cors = allowedOrigins(env).includes(origin)
-    ? { 'Access-Control-Allow-Origin': origin, 'Access-Control-Allow-Headers': 'Authorization, Content-Type, Accept, If-None-Match', 'Access-Control-Allow-Methods': 'GET, POST, PUT, PATCH, DELETE', 'Access-Control-Expose-Headers': 'ETag, Link', 'Access-Control-Max-Age': '86400', Vary: 'Origin' }
+    ? { 'Access-Control-Allow-Origin': origin, 'Access-Control-Allow-Headers': 'Authorization, Content-Type, Accept, If-None-Match', 'Access-Control-Allow-Methods': 'GET, POST, PUT, PATCH, DELETE', 'Access-Control-Expose-Headers': 'ETag, Link, X-Evergreen-Translated', 'Access-Control-Max-Age': '86400', Vary: 'Origin' }
     : {};
   if (req.method === 'OPTIONS') return new Response(null, { status: 204, headers: cors });
   if (!(await session(env, req.headers.get('Authorization')))) return Response.json({ message: 'Bad credentials' }, { status: 401, headers: cors });
+
+  if (url.pathname === '/api/ai/proofread') {
+    if (!env.ANTHROPIC_API_KEY) return Response.json({ message: 'Proofreading is not set up' }, { status: 501, headers: cors });
+    const { text = '' } = await req.json().catch(() => ({}));
+    if (!String(text).trim() || text.length > 12000) return Response.json({ message: 'Text missing or too long' }, { status: 400, headers: cors });
+    return Response.json(await proofread(env, String(text)), { headers: cors });
+  }
+
   // /api/v3/x → https://api.github.com/x, /api/graphql → https://api.github.com/graphql
   const path = url.pathname === '/api/graphql' ? '/graphql' : url.pathname.replace(/^\/api\/v3/, '');
+  let body = ['GET', 'HEAD'].includes(req.method) ? undefined : await req.text();
+  const translated = path === '/graphql' && env.ANTHROPIC_API_KEY ? await translateSave(env, body).catch((e) => (console.error('translate', e), null)) : null;
+  if (translated) body = translated.body;
+
   const headers = new Headers({ Authorization: `Bearer ${env.GITHUB_TOKEN}`, 'User-Agent': 'evergreen-api', Accept: req.headers.get('Accept') || 'application/vnd.github+json' });
   if (req.headers.get('Content-Type')) headers.set('Content-Type', req.headers.get('Content-Type'));
-  const r = await fetch(`https://api.github.com${path}${url.search}`, { method: req.method, headers, body: ['GET', 'HEAD'].includes(req.method) ? undefined : await req.arrayBuffer() });
+  const r = await fetch(`https://api.github.com${path}${url.search}`, { method: req.method, headers, body });
   const out = new Headers(r.headers);
   for (const [k, v] of Object.entries(cors)) out.set(k, v);
-  return new Response(r.body, { status: r.status, headers: out });
+  if (!translated || !r.ok) return new Response(r.body, { status: r.status, headers: out });
+
+  // The admin panel remembers each saved file by its fingerprint: give back the fingerprint of what it sent, so it
+  // notices the translated version and loads it on the next refresh (instead of trusting its own copy forever).
+  const data = await r.json();
+  const commit = data?.data?.createCommitOnBranch?.commit;
+  for (const [alias, original] of Object.entries(translated.aliases)) if (commit?.[alias]) commit[alias].oid = original;
+  out.set('X-Evergreen-Translated', String(translated.count));
+  out.delete('Content-Length');
+  return Response.json(data, { status: r.status, headers: out });
+}
+
+const utf8 = (b64) => new TextDecoder().decode(Uint8Array.from(atob(b64), (c) => c.charCodeAt(0)));
+export async function blobOid(b64) {
+  const bytes = Uint8Array.from(atob(b64), (c) => c.charCodeAt(0));
+  const head = new TextEncoder().encode(`blob ${bytes.length}\0`);
+  const all = new Uint8Array(head.length + bytes.length); all.set(head); all.set(bytes, head.length);
+  return [...new Uint8Array(await crypto.subtle.digest('SHA-1', all))].map((x) => x.toString(16).padStart(2, '0')).join('');
+}
+async function raw(env, path) {
+  const r = await fetch(`https://api.github.com/repos/${env.REPO}/contents/${path}?ref=${env.BRANCH || 'main'}`, {
+    headers: { Authorization: `Bearer ${env.GITHUB_TOKEN}`, Accept: 'application/vnd.github.raw', 'User-Agent': 'evergreen-api' },
+  });
+  return r.ok ? r.text() : null;
+}
+
+// A save from the admin panel: translate the Greek texts that are new or changed in every content file of the commit.
+export async function translateSave(env, body, translate) {
+  const json = JSON.parse(body || '{}');
+  const input = json.variables?.input;
+  if (!String(json.query).includes('createCommitOnBranch') || !input?.fileChanges?.additions) return null;
+  const files = input.fileChanges.additions.filter((a) => /^src\/content\/(?!testimonials\/).+\.ya?ml$/.test(a.path));
+  if (!files.length) return null;
+  const config = YAML.parse((await raw(env, 'public/admin/config.yml')) || '{}');
+  const aliases = {}, paths = Object.fromEntries([...String(json.query).matchAll(/(file_\d+): file\(path: ("(?:[^"\\]|\\.)*")\)/g)].map(([, a, p]) => [JSON.parse(p), a]));
+  let count = 0;
+  for (const a of files) {
+    const text = await translateFile(env, { text: utf8(a.contents), previous: await raw(env, a.path), fields: i18nFields(config, a.path) }, translate);
+    if (!text) continue;
+    if (paths[a.path]) aliases[paths[a.path]] = await blobOid(a.contents);
+    a.contents = base64(new TextEncoder().encode(text));
+    count++;
+  }
+  return count ? { body: JSON.stringify(json), aliases, count } : null;
 }
 
 // ───────────── Testimonials ─────────────

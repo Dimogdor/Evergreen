@@ -4,6 +4,7 @@ Site officiel de **The Evergreen Project** (écovillage, communauté et ashram �
 En ligne : **https://dimogdor.github.io/Evergreen/** · Admin : **/admin/**
 
 - **8 langues** : grec (par défaut), anglais, français, espagnol, italien, russe, allemand, portugais
+- **Aide à l'écriture dans l'admin** : bouton « ✓ Correct » (correction proposée) et traduction automatique du grec vers les 7 autres langues à chaque enregistrement
 - **Espace administrateur sans code** : calendrier, photos, vidéos, textes, contacts, IBAN, couleurs, menus, petits textes de l'interface, nouvelles pages, modération des témoignages
 - **Rapide et léger** : site 100 % statique, images recompressées automatiquement (WebP, plusieurs tailles), vidéos recompressées par une GitHub Action, hébergement gratuit
 - **Responsive** : ordinateur, tablette, smartphone
