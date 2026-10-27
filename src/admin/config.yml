@@ -8,10 +8,8 @@ backend:
   name: github
   repo: Dimogdor/Evergreen
   branch: main
-  # E-mail + password sign-in, automatic translation and correction (no GitHub account needed).
-  # After deploying worker/README.md, uncomment both lines with the worker address:
-  # base_url: https://evergreen-api.YOUR-ACCOUNT.workers.dev
-  # api_root: https://evergreen-api.YOUR-ACCOUNT.workers.dev/api/v3
+  # E-mail + password sign-in, automatic translation and correction (no GitHub account needed): set by the build
+  # from Settings → "Website API address" (the worker of worker/README.md), see src/admin/config.ts.
 
 app_title: Evergreen — Admin
 logo:
@@ -314,7 +312,7 @@ collections:
       - { name: country, label: "Country", widget: string, required: false }
       - { name: project, label: "Programme and year", widget: string, required: false, hint: "e.g. ESC 2025" }
       - { name: quote, label: "Story", widget: text }
-      - { name: photo, label: "Photo", widget: image, required: false }
+      - { name: photo, label: "Photo", widget: image, required: false, media_folder: /public/uploads/stories, public_folder: /uploads/stories }
       - { name: video, label: "Video link (YouTube or Vimeo)", widget: string, required: false }
       - { name: date, label: "Date", widget: datetime, type: date, format: YYYY-MM-DD }
 
@@ -425,7 +423,7 @@ collections:
           - { name: accountHolder, label: "Account holder", widget: string, required: false }
           - { name: bank, label: "Bank", widget: string, i18n: true, required: false }
           - { name: formKey, label: "Contact form key (Web3Forms)", widget: string, required: false, hint: "Free key from web3forms.com — messages then arrive by e-mail. Leave empty to show only the e-mail button." }
-          - { name: apiUrl, label: "Website API address", widget: string, required: false, hint: "The address of the website's small server (see worker/README.md). It turns on the stories form." }
+          - { name: apiUrl, label: "Website API address", widget: string, required: false, hint: "The address of the website's small server (see worker/README.md). It turns on the e-mail sign-in of the admins and the stories form. Only the developer should change it: a wrong address blocks the sign-in." }
           - { name: turnstileKey, label: "Anti-spam key (Turnstile, optional)", widget: string, required: false }
           - name: theme
             label: Colours

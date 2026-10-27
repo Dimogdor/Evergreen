@@ -38,6 +38,11 @@ export function adminConfig(lang: AdminLang, siteUrl: string) {
     return { name, label: text.length > 70 ? `${text.slice(0, 70)}…` : text, widget: text.length > 60 ? 'text' : 'string', i18n: true, required: [lang] };
   });
 
+  // One setting turns everything on: with the worker address in Settings → "Website API address", the admins sign in
+  // with e-mail + password through it (and the stories form uses it too).
+  const api = String(read('src/content/settings/site.yml').el?.apiUrl || '').replace(/\/$/, '');
+  if (api) Object.assign(cfg.backend, { base_url: api, api_root: `${api}/api/v3` });
+
   // The admin's language is the panel's main language: its column holds every field.
   cfg.i18n.default_locale = lang;
   Object.assign(cfg, { site_url: siteUrl, display_url: siteUrl });

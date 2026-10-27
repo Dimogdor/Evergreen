@@ -10,7 +10,7 @@ One worker so that **Katerina, Kostas and the other admins never need a GitHub a
 
 ## 1. Create the key to the content repository (once)
 GitHub → Settings → Developer settings → **Fine-grained tokens → Generate new token**
-- Repository access: **only** `Dimogdor/Evergreen` · Expiration: the longest allowed (set a reminder to renew it)
+- Repository access: **only** `Dimogdor/Evergreen` · Expiration: **No expiration** (offered for personal accounts; otherwise the longest allowed — the admin panel warns 30 days before)
 - Permissions: **Contents: Read and write**, **Issues: Read and write** (nothing else)
 
 ## 2. Deploy the worker
@@ -30,8 +30,8 @@ The worker needs the terminal deploy above (it bundles two packages); pasting `i
 Removing someone signs them out immediately. Sessions last 30 days.
 
 ## 3. Connect the admin panel and the site
-- `src/admin/config.yml`: uncomment `base_url` and `api_root` with the worker address (one-time edit).
-- `/admin` → **Settings → Site, contact & bank → Website API address**: the worker address (turns on the stories form).
+- `/admin` → **Settings → Site, contact & bank → Website API address**: the worker address. This one setting turns on the
+  admins' e-mail sign-in (the build writes it into the admin configuration, see `src/admin/config.ts`) and the stories form.
 - `ALLOWED_ORIGINS` in `wrangler.toml`: every address the site is served from (add the own domain when there is one).
 
 ## 4. Notifications for new stories

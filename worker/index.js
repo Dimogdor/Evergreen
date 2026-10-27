@@ -242,8 +242,9 @@ async function testimonial(req, env) {
     if (!ext || photo.size > PHOTO_MAX) return reply('error');
     const bytes = new Uint8Array(await photo.arrayBuffer());
     if (!looksLike(photo.type, bytes)) return reply('error');
-    entry.photo = `/src/assets/uploads/story-${id}.${ext}`;
-    files.push({ path: `src/assets/uploads/story-${id}.${ext}`, content: base64(bytes) });
+    // Served as is, never processed by the build: a damaged photo can't stop the site from being published.
+    entry.photo = `/uploads/stories/${id}.${ext}`;
+    files.push({ path: `public/uploads/stories/${id}.${ext}`, content: base64(bytes) });
   }
   // JSON is valid YAML, and the CMS rewrites the file in its own style when an admin saves it.
   files.push({ path: `src/content/testimonials/${id}.yml`, content: base64(new TextEncoder().encode(JSON.stringify(entry, null, 2) + '\n')) });

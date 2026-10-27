@@ -83,7 +83,7 @@ test('story: saved unpublished in one commit, admins notified by an issue', asyn
   assert.equal(r.headers.get('Location'), 'https://site.example/sub/en/stories/?story=sent#share');
   const tree = calls.find((c) => c.url.endsWith('/git/trees'))!.body.tree;
   assert.deepEqual(tree.map((t: any) => t.path.replace(/\d{4}-\d\d-\d\d-ana-silva-\w{4}/, 'ID')),
-    ['src/assets/uploads/story-ID.jpg', 'src/content/testimonials/ID.yml']);
+    ['public/uploads/stories/ID.jpg', 'src/content/testimonials/ID.yml']);
   const yml = calls.filter((c) => c.url.endsWith('/git/blobs'))[1].body.content;
   const entry = JSON.parse(Buffer.from(yml, 'base64').toString());
   assert.equal(entry.published, false);

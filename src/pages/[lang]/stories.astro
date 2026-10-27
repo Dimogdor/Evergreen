@@ -57,6 +57,20 @@ const api = String(site.apiUrl || '').replace(/\/$/, '');
 <script>
   const form = document.querySelector<HTMLFormElement>('form[action$="/testimonial"]');
   if (form) (form.elements.namedItem('t') as HTMLInputElement).value = String(Date.now());
+  // The photo is shrunk in the browser before sending: a light upload, and the phone's hidden data (GPS location) is dropped.
+  const photo = form?.elements.namedItem('photo') as HTMLInputElement | null;
+  photo?.addEventListener('change', async () => {
+    const bmp = photo.files?.[0] && (await createImageBitmap(photo.files[0]).catch(() => null));
+    if (!bmp) return;
+    const k = Math.min(1, 1200 / Math.max(bmp.width, bmp.height));
+    const c = Object.assign(document.createElement('canvas'), { width: Math.round(bmp.width * k), height: Math.round(bmp.height * k) });
+    c.getContext('2d')!.drawImage(bmp, 0, 0, c.width, c.height);
+    const blob = await new Promise<Blob | null>((ok) => c.toBlob(ok, 'image/jpeg', 0.82));
+    if (!blob) return;
+    const dt = new DataTransfer();
+    dt.items.add(new File([blob], 'photo.jpg', { type: 'image/jpeg' }));
+    photo.files = dt.files;
+  });
   const status = new URLSearchParams(location.search).get('story');
   if (status) document.querySelector<HTMLElement>(`[data-status="${status === 'sent' ? 'sent' : 'error'}"]`)!.hidden = false;
 </script>

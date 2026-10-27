@@ -44,36 +44,33 @@ src/content/        ← tout le contenu (modifié par l'admin)
   testimonials/*.yml    témoignages (published: true/false)
   extra/*.yml           pages créées dans l'admin (dont « privacy »)
 src/assets/uploads/ ← photos (optimisées au build)
-public/admin/       ← espace administrateur (config.yml)
-worker/             ← Worker Cloudflare (connexion GitHub + témoignages)
+src/admin/          ← formulaires de l'admin (config.yml, étiquettes traduites : labels.yml)
+public/admin/       ← page de l'admin + aperçu en direct (preview.js)
+worker/             ← Worker Cloudflare (connexion des admins, traduction, témoignages)
 ```
 
 ## Administrateurs
 
-Guide pas-à-pas (grec + anglais) : **[docs/GUIDE-ADMIN.md](docs/GUIDE-ADMIN.md)**.
+Guide pas-à-pas (grec + anglais) : **[docs/GUIDE-ADMIN.md](docs/GUIDE-ADMIN.md)**. **Aucun compte GitHub n'est nécessaire** : les admins se connectent avec e-mail + mot de passe grâce au petit serveur gratuit ([worker/README.md](worker/README.md)), qui garde seul la clé d'accès au contenu.
 
-**Aucun compte GitHub n'est nécessaire** : les admins se connectent avec e-mail + mot de passe grâce au Worker Cloudflare gratuit ([worker/README.md](worker/README.md)), qui garde seul la clé d'accès au contenu.
-1. Déployer le Worker et y mettre les admins (`ADMINS` = `katerina@…=motdepasse;kostas@…=motdepasse`).
-2. Décommenter `base_url` et `api_root` dans `src/admin/config.yml`.
-3. Mettre l'adresse du Worker dans *Admin → Settings → Website API address* (active le formulaire de témoignages).
+## Mise en ligne (une seule fois, environ 1 h 30)
 
-## Nom de domaine propre
+Tout chez **Cloudflare** (gratuit) : hébergement, petit serveur, e-mails. Le dépôt GitHub devient **privé** : les témoignages en attente de validation n'y sont plus visibles publiquement.
+Coûts : le domaine (≈ 20 €/an) et la traduction/correction automatique (quelques € par mois, plafonnable). Le reste est gratuit.
 
-Disponibilité vérifiée le 22/10/2026 (DNS) : **evergreenproject.gr**, theevergreenproject.gr, evergreenproject.eu, theevergreenproject.org semblent libres ; evergreenproject.org et evergreenproject.com sont pris.
+0. **Comptes au nom du projet** : registrar et Cloudflare créés avec `evergreenecovillage@gmail.com`, double authentification activée, mots de passe dans un gestionnaire partagé avec Katerina et Kostas. Le site ne dépend alors d'aucune personne.
+1. **Domaine** : acheter `evergreenproject.gr` chez un registrar .gr (ex. Papaki), **renouvellement automatique** activé. Disponibilité vérifiée le 27/10/2026 (DNS) : **evergreenproject.gr**, theevergreenproject.gr, evergreen-project.gr, evergreenproject.eu semblent libres ; evergreenproject.org, theevergreenproject.org et evergreenproject.com sont pris.
+2. **Cloudflare → Add a domain** → plan *Free* → chez le registrar, remplacer les serveurs DNS (*nameservers*) par les deux donnés par Cloudflare. Activation : quelques heures.
+3. **Hébergement** : Cloudflare → Workers & Pages → Create → **Pages** → Connect to Git → `Dimogdor/Evergreen` ; *Build command* `npm run build`, *Output* `dist` ; variables `SITE_URL` = `https://evergreenproject.gr`, `BASE_PATH` = `/`. *Custom domains* : `evergreenproject.gr` et `www.evergreenproject.gr`. Chaque modification de l'admin republie le site automatiquement (`public/_headers` y est appliqué).
+4. **Petit serveur** : [worker/README.md](worker/README.md) étapes 1–2. Avant `wrangler deploy`, dans `worker/wrangler.toml` : `SITE_URL` = `https://evergreenproject.gr`, `ALLOWED_ORIGINS` = `https://evergreenproject.gr,https://www.evergreenproject.gr`, et décommenter la ligne `routes` (adresse `https://api.evergreenproject.gr`).
+5. **Brancher l'admin** : `/admin` (connexion actuelle par clé GitHub) → *Settings → Site, contact & bank* → **Website API address** = `https://api.evergreenproject.gr` → Save. Deux minutes plus tard, les admins se connectent avec e-mail + mot de passe et le formulaire de témoignages est actif. Ce seul réglage fait les deux.
+6. **E-mails** : Cloudflare → Email → **Email Routing** : `contact@evergreenproject.gr` → `evergreenecovillage@gmail.com`, puis les notifications de témoignages ([worker/README.md](worker/README.md) §4).
+7. **Anti-spam** (recommandé) : Turnstile ([worker/README.md](worker/README.md)). Facultatif : formulaire de contact → clé gratuite sur [web3forms.com](https://web3forms.com) → *Settings → Contact form key*.
+8. **Dépôt privé** : GitHub → Actions → *Deploy to GitHub Pages* → ⋯ → **Disable workflow** ; Settings → Pages → désactiver ; Settings → General → *Change visibility* → **Private**.
+9. **Être trouvé** : [Google Search Console](https://search.google.com/search-console) → propriété de domaine (validation DNS en un clic avec Cloudflare) → envoyer `https://evergreenproject.gr/sitemap-index.xml`. Mettre la nouvelle adresse sur Instagram, Facebook, la fiche du Portail européen de la jeunesse et une fiche Google Maps (Google Business Profile).
+10. **Vérifier** : chaque admin se connecte ; une modification est traduite (« Translated into 7 languages ») et en ligne en ~2 min ; un témoignage test avec photo → e-mail reçu → coché « Published » → visible ; « Ajouter à mon agenda » fonctionne.
 
-Une fois le domaine acheté (ex. `evergreenproject.gr`) :
-1. Chez le registrar, DNS : 4 enregistrements **A** `@` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` et **CNAME** `www` → `dimogdor.github.io`.
-2. Dépôt → **Settings → Pages → Custom domain** : `evergreenproject.gr`, puis cocher **Enforce HTTPS**.
-3. Dépôt → **Settings → Secrets and variables → Actions → Variables** : `SITE_URL` = `https://evergreenproject.gr`, `BASE_PATH` = `/`. Relancer le déploiement (onglet Actions).
-4. Worker : ajouter le domaine à `ALLOWED_ORIGINS` et changer `SITE_URL`.
-
-## Quitter GitHub (préparé)
-
-Le site est 100 % statique et le contenu n'est que des fichiers YAML + photos : rien ne dépend de GitHub côté visiteurs ni côté admins (après l'étape « Administrateurs »).
-1. **Hébergement → Cloudflare Pages** (gratuit, illimité) : Workers & Pages → Create → Pages → Connect to Git → ce dépôt ; *Build command* `npm run build`, *Output* `dist` ; variables `SITE_URL` = `https://evergreenproject.gr`, `BASE_PATH` = `/`. Brancher le domaine dans *Custom domains*. Les en-têtes de sécurité/cache de `public/_headers` y sont appliqués automatiquement.
-2. Désactiver GitHub Pages et supprimer `.github/workflows/deploy.yml` ; le dépôt peut alors devenir **privé**.
-3. Notifications de témoignages par e-mail : activer Email Routing sur le domaine (voir [worker/README.md](worker/README.md)).
-4. Stockage ailleurs que GitHub plus tard (GitLab, Codeberg…) : changer `backend` dans `src/admin/config.yml` et les fonctions `gh`/`commit` du Worker. Note : la recompression automatique des vidéos est une GitHub Action — ailleurs, privilégier les liens YouTube.
+**Plus tard, quitter GitHub** : le contenu n'est que des fichiers YAML + photos. Changer `backend` dans `src/admin/config.yml` (Sveltia gère GitLab et Gitea/Forgejo) et les fonctions `gh`/`commit` du Worker. La recompression des vidéos est une GitHub Action : ailleurs, privilégier les liens YouTube.
 
 ## Développement
 

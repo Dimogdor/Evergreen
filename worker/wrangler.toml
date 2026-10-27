@@ -1,7 +1,9 @@
-# Deploy: npx wrangler deploy   (from this folder) — or paste index.js into the Cloudflare dashboard.
+# Deploy: npx wrangler deploy   (from this folder, after `npm install` at the root — see README.md).
 name = "evergreen-api"
 main = "index.js"
 compatibility_date = "2026-10-01"
+# Own address for the worker once the domain is on Cloudflare (then "Website API address" = https://api.evergreenproject.gr):
+# routes = [{ pattern = "api.evergreenproject.gr", custom_domain = true }]
 
 [vars]
 REPO = "Dimogdor/Evergreen"

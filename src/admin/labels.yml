@@ -516,9 +516,9 @@
 "Website API address":
   el: "Διεύθυνση API του ιστότοπου"
   fr: "Adresse API du site"
-"The address of the website's small server (see worker/README.md). It turns on the stories form.":
-  el: "Η διεύθυνση του μικρού διακομιστή του ιστότοπου (δείτε το worker/README.md). Ενεργοποιεί τη φόρμα ιστοριών."
-  fr: "L’adresse du petit serveur du site (voir worker/README.md). Elle active le formulaire de témoignages."
+"The address of the website's small server (see worker/README.md). It turns on the e-mail sign-in of the admins and the stories form. Only the developer should change it: a wrong address blocks the sign-in.":
+  el: "Η διεύθυνση του μικρού διακομιστή του ιστότοπου (δείτε το worker/README.md). Ενεργοποιεί τη σύνδεση των διαχειριστών με e-mail και τη φόρμα ιστοριών. Μόνο ο προγραμματιστής πρέπει να την αλλάζει: μια λάθος διεύθυνση εμποδίζει τη σύνδεση."
+  fr: "L’adresse du petit serveur du site (voir worker/README.md). Elle active la connexion des admins par e-mail et le formulaire de témoignages. Seul le développeur doit la modifier : une adresse erronée bloque la connexion."
 "Anti-spam key (Turnstile, optional)":
   el: "Κλειδί κατά του spam (Turnstile, προαιρετικό)"
   fr: "Clé anti-spam (Turnstile, facultative)"
