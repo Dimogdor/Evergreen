@@ -46,6 +46,7 @@ en:
   sections:
   - heading: Thank you
     text: 'In spring 2025 the land we had poured our hearts into was at risk: we needed €13,000 in a few weeks to keep our forest home. Your support was so moving that the fundraiser secured **the Field** and gave us a way forward. Thank you, from the bottom of our hearts — every hand, every share and every euro keeps this refuge alive.'
+    image: /src/assets/uploads/group-hug.webp
   - heading: Donate materials & tools
     text: We are building an eco-village with very limited means. Good tools and second-hand materials make a huge difference — see the wishlist below. If you can give, lend or transport something, please [contact us](/en/contact/).
   - heading: Volunteer
@@ -80,12 +81,14 @@ en:
       text: Solar or wood-fired, for hot water.
     - title: A pick-up truck
       text: Something like a Mitsubishi L200 — 20 years old is perfectly fine!
+  image: /src/assets/uploads/building-frame-2026.webp
 fr:
   title: Nous soutenir
   intro: Evergreen grandit grâce à de nombreuses mains — voici comment les vôtres peuvent aider.
   sections:
   - heading: Merci
     text: 'Au printemps 2025, la terre dans laquelle nous avions mis tout notre cœur était menacée : il nous fallait 13 000 € en quelques semaines pour garder notre maison dans la forêt. Votre soutien a été si émouvant que la collecte a permis de sécuriser **le Champ** et nous a ouvert un chemin. Merci du fond du cœur — chaque main, chaque partage et chaque euro font vivre ce refuge.'
+    image: /src/assets/uploads/group-hug.webp
   - heading: Donner du matériel & des outils
     text: Nous construisons un écovillage avec des moyens très limités. De bons outils et des matériaux de seconde main font une énorme différence — voir la liste ci-dessous. Si vous pouvez donner, prêter ou transporter quelque chose, [contactez-nous](/fr/contact/).
   - heading: Devenir volontaire
@@ -120,12 +123,14 @@ fr:
       text: Solaire ou au bois, pour l’eau chaude.
     - title: Un pick-up
       text: Du genre Mitsubishi L200 — même vieux de 20 ans, c’est parfait !
+  image: /src/assets/uploads/building-frame-2026.webp
 es:
   title: Apóyanos
   intro: Evergreen crece gracias a muchas manos — así es como las tuyas pueden ayudar.
   sections:
   - heading: Gracias
     text: 'En la primavera de 2025 la tierra en la que habíamos puesto el corazón estaba en peligro: necesitábamos 13.000 € en pocas semanas para conservar nuestro hogar en el bosque. Vuestro apoyo fue tan conmovedor que la campaña aseguró **el Campo** y nos abrió un camino. Gracias de corazón — cada mano, cada difusión y cada euro mantienen vivo este refugio.'
+    image: /src/assets/uploads/group-hug.webp
   - heading: Dona materiales y herramientas
     text: Estamos construyendo una ecoaldea con medios muy limitados. Buenas herramientas y materiales de segunda mano marcan una enorme diferencia — mira la lista de abajo. Si puedes dar, prestar o transportar algo, [contáctanos](/es/contact/).
   - heading: Hazte voluntario
@@ -160,12 +165,14 @@ es:
       text: Solar o de leña, para el agua caliente.
     - title: Una camioneta pick-up
       text: Algo como una Mitsubishi L200 — ¡aunque tenga 20 años está perfecto!
+  image: /src/assets/uploads/building-frame-2026.webp
 it:
   title: Sostienici
   intro: Evergreen cresce grazie a tante mani — ecco come possono aiutare anche le tue.
   sections:
   - heading: Grazie
     text: 'Nella primavera 2025 la terra in cui avevamo messo il cuore era a rischio: servivano 13.000 € in poche settimane per tenere la nostra casa nel bosco. Il vostro sostegno è stato così commovente che la raccolta fondi ha messo al sicuro **il Campo** e ci ha aperto una strada. Grazie di cuore — ogni mano, ogni condivisione e ogni euro tengono vivo questo rifugio.'
+    image: /src/assets/uploads/group-hug.webp
   - heading: Dona materiali e attrezzi
     text: Stiamo costruendo un ecovillaggio con mezzi molto limitati. Buoni attrezzi e materiali di seconda mano fanno un’enorme differenza — vedi la lista qui sotto. Se puoi donare, prestare o trasportare qualcosa, [contattaci](/it/contact/).
   - heading: Diventa volontario
@@ -200,12 +207,14 @@ it:
       text: Solare o a legna, per l’acqua calda.
     - title: Un pick-up
       text: Qualcosa come un Mitsubishi L200 — anche di 20 anni va benissimo!
+  image: /src/assets/uploads/building-frame-2026.webp
 ru:
   title: Поддержать нас
   intro: Evergreen растёт благодаря многим рукам — вот как могут помочь и ваши.
   sections:
   - heading: Спасибо
     text: 'Весной 2025 года земля, в которую мы вложили душу, оказалась под угрозой: за несколько недель нужно было собрать 13 000 €, чтобы сохранить наш лесной дом. Ваша поддержка так тронула нас: сбор позволил сохранить **Поле** и открыл путь вперёд. Спасибо от всего сердца — каждая рука, каждый репост и каждый евро поддерживают жизнь этого убежища.'
+    image: /src/assets/uploads/group-hug.webp
   - heading: Подарите материалы и инструменты
     text: Мы строим экодеревню с очень скромными средствами. Хорошие инструменты и б/у материалы очень много значат — посмотрите список ниже. Если вы можете что-то подарить, одолжить или привезти, [свяжитесь с нами](/ru/contact/).
   - heading: Станьте волонтёром
@@ -240,12 +249,14 @@ ru:
       text: Солнечный или на дровах — для горячей воды.
     - title: Пикап
       text: Что-то вроде Mitsubishi L200 — даже 20-летний вполне подойдёт!
+  image: /src/assets/uploads/building-frame-2026.webp
 de:
   title: Unterstützen
   intro: Evergreen wächst dank vieler Hände — so können deine helfen.
   sections:
   - heading: Danke
     text: 'Im Frühjahr 2025 war das Land, in das wir unser Herz gesteckt hatten, in Gefahr: Wir brauchten in wenigen Wochen 13.000 €, um unser Zuhause im Wald zu behalten. Eure Unterstützung war so bewegend, dass die Spendenaktion **das Feld** gesichert und uns einen Weg nach vorn eröffnet hat. Danke von Herzen — jede Hand, jedes Teilen und jeder Euro halten diesen Zufluchtsort lebendig.'
+    image: /src/assets/uploads/group-hug.webp
   - heading: Material & Werkzeug spenden
     text: Wir bauen ein Ökodorf mit sehr begrenzten Mitteln. Gutes Werkzeug und gebrauchte Materialien machen einen riesigen Unterschied — siehe unsere Wunschliste unten. Wenn du etwas geben, leihen oder transportieren kannst, [melde dich bei uns](/de/contact/).
   - heading: Freiwillig mitmachen
@@ -280,12 +291,14 @@ de:
       text: Solar oder holzbefeuert.
     - title: Ein Pick-up
       text: So etwas wie ein Mitsubishi L200 — auch 20 Jahre alt ist völlig in Ordnung!
+  image: /src/assets/uploads/building-frame-2026.webp
 pt:
   title: Apoie-nos
   intro: O Evergreen cresce graças a muitas mãos — veja como as suas podem ajudar.
   sections:
   - heading: Obrigado
     text: 'Na primavera de 2025 a terra a que dedicámos o coração estava em risco: precisávamos de 13.000 € em poucas semanas para manter a nossa casa na floresta. O vosso apoio foi tão comovente que a campanha garantiu **o Campo** e abriu-nos um caminho. Obrigado do fundo do coração — cada mão, cada partilha e cada euro mantêm vivo este refúgio.'
+    image: /src/assets/uploads/group-hug.webp
   - heading: Doe materiais e ferramentas
     text: Estamos a construir uma ecoaldeia com meios muito limitados. Boas ferramentas e materiais em segunda mão fazem uma enorme diferença — veja a lista abaixo. Se puder dar, emprestar ou transportar algo, [contacte-nos](/pt/contact/).
   - heading: Seja voluntário
@@ -320,3 +333,4 @@ pt:
       text: Solar ou a lenha, para água quente.
     - title: Uma pick-up
       text: Algo como uma Mitsubishi L200 — mesmo com 20 anos está ótimo!
+  image: /src/assets/uploads/building-frame-2026.webp

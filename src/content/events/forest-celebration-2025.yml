@@ -9,21 +9,56 @@ el:
 en:
   title: Forest celebration
   summary: Yoga, dance and music, reviving and cleaning the mountain trails, and the healing hot springs.
+  start: '2025-10-10'
+  end: '2025-10-12'
+  program: gatherings
+  image: /src/assets/uploads/fire-night.webp
+  category: community
 fr:
   title: Fête de la forêt
   summary: Yoga, danse et musique, nettoyage des sentiers de montagne et sources chaudes.
+  start: '2025-10-10'
+  end: '2025-10-12'
+  program: gatherings
+  image: /src/assets/uploads/fire-night.webp
+  category: community
 es:
   title: Fiesta del bosque
   summary: Yoga, danza y música, limpieza de los senderos de montaña y aguas termales.
+  start: '2025-10-10'
+  end: '2025-10-12'
+  program: gatherings
+  image: /src/assets/uploads/fire-night.webp
+  category: community
 it:
   title: Festa del bosco
   summary: Yoga, danza e musica, pulizia dei sentieri di montagna e sorgenti termali.
+  start: '2025-10-10'
+  end: '2025-10-12'
+  program: gatherings
+  image: /src/assets/uploads/fire-night.webp
+  category: community
 ru:
   title: Праздник леса
   summary: Йога, танцы и музыка, расчистка горных троп и горячие источники.
+  start: '2025-10-10'
+  end: '2025-10-12'
+  program: gatherings
+  image: /src/assets/uploads/fire-night.webp
+  category: community
 de:
   title: Waldfest
   summary: Yoga, Tanz und Musik, Pflege der Bergpfade und heiße Quellen.
+  start: '2025-10-10'
+  end: '2025-10-12'
+  program: gatherings
+  image: /src/assets/uploads/fire-night.webp
+  category: community
 pt:
   title: Festa da floresta
   summary: Yoga, dança e música, limpeza dos trilhos de montanha e termas.
+  start: '2025-10-10'
+  end: '2025-10-12'
+  program: gatherings
+  image: /src/assets/uploads/fire-night.webp
+  category: community

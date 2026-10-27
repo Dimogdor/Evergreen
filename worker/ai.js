@@ -1,12 +1,14 @@
 // Writing help for the admins, both powered by the ANTHROPIC_API_KEY secret (optional — without it, saves work as before):
-//   translateCommit  when an admin saves, every Greek text that is new or changed is translated into the 7 other
-//                    languages inside the same save (texts an admin typed in a language by hand are kept).
+//   translateFile    when an admin saves, every text that is new or changed in the admin's own language (Greek, English
+//                    or French) is translated into the 7 other languages inside the same save (texts the admin typed
+//                    in another language by hand are kept).
 //   proofread        "✓ Correct" button in the admin: returns a corrected version for the admin to accept or not.
 import Anthropic from '@anthropic-ai/sdk';
 import YAML from 'yaml';
 
-export const SOURCE = 'el';
-export const TARGETS = { en: 'English', fr: 'French', es: 'Spanish', it: 'Italian', ru: 'Russian', de: 'German', pt: 'Portuguese (European)' };
+export const LANGS = { el: 'Greek', en: 'English', fr: 'French', es: 'Spanish', it: 'Italian', ru: 'Russian', de: 'German', pt: 'Portuguese (European)' };
+export const SOURCES = ['el', 'en', 'fr']; // the languages the admin panel can be used in
+const targets = (source) => Object.keys(LANGS).filter((l) => l !== source);
 const MODEL = 'claude-opus-5-5';
 
 const STYLE = `You work for The Evergreen Project, a non-profit eco-village, community and yoga ashram in the forest near Anavra,
@@ -51,7 +53,7 @@ in the same language as the text (empty list if nothing needed correcting).\n\n<
 
 // ───────────── Translation of saved content ─────────────
 
-// Field names marked `i18n: true` in the admin configuration, for the file at `path`.
+// Field names marked `i18n: true` in the admin configuration, for the file at `path` ('*' = every text of the file).
 export function i18nFields(config, path) {
   const names = new Set();
   const walk = (fields = []) => fields.forEach((f) => {
@@ -60,7 +62,7 @@ export function i18nFields(config, path) {
   });
   for (const c of config.collections || []) {
     if (c.folder && path.startsWith(c.folder.replace(/\/?$/, '/')) && c.i18n) walk(c.fields);
-    for (const f of c.files || []) if (f.file === path && (f.i18n ?? c.i18n)) walk(f.fields);
+    for (const f of c.files || []) if (f.file === path && (f.i18n ?? c.i18n)) f.fields?.length ? walk(f.fields) : names.add('*');
   }
   return names;
 }
@@ -76,42 +78,44 @@ function set(o, path, value) {
   });
 }
 
-// Texts to translate: Greek strings of translatable fields that are new or changed, unless the admin edited that language too.
-export function pending(next, prev, fields) {
+// Texts to translate: strings of translatable fields that are new or changed in the source language, unless the admin
+// edited the other language too.
+export function pending(next, prev, fields, source = 'el') {
   const jobs = [];
   const walk = (v, path) => {
     if (Array.isArray(v)) return v.forEach((x, i) => walk(x, [...path, i]));
     if (v && typeof v === 'object') return Object.entries(v).forEach(([k, x]) => walk(x, [...path, k]));
     const key = path.findLast((k) => typeof k === 'string');
-    if (typeof v !== 'string' || !v.trim() || !fields.has(key)) return;
-    const changed = get(prev?.[SOURCE], path) !== v;
-    const langs = Object.keys(TARGETS).filter((l) => {
+    if (typeof v !== 'string' || !v.trim() || !(fields.has('*') || fields.has(key))) return;
+    const changed = get(prev?.[source], path) !== v;
+    const langs = targets(source).filter((l) => {
       const cur = get(next[l], path);
       return !String(cur ?? '').trim() || (changed && cur === get(prev?.[l], path));
     });
     if (langs.length) jobs.push({ path, text: v, langs });
   };
-  walk(next[SOURCE] ?? {}, []);
+  walk(next[source] ?? {}, []);
   return jobs;
 }
 
-export async function translateTexts(env, texts, fetchImpl) {
+export async function translateTexts(env, texts, source = 'el', fetchImpl) {
+  const TARGETS = Object.fromEntries(targets(source).map((l) => [l, LANGS[l]]));
   const item = { type: 'object', additionalProperties: false, required: ['id', 'text'], properties: { id: { type: 'integer' }, text: { type: 'string' } } };
   const schema = { type: 'object', additionalProperties: false, required: Object.keys(TARGETS), properties: Object.fromEntries(Object.keys(TARGETS).map((l) => [l, { type: 'array', items: item }])) };
   const list = texts.map((text, id) => `<item id="${id}">\n${text}\n</item>`).join('\n');
   return ask(env, {
-    system: `${STYLE}\nYou translate the website's Greek texts into ${Object.values(TARGETS).join(', ')}.`,
-    prompt: `Translate every item from Greek into each of these languages: ${Object.entries(TARGETS).map(([c, n]) => `${c} = ${n}`).join(', ')}.
+    system: `${STYLE}\nYou translate the website's ${LANGS[source]} texts into ${Object.values(TARGETS).join(', ')}.`,
+    prompt: `Translate every item from ${LANGS[source]} into each of these languages: ${Object.entries(TARGETS).map(([c, n]) => `${c} = ${n}`).join(', ')}.
 Return, for each language code, one entry per item with the same id. Short items are menu labels, buttons or titles: keep them short.\n\n${list}`,
     schema,
   }, fetchImpl);
 }
 
 // Rewrites a YAML content file before it is saved. Returns the new text, or null when there was nothing to translate.
-export async function translateFile(env, { text, previous, fields }, translate = (texts) => translateTexts(env, texts)) {
+export async function translateFile(env, { text, previous, fields, source = 'el' }, translate = (texts) => translateTexts(env, texts, source)) {
   const next = YAML.parse(text) ?? {};
-  if (!next[SOURCE] || !fields.size) return null;
-  const jobs = pending(next, previous ? YAML.parse(previous) : {}, fields);
+  if (!next[source] || !fields.size) return null;
+  const jobs = pending(next, previous ? YAML.parse(previous) : {}, fields, source);
   if (!jobs.length) return null;
   const out = await translate(jobs.map((j) => j.text));
   for (const [lang, items] of Object.entries(out)) {
@@ -119,15 +123,15 @@ export async function translateFile(env, { text, previous, fields }, translate =
       const job = jobs[id];
       if (!job || !job.langs.includes(lang) || !t?.trim()) continue;
       next[lang] ??= {};
-      set(next[lang], job.path, t.replaceAll(`](/${SOURCE}/`, `](/${lang}/`)); // internal links point to the same language
+      set(next[lang], job.path, t.replaceAll(`](/${source}/`, `](/${lang}/`)); // internal links point to the same language
     }
   }
-  // Lists shortened in Greek are shortened in every language too.
+  // Lists shortened in the source language are shortened in every language too.
   const trim = (src, path) => {
-    if (Array.isArray(src)) for (const l of Object.keys(TARGETS)) { const t = get(next[l], path); if (Array.isArray(t)) t.length = Math.min(t.length, src.length); }
+    if (Array.isArray(src)) for (const l of targets(source)) { const t = get(next[l], path); if (Array.isArray(t)) t.length = Math.min(t.length, src.length); }
     if (src && typeof src === 'object') Object.entries(src).forEach(([k, v]) => trim(v, [...path, Array.isArray(src) ? Number(k) : k]));
   };
-  trim(next[SOURCE], []);
+  trim(next[source], []);
   return YAML.stringify(next, { lineWidth: 0 });
 }
 

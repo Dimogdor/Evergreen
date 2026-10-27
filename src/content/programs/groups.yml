@@ -19,6 +19,13 @@ en:
     Our experience in **community building, team building and facilitation** makes Evergreen a good place for groups. We welcome youth groups, schools, associations, yoga schools and teams for programmes that combine nature, practice and cooperation.
 
     Tell us about your group, your dates and your goals — we will design the programme together. As an accredited European Solidarity Corps organisation, we are also open to **European partnerships** and new projects.
+  image: /src/assets/uploads/outdoor-class.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/workshop-circle.webp
+  - /src/assets/uploads/study-session.webp
+  - /src/assets/uploads/group-learning.webp
+  order: 9
 fr:
   title: Groupes & organisations
   summary: Groupes de jeunes, écoles, associations et équipes — nous accueillons et co-créons des programmes dans la nature.
@@ -26,6 +33,13 @@ fr:
     Notre expérience en **création de communauté, cohésion d’équipe et facilitation** fait d’Evergreen un bon lieu pour les groupes. Nous accueillons groupes de jeunes, écoles, associations, écoles de yoga et équipes pour des programmes qui associent nature, pratique et coopération.
 
     Parlez-nous de votre groupe, de vos dates et de vos objectifs — nous construirons le programme ensemble. En tant qu’organisation accréditée du Corps européen de solidarité, nous sommes aussi ouverts aux **partenariats européens** et à de nouveaux projets.
+  image: /src/assets/uploads/outdoor-class.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/workshop-circle.webp
+  - /src/assets/uploads/study-session.webp
+  - /src/assets/uploads/group-learning.webp
+  order: 9
 es:
   title: Grupos y organizaciones
   summary: Grupos de jóvenes, escuelas, asociaciones y equipos — acogemos y cocreamos programas en la naturaleza.
@@ -33,6 +47,13 @@ es:
     Nuestra experiencia en **construcción de comunidad, trabajo en equipo y facilitación** hace de Evergreen un buen lugar para grupos. Acogemos grupos de jóvenes, escuelas, asociaciones, escuelas de yoga y equipos para programas que combinan naturaleza, práctica y cooperación.
 
     Cuéntanos sobre tu grupo, tus fechas y tus objetivos — diseñaremos el programa juntos. Como organización acreditada del Cuerpo Europeo de Solidaridad, también estamos abiertos a **colaboraciones europeas** y nuevos proyectos.
+  image: /src/assets/uploads/outdoor-class.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/workshop-circle.webp
+  - /src/assets/uploads/study-session.webp
+  - /src/assets/uploads/group-learning.webp
+  order: 9
 it:
   title: Gruppi e organizzazioni
   summary: Gruppi di giovani, scuole, associazioni e team — ospitiamo e co-creiamo programmi nella natura.
@@ -40,6 +61,13 @@ it:
     La nostra esperienza in **costruzione di comunità, team building e facilitazione** rende Evergreen un buon posto per i gruppi. Accogliamo gruppi di giovani, scuole, associazioni, scuole di yoga e team per programmi che uniscono natura, pratica e cooperazione.
 
     Raccontaci del tuo gruppo, delle date e degli obiettivi — progetteremo il programma insieme. Come organizzazione accreditata del Corpo europeo di solidarietà, siamo aperti anche a **partenariati europei** e nuovi progetti.
+  image: /src/assets/uploads/outdoor-class.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/workshop-circle.webp
+  - /src/assets/uploads/study-session.webp
+  - /src/assets/uploads/group-learning.webp
+  order: 9
 ru:
   title: Группы и организации
   summary: Молодёжные группы, школы, ассоциации и команды — мы принимаем и вместе создаём программы на природе.
@@ -47,6 +75,13 @@ ru:
     Наш опыт в **построении сообщества, командообразовании и фасилитации** делает Evergreen хорошим местом для групп. Мы принимаем молодёжные группы, школы, ассоциации, школы йоги и рабочие команды на программы, сочетающие природу, практику и сотрудничество.
 
     Расскажите о своей группе, датах и целях — мы вместе разработаем программу. Как аккредитованная организация Европейского корпуса солидарности, мы открыты также для **европейских партнёрств** и новых проектов.
+  image: /src/assets/uploads/outdoor-class.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/workshop-circle.webp
+  - /src/assets/uploads/study-session.webp
+  - /src/assets/uploads/group-learning.webp
+  order: 9
 de:
   title: Gruppen & Organisationen
   summary: Jugendgruppen, Schulen, Vereine und Teams — wir beherbergen und gestalten gemeinsam Programme in der Natur.
@@ -54,6 +89,13 @@ de:
     Unsere Erfahrung in **Gemeinschaftsbildung, Teambuilding und Moderation** macht Evergreen zu einem guten Ort für Gruppen. Wir empfangen Jugendgruppen, Schulen, Vereine, Yogaschulen und Teams für Programme, die Natur, Praxis und Zusammenarbeit verbinden.
 
     Erzähl uns von deiner Gruppe, euren Terminen und Zielen — wir gestalten das Programm gemeinsam. Als akkreditierte Organisation des Europäischen Solidaritätskorps sind wir auch offen für **europäische Partnerschaften** und neue Projekte.
+  image: /src/assets/uploads/outdoor-class.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/workshop-circle.webp
+  - /src/assets/uploads/study-session.webp
+  - /src/assets/uploads/group-learning.webp
+  order: 9
 pt:
   title: Grupos e organizações
   summary: Grupos de jovens, escolas, associações e equipas — acolhemos e cocriamos programas na natureza.
@@ -61,3 +103,10 @@ pt:
     A nossa experiência em **construção de comunidade, trabalho de equipa e facilitação** faz do Evergreen um bom lugar para grupos. Acolhemos grupos de jovens, escolas, associações, escolas de yoga e equipas para programas que juntam natureza, prática e cooperação.
 
     Fale-nos do seu grupo, das datas e dos objetivos — desenharemos o programa juntos. Como organização acreditada do Corpo Europeu de Solidariedade, estamos também abertos a **parcerias europeias** e a novos projetos.
+  image: /src/assets/uploads/outdoor-class.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/workshop-circle.webp
+  - /src/assets/uploads/study-session.webp
+  - /src/assets/uploads/group-learning.webp
+  order: 9

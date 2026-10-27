@@ -9,21 +9,56 @@ el:
 en:
   title: 'Natural building workshop: an earth & wood shelter'
   summary: 'Two weekends (4–6 and 11–13 April): the frame, the cob walls and the roof of an eco-shelter.'
+  start: '2025-04-04'
+  end: '2025-04-13'
+  program: natural-building
+  image: /src/assets/uploads/shelter-frame-3.webp
+  category: workshop
 fr:
   title: 'Atelier de construction naturelle : un abri en terre et bois'
   summary: 'Deux week-ends (4–6 et 11–13 avril) : la charpente, les murs en bauge et le toit d’un abri écologique.'
+  start: '2025-04-04'
+  end: '2025-04-13'
+  program: natural-building
+  image: /src/assets/uploads/shelter-frame-3.webp
+  category: workshop
 es:
   title: 'Taller de bioconstrucción: un refugio de tierra y madera'
   summary: 'Dos fines de semana (4–6 y 11–13 de abril): la estructura, las paredes de cob y el tejado de un refugio ecológico.'
+  start: '2025-04-04'
+  end: '2025-04-13'
+  program: natural-building
+  image: /src/assets/uploads/shelter-frame-3.webp
+  category: workshop
 it:
   title: 'Workshop di bioedilizia: un rifugio in terra e legno'
   summary: 'Due weekend (4–6 e 11–13 aprile): la struttura, i muri in cob e il tetto di un rifugio ecologico.'
+  start: '2025-04-04'
+  end: '2025-04-13'
+  program: natural-building
+  image: /src/assets/uploads/shelter-frame-3.webp
+  category: workshop
 ru:
   title: 'Мастерская природного строительства: укрытие из земли и дерева'
   summary: 'Двое выходных (4–6 и 11–13 апреля): каркас, глиняные стены и крыша эко-укрытия.'
+  start: '2025-04-04'
+  end: '2025-04-13'
+  program: natural-building
+  image: /src/assets/uploads/shelter-frame-3.webp
+  category: workshop
 de:
   title: 'Naturbau-Workshop: ein Unterstand aus Erde und Holz'
   summary: 'Zwei Wochenenden (4.–6. und 11.–13. April): Gerüst, Cob-Wände und Dach eines Öko-Unterstands.'
+  start: '2025-04-04'
+  end: '2025-04-13'
+  program: natural-building
+  image: /src/assets/uploads/shelter-frame-3.webp
+  category: workshop
 pt:
   title: 'Workshop de bioconstrução: um abrigo de terra e madeira'
   summary: 'Dois fins de semana (4–6 e 11–13 de abril): a estrutura, as paredes de cob e o telhado de um abrigo ecológico.'
+  start: '2025-04-04'
+  end: '2025-04-13'
+  program: natural-building
+  image: /src/assets/uploads/shelter-frame-3.webp
+  category: workshop

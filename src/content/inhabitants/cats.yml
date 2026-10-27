@@ -9,27 +9,48 @@ en:
   name: Our cats
   role: Cuddle specialists
   bio: They always find the warmest lap, the softest blanket — and sometimes your shoulder.
+  photo: /src/assets/uploads/cat-on-frame-2026.webp
+  order: 12
+  kind: animal
 fr:
   name: Nos chats
   role: Spécialistes des câlins
   bio: Ils trouvent toujours les genoux les plus chauds, la couverture la plus douce — et parfois votre épaule.
+  photo: /src/assets/uploads/cat-on-frame-2026.webp
+  order: 12
+  kind: animal
 es:
   name: Nuestros gatos
   role: Especialistas en mimos
   bio: Siempre encuentran el regazo más cálido, la manta más suave — y a veces tu hombro.
+  photo: /src/assets/uploads/cat-on-frame-2026.webp
+  order: 12
+  kind: animal
 it:
   name: I nostri gatti
   role: Esperte di coccole
   bio: Trovano sempre il grembo più caldo, la coperta più morbida — e a volte la tua spalla.
+  photo: /src/assets/uploads/cat-on-frame-2026.webp
+  order: 12
+  kind: animal
 ru:
   name: Наши кошки
   role: Специалисты по обнимашкам
   bio: Всегда находят самые тёплые колени, самый мягкий плед — а иногда и ваше плечо.
+  photo: /src/assets/uploads/cat-on-frame-2026.webp
+  order: 12
+  kind: animal
 de:
   name: Unsere Katzen
   role: Kuschel-Expertinnen
   bio: Sie finden immer den wärmsten Schoß, die weichste Decke — und manchmal deine Schulter.
+  photo: /src/assets/uploads/cat-on-frame-2026.webp
+  order: 12
+  kind: animal
 pt:
   name: Os nossos gatos
   role: Especialistas em mimos
   bio: Encontram sempre o colo mais quente, a manta mais macia — e às vezes o seu ombro.
+  photo: /src/assets/uploads/cat-on-frame-2026.webp
+  order: 12
+  kind: animal

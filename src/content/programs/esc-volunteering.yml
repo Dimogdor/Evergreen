@@ -81,7 +81,7 @@ el:
   - q: Πότε είναι τα επόμενα προγράμματα;
     a: Τα προγράμματα ESC έχουν συγκεκριμένες ημερομηνίες. Ανακοινώνουμε κάθε κάλεσμα στο [ημερολόγιό μας](/el/calendar/), στο Instagram και στο Facebook, καθώς και στην Ευρωπαϊκή Πύλη για τη Νεολαία.
 en:
-  link: https://youth.europa.eu/volunteering/organisation/82546_en
+  link: https://youth.europa.eu/volunteering/organisation/82546_el
   title: Volunteering with the European Solidarity Corps
   summary: Live, learn and build with us for a few weeks or several months — fully funded for young people aged 18–30.
   linkLabel: Our page on the European Youth Portal
@@ -146,8 +146,24 @@ en:
     a: In large bell tents with real mattresses during the warmer months, and in houses during the colder part of the year.
   - q: When are the next projects?
     a: ESC projects have fixed dates. We announce every call on our [calendar](/en/calendar/), on Instagram and Facebook, and on the European Youth Portal.
+  image: /src/assets/uploads/volunteers-painting-2026.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/volunteers-autumn-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/friends-smiles.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/hiking-group.webp
+  order: 1
 fr:
-  link: https://youth.europa.eu/volunteering/organisation/82546_fr
+  link: https://youth.europa.eu/volunteering/organisation/82546_el
   title: Volontariat avec le Corps européen de solidarité
   summary: Vivez, apprenez et construisez avec nous pendant quelques semaines ou plusieurs mois — entièrement financé pour les 18–30 ans.
   linkLabel: Notre page sur le Portail européen de la jeunesse
@@ -212,8 +228,24 @@ fr:
     a: Dans de grandes tentes cloches avec de vrais matelas pendant les mois chauds, et en maison pendant la partie la plus froide de l’année.
   - q: Quand ont lieu les prochains projets ?
     a: Les projets CES ont des dates fixes. Nous annonçons chaque appel dans notre [calendrier](/fr/calendar/), sur Instagram et Facebook, ainsi que sur le Portail européen de la jeunesse.
+  image: /src/assets/uploads/volunteers-painting-2026.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/volunteers-autumn-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/friends-smiles.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/hiking-group.webp
+  order: 1
 es:
-  link: https://youth.europa.eu/volunteering/organisation/82546_es
+  link: https://youth.europa.eu/volunteering/organisation/82546_el
   title: Voluntariado con el Cuerpo Europeo de Solidaridad
   summary: Vive, aprende y construye con nosotros durante unas semanas o varios meses — totalmente financiado para jóvenes de 18 a 30 años.
   linkLabel: Nuestra página en el Portal Europeo de la Juventud
@@ -278,8 +310,24 @@ es:
     a: En grandes tiendas campana con colchones de verdad durante los meses cálidos, y en casas durante la parte más fría del año.
   - q: ¿Cuándo son los próximos proyectos?
     a: Los proyectos del CES tienen fechas fijas. Anunciamos cada convocatoria en nuestro [calendario](/es/calendar/), en Instagram y Facebook, y en el Portal Europeo de la Juventud.
+  image: /src/assets/uploads/volunteers-painting-2026.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/volunteers-autumn-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/friends-smiles.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/hiking-group.webp
+  order: 1
 it:
-  link: https://youth.europa.eu/volunteering/organisation/82546_it
+  link: https://youth.europa.eu/volunteering/organisation/82546_el
   title: Volontariato con il Corpo europeo di solidarietà
   summary: Vivi, impara e costruisci con noi per qualche settimana o per diversi mesi — completamente finanziato per i giovani tra i 18 e i 30 anni.
   linkLabel: La nostra pagina sul Portale europeo per i giovani
@@ -344,8 +392,24 @@ it:
     a: In grandi tende a campana con veri materassi nei mesi caldi, e in casa nella parte più fredda dell’anno.
   - q: Quando sono i prossimi progetti?
     a: I progetti CES hanno date fisse. Annunciamo ogni chiamata nel nostro [calendario](/it/calendar/), su Instagram e Facebook e sul Portale europeo per i giovani.
+  image: /src/assets/uploads/volunteers-painting-2026.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/volunteers-autumn-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/friends-smiles.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/hiking-group.webp
+  order: 1
 ru:
-  link: https://youth.europa.eu/volunteering/organisation/82546_en
+  link: https://youth.europa.eu/volunteering/organisation/82546_el
   title: Волонтёрство с Европейским корпусом солидарности
   summary: Живите, учитесь и стройте вместе с нами несколько недель или месяцев — полностью оплачивается для молодёжи 18–30 лет.
   linkLabel: Наша страница на Европейском молодёжном портале
@@ -410,8 +474,24 @@ ru:
     a: В тёплые месяцы — в больших шатрах-колоколах с настоящими матрасами, в холодное время года — в домах.
   - q: Когда следующие проекты?
     a: У проектов ESC фиксированные даты. Мы объявляем каждый набор в нашем [календаре](/ru/calendar/), в Instagram и Facebook, а также на Европейском молодёжном портале.
+  image: /src/assets/uploads/volunteers-painting-2026.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/volunteers-autumn-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/friends-smiles.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/hiking-group.webp
+  order: 1
 de:
-  link: https://youth.europa.eu/volunteering/organisation/82546_de
+  link: https://youth.europa.eu/volunteering/organisation/82546_el
   title: Freiwilligendienst im Europäischen Solidaritätskorps
   summary: Lebe, lerne und baue mit uns für einige Wochen oder mehrere Monate — voll finanziert für junge Menschen zwischen 18 und 30.
   linkLabel: Unsere Seite im Europäischen Jugendportal
@@ -476,8 +556,24 @@ de:
     a: In den warmen Monaten in großen Glockenzelten mit richtigen Matratzen, in der kälteren Jahreszeit in Häusern.
   - q: Wann sind die nächsten Projekte?
     a: ESK-Projekte haben feste Termine. Wir kündigen jeden Aufruf in unserem [Kalender](/de/calendar/), auf Instagram und Facebook sowie im Europäischen Jugendportal an.
+  image: /src/assets/uploads/volunteers-painting-2026.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/volunteers-autumn-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/friends-smiles.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/hiking-group.webp
+  order: 1
 pt:
-  link: https://youth.europa.eu/volunteering/organisation/82546_pt
+  link: https://youth.europa.eu/volunteering/organisation/82546_el
   title: Voluntariado com o Corpo Europeu de Solidariedade
   summary: Viva, aprenda e construa connosco durante algumas semanas ou vários meses — totalmente financiado para jovens dos 18 aos 30 anos.
   linkLabel: A nossa página no Portal Europeu da Juventude
@@ -542,3 +638,19 @@ pt:
     a: Em grandes tendas sino com colchões a sério nos meses quentes, e em casas na parte mais fria do ano.
   - q: Quando são os próximos projetos?
     a: Os projetos do CES têm datas fixas. Anunciamos cada chamada no nosso [calendário](/pt/calendar/), no Instagram e no Facebook, e no Portal Europeu da Juventude.
+  image: /src/assets/uploads/volunteers-painting-2026.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/volunteers-autumn-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/friends-smiles.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/hiking-group.webp
+  order: 1

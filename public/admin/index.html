@@ -7,90 +7,185 @@
   <title>Evergreen — Admin</title>
   <link rel="icon" href="logo.png" type="image/png" />
   <style>
-    .eg-btn { position: fixed; z-index: 99999; font: 600 12px/1 system-ui, sans-serif; padding: 7px 10px; border: 0; border-radius: 999px; background: #22402a; color: #fff; cursor: pointer; box-shadow: 0 2px 8px #0003; }
-    .eg-panel { position: fixed; z-index: 99999; right: 16px; bottom: 16px; width: min(460px, calc(100vw - 32px)); max-height: 70vh; overflow: auto; background: #fff; color: #17231a; border-radius: 12px; box-shadow: 0 8px 32px #0004; padding: 16px; font: 14px/1.5 system-ui, sans-serif; }
+    .eg-choose { position: fixed; inset: 0; z-index: 100000; display: grid; place-items: center; background: #f4f0e6; color: #17231a; font: 16px/1.5 system-ui, sans-serif; padding: 16px; }
+    .eg-choose > div { width: min(420px, 100%); text-align: center; }
+    .eg-choose img { width: 88px; }
+    .eg-choose h1 { font: 500 1.6rem/1.2 Georgia, serif; margin: 12px 0 4px; }
+    .eg-choose p { color: #5a6459; margin: 0 0 24px; }
+    .eg-choose button { display: block; width: 100%; margin: 10px 0; padding: 14px; font: 600 1.1rem/1 system-ui, sans-serif; border-radius: 12px; border: 1px solid #22402a; background: #fff; color: #22402a; cursor: pointer; }
+    .eg-choose button:hover, .eg-choose button:focus-visible { background: #22402a; color: #fff; }
+    .eg-btn, .eg-lang { position: fixed; z-index: 99999; font: 600 12px/1 system-ui, sans-serif; padding: 8px 12px; border: 0; border-radius: 999px; background: #22402a; color: #fff; cursor: pointer; box-shadow: 0 2px 8px #0003; }
+    .eg-lang { left: 12px; bottom: 12px; background: #fff; color: #22402a; border: 1px solid #22402a; }
+    .eg-tip { position: fixed; z-index: 99998; left: 50%; transform: translateX(-50%); bottom: 12px; max-width: min(640px, calc(100vw - 180px)); background: #fffbe8; color: #17231a; border: 1px solid #e0cf8a; border-radius: 10px; padding: 8px 12px; font: 13px/1.4 system-ui, sans-serif; box-shadow: 0 2px 8px #0002; }
+    .eg-panel { position: fixed; z-index: 99999; right: 16px; bottom: 60px; width: min(460px, calc(100vw - 32px)); max-height: 70vh; overflow: auto; background: #fff; color: #17231a; border-radius: 12px; box-shadow: 0 8px 32px #0004; padding: 16px; font: 14px/1.5 system-ui, sans-serif; }
+    .eg-panel.warn { border-left: 5px solid #b0622a; }
+    @media (max-width: 700px) { .eg-tip { display: none; } }
     .eg-panel pre { white-space: pre-wrap; font: inherit; background: #f4f0e6; padding: 10px; border-radius: 8px; margin: 8px 0; }
     .eg-panel ul { margin: 6px 0; padding-left: 18px; color: #5a6459; }
     .eg-panel .row { display: flex; gap: 8px; justify-content: flex-end; margin-top: 10px; }
     .eg-panel button { font: inherit; padding: 8px 14px; border-radius: 8px; border: 1px solid #22402a; background: #fff; cursor: pointer; }
     .eg-panel button.ok { background: #22402a; color: #fff; }
   </style>
+</head>
+<body>
   <script>
-    // Writing help for the admins (needs the website API, see worker/README.md):
-    //  • "✓ Correct" next to the text being edited → a corrected version to accept or not;
-    //  • after a save, Greek texts are translated automatically on the server → the page refreshes to show them.
+    // Evergreen admin: 1) choose the language once (Greek, English or French) — the whole panel and the labels follow it;
+    // 2) every page opens with “your language” on the left and the live preview on the right;
+    // 3) on Save, the server translates what you wrote into the 7 other languages (worker/ai.js);
+    // 4) “✓ Correct” next to the field you are typing in suggests a corrected version.
     (() => {
-      const T = (el, en) => `${el} · ${en}`;
-      const toast = (html, ms) => {
-        const p = Object.assign(document.createElement('div'), { className: 'eg-panel', innerHTML: html });
+      const LANGS = { el: { name: 'Ελληνικά', ui: 'el' }, en: { name: 'English', ui: 'en-US' }, fr: { name: 'Français', ui: 'fr' } };
+      const T = {
+        el: {
+          choose: 'Επιλέξτε τη γλώσσα σας', chooseHint: 'Θα γράφετε σε αυτή τη γλώσσα· οι άλλες μεταφράζονται αυτόματα.', change: 'Αλλαγή γλώσσας',
+          tip: '✍️ Γράψτε μόνο στα ελληνικά, αριστερά. Δεξιά βλέπετε την προεπισκόπηση. Με την «Αποθήκευση», οι άλλες 7 γλώσσες μεταφράζονται αυτόματα.',
+          tipOff: '✍️ Γράψτε στα ελληνικά, αριστερά. Δεξιά βλέπετε την προεπισκόπηση. (Η αυτόματη μετάφραση δεν έχει ενεργοποιηθεί ακόμα.)',
+          translated: 'Μεταφράστηκε αυτόματα σε 7 γλώσσες', refresh: 'Ανανέωση', correct: 'Διόρθωση', noMistake: 'Κανένα λάθος', suggestion: 'Προτεινόμενη διόρθωση',
+          apply: 'Εφαρμογή', copy: 'Αντιγραφή', cancel: 'Άκυρο', unavailable: 'Η διόρθωση δεν είναι διαθέσιμη τώρα',
+          failed: '⚠️ Η αυτόματη μετάφραση απέτυχε: το κείμενο αποθηκεύτηκε μόνο στα ελληνικά. Δοκιμάστε να αποθηκεύσετε ξανά αργότερα.',
+          expires: (d) => `⚠️ Το κλειδί του ιστότοπου λήγει σε ${d} μέρες. Ενημερώστε τον Amine (+33 7 55 66 64 02).`,
+        },
+        en: {
+          choose: 'Choose your language', chooseHint: 'You will write in this language; the others are translated automatically.', change: 'Change language',
+          tip: '✍️ Write in English only, on the left. The right side shows the preview. When you Save, the 7 other languages are translated automatically.',
+          tipOff: '✍️ Write in English, on the left. The right side shows the preview. (Automatic translation is not set up yet.)',
+          translated: 'Translated into 7 languages', refresh: 'Refresh', correct: 'Correct', noMistake: 'No mistakes found', suggestion: 'Suggested correction',
+          apply: 'Apply', copy: 'Copy', cancel: 'Cancel', unavailable: 'Correction unavailable right now',
+          failed: '⚠️ Automatic translation failed: the text was saved in English only. Please save again later.',
+          expires: (d) => `⚠️ The website key expires in ${d} days. Please tell Amine (+33 7 55 66 64 02).`,
+        },
+        fr: {
+          choose: 'Choisissez votre langue', chooseHint: 'Vous écrirez dans cette langue ; les autres sont traduites automatiquement.', change: 'Changer de langue',
+          tip: '✍️ Écrivez seulement en français, à gauche. À droite, l’aperçu. À l’enregistrement, les 7 autres langues sont traduites automatiquement.',
+          tipOff: '✍️ Écrivez en français, à gauche. À droite, l’aperçu. (La traduction automatique n’est pas encore activée.)',
+          translated: 'Traduit dans 7 langues', refresh: 'Actualiser', correct: 'Corriger', noMistake: 'Aucune faute trouvée', suggestion: 'Correction proposée',
+          apply: 'Appliquer', copy: 'Copier', cancel: 'Annuler', unavailable: 'Correction indisponible pour le moment',
+          failed: '⚠️ La traduction automatique a échoué : le texte a été enregistré seulement en français. Réessayez plus tard.',
+          expires: (d) => `⚠️ La clé du site expire dans ${d} jours. Prévenez Amine (+33 7 55 66 64 02).`,
+        },
+      };
+      const store = (k, v) => { try { return v === undefined ? localStorage.getItem(k) : v === null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch { return null; } };
+      const el = (tag, props = {}, ...kids) => { const e = Object.assign(document.createElement(tag), props); e.append(...kids); return e; };
+      const lang = store('evergreen-admin-lang');
+      if (!LANGS[lang]) {
+        const box = el('div', { className: 'eg-choose', role: 'dialog', ariaLabel: 'Language' },
+          el('div', {}, el('img', { src: 'logo.png', alt: '' }), el('h1', { textContent: 'Evergreen — Admin' }),
+            el('p', { innerHTML: Object.values(T).map((t) => t.choose).join('<br>') }),
+            ...Object.entries(LANGS).map(([code, l]) => el('button', { type: 'button', lang: code, textContent: l.name, onclick: () => { store('evergreen-admin-lang', code); location.reload(); } }))));
+        document.body.append(box);
+        box.querySelector('button').focus();
+        return;
+      }
+      const t = T[lang];
+      document.documentElement.lang = lang;
+      // The panel's own menus in the same language (Sveltia reads this setting when it starts).
+      try { const p = JSON.parse(store('sveltia-cms.prefs') || '{}'); p.locale = LANGS[lang].ui; store('sveltia-cms.prefs', JSON.stringify(p)); } catch {}
+
+      const toast = (html, { ms, warn } = {}) => {
+        const p = el('div', { className: `eg-panel${warn ? ' warn' : ''}`, innerHTML: html, role: 'status' });
         document.body.append(p);
         if (ms) setTimeout(() => p.remove(), ms);
         return p;
       };
-      const editing = () => /\/(new|entries\/)/.test(location.hash);
+      const editing = () => /^#\/collections\/[^/?]+\/(new|entries\/)/.test(location.hash);
 
-      // Saves translated by the server: refresh once the editor is closed, so the new languages appear.
+      // Configuration in the admin's language, then the panel itself (pinned version + integrity check).
+      let api = '';
+      const configUrl = `config-${lang}.yml`;
+      document.head.append(el('link', { rel: 'cms-config-url', type: 'application/yaml', href: configUrl }));
+      fetch(configUrl).then((r) => r.text()).then((y) => (api = (y.match(/^\s*api_root:\s*(\S+)/m)?.[1] || '').replace(/\/api\/v3\/?$/, '')));
+      // Two public copies of the same file (same version, same integrity fingerprint): if one is down, the other is used.
+      const load = ([cdn, ...others]) => {
+        const s = el('script', { src: `${cdn}/@sveltia/cms@0.250.0/dist/sveltia-cms.js`, integrity: 'sha384-ZsKrJb+2fz2LQAmNGNALsLSBhiMyQEzAbodz2oj3+UYyp+OKIEwEJB259KvvZZo+', crossOrigin: 'anonymous' });
+        s.onload = () => document.body.append(el('script', { src: 'preview.js' }));
+        s.onerror = () => { s.remove(); if (others.length) load(others); };
+        document.body.append(s);
+      };
+      load(['https://unpkg.com', 'https://cdn.jsdelivr.net/npm']);
+
+      // Language switch, always at hand.
+      document.body.append(el('button', { className: 'eg-lang', type: 'button', textContent: `🌐 ${LANGS[lang].name}`, title: t.change, ariaLabel: t.change, onclick: () => { store('evergreen-admin-lang', null); location.reload(); } }));
+
+      // Every page opens with the admin's language on the left and the live preview on the right.
+      const focusLang = () => {
+        if (editing() && !/[?&]_locale=/.test(location.hash)) location.replace(`${location.hash}${location.hash.includes('?') ? '&' : '?'}_locale=${lang}`);
+      };
+      addEventListener('hashchange', focusLang);
+      focusLang();
+      const tip = el('div', { className: 'eg-tip', hidden: true });
+      document.body.append(tip);
+      setInterval(() => { tip.hidden = !editing(); tip.textContent = api ? t.tip : t.tipOff; }, 700);
+
+      // Hide the panel's own “Translate from… / Copy from…” buttons and menu items: translation happens by itself
+      // when saving, so they would only confuse.
+      const MENU = /^(Translate from|Copy from|Translation Options|Μετάφραση από|Αντιγραφή από|Επιλογές μετάφρασης|Traduire depuis|Copier depuis|Options de traduction)/;
+      new MutationObserver(() => {
+        for (const i of document.querySelectorAll('button .material-symbols-outlined, button [class*="icon"]')) {
+          if (i.textContent.trim() === 'translate') i.closest('button').hidden = true;
+        }
+        for (const m of document.querySelectorAll('[role="menuitem"]')) if (MENU.test(m.textContent.trim())) m.hidden = true;
+      }).observe(document.body, { childList: true, subtree: true });
+
+      // Messages from the website's server: saves translated, translation failed, key about to expire.
       const fetch0 = window.fetch;
-      window.fetch = async (...args) => {
-        const r = await fetch0(...args);
+      let warned = false;
+      window.fetch = async (input, init = {}) => {
+        const url = String(input?.url || input);
+        if (api && url.startsWith(api)) init = { ...init, headers: { ...Object.fromEntries(new Headers(init.headers || input?.headers || {})), 'X-Evergreen-Lang': lang } };
+        const r = await fetch0(input, init);
+        const notice = r.headers.get('X-Evergreen-Notice') || '';
         if (r.headers.get('X-Evergreen-Translated')) {
-          const p = toast(`<b>✓ ${T('Μεταφράστηκε αυτόματα σε 7 γλώσσες', 'Translated into 7 languages')}</b><div class="row"><button class="ok">${T('Ανανέωση', 'Refresh')}</button></div>`);
+          const p = toast(`<b>✓ ${t.translated}</b><div class="row"><button class="ok">${t.refresh}</button></div>`);
           p.querySelector('button').onclick = () => location.reload();
           const wait = setInterval(() => !editing() && (clearInterval(wait), setTimeout(() => location.reload(), 1200)), 500);
         }
+        if (notice.includes('translate-failed')) toast(t.failed, { warn: true, ms: 12000 });
+        const days = notice.match(/key-expires:(\d+)/)?.[1];
+        if (days && !warned) { warned = true; toast(t.expires(days), { warn: true }); }
         return r;
       };
 
-      // Proofreading.
-      let api = '';
-      fetch0('config.yml').then((r) => r.text()).then((y) => (api = (y.match(/^\s*api_root:\s*(\S+)/m)?.[1] || '').replace(/\/api\/v3\/?$/, '')));
-      const token = () => { try { return JSON.parse(localStorage.getItem('sveltia-cms.user') || '{}').token; } catch { return ''; } };
-      const btn = Object.assign(document.createElement('button'), { className: 'eg-btn', type: 'button', textContent: '✓ ' + T('Διόρθωση', 'Correct'), hidden: true });
+      // “✓ Correct”: proofreading of the field being typed in.
+      const token = () => { try { return JSON.parse(store('sveltia-cms.user') || '{}').token; } catch { return ''; } };
+      const btn = el('button', { className: 'eg-btn', type: 'button', textContent: `✓ ${t.correct}`, hidden: true });
+      document.body.append(btn);
       let field = null;
-      const isText = (el) => editing() && el.matches?.('textarea, input[type="text"]:not([role="searchbox"]), input:not([type]):not([role="searchbox"]), [contenteditable="true"]') && !el.closest('.eg-panel');
+      const isText = (e) => editing() && e.matches?.('textarea, input[type="text"]:not([role="searchbox"]), input:not([type]):not([role="searchbox"]), [contenteditable="true"]') && !e.closest('.eg-panel');
       document.addEventListener('focusin', (e) => {
         if (!api || !token() || !isText(e.target)) return;
         field = e.target;
         const r = field.getBoundingClientRect();
-        Object.assign(btn.style, { top: `${Math.max(8, r.top - 30)}px`, left: `${Math.max(8, r.right - 150)}px` });
+        Object.assign(btn.style, { top: `${Math.max(8, r.top - 32)}px`, left: `${Math.max(8, r.right - 140)}px` });
         btn.hidden = false;
-        document.body.append(btn);
       });
       document.addEventListener('focusout', () => setTimeout(() => ![btn, field].includes(document.activeElement) && (btn.hidden = true), 200));
       btn.addEventListener('mousedown', (e) => e.preventDefault()); // keep the focus in the field
       btn.addEventListener('click', async () => {
-        const el = field, rich = el.isContentEditable, text = rich ? el.innerText : el.value;
+        const f = field, rich = f.isContentEditable, text = rich ? f.innerText : f.value;
         if (!text.trim()) return;
         btn.textContent = '…';
         try {
           const r = await fetch0(`${api}/api/ai/proofread`, { method: 'POST', headers: { Authorization: `token ${token()}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ text }) });
           if (!r.ok) throw new Error(r.status);
           const { corrected, changes } = await r.json();
-          if (!changes.length || corrected === text) return toast(`✓ ${T('Κανένα λάθος', 'No mistakes found')}`, 2500);
-          // Rich text with bold/links: show the correction to copy, so no formatting is lost.
-          const safe = !rich || !el.querySelector('a, strong, b, em, i, ul, ol, h1, h2, h3, h4');
-          const p = toast(`<b>${T('Προτεινόμενη διόρθωση', 'Suggested correction')}</b><ul></ul><pre></pre><div class="row"><button>${T('Άκυρο', 'Cancel')}</button><button class="ok">${safe ? T('Εφαρμογή', 'Apply') : T('Αντιγραφή', 'Copy')}</button></div>`);
-          p.querySelector('ul').append(...changes.map((c) => Object.assign(document.createElement('li'), { textContent: c })));
+          if (!changes.length || corrected === text) return toast(`✓ ${t.noMistake}`, { ms: 2500 });
+          // Rich text with bold or links: the correction is copied instead, so no formatting is lost.
+          const safe = !rich || !f.querySelector('a, strong, b, em, i, ul, ol, h1, h2, h3, h4');
+          const p = toast(`<b>${t.suggestion}</b><ul></ul><pre></pre><div class="row"><button>${t.cancel}</button><button class="ok">${safe ? t.apply : t.copy}</button></div>`);
+          p.querySelector('ul').append(...changes.map((c) => el('li', { textContent: c })));
           p.querySelector('pre').textContent = corrected;
           const [cancel, ok] = p.querySelectorAll('button');
           cancel.onclick = () => p.remove();
           ok.onclick = () => {
             if (!safe) navigator.clipboard.writeText(corrected);
-            else if (rich) { el.focus(); document.getSelection().selectAllChildren(el); document.execCommand('insertText', false, corrected); }
-            else {
-              Object.getOwnPropertyDescriptor(Object.getPrototypeOf(el), 'value').set.call(el, corrected);
-              el.dispatchEvent(new Event('input', { bubbles: true }));
-            }
+            else if (rich) { f.focus(); document.getSelection().selectAllChildren(f); document.execCommand('insertText', false, corrected); }
+            else { Object.getOwnPropertyDescriptor(Object.getPrototypeOf(f), 'value').set.call(f, corrected); f.dispatchEvent(new Event('input', { bubbles: true })); }
             p.remove();
           };
-        } catch { toast(T('Η διόρθωση δεν είναι διαθέσιμη τώρα', 'Correction unavailable right now'), 3000); }
-        finally { btn.textContent = '✓ ' + T('Διόρθωση', 'Correct'); }
+        } catch { toast(t.unavailable, { ms: 3000 }); }
+        finally { btn.textContent = `✓ ${t.correct}`; }
       });
     })();
   </script>
-</head>
-<body>
-  <!-- Sveltia CMS, pinned + integrity-checked. To update: see docs/GUIDE-ADMIN.md (“Updating the admin”). Config: ./config.yml -->
-  <script src="https://unpkg.com/@sveltia/cms@0.250.0/dist/sveltia-cms.js" integrity="sha384-ZsKrJb+2fz2LQAmNGNALsLSBhiMyQEzAbodz2oj3+UYyp+OKIEwEJB259KvvZZo+" crossorigin="anonymous"></script>
 </body>
 </html>

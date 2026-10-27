@@ -9,27 +9,48 @@ en:
   name: ESC volunteers
   role: From all over Europe
   bio: Young people aged 18–30 who come through the European Solidarity Corps to live, learn and build with us for weeks or months.
+  photo: /src/assets/uploads/volunteers-painting-2026.webp
+  order: 4
+  kind: human
 fr:
   name: Les volontaires CES
   role: Venus de toute l’Europe
   bio: Des jeunes de 18 à 30 ans qui viennent avec le Corps européen de solidarité pour vivre, apprendre et construire avec nous pendant des semaines ou des mois.
+  photo: /src/assets/uploads/volunteers-painting-2026.webp
+  order: 4
+  kind: human
 es:
   name: Los voluntarios del CES
   role: De toda Europa
   bio: Jóvenes de 18 a 30 años que llegan con el Cuerpo Europeo de Solidaridad para vivir, aprender y construir con nosotros durante semanas o meses.
+  photo: /src/assets/uploads/volunteers-painting-2026.webp
+  order: 4
+  kind: human
 it:
   name: I volontari CES
   role: Da tutta Europa
   bio: Giovani tra i 18 e i 30 anni che arrivano con il Corpo europeo di solidarietà per vivere, imparare e costruire con noi per settimane o mesi.
+  photo: /src/assets/uploads/volunteers-painting-2026.webp
+  order: 4
+  kind: human
 ru:
   name: Волонтёры ESC
   role: Со всей Европы
   bio: Молодые люди 18–30 лет, которые приезжают по программе Европейского корпуса солидарности, чтобы жить, учиться и строить вместе с нами недели и месяцы.
+  photo: /src/assets/uploads/volunteers-painting-2026.webp
+  order: 4
+  kind: human
 de:
   name: Die ESK-Freiwilligen
   role: Aus ganz Europa
   bio: Junge Menschen von 18 bis 30, die über das Europäische Solidaritätskorps kommen, um wochen- oder monatelang mit uns zu leben, zu lernen und zu bauen.
+  photo: /src/assets/uploads/volunteers-painting-2026.webp
+  order: 4
+  kind: human
 pt:
   name: Os voluntários do CES
   role: De toda a Europa
   bio: Jovens dos 18 aos 30 anos que chegam através do Corpo Europeu de Solidariedade para viver, aprender e construir connosco durante semanas ou meses.
+  photo: /src/assets/uploads/volunteers-painting-2026.webp
+  order: 4
+  kind: human

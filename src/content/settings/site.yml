@@ -51,6 +51,33 @@ en:
   - label: Yoga classes in Athens — Evergreen Yoga Studios
   - label: Yoga retreats across Greece — Evergreen Yoga Retreats
   - label: Yoga teacher trainings
+  lng: 22.5862
+  instagram: https://www.instagram.com/ever.green.project/
+  yogaRetreatsUrl: https://www.evergreenyogaretreats.com
+  messenger: https://m.me/EvergreenProjectGR
+  shareImage: /src/assets/uploads/shala-savasana-wide.webp
+  formKey: ''
+  accountHolder: Evergreen Project
+  theme:
+    background: '#f4f0e6'
+    background2: '#e8e2d1'
+    text: '#17231a'
+    green: '#3d673f'
+    darkGreen: '#22402a'
+    accent: '#b0622a'
+  bic: ETHNGRAA
+  yogaStudiosUrl: https://www.evergreenyogastudios.com
+  facebook: https://www.facebook.com/EvergreenProjectGR
+  turnstileKey: ''
+  phone: +30 694 755 8519
+  lat: 38.7756
+  logo: /src/assets/uploads/logo.png
+  taxId: '996875733'
+  apiUrl: ''
+  email: evergreenecovillage@gmail.com
+  yogaTrainingsUrl: https://www.evergreenyogagreece.com
+  name: The Evergreen Project
+  iban: GR7701103910000039100269800
 fr:
   tagline: Écovillage, communauté et ashram dans la forêt du mont Kallidromo
   description: 'Écocommunauté à but non lucratif à Anavra, en Grèce centrale : volontariat du Corps européen de solidarité, retraites de yoga, construction naturelle et vie dans la nature.'
@@ -60,6 +87,33 @@ fr:
   - label: Cours de yoga à Athènes — Evergreen Yoga Studios
   - label: Retraites de yoga en Grèce — Evergreen Yoga Retreats
   - label: Formations de professeurs de yoga
+  lng: 22.5862
+  instagram: https://www.instagram.com/ever.green.project/
+  yogaRetreatsUrl: https://www.evergreenyogaretreats.com
+  messenger: https://m.me/EvergreenProjectGR
+  shareImage: /src/assets/uploads/shala-savasana-wide.webp
+  formKey: ''
+  accountHolder: Evergreen Project
+  theme:
+    background: '#f4f0e6'
+    background2: '#e8e2d1'
+    text: '#17231a'
+    green: '#3d673f'
+    darkGreen: '#22402a'
+    accent: '#b0622a'
+  bic: ETHNGRAA
+  yogaStudiosUrl: https://www.evergreenyogastudios.com
+  facebook: https://www.facebook.com/EvergreenProjectGR
+  turnstileKey: ''
+  phone: +30 694 755 8519
+  lat: 38.7756
+  logo: /src/assets/uploads/logo.png
+  taxId: '996875733'
+  apiUrl: ''
+  email: evergreenecovillage@gmail.com
+  yogaTrainingsUrl: https://www.evergreenyogagreece.com
+  name: The Evergreen Project
+  iban: GR7701103910000039100269800
 es:
   tagline: Ecoaldea, comunidad y ashram en el bosque del monte Kallidromo
   description: 'Ecocomunidad sin ánimo de lucro en Anavra, Grecia central: voluntariado del Cuerpo Europeo de Solidaridad, retiros de yoga, bioconstrucción y vida en la naturaleza.'
@@ -69,6 +123,33 @@ es:
   - label: Clases de yoga en Atenas — Evergreen Yoga Studios
   - label: Retiros de yoga en Grecia — Evergreen Yoga Retreats
   - label: Formaciones de profesores de yoga
+  lng: 22.5862
+  instagram: https://www.instagram.com/ever.green.project/
+  yogaRetreatsUrl: https://www.evergreenyogaretreats.com
+  messenger: https://m.me/EvergreenProjectGR
+  shareImage: /src/assets/uploads/shala-savasana-wide.webp
+  formKey: ''
+  accountHolder: Evergreen Project
+  theme:
+    background: '#f4f0e6'
+    background2: '#e8e2d1'
+    text: '#17231a'
+    green: '#3d673f'
+    darkGreen: '#22402a'
+    accent: '#b0622a'
+  bic: ETHNGRAA
+  yogaStudiosUrl: https://www.evergreenyogastudios.com
+  facebook: https://www.facebook.com/EvergreenProjectGR
+  turnstileKey: ''
+  phone: +30 694 755 8519
+  lat: 38.7756
+  logo: /src/assets/uploads/logo.png
+  taxId: '996875733'
+  apiUrl: ''
+  email: evergreenecovillage@gmail.com
+  yogaTrainingsUrl: https://www.evergreenyogagreece.com
+  name: The Evergreen Project
+  iban: GR7701103910000039100269800
 it:
   tagline: Ecovillaggio, comunità e ashram nel bosco del monte Kallidromo
   description: 'Ecocomunità senza scopo di lucro ad Anavra, Grecia centrale: volontariato del Corpo europeo di solidarietà, ritiri di yoga, bioedilizia e vita nella natura.'
@@ -78,6 +159,33 @@ it:
   - label: Lezioni di yoga ad Atene — Evergreen Yoga Studios
   - label: Ritiri di yoga in Grecia — Evergreen Yoga Retreats
   - label: Formazioni insegnanti di yoga
+  lng: 22.5862
+  instagram: https://www.instagram.com/ever.green.project/
+  yogaRetreatsUrl: https://www.evergreenyogaretreats.com
+  messenger: https://m.me/EvergreenProjectGR
+  shareImage: /src/assets/uploads/shala-savasana-wide.webp
+  formKey: ''
+  accountHolder: Evergreen Project
+  theme:
+    background: '#f4f0e6'
+    background2: '#e8e2d1'
+    text: '#17231a'
+    green: '#3d673f'
+    darkGreen: '#22402a'
+    accent: '#b0622a'
+  bic: ETHNGRAA
+  yogaStudiosUrl: https://www.evergreenyogastudios.com
+  facebook: https://www.facebook.com/EvergreenProjectGR
+  turnstileKey: ''
+  phone: +30 694 755 8519
+  lat: 38.7756
+  logo: /src/assets/uploads/logo.png
+  taxId: '996875733'
+  apiUrl: ''
+  email: evergreenecovillage@gmail.com
+  yogaTrainingsUrl: https://www.evergreenyogagreece.com
+  name: The Evergreen Project
+  iban: GR7701103910000039100269800
 ru:
   tagline: Экодеревня, сообщество и ашрам в лесу горы Каллидромо
   description: 'Некоммерческое экосообщество в Анавре, Центральная Греция: волонтёрство Европейского корпуса солидарности, йога-ретриты, природное строительство и жизнь на природе.'
@@ -87,6 +195,33 @@ ru:
   - label: Йога в Афинах — Evergreen Yoga Studios
   - label: Йога-ретриты по Греции — Evergreen Yoga Retreats
   - label: Обучение преподавателей йоги
+  lng: 22.5862
+  instagram: https://www.instagram.com/ever.green.project/
+  yogaRetreatsUrl: https://www.evergreenyogaretreats.com
+  messenger: https://m.me/EvergreenProjectGR
+  shareImage: /src/assets/uploads/shala-savasana-wide.webp
+  formKey: ''
+  accountHolder: Evergreen Project
+  theme:
+    background: '#f4f0e6'
+    background2: '#e8e2d1'
+    text: '#17231a'
+    green: '#3d673f'
+    darkGreen: '#22402a'
+    accent: '#b0622a'
+  bic: ETHNGRAA
+  yogaStudiosUrl: https://www.evergreenyogastudios.com
+  facebook: https://www.facebook.com/EvergreenProjectGR
+  turnstileKey: ''
+  phone: +30 694 755 8519
+  lat: 38.7756
+  logo: /src/assets/uploads/logo.png
+  taxId: '996875733'
+  apiUrl: ''
+  email: evergreenecovillage@gmail.com
+  yogaTrainingsUrl: https://www.evergreenyogagreece.com
+  name: The Evergreen Project
+  iban: GR7701103910000039100269800
 de:
   tagline: Ökodorf, Gemeinschaft und Ashram im Wald des Kallidromo-Gebirges
   description: 'Gemeinnützige Ökogemeinschaft in Anavra, Mittelgriechenland: Freiwilligendienst im Europäischen Solidaritätskorps, Yoga-Retreats, Naturbau und Leben in der Natur.'
@@ -96,6 +231,33 @@ de:
   - label: Yogakurse in Athen — Evergreen Yoga Studios
   - label: Yoga-Retreats in Griechenland — Evergreen Yoga Retreats
   - label: Yogalehrer-Ausbildungen
+  lng: 22.5862
+  instagram: https://www.instagram.com/ever.green.project/
+  yogaRetreatsUrl: https://www.evergreenyogaretreats.com
+  messenger: https://m.me/EvergreenProjectGR
+  shareImage: /src/assets/uploads/shala-savasana-wide.webp
+  formKey: ''
+  accountHolder: Evergreen Project
+  theme:
+    background: '#f4f0e6'
+    background2: '#e8e2d1'
+    text: '#17231a'
+    green: '#3d673f'
+    darkGreen: '#22402a'
+    accent: '#b0622a'
+  bic: ETHNGRAA
+  yogaStudiosUrl: https://www.evergreenyogastudios.com
+  facebook: https://www.facebook.com/EvergreenProjectGR
+  turnstileKey: ''
+  phone: +30 694 755 8519
+  lat: 38.7756
+  logo: /src/assets/uploads/logo.png
+  taxId: '996875733'
+  apiUrl: ''
+  email: evergreenecovillage@gmail.com
+  yogaTrainingsUrl: https://www.evergreenyogagreece.com
+  name: The Evergreen Project
+  iban: GR7701103910000039100269800
 pt:
   tagline: Ecoaldeia, comunidade e ashram na floresta do monte Kallidromo
   description: 'Ecocomunidade sem fins lucrativos em Anavra, Grécia Central: voluntariado do Corpo Europeu de Solidariedade, retiros de yoga, bioconstrução e vida na natureza.'
@@ -105,3 +267,30 @@ pt:
   - label: Aulas de yoga em Atenas — Evergreen Yoga Studios
   - label: Retiros de yoga na Grécia — Evergreen Yoga Retreats
   - label: Formações de professores de yoga
+  lng: 22.5862
+  instagram: https://www.instagram.com/ever.green.project/
+  yogaRetreatsUrl: https://www.evergreenyogaretreats.com
+  messenger: https://m.me/EvergreenProjectGR
+  shareImage: /src/assets/uploads/shala-savasana-wide.webp
+  formKey: ''
+  accountHolder: Evergreen Project
+  theme:
+    background: '#f4f0e6'
+    background2: '#e8e2d1'
+    text: '#17231a'
+    green: '#3d673f'
+    darkGreen: '#22402a'
+    accent: '#b0622a'
+  bic: ETHNGRAA
+  yogaStudiosUrl: https://www.evergreenyogastudios.com
+  facebook: https://www.facebook.com/EvergreenProjectGR
+  turnstileKey: ''
+  phone: +30 694 755 8519
+  lat: 38.7756
+  logo: /src/assets/uploads/logo.png
+  taxId: '996875733'
+  apiUrl: ''
+  email: evergreenecovillage@gmail.com
+  yogaTrainingsUrl: https://www.evergreenyogagreece.com
+  name: The Evergreen Project
+  iban: GR7701103910000039100269800

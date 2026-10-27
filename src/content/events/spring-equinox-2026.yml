@@ -9,21 +9,56 @@ el:
 en:
   title: Spring Awakening — Equinox retreat
   summary: 108 sun salutations, yin yoga, hiking, mandalas, a fire ceremony, hot baths and free dance.
+  start: '2026-03-20'
+  end: '2026-03-22'
+  program: retreats
+  image: /src/assets/uploads/yoga-circle-outdoor.webp
+  category: retreat
 fr:
   title: Spring Awakening — Equinox retreat
   summary: 108 salutations au soleil, yin yoga, randonnée, mandalas, cérémonie du feu, bains chauds et danse libre.
+  start: '2026-03-20'
+  end: '2026-03-22'
+  program: retreats
+  image: /src/assets/uploads/yoga-circle-outdoor.webp
+  category: retreat
 es:
   title: Spring Awakening — Equinox retreat
   summary: 108 saludos al sol, yin yoga, senderismo, mandalas, ceremonia del fuego, baños termales y danza libre.
+  start: '2026-03-20'
+  end: '2026-03-22'
+  program: retreats
+  image: /src/assets/uploads/yoga-circle-outdoor.webp
+  category: retreat
 it:
   title: Spring Awakening — Equinox retreat
   summary: 108 saluti al sole, yin yoga, escursioni, mandala, cerimonia del fuoco, bagni caldi e danza libera.
+  start: '2026-03-20'
+  end: '2026-03-22'
+  program: retreats
+  image: /src/assets/uploads/yoga-circle-outdoor.webp
+  category: retreat
 ru:
   title: Spring Awakening — Equinox retreat
   summary: 108 приветствий солнцу, инь-йога, поход, мандалы, огненная церемония, горячие ванны и свободный танец.
+  start: '2026-03-20'
+  end: '2026-03-22'
+  program: retreats
+  image: /src/assets/uploads/yoga-circle-outdoor.webp
+  category: retreat
 de:
   title: Spring Awakening — Equinox retreat
   summary: 108 Sonnengrüße, Yin Yoga, Wandern, Mandalas, Feuerzeremonie, heiße Bäder und freier Tanz.
+  start: '2026-03-20'
+  end: '2026-03-22'
+  program: retreats
+  image: /src/assets/uploads/yoga-circle-outdoor.webp
+  category: retreat
 pt:
   title: Spring Awakening — Equinox retreat
   summary: 108 saudações ao sol, yin yoga, caminhadas, mandalas, cerimónia do fogo, banhos termais e dança livre.
+  start: '2026-03-20'
+  end: '2026-03-22'
+  program: retreats
+  image: /src/assets/uploads/yoga-circle-outdoor.webp
+  category: retreat

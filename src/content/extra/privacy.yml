@@ -28,6 +28,8 @@ en:
     text: The map on the contact page comes from OpenStreetMap and some videos from YouTube (privacy-enhanced mode). They only load on the pages where they appear.
   - heading: Your rights
     text: 'Under the GDPR you can ask to access, correct or delete your data by writing to evergreenecovillage@gmail.com. Data controller: Evergreen Project (AMKE), Digeni 4, 35009 Molos, Greece.'
+  order: 99
+  inMenu: false
 fr:
   title: Confidentialité
   intro: Ce site n’utilise ni cookies, ni publicité, ni pistage.
@@ -42,6 +44,8 @@ fr:
     text: La carte de la page contact provient d’OpenStreetMap et certaines vidéos de YouTube (mode confidentialité renforcée). Ils ne se chargent que sur les pages où ils apparaissent.
   - heading: Vos droits
     text: 'Conformément au RGPD, vous pouvez demander l’accès, la rectification ou la suppression de vos données en écrivant à evergreenecovillage@gmail.com. Responsable du traitement : Evergreen Project (AMKE), Digeni 4, 35009 Molos, Grèce.'
+  order: 99
+  inMenu: false
 es:
   title: Privacidad
   intro: Este sitio no usa cookies, ni publicidad, ni rastreo.
@@ -56,6 +60,8 @@ es:
     text: El mapa de la página de contacto viene de OpenStreetMap y algunos vídeos de YouTube (modo de privacidad mejorada). Solo se cargan en las páginas donde aparecen.
   - heading: Tus derechos
     text: 'Según el RGPD puedes solicitar el acceso, la rectificación o la supresión de tus datos escribiendo a evergreenecovillage@gmail.com. Responsable del tratamiento: Evergreen Project (AMKE), Digeni 4, 35009 Molos, Grecia.'
+  order: 99
+  inMenu: false
 it:
   title: Privacy
   intro: Questo sito non usa cookie, pubblicità né tracciamento.
@@ -70,6 +76,8 @@ it:
     text: La mappa della pagina contatti proviene da OpenStreetMap e alcuni video da YouTube (modalità privacy avanzata). Si caricano solo nelle pagine in cui compaiono.
   - heading: I tuoi diritti
     text: 'In base al GDPR puoi chiedere l’accesso, la rettifica o la cancellazione dei tuoi dati scrivendo a evergreenecovillage@gmail.com. Titolare del trattamento: Evergreen Project (AMKE), Digeni 4, 35009 Molos, Grecia.'
+  order: 99
+  inMenu: false
 ru:
   title: Конфиденциальность
   intro: Этот сайт не использует cookies, рекламу и отслеживание.
@@ -84,6 +92,8 @@ ru:
     text: Карта на странице контактов загружается с OpenStreetMap, некоторые видео — с YouTube (режим повышенной конфиденциальности). Они загружаются только на тех страницах, где показаны.
   - heading: Ваши права
     text: 'Согласно GDPR вы можете запросить доступ к своим данным, их исправление или удаление, написав на evergreenecovillage@gmail.com. Оператор данных: Evergreen Project (AMKE), Digeni 4, 35009 Molos, Греция.'
+  order: 99
+  inMenu: false
 de:
   title: Datenschutz
   intro: Diese Website verwendet keine Cookies, keine Werbung und kein Tracking.
@@ -98,6 +108,8 @@ de:
     text: Die Karte auf der Kontaktseite stammt von OpenStreetMap, einige Videos von YouTube (erweiterter Datenschutzmodus). Sie werden nur auf den Seiten geladen, auf denen sie erscheinen.
   - heading: Deine Rechte
     text: 'Nach der DSGVO kannst du Auskunft, Berichtigung oder Löschung deiner Daten verlangen: schreib an evergreenecovillage@gmail.com. Verantwortlich: Evergreen Project (AMKE), Digeni 4, 35009 Molos, Griechenland.'
+  order: 99
+  inMenu: false
 pt:
   title: Privacidade
   intro: Este site não usa cookies, publicidade nem rastreamento.
@@ -112,3 +124,5 @@ pt:
     text: O mapa da página de contacto vem do OpenStreetMap e alguns vídeos do YouTube (modo de privacidade melhorada). Só são carregados nas páginas onde aparecem.
   - heading: Os seus direitos
     text: 'Ao abrigo do RGPD pode pedir o acesso, a retificação ou a eliminação dos seus dados escrevendo para evergreenecovillage@gmail.com. Responsável pelo tratamento: Evergreen Project (AMKE), Digeni 4, 35009 Molos, Grécia.'
+  order: 99
+  inMenu: false

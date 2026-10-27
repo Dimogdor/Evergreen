@@ -32,21 +32,217 @@ el:
 en:
   title: The place
   description: Tents, paths and corners of the forest.
+  order: 3
+  photos:
+  - /src/assets/uploads/misty-tents.webp
+  - /src/assets/uploads/tent-sea-2026.webp
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/tent-hammock-2.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shala-autumn.webp
+  - /src/assets/uploads/tent-forest-1.webp
+  - /src/assets/uploads/tents-fairy-lights.webp
+  - /src/assets/uploads/tent-sea-view.webp
+  - /src/assets/uploads/tent-interior-bed.webp
+  - /src/assets/uploads/tent-view-out.webp
+  - /src/assets/uploads/tent-woodstove.webp
+  - /src/assets/uploads/tents-acacia-forest.webp
+  - /src/assets/uploads/tent-forest-2.webp
+  - /src/assets/uploads/tent-hammock.webp
+  - /src/assets/uploads/tent-interior-window.webp
+  - /src/assets/uploads/tent-interior-mats.webp
+  - /src/assets/uploads/tent-white.webp
+  - /src/assets/uploads/tent-yellow-interior.webp
+  - /src/assets/uploads/cabin-firepit.webp
+  - /src/assets/uploads/signs-camping.webp
+  - /src/assets/uploads/outdoor-showers.webp
+  - /src/assets/uploads/compost-toilet.webp
+  videos: []
 fr:
   title: Le lieu
   description: Tentes, sentiers et recoins de la forêt.
+  order: 3
+  photos:
+  - /src/assets/uploads/misty-tents.webp
+  - /src/assets/uploads/tent-sea-2026.webp
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/tent-hammock-2.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shala-autumn.webp
+  - /src/assets/uploads/tent-forest-1.webp
+  - /src/assets/uploads/tents-fairy-lights.webp
+  - /src/assets/uploads/tent-sea-view.webp
+  - /src/assets/uploads/tent-interior-bed.webp
+  - /src/assets/uploads/tent-view-out.webp
+  - /src/assets/uploads/tent-woodstove.webp
+  - /src/assets/uploads/tents-acacia-forest.webp
+  - /src/assets/uploads/tent-forest-2.webp
+  - /src/assets/uploads/tent-hammock.webp
+  - /src/assets/uploads/tent-interior-window.webp
+  - /src/assets/uploads/tent-interior-mats.webp
+  - /src/assets/uploads/tent-white.webp
+  - /src/assets/uploads/tent-yellow-interior.webp
+  - /src/assets/uploads/cabin-firepit.webp
+  - /src/assets/uploads/signs-camping.webp
+  - /src/assets/uploads/outdoor-showers.webp
+  - /src/assets/uploads/compost-toilet.webp
+  videos: []
 es:
   title: El lugar
   description: Tiendas, senderos y rincones del bosque.
+  order: 3
+  photos:
+  - /src/assets/uploads/misty-tents.webp
+  - /src/assets/uploads/tent-sea-2026.webp
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/tent-hammock-2.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shala-autumn.webp
+  - /src/assets/uploads/tent-forest-1.webp
+  - /src/assets/uploads/tents-fairy-lights.webp
+  - /src/assets/uploads/tent-sea-view.webp
+  - /src/assets/uploads/tent-interior-bed.webp
+  - /src/assets/uploads/tent-view-out.webp
+  - /src/assets/uploads/tent-woodstove.webp
+  - /src/assets/uploads/tents-acacia-forest.webp
+  - /src/assets/uploads/tent-forest-2.webp
+  - /src/assets/uploads/tent-hammock.webp
+  - /src/assets/uploads/tent-interior-window.webp
+  - /src/assets/uploads/tent-interior-mats.webp
+  - /src/assets/uploads/tent-white.webp
+  - /src/assets/uploads/tent-yellow-interior.webp
+  - /src/assets/uploads/cabin-firepit.webp
+  - /src/assets/uploads/signs-camping.webp
+  - /src/assets/uploads/outdoor-showers.webp
+  - /src/assets/uploads/compost-toilet.webp
+  videos: []
 it:
   title: Il luogo
   description: Tende, sentieri e angoli del bosco.
+  order: 3
+  photos:
+  - /src/assets/uploads/misty-tents.webp
+  - /src/assets/uploads/tent-sea-2026.webp
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/tent-hammock-2.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shala-autumn.webp
+  - /src/assets/uploads/tent-forest-1.webp
+  - /src/assets/uploads/tents-fairy-lights.webp
+  - /src/assets/uploads/tent-sea-view.webp
+  - /src/assets/uploads/tent-interior-bed.webp
+  - /src/assets/uploads/tent-view-out.webp
+  - /src/assets/uploads/tent-woodstove.webp
+  - /src/assets/uploads/tents-acacia-forest.webp
+  - /src/assets/uploads/tent-forest-2.webp
+  - /src/assets/uploads/tent-hammock.webp
+  - /src/assets/uploads/tent-interior-window.webp
+  - /src/assets/uploads/tent-interior-mats.webp
+  - /src/assets/uploads/tent-white.webp
+  - /src/assets/uploads/tent-yellow-interior.webp
+  - /src/assets/uploads/cabin-firepit.webp
+  - /src/assets/uploads/signs-camping.webp
+  - /src/assets/uploads/outdoor-showers.webp
+  - /src/assets/uploads/compost-toilet.webp
+  videos: []
 ru:
   title: Место
   description: Шатры, тропинки и уголки леса.
+  order: 3
+  photos:
+  - /src/assets/uploads/misty-tents.webp
+  - /src/assets/uploads/tent-sea-2026.webp
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/tent-hammock-2.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shala-autumn.webp
+  - /src/assets/uploads/tent-forest-1.webp
+  - /src/assets/uploads/tents-fairy-lights.webp
+  - /src/assets/uploads/tent-sea-view.webp
+  - /src/assets/uploads/tent-interior-bed.webp
+  - /src/assets/uploads/tent-view-out.webp
+  - /src/assets/uploads/tent-woodstove.webp
+  - /src/assets/uploads/tents-acacia-forest.webp
+  - /src/assets/uploads/tent-forest-2.webp
+  - /src/assets/uploads/tent-hammock.webp
+  - /src/assets/uploads/tent-interior-window.webp
+  - /src/assets/uploads/tent-interior-mats.webp
+  - /src/assets/uploads/tent-white.webp
+  - /src/assets/uploads/tent-yellow-interior.webp
+  - /src/assets/uploads/cabin-firepit.webp
+  - /src/assets/uploads/signs-camping.webp
+  - /src/assets/uploads/outdoor-showers.webp
+  - /src/assets/uploads/compost-toilet.webp
+  videos: []
 de:
   title: Der Ort
   description: Zelte, Wege und Ecken des Waldes.
+  order: 3
+  photos:
+  - /src/assets/uploads/misty-tents.webp
+  - /src/assets/uploads/tent-sea-2026.webp
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/tent-hammock-2.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shala-autumn.webp
+  - /src/assets/uploads/tent-forest-1.webp
+  - /src/assets/uploads/tents-fairy-lights.webp
+  - /src/assets/uploads/tent-sea-view.webp
+  - /src/assets/uploads/tent-interior-bed.webp
+  - /src/assets/uploads/tent-view-out.webp
+  - /src/assets/uploads/tent-woodstove.webp
+  - /src/assets/uploads/tents-acacia-forest.webp
+  - /src/assets/uploads/tent-forest-2.webp
+  - /src/assets/uploads/tent-hammock.webp
+  - /src/assets/uploads/tent-interior-window.webp
+  - /src/assets/uploads/tent-interior-mats.webp
+  - /src/assets/uploads/tent-white.webp
+  - /src/assets/uploads/tent-yellow-interior.webp
+  - /src/assets/uploads/cabin-firepit.webp
+  - /src/assets/uploads/signs-camping.webp
+  - /src/assets/uploads/outdoor-showers.webp
+  - /src/assets/uploads/compost-toilet.webp
+  videos: []
 pt:
   title: O lugar
   description: Tendas, caminhos e recantos da floresta.
+  order: 3
+  photos:
+  - /src/assets/uploads/misty-tents.webp
+  - /src/assets/uploads/tent-sea-2026.webp
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/tent-hammock-2.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shala-autumn.webp
+  - /src/assets/uploads/tent-forest-1.webp
+  - /src/assets/uploads/tents-fairy-lights.webp
+  - /src/assets/uploads/tent-sea-view.webp
+  - /src/assets/uploads/tent-interior-bed.webp
+  - /src/assets/uploads/tent-view-out.webp
+  - /src/assets/uploads/tent-woodstove.webp
+  - /src/assets/uploads/tents-acacia-forest.webp
+  - /src/assets/uploads/tent-forest-2.webp
+  - /src/assets/uploads/tent-hammock.webp
+  - /src/assets/uploads/tent-interior-window.webp
+  - /src/assets/uploads/tent-interior-mats.webp
+  - /src/assets/uploads/tent-white.webp
+  - /src/assets/uploads/tent-yellow-interior.webp
+  - /src/assets/uploads/cabin-firepit.webp
+  - /src/assets/uploads/signs-camping.webp
+  - /src/assets/uploads/outdoor-showers.webp
+  - /src/assets/uploads/compost-toilet.webp
+  videos: []

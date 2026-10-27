@@ -43,6 +43,9 @@ en:
   contactTitle: Come and meet us — the forest is waiting.
   imageAlt: Final relaxation in the shala of the Evergreen Project
   yogaKicker: Yoga in the city
+  yogaImage: /src/assets/uploads/shala-roof.webp
+  escImage: /src/assets/uploads/winter-shala-posts-2026.webp
+  image: /src/assets/uploads/shala-savasana-wide.webp
 fr:
   title: Amener les citadins vers la nature — et la nature vers les citadins.
   subtitle: Vivez, apprenez et pratiquez avec nous dans une forêt d’acacias au pied du mont Kallidromo — comme volontaire, invité ou participant à une retraite.
@@ -64,6 +67,9 @@ fr:
   contactTitle: Venez nous rencontrer — la forêt vous attend.
   imageAlt: Relaxation finale dans la shala de l’Evergreen Project
   yogaKicker: Le yoga en ville
+  yogaImage: /src/assets/uploads/shala-roof.webp
+  escImage: /src/assets/uploads/winter-shala-posts-2026.webp
+  image: /src/assets/uploads/shala-savasana-wide.webp
 es:
   title: Llevar a la gente de la ciudad a la naturaleza — y la naturaleza a la gente de la ciudad.
   subtitle: Vive, aprende y practica con nosotros en un bosque de acacias al pie del monte Kallidromo — como voluntario, huésped o participante de un retiro.
@@ -85,6 +91,9 @@ es:
   contactTitle: Ven a conocernos — el bosque te espera.
   imageAlt: Relajación final en la shala del Evergreen Project
   yogaKicker: Yoga en la ciudad
+  yogaImage: /src/assets/uploads/shala-roof.webp
+  escImage: /src/assets/uploads/winter-shala-posts-2026.webp
+  image: /src/assets/uploads/shala-savasana-wide.webp
 it:
   title: Portare le persone di città nella natura — e la natura alle persone di città.
   subtitle: Vivi, impara e pratica con noi in un bosco di acacie ai piedi del monte Kallidromo — come volontario, ospite o partecipante a un ritiro.
@@ -106,6 +115,9 @@ it:
   contactTitle: Vieni a conoscerci — il bosco ti aspetta.
   imageAlt: Rilassamento finale nella shala dell’Evergreen Project
   yogaKicker: Lo yoga in città
+  yogaImage: /src/assets/uploads/shala-roof.webp
+  escImage: /src/assets/uploads/winter-shala-posts-2026.webp
+  image: /src/assets/uploads/shala-savasana-wide.webp
 ru:
   title: Приводим горожан к природе — и природу к горожанам.
   subtitle: Живите, учитесь и практикуйте вместе с нами в акациевом лесу у подножия горы Каллидромо — как волонтёр, гость или участник ретрита.
@@ -127,6 +139,9 @@ ru:
   contactTitle: Приезжайте познакомиться — лес ждёт вас.
   imageAlt: Шавасана в шале Evergreen Project
   yogaKicker: Йога в городе
+  yogaImage: /src/assets/uploads/shala-roof.webp
+  escImage: /src/assets/uploads/winter-shala-posts-2026.webp
+  image: /src/assets/uploads/shala-savasana-wide.webp
 de:
   title: Wir bringen Stadtmenschen in die Natur — und die Natur zu den Stadtmenschen.
   subtitle: Lebe, lerne und praktiziere mit uns in einem Akazienwald am Fuß des Kallidromo-Gebirges — als Freiwillige·r, Gast oder Retreat-Teilnehmer·in.
@@ -148,6 +163,9 @@ de:
   contactTitle: Komm uns besuchen — der Wald wartet auf dich.
   imageAlt: Schlussentspannung in der Shala des Evergreen Project
   yogaKicker: Yoga in der Stadt
+  yogaImage: /src/assets/uploads/shala-roof.webp
+  escImage: /src/assets/uploads/winter-shala-posts-2026.webp
+  image: /src/assets/uploads/shala-savasana-wide.webp
 pt:
   title: Levar as pessoas da cidade à natureza — e a natureza às pessoas da cidade.
   subtitle: Viva, aprenda e pratique connosco numa floresta de acácias no sopé do monte Kallidromo — como voluntário, hóspede ou participante de um retiro.
@@ -169,3 +187,6 @@ pt:
   contactTitle: Venha conhecer-nos — a floresta está à sua espera.
   imageAlt: Relaxamento final na shala do Evergreen Project
   yogaKicker: Yoga na cidade
+  yogaImage: /src/assets/uploads/shala-roof.webp
+  escImage: /src/assets/uploads/winter-shala-posts-2026.webp
+  image: /src/assets/uploads/shala-savasana-wide.webp

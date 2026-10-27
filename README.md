@@ -4,7 +4,8 @@ Site officiel de **The Evergreen Project** (écovillage, communauté et ashram �
 En ligne : **https://dimogdor.github.io/Evergreen/** · Admin : **/admin/**
 
 - **8 langues** : grec (par défaut), anglais, français, espagnol, italien, russe, allemand, portugais
-- **Aide à l'écriture dans l'admin** : bouton « ✓ Correct » (correction proposée) et traduction automatique du grec vers les 7 autres langues à chaque enregistrement
+- **Aide à l'écriture dans l'admin** : bouton « ✓ Correct » (correction proposée) et traduction automatique depuis la langue de l'admin (grec, anglais ou français) vers les 7 autres à chaque enregistrement
+- **Admin en 3 langues + aperçu en direct** : choix de la langue à la connexion (🌐 pour changer), aperçu du site à droite pendant l'écriture
 - **Espace administrateur sans code** : calendrier, photos, vidéos, textes, contacts, IBAN, couleurs, menus, petits textes de l'interface, nouvelles pages, modération des témoignages
 - **Rapide et léger** : site 100 % statique, images recompressées automatiquement (WebP, plusieurs tailles), vidéos recompressées par une GitHub Action, hébergement gratuit
 - **Responsive** : ordinateur, tablette, smartphone
@@ -53,7 +54,7 @@ Guide pas-à-pas (grec + anglais) : **[docs/GUIDE-ADMIN.md](docs/GUIDE-ADMIN.md)
 
 **Aucun compte GitHub n'est nécessaire** : les admins se connectent avec e-mail + mot de passe grâce au Worker Cloudflare gratuit ([worker/README.md](worker/README.md)), qui garde seul la clé d'accès au contenu.
 1. Déployer le Worker et y mettre les admins (`ADMINS` = `katerina@…=motdepasse;kostas@…=motdepasse`).
-2. Décommenter `base_url` et `api_root` dans `public/admin/config.yml`.
+2. Décommenter `base_url` et `api_root` dans `src/admin/config.yml`.
 3. Mettre l'adresse du Worker dans *Admin → Settings → Website API address* (active le formulaire de témoignages).
 
 ## Nom de domaine propre
@@ -64,7 +65,7 @@ Une fois le domaine acheté (ex. `evergreenproject.gr`) :
 1. Chez le registrar, DNS : 4 enregistrements **A** `@` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` et **CNAME** `www` → `dimogdor.github.io`.
 2. Dépôt → **Settings → Pages → Custom domain** : `evergreenproject.gr`, puis cocher **Enforce HTTPS**.
 3. Dépôt → **Settings → Secrets and variables → Actions → Variables** : `SITE_URL` = `https://evergreenproject.gr`, `BASE_PATH` = `/`. Relancer le déploiement (onglet Actions).
-4. `public/admin/config.yml` : `site_url` / `display_url` ; Worker : ajouter le domaine à `ALLOWED_ORIGINS` et changer `SITE_URL`.
+4. Worker : ajouter le domaine à `ALLOWED_ORIGINS` et changer `SITE_URL`.
 
 ## Quitter GitHub (préparé)
 
@@ -72,7 +73,7 @@ Le site est 100 % statique et le contenu n'est que des fichiers YAML + photos : 
 1. **Hébergement → Cloudflare Pages** (gratuit, illimité) : Workers & Pages → Create → Pages → Connect to Git → ce dépôt ; *Build command* `npm run build`, *Output* `dist` ; variables `SITE_URL` = `https://evergreenproject.gr`, `BASE_PATH` = `/`. Brancher le domaine dans *Custom domains*. Les en-têtes de sécurité/cache de `public/_headers` y sont appliqués automatiquement.
 2. Désactiver GitHub Pages et supprimer `.github/workflows/deploy.yml` ; le dépôt peut alors devenir **privé**.
 3. Notifications de témoignages par e-mail : activer Email Routing sur le domaine (voir [worker/README.md](worker/README.md)).
-4. Stockage ailleurs que GitHub plus tard (GitLab, Codeberg…) : changer `backend` dans `public/admin/config.yml` et les fonctions `gh`/`commit` du Worker. Note : la recompression automatique des vidéos est une GitHub Action — ailleurs, privilégier les liens YouTube.
+4. Stockage ailleurs que GitHub plus tard (GitLab, Codeberg…) : changer `backend` dans `src/admin/config.yml` et les fonctions `gh`/`commit` du Worker. Note : la recompression automatique des vidéos est une GitHub Action — ailleurs, privilégier les liens YouTube.
 
 ## Développement
 

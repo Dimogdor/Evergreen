@@ -54,6 +54,18 @@ en:
 
     ### Small daily joys
     Our hens give us small but very fresh eggs from spring onwards, the wild herbs of Kallidromo become teas and natural soaps, and every early summer we plant the vegetables of the season together.
+  image: /src/assets/uploads/forest-canopy.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  order: 6
 fr:
   title: Permaculture & soin de la terre
   summary: Cultiver, prendre soin de la forêt, gérer l’eau et les déchets — le travail quotidien d’un écovillage.
@@ -76,6 +88,18 @@ fr:
 
     ### Petites joies du quotidien
     Dès le printemps, nos poules nous offrent des œufs petits mais très frais, les herbes sauvages du Kallidromo deviennent tisanes et savons naturels, et chaque début d’été nous plantons ensemble les légumes de saison.
+  image: /src/assets/uploads/forest-canopy.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  order: 6
 es:
   title: Permacultura y cuidado de la tierra
   summary: Cultivar alimentos, cuidar el bosque, gestionar el agua y los residuos — el trabajo diario de una ecoaldea.
@@ -98,6 +122,18 @@ es:
 
     ### Pequeñas alegrías diarias
     Desde la primavera nuestras gallinas nos regalan huevos pequeños pero muy frescos, las hierbas silvestres del Kallidromo se convierten en infusiones y jabones naturales, y cada comienzo de verano plantamos juntos las verduras de temporada.
+  image: /src/assets/uploads/forest-canopy.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  order: 6
 it:
   title: Permacultura e cura della terra
   summary: Coltivare cibo, curare il bosco, gestire acqua e rifiuti — il lavoro quotidiano di un ecovillaggio.
@@ -120,6 +156,18 @@ it:
 
     ### Piccole gioie quotidiane
     Dalla primavera le nostre galline ci regalano uova piccole ma freschissime, le erbe selvatiche del Kallidromo diventano tisane e saponi naturali, e ogni inizio estate piantiamo insieme le verdure di stagione.
+  image: /src/assets/uploads/forest-canopy.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  order: 6
 ru:
   title: Пермакультура и забота о земле
   summary: Выращивание еды, уход за лесом, управление водой и отходами — повседневная работа экодеревни.
@@ -142,6 +190,18 @@ ru:
 
     ### Маленькие радости каждого дня
     С весны наши куры несут маленькие, но очень свежие яйца, дикие травы Каллидромо превращаются в чаи и натуральное мыло, а в начале каждого лета мы вместе сажаем сезонные овощи.
+  image: /src/assets/uploads/forest-canopy.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  order: 6
 de:
   title: Permakultur & Landpflege
   summary: Lebensmittel anbauen, den Wald pflegen, Wasser und Abfall managen — die tägliche Arbeit in einem Ökodorf.
@@ -164,6 +224,18 @@ de:
 
     ### Kleine tägliche Freuden
     Ab dem Frühling legen unsere Hühner kleine, aber ganz frische Eier, die Wildkräuter des Kallidromo werden zu Tees und Naturseifen, und jeden Frühsommer pflanzen wir gemeinsam das Gemüse der Saison.
+  image: /src/assets/uploads/forest-canopy.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  order: 6
 pt:
   title: Permacultura e cuidado da terra
   summary: Cultivar alimentos, cuidar da floresta, gerir a água e os resíduos — o trabalho diário de uma ecoaldeia.
@@ -186,3 +258,15 @@ pt:
 
     ### Pequenas alegrias diárias
     A partir da primavera as nossas galinhas dão-nos ovos pequenos mas fresquíssimos, as ervas silvestres do Kallidromo tornam-se chás e sabonetes naturais, e em cada início de verão plantamos juntos os legumes da época.
+  image: /src/assets/uploads/forest-canopy.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  order: 6

@@ -9,21 +9,56 @@ el:
 en:
   title: Hands on Earth — natural building workshop
   summary: A 25-day living workshop in the forest — earth, cob, wood. Join for 3 to 25 days; accommodation, vegetarian meals and all activities included.
+  start: '2026-10-15'
+  end: '2026-11-08'
+  program: natural-building
+  image: /src/assets/uploads/build-site-2026.webp
+  category: workshop
 fr:
   title: Hands on Earth — atelier de construction naturelle
   summary: Un atelier vivant de 25 jours en forêt — terre, bauge, bois. Venez de 3 à 25 jours ; hébergement, repas végétariens et toutes les activités inclus.
+  start: '2026-10-15'
+  end: '2026-11-08'
+  program: natural-building
+  image: /src/assets/uploads/build-site-2026.webp
+  category: workshop
 es:
   title: Hands on Earth — taller de bioconstrucción
   summary: Un taller vivo de 25 días en el bosque — tierra, cob, madera. Ven de 3 a 25 días; incluye alojamiento, comidas vegetarianas y todas las actividades.
+  start: '2026-10-15'
+  end: '2026-11-08'
+  program: natural-building
+  image: /src/assets/uploads/build-site-2026.webp
+  category: workshop
 it:
   title: Hands on Earth — workshop di bioedilizia
   summary: Un laboratorio vivente di 25 giorni nel bosco — terra, cob, legno. Vieni da 3 a 25 giorni; alloggio, pasti vegetariani e tutte le attività inclusi.
+  start: '2026-10-15'
+  end: '2026-11-08'
+  program: natural-building
+  image: /src/assets/uploads/build-site-2026.webp
+  category: workshop
 ru:
   title: Hands on Earth — мастерская природного строительства
   summary: 25-дневная живая мастерская в лесу — земля, глина, дерево. Приезжайте на срок от 3 до 25 дней; проживание, вегетарианское питание и все занятия включены.
+  start: '2026-10-15'
+  end: '2026-11-08'
+  program: natural-building
+  image: /src/assets/uploads/build-site-2026.webp
+  category: workshop
 de:
   title: Hands on Earth — Naturbau-Workshop
   summary: Eine 25-tägige lebendige Werkstatt im Wald — Erde, Cob, Holz. Komm für 3 bis 25 Tage; Unterkunft, vegetarische Mahlzeiten und alle Aktivitäten inklusive.
+  start: '2026-10-15'
+  end: '2026-11-08'
+  program: natural-building
+  image: /src/assets/uploads/build-site-2026.webp
+  category: workshop
 pt:
   title: Hands on Earth — workshop de bioconstrução
   summary: Uma oficina viva de 25 dias na floresta — terra, cob, madeira. Venha de 3 a 25 dias; alojamento, refeições vegetarianas e todas as atividades incluídos.
+  start: '2026-10-15'
+  end: '2026-11-08'
+  program: natural-building
+  image: /src/assets/uploads/build-site-2026.webp
+  category: workshop

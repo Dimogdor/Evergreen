@@ -12,27 +12,69 @@ en:
   title: 200-hour Vinyasa yoga teacher training (intensive)
   summary: 22 days of training at the ashram with Evergreen Yoga Studios — Yoga Alliance RYT-200 certification.
   linkLabel: Details on Evergreen Yoga
+  start: '2026-07-17'
+  end: '2026-08-07'
+  link: https://www.evergreenyogagreece.com/retreats
+  program: retreats
+  image: /src/assets/uploads/ytt-study.webp
+  category: yoga
 fr:
   title: Formation intensive de professeur de vinyasa yoga (200 h)
   summary: 22 jours de formation à l’ashram avec Evergreen Yoga Studios — certification Yoga Alliance RYT-200.
   linkLabel: Détails sur Evergreen Yoga
+  start: '2026-07-17'
+  end: '2026-08-07'
+  link: https://www.evergreenyogagreece.com/retreats
+  program: retreats
+  image: /src/assets/uploads/ytt-study.webp
+  category: yoga
 es:
   title: Formación intensiva de profesores de vinyasa yoga (200 h)
   summary: 22 días de formación en el ashram con Evergreen Yoga Studios — certificación Yoga Alliance RYT-200.
   linkLabel: Detalles en Evergreen Yoga
+  start: '2026-07-17'
+  end: '2026-08-07'
+  link: https://www.evergreenyogagreece.com/retreats
+  program: retreats
+  image: /src/assets/uploads/ytt-study.webp
+  category: yoga
 it:
   title: Formazione intensiva insegnanti di vinyasa yoga (200 ore)
   summary: 22 giorni di formazione all’ashram con Evergreen Yoga Studios — certificazione Yoga Alliance RYT-200.
   linkLabel: Dettagli su Evergreen Yoga
+  start: '2026-07-17'
+  end: '2026-08-07'
+  link: https://www.evergreenyogagreece.com/retreats
+  program: retreats
+  image: /src/assets/uploads/ytt-study.webp
+  category: yoga
 ru:
   title: Интенсивное обучение преподавателей виньяса-йоги (200 часов)
   summary: 22 дня обучения в ашраме с Evergreen Yoga Studios — сертификат Yoga Alliance RYT-200.
   linkLabel: Подробнее на Evergreen Yoga
+  start: '2026-07-17'
+  end: '2026-08-07'
+  link: https://www.evergreenyogagreece.com/retreats
+  program: retreats
+  image: /src/assets/uploads/ytt-study.webp
+  category: yoga
 de:
   title: Intensive Vinyasa-Yogalehrerausbildung (200 Stunden)
   summary: 22 Tage Ausbildung im Ashram mit den Evergreen Yoga Studios — Zertifizierung Yoga Alliance RYT-200.
   linkLabel: Details bei Evergreen Yoga
+  start: '2026-07-17'
+  end: '2026-08-07'
+  link: https://www.evergreenyogagreece.com/retreats
+  program: retreats
+  image: /src/assets/uploads/ytt-study.webp
+  category: yoga
 pt:
   title: Formação intensiva de professores de vinyasa yoga (200 h)
   summary: 22 dias de formação no ashram com os Evergreen Yoga Studios — certificação Yoga Alliance RYT-200.
   linkLabel: Detalhes no Evergreen Yoga
+  start: '2026-07-17'
+  end: '2026-08-07'
+  link: https://www.evergreenyogagreece.com/retreats
+  program: retreats
+  image: /src/assets/uploads/ytt-study.webp
+  category: yoga

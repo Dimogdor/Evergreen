@@ -27,21 +27,182 @@ el:
 en:
   title: The animals
   description: Dogs, cats, hens — and our mountain neighbours.
+  order: 6
+  photos:
+  - /src/assets/uploads/dog-mountain-view.webp
+  - /src/assets/uploads/cat-on-frame-2026.webp
+  - /src/assets/uploads/cat-and-dog-building-2026.webp
+  - /src/assets/uploads/cat-supervisor-2026.webp
+  - /src/assets/uploads/cat-tent-frame-2026.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/kitten-shoulder.webp
+  - /src/assets/uploads/cat-blanket.webp
+  - /src/assets/uploads/dogs-play.webp
+  - /src/assets/uploads/dogs-meadow.webp
+  - /src/assets/uploads/dog-pillow.webp
+  - /src/assets/uploads/dog-hug.webp
+  - /src/assets/uploads/dog-shala.webp
+  - /src/assets/uploads/white-dog.webp
+  - /src/assets/uploads/dog-rest.webp
+  - /src/assets/uploads/deck-dog.webp
+  - /src/assets/uploads/lakis-fields.webp
+  - /src/assets/uploads/lakis-path.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
 fr:
   title: Les animaux
   description: Chiens, chats, poules — et nos voisins de la montagne.
+  order: 6
+  photos:
+  - /src/assets/uploads/dog-mountain-view.webp
+  - /src/assets/uploads/cat-on-frame-2026.webp
+  - /src/assets/uploads/cat-and-dog-building-2026.webp
+  - /src/assets/uploads/cat-supervisor-2026.webp
+  - /src/assets/uploads/cat-tent-frame-2026.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/kitten-shoulder.webp
+  - /src/assets/uploads/cat-blanket.webp
+  - /src/assets/uploads/dogs-play.webp
+  - /src/assets/uploads/dogs-meadow.webp
+  - /src/assets/uploads/dog-pillow.webp
+  - /src/assets/uploads/dog-hug.webp
+  - /src/assets/uploads/dog-shala.webp
+  - /src/assets/uploads/white-dog.webp
+  - /src/assets/uploads/dog-rest.webp
+  - /src/assets/uploads/deck-dog.webp
+  - /src/assets/uploads/lakis-fields.webp
+  - /src/assets/uploads/lakis-path.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
 es:
   title: Los animales
   description: Perros, gatos, gallinas — y nuestros vecinos de la montaña.
+  order: 6
+  photos:
+  - /src/assets/uploads/dog-mountain-view.webp
+  - /src/assets/uploads/cat-on-frame-2026.webp
+  - /src/assets/uploads/cat-and-dog-building-2026.webp
+  - /src/assets/uploads/cat-supervisor-2026.webp
+  - /src/assets/uploads/cat-tent-frame-2026.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/kitten-shoulder.webp
+  - /src/assets/uploads/cat-blanket.webp
+  - /src/assets/uploads/dogs-play.webp
+  - /src/assets/uploads/dogs-meadow.webp
+  - /src/assets/uploads/dog-pillow.webp
+  - /src/assets/uploads/dog-hug.webp
+  - /src/assets/uploads/dog-shala.webp
+  - /src/assets/uploads/white-dog.webp
+  - /src/assets/uploads/dog-rest.webp
+  - /src/assets/uploads/deck-dog.webp
+  - /src/assets/uploads/lakis-fields.webp
+  - /src/assets/uploads/lakis-path.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
 it:
   title: Gli animali
   description: Cani, gatti, galline — e i nostri vicini di montagna.
+  order: 6
+  photos:
+  - /src/assets/uploads/dog-mountain-view.webp
+  - /src/assets/uploads/cat-on-frame-2026.webp
+  - /src/assets/uploads/cat-and-dog-building-2026.webp
+  - /src/assets/uploads/cat-supervisor-2026.webp
+  - /src/assets/uploads/cat-tent-frame-2026.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/kitten-shoulder.webp
+  - /src/assets/uploads/cat-blanket.webp
+  - /src/assets/uploads/dogs-play.webp
+  - /src/assets/uploads/dogs-meadow.webp
+  - /src/assets/uploads/dog-pillow.webp
+  - /src/assets/uploads/dog-hug.webp
+  - /src/assets/uploads/dog-shala.webp
+  - /src/assets/uploads/white-dog.webp
+  - /src/assets/uploads/dog-rest.webp
+  - /src/assets/uploads/deck-dog.webp
+  - /src/assets/uploads/lakis-fields.webp
+  - /src/assets/uploads/lakis-path.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
 ru:
   title: Животные
   description: Собаки, кошки, куры — и наши горные соседи.
+  order: 6
+  photos:
+  - /src/assets/uploads/dog-mountain-view.webp
+  - /src/assets/uploads/cat-on-frame-2026.webp
+  - /src/assets/uploads/cat-and-dog-building-2026.webp
+  - /src/assets/uploads/cat-supervisor-2026.webp
+  - /src/assets/uploads/cat-tent-frame-2026.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/kitten-shoulder.webp
+  - /src/assets/uploads/cat-blanket.webp
+  - /src/assets/uploads/dogs-play.webp
+  - /src/assets/uploads/dogs-meadow.webp
+  - /src/assets/uploads/dog-pillow.webp
+  - /src/assets/uploads/dog-hug.webp
+  - /src/assets/uploads/dog-shala.webp
+  - /src/assets/uploads/white-dog.webp
+  - /src/assets/uploads/dog-rest.webp
+  - /src/assets/uploads/deck-dog.webp
+  - /src/assets/uploads/lakis-fields.webp
+  - /src/assets/uploads/lakis-path.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
 de:
   title: Die Tiere
   description: Hunde, Katzen, Hühner — und unsere Nachbarn am Berg.
+  order: 6
+  photos:
+  - /src/assets/uploads/dog-mountain-view.webp
+  - /src/assets/uploads/cat-on-frame-2026.webp
+  - /src/assets/uploads/cat-and-dog-building-2026.webp
+  - /src/assets/uploads/cat-supervisor-2026.webp
+  - /src/assets/uploads/cat-tent-frame-2026.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/kitten-shoulder.webp
+  - /src/assets/uploads/cat-blanket.webp
+  - /src/assets/uploads/dogs-play.webp
+  - /src/assets/uploads/dogs-meadow.webp
+  - /src/assets/uploads/dog-pillow.webp
+  - /src/assets/uploads/dog-hug.webp
+  - /src/assets/uploads/dog-shala.webp
+  - /src/assets/uploads/white-dog.webp
+  - /src/assets/uploads/dog-rest.webp
+  - /src/assets/uploads/deck-dog.webp
+  - /src/assets/uploads/lakis-fields.webp
+  - /src/assets/uploads/lakis-path.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
 pt:
   title: Os animais
   description: Cães, gatos, galinhas — e os nossos vizinhos da montanha.
+  order: 6
+  photos:
+  - /src/assets/uploads/dog-mountain-view.webp
+  - /src/assets/uploads/cat-on-frame-2026.webp
+  - /src/assets/uploads/cat-and-dog-building-2026.webp
+  - /src/assets/uploads/cat-supervisor-2026.webp
+  - /src/assets/uploads/cat-tent-frame-2026.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/kitten-shoulder.webp
+  - /src/assets/uploads/cat-blanket.webp
+  - /src/assets/uploads/dogs-play.webp
+  - /src/assets/uploads/dogs-meadow.webp
+  - /src/assets/uploads/dog-pillow.webp
+  - /src/assets/uploads/dog-hug.webp
+  - /src/assets/uploads/dog-shala.webp
+  - /src/assets/uploads/white-dog.webp
+  - /src/assets/uploads/dog-rest.webp
+  - /src/assets/uploads/deck-dog.webp
+  - /src/assets/uploads/lakis-fields.webp
+  - /src/assets/uploads/lakis-path.webp
+  - /src/assets/uploads/fresh-eggs.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp

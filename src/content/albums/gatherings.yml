@@ -40,21 +40,273 @@ el:
 en:
   title: Gatherings & community
   description: Circles, shared tables, herbs, fires and hot springs.
+  order: 2
+  photos:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/long-table.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/flower-crown.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/soap-flowers.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/drum-circle.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/friends-resting.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/circle-dance-2.webp
+  - /src/assets/uploads/spring-gathering.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/friends-forest.webp
+  - /src/assets/uploads/wildflowers-hands.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/crafts-table.webp
+  videos:
+  - title: Opening season gathering — 2025
+    file: /uploads/videos/opening-season-2025.mp4
+  - title: Season set-up — 2026
+    file: /uploads/videos/season-setup-2026.mp4
+  - title: Circles in the forest
+    file: /uploads/videos/forest-circles.mp4
 fr:
   title: Rassemblements & communauté
   description: Cercles, tablées partagées, herbes, feux et sources chaudes.
+  order: 2
+  photos:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/long-table.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/flower-crown.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/soap-flowers.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/drum-circle.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/friends-resting.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/circle-dance-2.webp
+  - /src/assets/uploads/spring-gathering.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/friends-forest.webp
+  - /src/assets/uploads/wildflowers-hands.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/crafts-table.webp
+  videos:
+  - title: Opening season gathering — 2025
+    file: /uploads/videos/opening-season-2025.mp4
+  - title: Season set-up — 2026
+    file: /uploads/videos/season-setup-2026.mp4
+  - title: Circles in the forest
+    file: /uploads/videos/forest-circles.mp4
 es:
   title: Encuentros y comunidad
   description: Círculos, mesas compartidas, hierbas, fuegos y aguas termales.
+  order: 2
+  photos:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/long-table.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/flower-crown.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/soap-flowers.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/drum-circle.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/friends-resting.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/circle-dance-2.webp
+  - /src/assets/uploads/spring-gathering.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/friends-forest.webp
+  - /src/assets/uploads/wildflowers-hands.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/crafts-table.webp
+  videos:
+  - title: Opening season gathering — 2025
+    file: /uploads/videos/opening-season-2025.mp4
+  - title: Season set-up — 2026
+    file: /uploads/videos/season-setup-2026.mp4
+  - title: Circles in the forest
+    file: /uploads/videos/forest-circles.mp4
 it:
   title: Incontri e comunità
   description: Cerchi, tavolate condivise, erbe, fuochi e sorgenti termali.
+  order: 2
+  photos:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/long-table.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/flower-crown.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/soap-flowers.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/drum-circle.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/friends-resting.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/circle-dance-2.webp
+  - /src/assets/uploads/spring-gathering.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/friends-forest.webp
+  - /src/assets/uploads/wildflowers-hands.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/crafts-table.webp
+  videos:
+  - title: Opening season gathering — 2025
+    file: /uploads/videos/opening-season-2025.mp4
+  - title: Season set-up — 2026
+    file: /uploads/videos/season-setup-2026.mp4
+  - title: Circles in the forest
+    file: /uploads/videos/forest-circles.mp4
 ru:
   title: Встречи и сообщество
   description: Круги, общие столы, травы, костры и горячие источники.
+  order: 2
+  photos:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/long-table.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/flower-crown.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/soap-flowers.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/drum-circle.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/friends-resting.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/circle-dance-2.webp
+  - /src/assets/uploads/spring-gathering.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/friends-forest.webp
+  - /src/assets/uploads/wildflowers-hands.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/crafts-table.webp
+  videos:
+  - title: Opening season gathering — 2025
+    file: /uploads/videos/opening-season-2025.mp4
+  - title: Season set-up — 2026
+    file: /uploads/videos/season-setup-2026.mp4
+  - title: Circles in the forest
+    file: /uploads/videos/forest-circles.mp4
 de:
   title: Gatherings & Gemeinschaft
   description: Kreise, geteilte Tafeln, Kräuter, Feuer und heiße Quellen.
+  order: 2
+  photos:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/long-table.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/flower-crown.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/soap-flowers.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/drum-circle.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/friends-resting.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/circle-dance-2.webp
+  - /src/assets/uploads/spring-gathering.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/friends-forest.webp
+  - /src/assets/uploads/wildflowers-hands.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/crafts-table.webp
+  videos:
+  - title: Opening season gathering — 2025
+    file: /uploads/videos/opening-season-2025.mp4
+  - title: Season set-up — 2026
+    file: /uploads/videos/season-setup-2026.mp4
+  - title: Circles in the forest
+    file: /uploads/videos/forest-circles.mp4
 pt:
   title: Encontros e comunidade
   description: Círculos, mesas partilhadas, ervas, fogueiras e termas.
+  order: 2
+  photos:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/long-table.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/flower-crown.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/soap-flowers.webp
+  - /src/assets/uploads/herbs-table.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/drum-circle.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/friends-resting.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/circle-dance-2.webp
+  - /src/assets/uploads/spring-gathering.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/friends-forest.webp
+  - /src/assets/uploads/wildflowers-hands.webp
+  - /src/assets/uploads/kitchen-team.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/garden-table.webp
+  - /src/assets/uploads/crafts-table.webp
+  videos:
+  - title: Opening season gathering — 2025
+    file: /uploads/videos/opening-season-2025.mp4
+  - title: Season set-up — 2026
+    file: /uploads/videos/season-setup-2026.mp4
+  - title: Circles in the forest
+    file: /uploads/videos/forest-circles.mp4

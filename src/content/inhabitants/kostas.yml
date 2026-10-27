@@ -7,21 +7,35 @@ el:
 en:
   role: Co-founder
   bio: Katerina’s partner and co-founder of the Evergreen Project. Together they are the heart of the project and of daily life on the land.
+  order: 2
+  kind: human
 fr:
   role: Cofondateur
   bio: Compagnon de Katerina et cofondateur de l’Evergreen Project. Ensemble, ils sont le cœur du projet et de la vie quotidienne sur le terrain.
+  order: 2
+  kind: human
 es:
   role: Cofundador
   bio: Pareja de Katerina y cofundador del Evergreen Project. Juntos son el corazón del proyecto y de la vida diaria en la tierra.
+  order: 2
+  kind: human
 it:
   role: Cofondatore
   bio: Compagno di Katerina e cofondatore dell’Evergreen Project. Insieme sono il cuore del progetto e della vita quotidiana sulla terra.
+  order: 2
+  kind: human
 ru:
   role: Сооснователь
   bio: Спутник Катерины и сооснователь Evergreen Project. Вместе они — сердце проекта и повседневной жизни на земле.
+  order: 2
+  kind: human
 de:
   role: Mitgründer
   bio: Katerinas Partner und Mitgründer des Evergreen Project. Gemeinsam sind sie das Herz des Projekts und des Alltags auf dem Land.
+  order: 2
+  kind: human
 pt:
   role: Cofundador
   bio: Companheiro da Katerina e cofundador do Evergreen Project. Juntos são o coração do projeto e do dia a dia na terra.
+  order: 2
+  kind: human

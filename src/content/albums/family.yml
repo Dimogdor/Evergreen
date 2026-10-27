@@ -12,21 +12,77 @@ el:
 en:
   title: Family retreat
   description: Little feet, big adventures in the heart of the forest.
+  order: 7
+  photos:
+  - /src/assets/uploads/family-picnic.webp
+  - /src/assets/uploads/kids-forest.webp
+  - /src/assets/uploads/kids-tree.webp
+  - /src/assets/uploads/tree-climb.webp
+  - /src/assets/uploads/tree-climb-2.webp
+  - /src/assets/uploads/tree-climb-winter.webp
 fr:
   title: Retraite en famille
   description: Petits pieds, grandes aventures au cœur de la forêt.
+  order: 7
+  photos:
+  - /src/assets/uploads/family-picnic.webp
+  - /src/assets/uploads/kids-forest.webp
+  - /src/assets/uploads/kids-tree.webp
+  - /src/assets/uploads/tree-climb.webp
+  - /src/assets/uploads/tree-climb-2.webp
+  - /src/assets/uploads/tree-climb-winter.webp
 es:
   title: Retiro en familia
   description: Pies pequeños, grandes aventuras en el corazón del bosque.
+  order: 7
+  photos:
+  - /src/assets/uploads/family-picnic.webp
+  - /src/assets/uploads/kids-forest.webp
+  - /src/assets/uploads/kids-tree.webp
+  - /src/assets/uploads/tree-climb.webp
+  - /src/assets/uploads/tree-climb-2.webp
+  - /src/assets/uploads/tree-climb-winter.webp
 it:
   title: Ritiro per famiglie
   description: Piccoli piedi, grandi avventure nel cuore del bosco.
+  order: 7
+  photos:
+  - /src/assets/uploads/family-picnic.webp
+  - /src/assets/uploads/kids-forest.webp
+  - /src/assets/uploads/kids-tree.webp
+  - /src/assets/uploads/tree-climb.webp
+  - /src/assets/uploads/tree-climb-2.webp
+  - /src/assets/uploads/tree-climb-winter.webp
 ru:
   title: Семейный ретрит
   description: Маленькие ножки, большие приключения в сердце леса.
+  order: 7
+  photos:
+  - /src/assets/uploads/family-picnic.webp
+  - /src/assets/uploads/kids-forest.webp
+  - /src/assets/uploads/kids-tree.webp
+  - /src/assets/uploads/tree-climb.webp
+  - /src/assets/uploads/tree-climb-2.webp
+  - /src/assets/uploads/tree-climb-winter.webp
 de:
   title: Familien-Retreat
   description: Kleine Füße, große Abenteuer im Herzen des Waldes.
+  order: 7
+  photos:
+  - /src/assets/uploads/family-picnic.webp
+  - /src/assets/uploads/kids-forest.webp
+  - /src/assets/uploads/kids-tree.webp
+  - /src/assets/uploads/tree-climb.webp
+  - /src/assets/uploads/tree-climb-2.webp
+  - /src/assets/uploads/tree-climb-winter.webp
 pt:
   title: Retiro em família
   description: Pés pequenos, grandes aventuras no coração da floresta.
+  order: 7
+  photos:
+  - /src/assets/uploads/family-picnic.webp
+  - /src/assets/uploads/kids-forest.webp
+  - /src/assets/uploads/kids-tree.webp
+  - /src/assets/uploads/tree-climb.webp
+  - /src/assets/uploads/tree-climb-2.webp
+  - /src/assets/uploads/tree-climb-winter.webp

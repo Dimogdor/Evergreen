@@ -40,21 +40,273 @@ el:
 en:
   title: Nature & hiking
   description: Kallidromo, its lakes and the sea from above.
+  order: 5
+  photos:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/hikers.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/forest-dusk.webp
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/kallidromo-peak.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  - /src/assets/uploads/lake-reflections.webp
+  - /src/assets/uploads/lake-dog.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
+  - /src/assets/uploads/meadow-freedom.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/forest-hike.webp
+  - /src/assets/uploads/forest-walker.webp
+  - /src/assets/uploads/misty-mountains.webp
+  - /src/assets/uploads/plateau-spring.webp
+  - /src/assets/uploads/hill-lake.webp
+  - /src/assets/uploads/autumn-forest.webp
+  - /src/assets/uploads/forest-canopy.webp
+  - /src/assets/uploads/sunset-forest.webp
+  - /src/assets/uploads/dusk-gulf.webp
+  - /src/assets/uploads/lichadonisia.webp
+  videos: []
 fr:
   title: Nature & randonnée
   description: Le Kallidromo, ses lacs et la mer vue d’en haut.
+  order: 5
+  photos:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/hikers.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/forest-dusk.webp
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/kallidromo-peak.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  - /src/assets/uploads/lake-reflections.webp
+  - /src/assets/uploads/lake-dog.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
+  - /src/assets/uploads/meadow-freedom.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/forest-hike.webp
+  - /src/assets/uploads/forest-walker.webp
+  - /src/assets/uploads/misty-mountains.webp
+  - /src/assets/uploads/plateau-spring.webp
+  - /src/assets/uploads/hill-lake.webp
+  - /src/assets/uploads/autumn-forest.webp
+  - /src/assets/uploads/forest-canopy.webp
+  - /src/assets/uploads/sunset-forest.webp
+  - /src/assets/uploads/dusk-gulf.webp
+  - /src/assets/uploads/lichadonisia.webp
+  videos: []
 es:
   title: Naturaleza y senderismo
   description: El Kallidromo, sus lagos y el mar desde arriba.
+  order: 5
+  photos:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/hikers.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/forest-dusk.webp
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/kallidromo-peak.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  - /src/assets/uploads/lake-reflections.webp
+  - /src/assets/uploads/lake-dog.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
+  - /src/assets/uploads/meadow-freedom.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/forest-hike.webp
+  - /src/assets/uploads/forest-walker.webp
+  - /src/assets/uploads/misty-mountains.webp
+  - /src/assets/uploads/plateau-spring.webp
+  - /src/assets/uploads/hill-lake.webp
+  - /src/assets/uploads/autumn-forest.webp
+  - /src/assets/uploads/forest-canopy.webp
+  - /src/assets/uploads/sunset-forest.webp
+  - /src/assets/uploads/dusk-gulf.webp
+  - /src/assets/uploads/lichadonisia.webp
+  videos: []
 it:
   title: Natura ed escursioni
   description: Il Kallidromo, i suoi laghi e il mare dall’alto.
+  order: 5
+  photos:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/hikers.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/forest-dusk.webp
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/kallidromo-peak.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  - /src/assets/uploads/lake-reflections.webp
+  - /src/assets/uploads/lake-dog.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
+  - /src/assets/uploads/meadow-freedom.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/forest-hike.webp
+  - /src/assets/uploads/forest-walker.webp
+  - /src/assets/uploads/misty-mountains.webp
+  - /src/assets/uploads/plateau-spring.webp
+  - /src/assets/uploads/hill-lake.webp
+  - /src/assets/uploads/autumn-forest.webp
+  - /src/assets/uploads/forest-canopy.webp
+  - /src/assets/uploads/sunset-forest.webp
+  - /src/assets/uploads/dusk-gulf.webp
+  - /src/assets/uploads/lichadonisia.webp
+  videos: []
 ru:
   title: Природа и походы
   description: Каллидромо, его озёра и море с высоты.
+  order: 5
+  photos:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/hikers.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/forest-dusk.webp
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/kallidromo-peak.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  - /src/assets/uploads/lake-reflections.webp
+  - /src/assets/uploads/lake-dog.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
+  - /src/assets/uploads/meadow-freedom.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/forest-hike.webp
+  - /src/assets/uploads/forest-walker.webp
+  - /src/assets/uploads/misty-mountains.webp
+  - /src/assets/uploads/plateau-spring.webp
+  - /src/assets/uploads/hill-lake.webp
+  - /src/assets/uploads/autumn-forest.webp
+  - /src/assets/uploads/forest-canopy.webp
+  - /src/assets/uploads/sunset-forest.webp
+  - /src/assets/uploads/dusk-gulf.webp
+  - /src/assets/uploads/lichadonisia.webp
+  videos: []
 de:
   title: Natur & Wandern
   description: Der Kallidromo, seine Seen und das Meer von oben.
+  order: 5
+  photos:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/hikers.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/forest-dusk.webp
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/kallidromo-peak.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  - /src/assets/uploads/lake-reflections.webp
+  - /src/assets/uploads/lake-dog.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
+  - /src/assets/uploads/meadow-freedom.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/forest-hike.webp
+  - /src/assets/uploads/forest-walker.webp
+  - /src/assets/uploads/misty-mountains.webp
+  - /src/assets/uploads/plateau-spring.webp
+  - /src/assets/uploads/hill-lake.webp
+  - /src/assets/uploads/autumn-forest.webp
+  - /src/assets/uploads/forest-canopy.webp
+  - /src/assets/uploads/sunset-forest.webp
+  - /src/assets/uploads/dusk-gulf.webp
+  - /src/assets/uploads/lichadonisia.webp
+  videos: []
 pt:
   title: Natureza e caminhadas
   description: O Kallidromo, os seus lagos e o mar visto de cima.
+  order: 5
+  photos:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/hikers.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/forest-dusk.webp
+  - /src/assets/uploads/wildflowers.webp
+  - /src/assets/uploads/ladybug-flowers.webp
+  - /src/assets/uploads/acacia-blossom.webp
+  - /src/assets/uploads/kallidromo-peak.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  - /src/assets/uploads/lake-reflections.webp
+  - /src/assets/uploads/lake-dog.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/meadow-cows.webp
+  - /src/assets/uploads/meadow-freedom.webp
+  - /src/assets/uploads/hiking-group.webp
+  - /src/assets/uploads/forest-hike.webp
+  - /src/assets/uploads/forest-walker.webp
+  - /src/assets/uploads/misty-mountains.webp
+  - /src/assets/uploads/plateau-spring.webp
+  - /src/assets/uploads/hill-lake.webp
+  - /src/assets/uploads/autumn-forest.webp
+  - /src/assets/uploads/forest-canopy.webp
+  - /src/assets/uploads/sunset-forest.webp
+  - /src/assets/uploads/dusk-gulf.webp
+  - /src/assets/uploads/lichadonisia.webp
+  videos: []

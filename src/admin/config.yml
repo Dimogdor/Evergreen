@@ -1,0 +1,447 @@
+# Source of the admin panel configuration (Sveltia CMS).
+# The site builds one version per admin language — /admin/config-el.yml, -en.yml, -fr.yml — with every label,
+# hint and description translated from src/admin/labels.yml (src/admin/config.ts does it). Edit labels here in
+# English, then add their translations to labels.yml. Docs: https://sveltiacms.app/en/docs
+
+backend:
+  # Content storage (the admins never see it). Migrating later = change these lines + the worker.
+  name: github
+  repo: Dimogdor/Evergreen
+  branch: main
+  # E-mail + password sign-in, automatic translation and correction (no GitHub account needed).
+  # After deploying worker/README.md, uncomment both lines with the worker address:
+  # base_url: https://evergreen-api.YOUR-ACCOUNT.workers.dev
+  # api_root: https://evergreen-api.YOUR-ACCOUNT.workers.dev/api/v3
+
+app_title: Evergreen — Admin
+logo:
+  src: logo.png
+show_preview_links: true
+
+# Uploaded photos are converted to WebP (max 2000 px) in the browser, then resized again per screen size by the build.
+media_folder: src/assets/uploads
+public_folder: /src/assets/uploads
+media_libraries:
+  default:
+    config:
+      max_file_size: 52428800
+      slugify_filename: true
+      transformations:
+        raster_image: { format: webp, quality: 80, width: 2000, height: 2000 }
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+i18n:
+  structure: single_file
+  locales: [el, en, fr, es, it, ru, de, pt]
+  default_locale: el
+
+editor:
+  preview: true
+
+output:
+  omit_empty_optional_fields: true
+
+collections:
+  # ───────────────────────── Pages ─────────────────────────
+  - name: pages
+    label: Pages
+    label_singular: Page
+    description: The texts and photos of every page of the website.
+    icon: article
+    i18n: true
+    files:
+      - name: home
+        label: Home page
+        file: src/content/pages/home.yml
+        preview_path: ""
+        i18n: true
+        fields:
+          - { name: image, label: "Main photo", widget: image }
+          - { name: imageAlt, label: "Photo description (for blind visitors and Google)", widget: string, i18n: true, required: false }
+          - { name: title, label: "Big headline", widget: text, i18n: true }
+          - { name: subtitle, label: "Subtitle", widget: text, i18n: true }
+          - { name: manifesto, label: "Manifesto", widget: text, i18n: true }
+          - { name: intro, label: "Introduction", widget: markdown, i18n: true }
+          - name: facts
+            label: Key numbers
+            label_singular: Number
+            widget: list
+            i18n: true
+            summary: "{{value}} — {{label}}"
+            fields:
+              - { name: value, label: "Number", widget: string, i18n: true }
+              - { name: label, label: "Label", widget: string, i18n: true }
+          - { name: showEsc, label: "Show the volunteering (ESC) block", widget: boolean, default: true, required: false }
+          - { name: escTitle, label: "Volunteering block — title", widget: string, i18n: true }
+          - { name: escText, label: "Volunteering block — text", widget: markdown, i18n: true }
+          - { name: escImage, label: "Volunteering block — photo", widget: image }
+          - { name: showEvents, label: "Show the upcoming events", widget: boolean, default: true, required: false }
+          - { name: showStories, label: "Show the stories", widget: boolean, default: true, required: false }
+          - { name: showYoga, label: "Show the yoga block", widget: boolean, default: true, required: false }
+          - { name: yogaKicker, label: "Yoga block — small title", widget: string, i18n: true, required: false }
+          - { name: yogaTitle, label: "Yoga block — title", widget: string, i18n: true }
+          - { name: yogaText, label: "Yoga block — text", widget: markdown, i18n: true }
+          - { name: yogaImage, label: "Yoga block — photo", widget: image }
+          - { name: showGallery, label: "Show the photos", widget: boolean, default: true, required: false }
+          - { name: galleryPhotos, label: "Home page photos", widget: image, multiple: true, required: false, hint: "Optional. Leave empty to show the first photos of each album." }
+          - { name: contactTitle, label: "Closing sentence", widget: string, i18n: true }
+      - name: about
+        label: The project
+        file: src/content/pages/about.yml
+        preview_path: about/
+        i18n: true
+        fields: &pageFields
+          - &title { name: title, label: "Title", widget: string, i18n: true }
+          - &intro { name: intro, label: "Introduction", widget: text, i18n: true, required: false }
+          - &cover { name: image, label: "Cover photo", widget: image, required: false }
+          - &sections
+            name: sections
+            label: Sections
+            label_singular: Section
+            widget: list
+            i18n: true
+            required: false
+            summary: "{{heading}}"
+            fields:
+              - { name: heading, label: "Heading", widget: string, i18n: true }
+              - { name: text, label: "Text", widget: markdown, i18n: true }
+              - { name: image, label: "Photo", widget: image, i18n: duplicate, required: false }
+              - { name: imageAlt, label: "Photo description", widget: string, i18n: true, required: false }
+          - &facts
+            name: facts
+            label: Key facts
+            label_singular: Fact
+            widget: list
+            i18n: true
+            required: false
+            summary: "{{label}}: {{value}}"
+            fields:
+              - { name: label, label: "Label", widget: string, i18n: true }
+              - { name: value, label: "Value", widget: string, i18n: true }
+          - &lists
+            name: lists
+            label: Lists (facilities, wishlist…)
+            label_singular: List
+            widget: list
+            i18n: true
+            required: false
+            summary: "{{title}}"
+            fields:
+              - { name: title, label: "List title", widget: string, i18n: true }
+              - { name: intro, label: "Introduction", widget: text, i18n: true, required: false }
+              - name: items
+                label: Items
+                label_singular: Item
+                widget: list
+                i18n: true
+                summary: "{{title}}"
+                fields:
+                  - { name: title, label: "Title", widget: string, i18n: true }
+                  - { name: text, label: "Text", widget: text, i18n: true, required: false }
+          - &faq
+            name: faq
+            label: Questions and answers
+            label_singular: Question
+            widget: list
+            i18n: true
+            required: false
+            summary: "{{q}}"
+            fields:
+              - { name: q, label: "Question", widget: string, i18n: true }
+              - { name: a, label: "Answer", widget: markdown, i18n: true, buttons: [bold, italic, link, bulleted-list] }
+      - { name: place, label: "The place", file: src/content/pages/place.yml, preview_path: place/, i18n: true, fields: *pageFields }
+      - { name: life, label: "Way of life", file: src/content/pages/life.yml, preview_path: life/, i18n: true, fields: *pageFields }
+      - { name: inhabitants, label: "The inhabitants (page)", file: src/content/pages/inhabitants.yml, preview_path: inhabitants/, i18n: true, fields: *pageFields }
+      - { name: support, label: "Support us (bank details are in Settings)", file: src/content/pages/support.yml, preview_path: support/, i18n: true, fields: *pageFields }
+      - { name: contact, label: "Contact (contact details are in Settings)", file: src/content/pages/contact.yml, preview_path: contact/, i18n: true, fields: *pageFields }
+      - { name: activities, label: "Activities (introduction)", file: src/content/pages/activities.yml, preview_path: activities/, i18n: true, fields: &shortFields [*title, *intro] }
+      - { name: calendar, label: "Calendar (introduction)", file: src/content/pages/calendar.yml, preview_path: calendar/, i18n: true, fields: *shortFields }
+      - { name: gallery, label: "Gallery (introduction)", file: src/content/pages/gallery.yml, preview_path: gallery/, i18n: true, fields: *shortFields }
+      - { name: stories, label: "Stories (introduction)", file: src/content/pages/stories.yml, preview_path: stories/, i18n: true, fields: *shortFields }
+
+  # ───────────────────────── Calendar ─────────────────────────
+  - name: events
+    label: Calendar
+    label_singular: Event
+    description: Retreats, workshops, ESC projects and gatherings. Past events disappear from the website by themselves.
+    icon: calendar_month
+    folder: src/content/events
+    extension: yml
+    format: yaml
+    create: true
+    i18n: true
+    identifier_field: title
+    slug:
+      template: "{{fields.start}}-{{uuid_short}}"
+      editable: false
+    preview_path: calendar/
+    summary: "{{start}} · {{title}}"
+    thumbnail: image
+    sortable_fields:
+      fields: [start, title]
+      default: { field: start, direction: descending }
+    view_groups:
+      - { label: "Year", field: start, pattern: '\d{4}' }
+    fields:
+      - { name: title, label: "Title", widget: string, i18n: true }
+      - { name: start, label: "Start date", widget: datetime, type: date, format: YYYY-MM-DD }
+      - { name: end, label: "End date", widget: datetime, type: date, format: YYYY-MM-DD, required: false, hint: "Leave empty for a one-day event." }
+      - { name: startTime, label: "Start time", widget: string, required: false, pattern: ['^([01]?\d|2[0-3]):[0-5]\d$', 'Write the time like 18:00'], hint: "Greek time, e.g. 18:00. Leave empty for an all-day event. Visitors see it in their own time zone when they add it to their calendar." }
+      - { name: endTime, label: "End time", widget: string, required: false, pattern: ['^([01]?\d|2[0-3]):[0-5]\d$', 'Write the time like 20:00'] }
+      - name: category
+        label: Category
+        widget: select
+        default: other
+        options:
+          - { label: "ESC volunteering", value: esc }
+          - { label: "Retreat", value: retreat }
+          - { label: "Yoga", value: yoga }
+          - { label: "Workshop", value: workshop }
+          - { label: "Community", value: community }
+          - { label: "Other", value: other }
+      - { name: summary, label: "Short description", widget: text, i18n: true, required: false }
+      - { name: price, label: "Price", widget: string, i18n: true, required: false, hint: "e.g. €380 early bird · €450. Leave empty if free or not relevant." }
+      - { name: location, label: "Place", widget: string, i18n: true, required: false, hint: "Leave empty if it happens at the Evergreen Project." }
+      - { name: image, label: "Photo", widget: image, required: false }
+      - name: program
+        label: Related activity
+        widget: relation
+        collection: programs
+        value_field: "{{slug}}"
+        search_fields: [title]
+        display_fields: [title]
+        required: false
+        hint: Adds a “Read more” link to this activity.
+      - { name: link, label: "Booking or information link", widget: string, required: false, hint: "The full address starting with https://" }
+      - { name: linkLabel, label: "Link text", widget: string, i18n: true, required: false, hint: "e.g. Book now" }
+      - { name: draft, label: "Hidden", widget: boolean, default: false, required: false, hint: "Hidden events are not shown on the website." }
+
+  # ───────────────────────── Activities ─────────────────────────
+  - name: programs
+    label: Activities
+    label_singular: Activity
+    description: Each activity has its own page. Drag them to change their order.
+    icon: diversity_3
+    folder: src/content/programs
+    extension: yml
+    format: yaml
+    create: true
+    i18n: true
+    identifier_field: title
+    slug: { template: "{{slug}}", editable: [create] }
+    preview_path: activities/{{slug}}/
+    thumbnail: image
+    reorder: true
+    fields:
+      - *title
+      - { name: summary, label: "Summary", widget: text, i18n: true, hint: "One or two sentences shown on the cards." }
+      - { name: image, label: "Main photo", widget: image }
+      - { name: featured, label: "Show on the home page", widget: boolean, default: false, required: false }
+      - { name: body, label: "Full text", widget: markdown, i18n: true, required: false }
+      - *facts
+      - *faq
+      - { name: gallery, label: "Photos", widget: image, multiple: true, required: false }
+      - { name: link, label: "External link", widget: string, required: false, hint: "Optional button, e.g. a booking page (https://…)" }
+      - { name: linkLabel, label: "Link text", widget: string, i18n: true, required: false }
+      - { name: order, label: "Order", widget: number, value_type: int, required: false, hint: "Set automatically when you drag the entries." }
+
+  # ───────────────────────── Gallery ─────────────────────────
+  - name: albums
+    label: Gallery
+    label_singular: Album
+    description: Photo and video albums. Select many photos at once — they are compressed automatically.
+    icon: photo_library
+    folder: src/content/albums
+    extension: yml
+    format: yaml
+    create: true
+    i18n: true
+    identifier_field: title
+    slug: { template: "{{slug}}", editable: [create] }
+    preview_path: gallery/
+    reorder: true
+    fields:
+      - *title
+      - { name: description, label: "Description", widget: text, i18n: true, required: false }
+      - { name: photos, label: "Photos", widget: image, multiple: true, required: false, hint: "The first photos are shown first — drag them to change the order." }
+      - name: videos
+        label: Videos
+        label_singular: Video
+        widget: list
+        required: false
+        hint: Best — upload the video to YouTube (it can be “unlisted”) and paste the link. Short clips can also be uploaded directly.
+        summary: "{{title}}"
+        fields:
+          - { name: title, label: "Title", widget: string, required: false }
+          - { name: url, label: "YouTube or Vimeo link", widget: string, required: false }
+          - name: file
+            label: Or a video file (MP4)
+            widget: file
+            required: false
+            media_folder: /public/uploads/videos
+            public_folder: /uploads/videos
+            accept: video/*
+            hint: Short clips only (under about 40 MB). They are compressed automatically.
+      - { name: order, label: "Order", widget: number, value_type: int, required: false }
+
+  # ───────────────────────── Stories (testimonials) ─────────────────────────
+  - name: testimonials
+    label: Stories
+    label_singular: Story
+    description: Stories sent by visitors arrive here unpublished. Read them, tick “Published” to show them on the website — or delete them. You can also add stories yourself.
+    icon: format_quote
+    folder: src/content/testimonials
+    extension: yml
+    format: yaml
+    create: true
+    identifier_field: name
+    slug: { template: "{{year}}-{{month}}-{{day}}-{{slug}}", editable: false }
+    preview_path: en/stories/
+    summary: "{{published | ternary('✅', '⏳')}} {{name}} · {{project}}"
+    thumbnail: photo
+    sortable_fields:
+      fields: [date, name]
+      default: { field: date, direction: descending }
+    view_filters:
+      - { label: "Waiting for approval", field: published, pattern: false }
+      - { label: "Published", field: published, pattern: true }
+    fields:
+      - { name: published, label: "Published", widget: boolean, default: false, hint: "Only published stories appear on the website." }
+      - { name: name, label: "Name", widget: string }
+      - { name: country, label: "Country", widget: string, required: false }
+      - { name: project, label: "Programme and year", widget: string, required: false, hint: "e.g. ESC 2025" }
+      - { name: quote, label: "Story", widget: text }
+      - { name: photo, label: "Photo", widget: image, required: false }
+      - { name: video, label: "Video link (YouTube or Vimeo)", widget: string, required: false }
+      - { name: date, label: "Date", widget: datetime, type: date, format: YYYY-MM-DD }
+
+  # ───────────────────────── Inhabitants ─────────────────────────
+  - name: inhabitants
+    label: Inhabitants
+    label_singular: Inhabitant
+    description: People, animals and plants of the place. Drag them to change their order.
+    icon: pets
+    folder: src/content/inhabitants
+    extension: yml
+    format: yaml
+    create: true
+    i18n: true
+    identifier_field: name
+    slug: { template: "{{slug}}", editable: [create] }
+    preview_path: inhabitants/
+    thumbnail: photo
+    reorder: true
+    view_groups:
+      - { label: "Kind", field: kind }
+    fields:
+      - { name: name, label: "Name", widget: string, i18n: true }
+      - name: kind
+        label: Kind
+        widget: select
+        default: human
+        options:
+          - { label: "Person", value: human }
+          - { label: "Animal", value: animal }
+          - { label: "Plant", value: plant }
+      - { name: role, label: "Role", widget: string, i18n: true, required: false }
+      - { name: bio, label: "A few words", widget: text, i18n: true, required: false }
+      - { name: photo, label: "Photo", widget: image, required: false, hint: "A square photo looks best. Without a photo, the initials are shown." }
+      - { name: order, label: "Order", widget: number, value_type: int, required: false }
+
+  # ───────────────────────── Extra pages ─────────────────────────
+  - name: extra
+    label: New pages
+    label_singular: Page
+    description: Create your own pages (for example a festival or a partner). Tick “Show in the menu” to add them to the menu. The privacy page is here too.
+    icon: note_add
+    folder: src/content/extra
+    extension: yml
+    format: yaml
+    create: true
+    i18n: true
+    identifier_field: title
+    slug: { template: "{{slug}}", editable: [create] }
+    preview_path: "{{slug}}/"
+    reorder: true
+    fields:
+      - *title
+      - { name: inMenu, label: "Show in the menu", widget: boolean, default: true, required: false }
+      - *intro
+      - *cover
+      - *sections
+      - *facts
+      - *lists
+      - *faq
+      - { name: order, label: "Order", widget: number, value_type: int, required: false }
+
+  # ───────────────────────── Settings ─────────────────────────
+  - name: settings
+    label: Settings
+    description: Contact details, bank details, colours, links and every small text of the website.
+    icon: settings
+    i18n: true
+    files:
+      - name: site
+        label: Site, contact and bank
+        file: src/content/settings/site.yml
+        preview_path: contact/
+        i18n: true
+        fields:
+          - { name: name, label: "Name", widget: string }
+          - { name: logo, label: "Logo", widget: image, required: false }
+          - { name: tagline, label: "Tagline", widget: string, i18n: true }
+          - { name: description, label: "Description for Google", widget: text, i18n: true, hint: "About 150 characters." }
+          - { name: shareImage, label: "Photo shown when the website is shared (Facebook, WhatsApp…)", widget: image, required: false }
+          - { name: announcement, label: "Top banner", widget: text, i18n: true, required: false, hint: "Optional message shown at the top of every page, e.g. “ESC call open until 30 March!”. Leave empty to hide it." }
+          - { name: email, label: "Email", widget: string }
+          - { name: phone, label: "Phone", widget: string, hint: "With the country code, e.g. +30 694 755 8519" }
+          - { name: address, label: "Address", widget: string, i18n: true }
+          - { name: lat, label: "Map — latitude", widget: number, value_type: float, required: false }
+          - { name: lng, label: "Map — longitude", widget: number, value_type: float, required: false }
+          - { name: instagram, label: "Instagram", widget: string, required: false }
+          - { name: facebook, label: "Facebook", widget: string, required: false }
+          - { name: messenger, label: "Messenger", widget: string, required: false }
+          - name: otherContacts
+            label: Other contacts (yoga studios, retreats…)
+            label_singular: Contact
+            widget: list
+            i18n: true
+            required: false
+            summary: "{{label}}"
+            fields:
+              - { name: label, label: "What it is", widget: string, i18n: true }
+              - { name: phone, label: "Phone", widget: string, required: false }
+              - { name: email, label: "Email", widget: string, required: false }
+              - { name: url, label: "Website", widget: string, required: false }
+          - { name: yogaStudiosUrl, label: "Yoga studios website", widget: string, required: false }
+          - { name: yogaRetreatsUrl, label: "Yoga retreats website", widget: string, required: false }
+          - { name: yogaTrainingsUrl, label: "Yoga teacher trainings website", widget: string, required: false }
+          - { name: taxId, label: "Tax ID (AFM)", widget: string, required: false }
+          - { name: iban, label: "IBAN (donations)", widget: string, required: false, hint: "Shown on the Support page with a “Copy” button. Leave empty to hide the bank details." }
+          - { name: bic, label: "BIC / SWIFT", widget: string, required: false }
+          - { name: accountHolder, label: "Account holder", widget: string, required: false }
+          - { name: bank, label: "Bank", widget: string, i18n: true, required: false }
+          - { name: formKey, label: "Contact form key (Web3Forms)", widget: string, required: false, hint: "Free key from web3forms.com — messages then arrive by e-mail. Leave empty to show only the e-mail button." }
+          - { name: apiUrl, label: "Website API address", widget: string, required: false, hint: "The address of the website's small server (see worker/README.md). It turns on the stories form." }
+          - { name: turnstileKey, label: "Anti-spam key (Turnstile, optional)", widget: string, required: false }
+          - name: theme
+            label: Colours
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+              - { name: background, label: "Background", widget: color, required: false }
+              - { name: background2, label: "Second background", widget: color, required: false }
+              - { name: text, label: "Text", widget: color, required: false }
+              - { name: green, label: "Green", widget: color, required: false }
+              - { name: darkGreen, label: "Dark green", widget: color, required: false }
+              - { name: accent, label: "Accent colour", widget: color, required: false }
+      - name: ui
+        label: Small texts (menu, buttons, labels)
+        file: src/content/settings/ui.yml
+        i18n: true
+        # Filled at build time with one field per text of src/content/settings/ui.yml, labelled in the admin's language.
+        fields: []

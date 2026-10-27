@@ -1,35 +1,56 @@
 el:
-  kind: "plant"
+  kind: plant
   order: 21
-  photo: "/src/assets/uploads/forest-canopy.webp"
-  name: "Βελανιδιές & πεύκα"
-  role: "Οι γέροντες του δάσους"
-  bio: "Ανάμεσα στις ακακίες μεγαλώνουν βελανιδιές και πεύκα· φιλοξενούν πουλιά και έντομα και κρατούν ζωντανό το έδαφος."
+  photo: /src/assets/uploads/forest-canopy.webp
+  name: Βελανιδιές & πεύκα
+  role: Οι γέροντες του δάσους
+  bio: Ανάμεσα στις ακακίες μεγαλώνουν βελανιδιές και πεύκα· φιλοξενούν πουλιά και έντομα και κρατούν ζωντανό το έδαφος.
 en:
-  name: "Oaks & pines"
-  role: "Elders of the forest"
-  bio: "Oaks and pines grow among the acacias; they host birds and insects and keep the soil alive."
+  name: Oaks & pines
+  role: Elders of the forest
+  bio: Oaks and pines grow among the acacias; they host birds and insects and keep the soil alive.
+  photo: /src/assets/uploads/forest-canopy.webp
+  order: 21
+  kind: plant
 fr:
-  name: "Chênes & pins"
-  role: "Les anciens de la forêt"
-  bio: "Chênes et pins poussent parmi les acacias ; ils abritent oiseaux et insectes et gardent le sol vivant."
+  name: Chênes & pins
+  role: Les anciens de la forêt
+  bio: Chênes et pins poussent parmi les acacias ; ils abritent oiseaux et insectes et gardent le sol vivant.
+  photo: /src/assets/uploads/forest-canopy.webp
+  order: 21
+  kind: plant
 es:
-  name: "Robles y pinos"
-  role: "Los mayores del bosque"
-  bio: "Entre las acacias crecen robles y pinos; dan refugio a pájaros e insectos y mantienen vivo el suelo."
+  name: Robles y pinos
+  role: Los mayores del bosque
+  bio: Entre las acacias crecen robles y pinos; dan refugio a pájaros e insectos y mantienen vivo el suelo.
+  photo: /src/assets/uploads/forest-canopy.webp
+  order: 21
+  kind: plant
 it:
-  name: "Querce e pini"
-  role: "Gli anziani del bosco"
-  bio: "Tra le acacie crescono querce e pini; ospitano uccelli e insetti e mantengono vivo il suolo."
+  name: Querce e pini
+  role: Gli anziani del bosco
+  bio: Tra le acacie crescono querce e pini; ospitano uccelli e insetti e mantengono vivo il suolo.
+  photo: /src/assets/uploads/forest-canopy.webp
+  order: 21
+  kind: plant
 ru:
-  name: "Дубы и сосны"
-  role: "Старейшины леса"
-  bio: "Среди акаций растут дубы и сосны — они дают приют птицам и насекомым и сохраняют почву живой."
+  name: Дубы и сосны
+  role: Старейшины леса
+  bio: Среди акаций растут дубы и сосны — они дают приют птицам и насекомым и сохраняют почву живой.
+  photo: /src/assets/uploads/forest-canopy.webp
+  order: 21
+  kind: plant
 de:
-  name: "Eichen & Kiefern"
-  role: "Die Ältesten des Waldes"
-  bio: "Zwischen den Akazien wachsen Eichen und Kiefern; sie beherbergen Vögel und Insekten und halten den Boden lebendig."
+  name: Eichen & Kiefern
+  role: Die Ältesten des Waldes
+  bio: Zwischen den Akazien wachsen Eichen und Kiefern; sie beherbergen Vögel und Insekten und halten den Boden lebendig.
+  photo: /src/assets/uploads/forest-canopy.webp
+  order: 21
+  kind: plant
 pt:
-  name: "Carvalhos e pinheiros"
-  role: "Os anciãos da floresta"
-  bio: "Entre as acácias crescem carvalhos e pinheiros; acolhem pássaros e insetos e mantêm o solo vivo."
+  name: Carvalhos e pinheiros
+  role: Os anciãos da floresta
+  bio: Entre as acácias crescem carvalhos e pinheiros; acolhem pássaros e insetos e mantêm o solo vivo.
+  photo: /src/assets/uploads/forest-canopy.webp
+  order: 21
+  kind: plant

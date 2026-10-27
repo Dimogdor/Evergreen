@@ -1,29 +1,64 @@
 el:
-  start: "2024-04-01"
-  end: "2024-09-01"
-  category: "esc"
-  program: "esc-volunteering"
-  image: "/src/assets/uploads/hiking-group.webp"
-  title: "ESC — The Evergreen Project, eco-community kick start"
-  summary: "Έξι εθελοντές για 21 εβδομάδες, για να ξεκινήσει η οικοκοινότητα."
+  start: '2024-04-01'
+  end: '2024-09-01'
+  category: esc
+  program: esc-volunteering
+  image: /src/assets/uploads/hiking-group.webp
+  title: ESC — The Evergreen Project, eco-community kick start
+  summary: Έξι εθελοντές για 21 εβδομάδες, για να ξεκινήσει η οικοκοινότητα.
 en:
-  title: "ESC — The Evergreen Project, eco-community kick start"
-  summary: "Six volunteers for 21 weeks to launch the eco-community."
+  title: ESC — The Evergreen Project, eco-community kick start
+  summary: Six volunteers for 21 weeks to launch the eco-community.
+  start: '2024-04-01'
+  end: '2024-09-01'
+  program: esc-volunteering
+  image: /src/assets/uploads/hiking-group.webp
+  category: esc
 fr:
-  title: "ESC — The Evergreen Project, eco-community kick start"
-  summary: "Six volontaires pendant 21 semaines pour lancer l’écocommunauté."
+  title: ESC — The Evergreen Project, eco-community kick start
+  summary: Six volontaires pendant 21 semaines pour lancer l’écocommunauté.
+  start: '2024-04-01'
+  end: '2024-09-01'
+  program: esc-volunteering
+  image: /src/assets/uploads/hiking-group.webp
+  category: esc
 es:
-  title: "ESC — The Evergreen Project, eco-community kick start"
-  summary: "Seis voluntarios durante 21 semanas para poner en marcha la ecocomunidad."
+  title: ESC — The Evergreen Project, eco-community kick start
+  summary: Seis voluntarios durante 21 semanas para poner en marcha la ecocomunidad.
+  start: '2024-04-01'
+  end: '2024-09-01'
+  program: esc-volunteering
+  image: /src/assets/uploads/hiking-group.webp
+  category: esc
 it:
-  title: "ESC — The Evergreen Project, eco-community kick start"
-  summary: "Sei volontari per 21 settimane per avviare l’ecocomunità."
+  title: ESC — The Evergreen Project, eco-community kick start
+  summary: Sei volontari per 21 settimane per avviare l’ecocomunità.
+  start: '2024-04-01'
+  end: '2024-09-01'
+  program: esc-volunteering
+  image: /src/assets/uploads/hiking-group.webp
+  category: esc
 ru:
-  title: "ESC — The Evergreen Project, eco-community kick start"
-  summary: "Шесть волонтёров на 21 неделю, чтобы запустить экосообщество."
+  title: ESC — The Evergreen Project, eco-community kick start
+  summary: Шесть волонтёров на 21 неделю, чтобы запустить экосообщество.
+  start: '2024-04-01'
+  end: '2024-09-01'
+  program: esc-volunteering
+  image: /src/assets/uploads/hiking-group.webp
+  category: esc
 de:
-  title: "ESC — The Evergreen Project, eco-community kick start"
-  summary: "Sechs Freiwillige für 21 Wochen, um die Ökogemeinschaft zu starten."
+  title: ESC — The Evergreen Project, eco-community kick start
+  summary: Sechs Freiwillige für 21 Wochen, um die Ökogemeinschaft zu starten.
+  start: '2024-04-01'
+  end: '2024-09-01'
+  program: esc-volunteering
+  image: /src/assets/uploads/hiking-group.webp
+  category: esc
 pt:
-  title: "ESC — The Evergreen Project, eco-community kick start"
-  summary: "Seis voluntários durante 21 semanas para lançar a ecocomunidade."
+  title: ESC — The Evergreen Project, eco-community kick start
+  summary: Seis voluntários durante 21 semanas para lançar a ecocomunidade.
+  start: '2024-04-01'
+  end: '2024-09-01'
+  program: esc-volunteering
+  image: /src/assets/uploads/hiking-group.webp
+  category: esc

@@ -4,18 +4,18 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { execSync } from 'node:child_process';
 import YAML from 'yaml';
-import { i18nFields, pending, translateFile, TARGETS } from '../worker/ai.js';
+import { i18nFields, LANGS, pending, translateFile } from '../worker/ai.js';
 import { blobOid } from '../worker/index.js';
 
-const config = YAML.parse(fs.readFileSync('public/admin/config.yml', 'utf8'));
-const fake = async (texts: string[]) => Object.fromEntries(Object.keys(TARGETS).map((l) => [l, texts.map((t, id) => ({ id, text: `[${l}] ${t}` }))]));
+const config = YAML.parse(fs.readFileSync('src/admin/config.yml', 'utf8'));
+const fake = async (texts: string[]) => Object.fromEntries(Object.keys(LANGS).map((l) => [l, texts.map((t, id) => ({ id, text: `[${l}] ${t}` }))]));
 
 test('translatable fields come from the admin configuration', () => {
   const ev = i18nFields(config, 'src/content/events/x.yml');
   assert.ok(ev.has('title') && ev.has('summary') && ev.has('price'));
   assert.ok(!ev.has('start') && !ev.has('image') && !ev.has('link'));
   assert.ok(i18nFields(config, 'src/content/pages/place.yml').has('heading'));
-  assert.ok(i18nFields(config, 'src/content/settings/ui.yml').has('nav_home'));
+  assert.ok(i18nFields(config, 'src/content/settings/ui.yml').has('*'), 'every small text is translatable');
   assert.equal(i18nFields(config, 'src/content/testimonials/x.yml').size, 0);
 });
 
@@ -52,7 +52,7 @@ test('a save from the admin panel is translated in flight; other files are untou
   const b64 = (t: string) => Buffer.from(t).toString('base64');
   const event = 'el:\n  title: Νέα εκδήλωση\n  start: 2027-01-10\n';
   globalThis.fetch = (async (url: string) =>
-    new Response(url.includes('config.yml') ? fs.readFileSync('public/admin/config.yml', 'utf8') : 'Not found', { status: url.includes('config.yml') ? 200 : 404 })) as any;
+    new Response(url.includes('config.yml') ? fs.readFileSync('src/admin/config.yml', 'utf8') : 'Not found', { status: url.includes('config.yml') ? 200 : 404 })) as any;
   const body = JSON.stringify({
     query: 'mutation($input: CreateCommitOnBranchInput!) { createCommitOnBranch(input: $input) { commit { oid file_0: file(path: "src/content/events/new.yml") { oid } } } }',
     variables: { input: { fileChanges: { additions: [{ path: 'src/content/events/new.yml', contents: b64(event) }, { path: 'src/assets/uploads/x.webp', contents: 'AAAA' }] } } },
@@ -65,4 +65,14 @@ test('a save from the admin panel is translated in flight; other files are untou
   assert.equal(img.contents, 'AAAA');
   assert.equal(r.aliases.file_0, await blobOid(b64(event)), 'the panel gets back the fingerprint of what it sent');
   assert.equal(await translateSave({}, JSON.stringify({ query: '{ viewer { login } }' }), fake), null);
+});
+
+test('an admin writing in English: English is the source, Greek and the others follow', async () => {
+  const prev = YAML.stringify({ el: { title: 'Παλιό', start: '2027-01-10' }, en: { title: 'Old' }, fr: { title: 'Ancien' } });
+  const next = YAML.stringify({ el: { title: 'Παλιό', start: '2027-01-10' }, en: { title: 'New retreat' }, fr: { title: 'Ancien' } });
+  const out = YAML.parse((await translateFile({}, { text: next, previous: prev, fields: new Set(['title']), source: 'en' }, fake))!);
+  assert.equal(out.el.title, '[el] New retreat');
+  assert.equal(out.fr.title, '[fr] New retreat');
+  assert.equal(out.en.title, 'New retreat');
+  assert.equal(out.el.start, '2027-01-10');
 });

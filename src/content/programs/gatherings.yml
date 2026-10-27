@@ -72,6 +72,22 @@ en:
     value: €18 / person / day (suggested donation)
   - label: Included
     value: Accommodation, vegetarian meals, activities
+  image: /src/assets/uploads/circle-dance.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/spring-gathering.webp
+  order: 3
 fr:
   title: Rassemblements de la communauté
   summary: 'Des week-ends de trois ou quatre jours dans la forêt, presque chaque mois : yoga, randonnées, sources chaudes, soirées au coin du feu et soin de la terre ensemble.'
@@ -101,6 +117,22 @@ fr:
     value: 18 € / personne / jour (don suggéré)
   - label: Inclus
     value: Hébergement, repas végétariens, activités
+  image: /src/assets/uploads/circle-dance.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/spring-gathering.webp
+  order: 3
 es:
   title: Encuentros comunitarios
   summary: 'Fines de semana de tres o cuatro días en el bosque, casi cada mes: yoga, caminatas, aguas termales, noches junto al fuego y cuidado de la tierra en común.'
@@ -130,6 +162,22 @@ es:
     value: 18 € / persona / día (donativo sugerido)
   - label: Incluye
     value: Alojamiento, comidas vegetarianas, actividades
+  image: /src/assets/uploads/circle-dance.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/spring-gathering.webp
+  order: 3
 it:
   title: Incontri di comunità
   summary: 'Weekend di tre o quattro giorni nel bosco, quasi ogni mese: yoga, escursioni, sorgenti termali, serate intorno al fuoco e cura della terra insieme.'
@@ -159,6 +207,22 @@ it:
     value: 18 € / persona / giorno (donazione suggerita)
   - label: Incluso
     value: Alloggio, pasti vegetariani, attività
+  image: /src/assets/uploads/circle-dance.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/spring-gathering.webp
+  order: 3
 ru:
   title: Встречи сообщества
   summary: 'Трёх- и четырёхдневные выходные в лесу почти каждый месяц: йога, походы, горячие источники, вечера у костра и совместная забота о земле.'
@@ -188,6 +252,22 @@ ru:
     value: 18 € / чел. / день (рекомендуемое пожертвование)
   - label: Включено
     value: Проживание, вегетарианское питание, занятия
+  image: /src/assets/uploads/circle-dance.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/spring-gathering.webp
+  order: 3
 de:
   title: Gemeinschaftstreffen
   summary: 'Drei- und viertägige Wochenenden im Wald, fast jeden Monat: Yoga, Wanderungen, heiße Quellen, Abende am Feuer und gemeinsame Pflege des Landes.'
@@ -217,6 +297,22 @@ de:
     value: 18 € / Person / Tag (empfohlene Spende)
   - label: Inklusive
     value: Unterkunft, vegetarische Mahlzeiten, Aktivitäten
+  image: /src/assets/uploads/circle-dance.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/spring-gathering.webp
+  order: 3
 pt:
   title: Encontros da comunidade
   summary: 'Fins de semana de três ou quatro dias na floresta, quase todos os meses: yoga, caminhadas, termas, noites à volta da fogueira e cuidado da terra em conjunto.'
@@ -246,3 +342,19 @@ pt:
     value: 18 € / pessoa / dia (donativo sugerido)
   - label: Incluído
     value: Alojamento, refeições vegetarianas, atividades
+  image: /src/assets/uploads/circle-dance.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/forest-meal.webp
+  - /src/assets/uploads/hot-springs.webp
+  - /src/assets/uploads/herb-wreath.webp
+  - /src/assets/uploads/handmade-soaps.webp
+  - /src/assets/uploads/fire-night.webp
+  - /src/assets/uploads/music-evening.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/tent-friends.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/forest-dance.webp
+  - /src/assets/uploads/spring-gathering.webp
+  order: 3

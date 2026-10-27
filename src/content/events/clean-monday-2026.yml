@@ -9,21 +9,56 @@ el:
 en:
   title: Gathering — Forest retreat & Clean Monday
   summary: Morning yoga, mountain trails, thermal baths and fireside evenings in a cosy house with a fireplace. Suggested donation €18 a day.
+  start: '2026-02-20'
+  end: '2026-02-23'
+  program: gatherings
+  image: /src/assets/uploads/mountain-hike.webp
+  category: community
 fr:
   title: Rassemblement — Retraite en forêt & Lundi pur
   summary: 'Yoga du matin, sentiers de montagne, bains thermaux et soirées au coin du feu dans une maison avec cheminée. Don suggéré : 18 € par jour.'
+  start: '2026-02-20'
+  end: '2026-02-23'
+  program: gatherings
+  image: /src/assets/uploads/mountain-hike.webp
+  category: community
 es:
   title: Encuentro — Retiro en el bosque y Lunes Limpio
   summary: 'Yoga matinal, senderos, baños termales y noches junto al fuego en una casa con chimenea. Donativo sugerido: 18 € al día.'
+  start: '2026-02-20'
+  end: '2026-02-23'
+  program: gatherings
+  image: /src/assets/uploads/mountain-hike.webp
+  category: community
 it:
   title: Incontro — Ritiro nel bosco e Lunedì Puro
   summary: 'Yoga del mattino, sentieri, bagni termali e serate davanti al fuoco in una casa con camino. Donazione suggerita: 18 € al giorno.'
+  start: '2026-02-20'
+  end: '2026-02-23'
+  program: gatherings
+  image: /src/assets/uploads/mountain-hike.webp
+  category: community
 ru:
   title: Встреча — Лесной ретрит и Чистый понедельник
   summary: Утренняя йога, горные тропы, термальные источники и вечера у камина в уютном доме. Рекомендуемое пожертвование — 18 € в день.
+  start: '2026-02-20'
+  end: '2026-02-23'
+  program: gatherings
+  image: /src/assets/uploads/mountain-hike.webp
+  category: community
 de:
   title: Gathering — Waldretreat & Reiner Montag
   summary: 'Morgenyoga, Bergpfade, Thermalbäder und Abende am Kamin in einem gemütlichen Haus. Empfohlene Spende: 18 € pro Tag.'
+  start: '2026-02-20'
+  end: '2026-02-23'
+  program: gatherings
+  image: /src/assets/uploads/mountain-hike.webp
+  category: community
 pt:
   title: Encontro — Retiro na floresta e Segunda-feira Limpa
   summary: 'Yoga matinal, trilhos, banhos termais e noites à lareira numa casa acolhedora. Donativo sugerido: 18 € por dia.'
+  start: '2026-02-20'
+  end: '2026-02-23'
+  program: gatherings
+  image: /src/assets/uploads/mountain-hike.webp
+  category: community

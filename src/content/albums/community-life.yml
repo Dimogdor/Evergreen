@@ -22,21 +22,147 @@ el:
 en:
   title: Community life
   description: Meals, circles, fires and laughter.
+  order: 9
+  photos:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/shared-meal-table.webp
+  - /src/assets/uploads/kitchen-chopping.webp
+  - /src/assets/uploads/kitchen-cooking.webp
+  - /src/assets/uploads/campfire-circle.webp
+  - /src/assets/uploads/campfire-evening.webp
+  - /src/assets/uploads/sharing-circle.webp
+  - /src/assets/uploads/circle-dance.webp
+  - /src/assets/uploads/group-play.webp
+  - /src/assets/uploads/acro-play.webp
+  - /src/assets/uploads/laughter-dog.webp
+  - /src/assets/uploads/practice-with-dog.webp
+  - /src/assets/uploads/meadow-rest.webp
+  videos: []
 fr:
   title: Vie communautaire
   description: Repas, cercles, feux et rires.
+  order: 9
+  photos:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/shared-meal-table.webp
+  - /src/assets/uploads/kitchen-chopping.webp
+  - /src/assets/uploads/kitchen-cooking.webp
+  - /src/assets/uploads/campfire-circle.webp
+  - /src/assets/uploads/campfire-evening.webp
+  - /src/assets/uploads/sharing-circle.webp
+  - /src/assets/uploads/circle-dance.webp
+  - /src/assets/uploads/group-play.webp
+  - /src/assets/uploads/acro-play.webp
+  - /src/assets/uploads/laughter-dog.webp
+  - /src/assets/uploads/practice-with-dog.webp
+  - /src/assets/uploads/meadow-rest.webp
+  videos: []
 es:
   title: Vida comunitaria
   description: Comidas, círculos, fogatas y risas.
+  order: 9
+  photos:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/shared-meal-table.webp
+  - /src/assets/uploads/kitchen-chopping.webp
+  - /src/assets/uploads/kitchen-cooking.webp
+  - /src/assets/uploads/campfire-circle.webp
+  - /src/assets/uploads/campfire-evening.webp
+  - /src/assets/uploads/sharing-circle.webp
+  - /src/assets/uploads/circle-dance.webp
+  - /src/assets/uploads/group-play.webp
+  - /src/assets/uploads/acro-play.webp
+  - /src/assets/uploads/laughter-dog.webp
+  - /src/assets/uploads/practice-with-dog.webp
+  - /src/assets/uploads/meadow-rest.webp
+  videos: []
 it:
   title: Vita di comunità
   description: Pasti, cerchi, fuochi e risate.
+  order: 9
+  photos:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/shared-meal-table.webp
+  - /src/assets/uploads/kitchen-chopping.webp
+  - /src/assets/uploads/kitchen-cooking.webp
+  - /src/assets/uploads/campfire-circle.webp
+  - /src/assets/uploads/campfire-evening.webp
+  - /src/assets/uploads/sharing-circle.webp
+  - /src/assets/uploads/circle-dance.webp
+  - /src/assets/uploads/group-play.webp
+  - /src/assets/uploads/acro-play.webp
+  - /src/assets/uploads/laughter-dog.webp
+  - /src/assets/uploads/practice-with-dog.webp
+  - /src/assets/uploads/meadow-rest.webp
+  videos: []
 ru:
   title: Жизнь сообщества
   description: Трапезы, круги, костры и смех.
+  order: 9
+  photos:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/shared-meal-table.webp
+  - /src/assets/uploads/kitchen-chopping.webp
+  - /src/assets/uploads/kitchen-cooking.webp
+  - /src/assets/uploads/campfire-circle.webp
+  - /src/assets/uploads/campfire-evening.webp
+  - /src/assets/uploads/sharing-circle.webp
+  - /src/assets/uploads/circle-dance.webp
+  - /src/assets/uploads/group-play.webp
+  - /src/assets/uploads/acro-play.webp
+  - /src/assets/uploads/laughter-dog.webp
+  - /src/assets/uploads/practice-with-dog.webp
+  - /src/assets/uploads/meadow-rest.webp
+  videos: []
 de:
   title: Gemeinschaftsleben
   description: Mahlzeiten, Kreise, Feuer und Lachen.
+  order: 9
+  photos:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/shared-meal-table.webp
+  - /src/assets/uploads/kitchen-chopping.webp
+  - /src/assets/uploads/kitchen-cooking.webp
+  - /src/assets/uploads/campfire-circle.webp
+  - /src/assets/uploads/campfire-evening.webp
+  - /src/assets/uploads/sharing-circle.webp
+  - /src/assets/uploads/circle-dance.webp
+  - /src/assets/uploads/group-play.webp
+  - /src/assets/uploads/acro-play.webp
+  - /src/assets/uploads/laughter-dog.webp
+  - /src/assets/uploads/practice-with-dog.webp
+  - /src/assets/uploads/meadow-rest.webp
+  videos: []
 pt:
   title: Vida comunitária
   description: Refeições, círculos, fogueiras e gargalhadas.
+  order: 9
+  photos:
+  - /src/assets/uploads/volunteers-painting-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/fire-night-2026.webp
+  - /src/assets/uploads/shared-meal-table.webp
+  - /src/assets/uploads/kitchen-chopping.webp
+  - /src/assets/uploads/kitchen-cooking.webp
+  - /src/assets/uploads/campfire-circle.webp
+  - /src/assets/uploads/campfire-evening.webp
+  - /src/assets/uploads/sharing-circle.webp
+  - /src/assets/uploads/circle-dance.webp
+  - /src/assets/uploads/group-play.webp
+  - /src/assets/uploads/acro-play.webp
+  - /src/assets/uploads/laughter-dog.webp
+  - /src/assets/uploads/practice-with-dog.webp
+  - /src/assets/uploads/meadow-rest.webp
+  videos: []

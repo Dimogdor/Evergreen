@@ -9,27 +9,48 @@ en:
   name: Our hens & rooster
   role: Our feathery goddesses
   bio: Every spring they start laying small but super fresh eggs again — and the rooster makes sure nobody sleeps in.
+  photo: /src/assets/uploads/fresh-eggs.webp
+  order: 13
+  kind: animal
 fr:
   name: Nos poules & notre coq
   role: Nos déesses à plumes
   bio: Chaque printemps, elles recommencent à pondre de petits œufs tout frais — et le coq veille à ce que personne ne fasse la grasse matinée.
+  photo: /src/assets/uploads/fresh-eggs.webp
+  order: 13
+  kind: animal
 es:
   name: Nuestras gallinas y el gallo
   role: Nuestras diosas emplumadas
   bio: Cada primavera vuelven a poner huevos pequeños pero fresquísimos — y el gallo se asegura de que nadie se quede dormido.
+  photo: /src/assets/uploads/fresh-eggs.webp
+  order: 13
+  kind: animal
 it:
   name: Le nostre galline e il gallo
   role: Le nostre dee piumate
   bio: Ogni primavera ricominciano a deporre uova piccole ma freschissime — e il gallo si assicura che nessuno dorma troppo.
+  photo: /src/assets/uploads/fresh-eggs.webp
+  order: 13
+  kind: animal
 ru:
   name: Наши куры и петух
   role: Наши пернатые богини
   bio: Каждую весну они снова несут маленькие, но очень свежие яйца, а петух следит, чтобы никто не проспал.
+  photo: /src/assets/uploads/fresh-eggs.webp
+  order: 13
+  kind: animal
 de:
   name: Unsere Hühner & der Hahn
   role: Unsere gefiederten Göttinnen
   bio: Jeden Frühling legen sie wieder kleine, aber ganz frische Eier — und der Hahn sorgt dafür, dass niemand verschläft.
+  photo: /src/assets/uploads/fresh-eggs.webp
+  order: 13
+  kind: animal
 pt:
   name: As nossas galinhas e o galo
   role: As nossas deusas de penas
   bio: Todas as primaveras voltam a pôr ovos pequenos mas fresquíssimos — e o galo garante que ninguém fica a dormir até tarde.
+  photo: /src/assets/uploads/fresh-eggs.webp
+  order: 13
+  kind: animal

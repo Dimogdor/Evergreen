@@ -34,21 +34,231 @@ el:
 en:
   title: Building together
   description: The cob house, the dance house, the deck on the trees and the new winter shala.
+  order: 1
+  photos:
+  - /src/assets/uploads/building-frame-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/build-site-2026.webp
+  - /src/assets/uploads/cob-house-rudi.webp
+  - /src/assets/uploads/cob-house-window.webp
+  - /src/assets/uploads/cob-hands.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/cob-bricks.webp
+  - /src/assets/uploads/cob-mixing.webp
+  - /src/assets/uploads/cob-work-autumn.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/dance-house-build.webp
+  - /src/assets/uploads/dance-house-frame.webp
+  - /src/assets/uploads/dance-house-structure.webp
+  - /src/assets/uploads/dance-house-window.webp
+  - /src/assets/uploads/dance-house-inside.webp
+  - /src/assets/uploads/floating-deck.webp
+  - /src/assets/uploads/shelter-frame-1.webp
+  - /src/assets/uploads/shelter-frame-2.webp
+  - /src/assets/uploads/shelter-frame-3.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  videos:
+  - title: Build with Earth & Wood — 2026
+    file: /uploads/videos/build-earth-wood-2026.mp4
+  - title: The dance house — 2025
+    file: /uploads/videos/dance-house-build.mp4
 fr:
   title: Construire ensemble
   description: La maison en bauge, la maison de la danse, la plateforme dans les arbres et la nouvelle shala d’hiver.
+  order: 1
+  photos:
+  - /src/assets/uploads/building-frame-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/build-site-2026.webp
+  - /src/assets/uploads/cob-house-rudi.webp
+  - /src/assets/uploads/cob-house-window.webp
+  - /src/assets/uploads/cob-hands.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/cob-bricks.webp
+  - /src/assets/uploads/cob-mixing.webp
+  - /src/assets/uploads/cob-work-autumn.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/dance-house-build.webp
+  - /src/assets/uploads/dance-house-frame.webp
+  - /src/assets/uploads/dance-house-structure.webp
+  - /src/assets/uploads/dance-house-window.webp
+  - /src/assets/uploads/dance-house-inside.webp
+  - /src/assets/uploads/floating-deck.webp
+  - /src/assets/uploads/shelter-frame-1.webp
+  - /src/assets/uploads/shelter-frame-2.webp
+  - /src/assets/uploads/shelter-frame-3.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  videos:
+  - title: Build with Earth & Wood — 2026
+    file: /uploads/videos/build-earth-wood-2026.mp4
+  - title: The dance house — 2025
+    file: /uploads/videos/dance-house-build.mp4
 es:
   title: Construir juntos
   description: La casa de cob, la casa del baile, la plataforma en los árboles y la nueva shala de invierno.
+  order: 1
+  photos:
+  - /src/assets/uploads/building-frame-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/build-site-2026.webp
+  - /src/assets/uploads/cob-house-rudi.webp
+  - /src/assets/uploads/cob-house-window.webp
+  - /src/assets/uploads/cob-hands.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/cob-bricks.webp
+  - /src/assets/uploads/cob-mixing.webp
+  - /src/assets/uploads/cob-work-autumn.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/dance-house-build.webp
+  - /src/assets/uploads/dance-house-frame.webp
+  - /src/assets/uploads/dance-house-structure.webp
+  - /src/assets/uploads/dance-house-window.webp
+  - /src/assets/uploads/dance-house-inside.webp
+  - /src/assets/uploads/floating-deck.webp
+  - /src/assets/uploads/shelter-frame-1.webp
+  - /src/assets/uploads/shelter-frame-2.webp
+  - /src/assets/uploads/shelter-frame-3.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  videos:
+  - title: Build with Earth & Wood — 2026
+    file: /uploads/videos/build-earth-wood-2026.mp4
+  - title: The dance house — 2025
+    file: /uploads/videos/dance-house-build.mp4
 it:
   title: Costruire insieme
   description: La casa in cob, la casa della danza, la piattaforma sugli alberi e la nuova shala invernale.
+  order: 1
+  photos:
+  - /src/assets/uploads/building-frame-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/build-site-2026.webp
+  - /src/assets/uploads/cob-house-rudi.webp
+  - /src/assets/uploads/cob-house-window.webp
+  - /src/assets/uploads/cob-hands.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/cob-bricks.webp
+  - /src/assets/uploads/cob-mixing.webp
+  - /src/assets/uploads/cob-work-autumn.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/dance-house-build.webp
+  - /src/assets/uploads/dance-house-frame.webp
+  - /src/assets/uploads/dance-house-structure.webp
+  - /src/assets/uploads/dance-house-window.webp
+  - /src/assets/uploads/dance-house-inside.webp
+  - /src/assets/uploads/floating-deck.webp
+  - /src/assets/uploads/shelter-frame-1.webp
+  - /src/assets/uploads/shelter-frame-2.webp
+  - /src/assets/uploads/shelter-frame-3.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  videos:
+  - title: Build with Earth & Wood — 2026
+    file: /uploads/videos/build-earth-wood-2026.mp4
+  - title: The dance house — 2025
+    file: /uploads/videos/dance-house-build.mp4
 ru:
   title: Строим вместе
   description: Глиняный дом, дом для танцев, настил на деревьях и новая зимняя шала.
+  order: 1
+  photos:
+  - /src/assets/uploads/building-frame-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/build-site-2026.webp
+  - /src/assets/uploads/cob-house-rudi.webp
+  - /src/assets/uploads/cob-house-window.webp
+  - /src/assets/uploads/cob-hands.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/cob-bricks.webp
+  - /src/assets/uploads/cob-mixing.webp
+  - /src/assets/uploads/cob-work-autumn.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/dance-house-build.webp
+  - /src/assets/uploads/dance-house-frame.webp
+  - /src/assets/uploads/dance-house-structure.webp
+  - /src/assets/uploads/dance-house-window.webp
+  - /src/assets/uploads/dance-house-inside.webp
+  - /src/assets/uploads/floating-deck.webp
+  - /src/assets/uploads/shelter-frame-1.webp
+  - /src/assets/uploads/shelter-frame-2.webp
+  - /src/assets/uploads/shelter-frame-3.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  videos:
+  - title: Build with Earth & Wood — 2026
+    file: /uploads/videos/build-earth-wood-2026.mp4
+  - title: The dance house — 2025
+    file: /uploads/videos/dance-house-build.mp4
 de:
   title: Gemeinsam bauen
   description: Das Lehmhaus, das Tanzhaus, das Deck in den Bäumen und die neue Winter-Shala.
+  order: 1
+  photos:
+  - /src/assets/uploads/building-frame-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/build-site-2026.webp
+  - /src/assets/uploads/cob-house-rudi.webp
+  - /src/assets/uploads/cob-house-window.webp
+  - /src/assets/uploads/cob-hands.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/cob-bricks.webp
+  - /src/assets/uploads/cob-mixing.webp
+  - /src/assets/uploads/cob-work-autumn.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/dance-house-build.webp
+  - /src/assets/uploads/dance-house-frame.webp
+  - /src/assets/uploads/dance-house-structure.webp
+  - /src/assets/uploads/dance-house-window.webp
+  - /src/assets/uploads/dance-house-inside.webp
+  - /src/assets/uploads/floating-deck.webp
+  - /src/assets/uploads/shelter-frame-1.webp
+  - /src/assets/uploads/shelter-frame-2.webp
+  - /src/assets/uploads/shelter-frame-3.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  videos:
+  - title: Build with Earth & Wood — 2026
+    file: /uploads/videos/build-earth-wood-2026.mp4
+  - title: The dance house — 2025
+    file: /uploads/videos/dance-house-build.mp4
 pt:
   title: Construir juntos
   description: A casa de cob, a casa da dança, a plataforma nas árvores e a nova shala de inverno.
+  order: 1
+  photos:
+  - /src/assets/uploads/building-frame-2026.webp
+  - /src/assets/uploads/building-together-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/build-team-2026.webp
+  - /src/assets/uploads/build-site-2026.webp
+  - /src/assets/uploads/cob-house-rudi.webp
+  - /src/assets/uploads/cob-house-window.webp
+  - /src/assets/uploads/cob-hands.webp
+  - /src/assets/uploads/cob-making-team.webp
+  - /src/assets/uploads/cob-bricks.webp
+  - /src/assets/uploads/cob-mixing.webp
+  - /src/assets/uploads/cob-work-autumn.webp
+  - /src/assets/uploads/cob-wheelbarrow.webp
+  - /src/assets/uploads/dance-house-build.webp
+  - /src/assets/uploads/dance-house-frame.webp
+  - /src/assets/uploads/dance-house-structure.webp
+  - /src/assets/uploads/dance-house-window.webp
+  - /src/assets/uploads/dance-house-inside.webp
+  - /src/assets/uploads/floating-deck.webp
+  - /src/assets/uploads/shelter-frame-1.webp
+  - /src/assets/uploads/shelter-frame-2.webp
+  - /src/assets/uploads/shelter-frame-3.webp
+  - /src/assets/uploads/work-with-dogs.webp
+  videos:
+  - title: Build with Earth & Wood — 2026
+    file: /uploads/videos/build-earth-wood-2026.mp4
+  - title: The dance house — 2025
+    file: /uploads/videos/dance-house-build.mp4

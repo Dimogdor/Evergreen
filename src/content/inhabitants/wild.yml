@@ -9,27 +9,48 @@ en:
   name: Wild neighbours
   role: Rarely seen, always there
   bio: Wild boars, foxes, birds, insects and lizards share the forest with us. We tread lightly so that they can stay.
+  photo: /src/assets/uploads/dusk-gulf.webp
+  order: 13
+  kind: animal
 fr:
   name: Voisins sauvages
   role: Rarement vus, toujours là
   bio: Sangliers, renards, oiseaux, insectes et lézards partagent la forêt avec nous. Nous marchons doucement pour qu’ils puissent rester.
+  photo: /src/assets/uploads/dusk-gulf.webp
+  order: 13
+  kind: animal
 es:
   name: Vecinos salvajes
   role: Rara vez vistos, siempre ahí
   bio: Jabalíes, zorros, pájaros, insectos y lagartijas comparten el bosque con nosotros. Pisamos con cuidado para que puedan quedarse.
+  photo: /src/assets/uploads/dusk-gulf.webp
+  order: 13
+  kind: animal
 it:
   name: Vicini selvatici
   role: Raramente visti, sempre presenti
   bio: Cinghiali, volpi, uccelli, insetti e lucertole condividono il bosco con noi. Camminiamo leggeri perché possano restare.
+  photo: /src/assets/uploads/dusk-gulf.webp
+  order: 13
+  kind: animal
 ru:
   name: Дикие соседи
   role: Редко видны, но всегда рядом
   bio: Кабаны, лисы, птицы, насекомые и ящерицы делят с нами лес. Мы ступаем осторожно, чтобы они могли остаться.
+  photo: /src/assets/uploads/dusk-gulf.webp
+  order: 13
+  kind: animal
 de:
   name: Wilde Nachbarn
   role: Selten gesehen, immer da
   bio: Wildschweine, Füchse, Vögel, Insekten und Eidechsen teilen den Wald mit uns. Wir treten leise auf, damit sie bleiben können.
+  photo: /src/assets/uploads/dusk-gulf.webp
+  order: 13
+  kind: animal
 pt:
   name: Vizinhos selvagens
   role: Raramente vistos, sempre presentes
   bio: Javalis, raposas, aves, insetos e lagartixas partilham a floresta connosco. Pisamos com cuidado para que possam ficar.
+  photo: /src/assets/uploads/dusk-gulf.webp
+  order: 13
+  kind: animal

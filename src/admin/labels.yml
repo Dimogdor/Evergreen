@@ -1,0 +1,545 @@
+# Admin panel labels: English (as written in src/admin/config.yml) → Greek and French.
+
+"Pages":
+  el: "Σελίδες"
+  fr: "Pages"
+"Page":
+  el: "Σελίδα"
+  fr: "Page"
+"The texts and photos of every page of the website.":
+  el: "Τα κείμενα και οι φωτογραφίες κάθε σελίδας του ιστότοπου."
+  fr: "Les textes et les photos de chaque page du site."
+"Home page":
+  el: "Αρχική σελίδα"
+  fr: "Page d’accueil"
+"Main photo":
+  el: "Κύρια φωτογραφία"
+  fr: "Photo principale"
+"Photo description (for blind visitors and Google)":
+  el: "Περιγραφή φωτογραφίας (για τυφλούς επισκέπτες και για το Google)"
+  fr: "Description de la photo (pour les visiteurs aveugles et pour Google)"
+"Big headline":
+  el: "Μεγάλος τίτλος"
+  fr: "Grand titre"
+"Subtitle":
+  el: "Υπότιτλος"
+  fr: "Sous-titre"
+"Manifesto":
+  el: "Μανιφέστο"
+  fr: "Manifeste"
+"Introduction":
+  el: "Εισαγωγή"
+  fr: "Introduction"
+"Key numbers":
+  el: "Βασικοί αριθμοί"
+  fr: "Chiffres clés"
+"Number":
+  el: "Αριθμός"
+  fr: "Nombre"
+"Label":
+  el: "Ετικέτα"
+  fr: "Libellé"
+"Show the volunteering (ESC) block":
+  el: "Εμφάνιση της ενότητας εθελοντισμού (ESC)"
+  fr: "Afficher le bloc volontariat (ESC)"
+"Volunteering block — title":
+  el: "Ενότητα εθελοντισμού — τίτλος"
+  fr: "Bloc volontariat — titre"
+"Volunteering block — text":
+  el: "Ενότητα εθελοντισμού — κείμενο"
+  fr: "Bloc volontariat — texte"
+"Volunteering block — photo":
+  el: "Ενότητα εθελοντισμού — φωτογραφία"
+  fr: "Bloc volontariat — photo"
+"Show the upcoming events":
+  el: "Εμφάνιση των επόμενων εκδηλώσεων"
+  fr: "Afficher les prochains événements"
+"Show the stories":
+  el: "Εμφάνιση των ιστοριών"
+  fr: "Afficher les témoignages"
+"Show the yoga block":
+  el: "Εμφάνιση της ενότητας γιόγκα"
+  fr: "Afficher le bloc yoga"
+"Yoga block — small title":
+  el: "Ενότητα γιόγκα — μικρός τίτλος"
+  fr: "Bloc yoga — petit titre"
+"Yoga block — title":
+  el: "Ενότητα γιόγκα — τίτλος"
+  fr: "Bloc yoga — titre"
+"Yoga block — text":
+  el: "Ενότητα γιόγκα — κείμενο"
+  fr: "Bloc yoga — texte"
+"Yoga block — photo":
+  el: "Ενότητα γιόγκα — φωτογραφία"
+  fr: "Bloc yoga — photo"
+"Show the photos":
+  el: "Εμφάνιση των φωτογραφιών"
+  fr: "Afficher les photos"
+"Home page photos":
+  el: "Φωτογραφίες αρχικής σελίδας"
+  fr: "Photos de la page d’accueil"
+"Optional. Leave empty to show the first photos of each album.":
+  el: "Προαιρετικό. Αφήστε κενό για να εμφανιστούν οι πρώτες φωτογραφίες κάθε άλμπουμ."
+  fr: "Facultatif. Laissez vide pour afficher les premières photos de chaque album."
+"Closing sentence":
+  el: "Τελική φράση"
+  fr: "Phrase de conclusion"
+"The project":
+  el: "Το πρότζεκτ"
+  fr: "Le projet"
+"Title":
+  el: "Τίτλος"
+  fr: "Titre"
+"Cover photo":
+  el: "Φωτογραφία εξωφύλλου"
+  fr: "Photo de couverture"
+"Sections":
+  el: "Ενότητες"
+  fr: "Sections"
+"Section":
+  el: "Ενότητα"
+  fr: "Section"
+"Heading":
+  el: "Επικεφαλίδα"
+  fr: "Titre de la section"
+"Text":
+  el: "Κείμενο"
+  fr: "Texte"
+"Photo":
+  el: "Φωτογραφία"
+  fr: "Photo"
+"Photo description":
+  el: "Περιγραφή φωτογραφίας"
+  fr: "Description de la photo"
+"Key facts":
+  el: "Βασικές πληροφορίες"
+  fr: "Informations clés"
+"Fact":
+  el: "Πληροφορία"
+  fr: "Information"
+"Value":
+  el: "Λεπτομέρεια"
+  fr: "Valeur"
+"Lists (facilities, wishlist…)":
+  el: "Λίστες (εγκαταστάσεις, λίστα επιθυμιών…)"
+  fr: "Listes (équipements, liste de souhaits…)"
+"List":
+  el: "Λίστα"
+  fr: "Liste"
+"List title":
+  el: "Τίτλος λίστας"
+  fr: "Titre de la liste"
+"Items":
+  el: "Στοιχεία"
+  fr: "Éléments"
+"Item":
+  el: "Στοιχείο"
+  fr: "Élément"
+"Questions and answers":
+  el: "Ερωτήσεις και απαντήσεις"
+  fr: "Questions et réponses"
+"Question":
+  el: "Ερώτηση"
+  fr: "Question"
+"Answer":
+  el: "Απάντηση"
+  fr: "Réponse"
+"The place":
+  el: "Το μέρος"
+  fr: "Le lieu"
+"Way of life":
+  el: "Τρόπος ζωής"
+  fr: "Mode de vie"
+"The inhabitants (page)":
+  el: "Οι κάτοικοι (σελίδα)"
+  fr: "Les habitants (page)"
+"Support us (bank details are in Settings)":
+  el: "Στηρίξτε μας (τα τραπεζικά στοιχεία βρίσκονται στις Ρυθμίσεις)"
+  fr: "Nous soutenir (les coordonnées bancaires sont dans les Réglages)"
+"Contact (contact details are in Settings)":
+  el: "Επικοινωνία (τα στοιχεία επικοινωνίας βρίσκονται στις Ρυθμίσεις)"
+  fr: "Contact (les coordonnées sont dans les Réglages)"
+"Activities (introduction)":
+  el: "Δραστηριότητες (εισαγωγή)"
+  fr: "Activités (introduction)"
+"Calendar (introduction)":
+  el: "Ημερολόγιο (εισαγωγή)"
+  fr: "Calendrier (introduction)"
+"Gallery (introduction)":
+  el: "Γκαλερί (εισαγωγή)"
+  fr: "Galerie (introduction)"
+"Stories (introduction)":
+  el: "Ιστορίες (εισαγωγή)"
+  fr: "Témoignages (introduction)"
+"Calendar":
+  el: "Ημερολόγιο"
+  fr: "Calendrier"
+"Event":
+  el: "Εκδήλωση"
+  fr: "Événement"
+"Retreats, workshops, ESC projects and gatherings. Past events disappear from the website by themselves.":
+  el: "Retreats, εργαστήρια, προγράμματα ESC και συναντήσεις. Οι εκδηλώσεις που έχουν περάσει φεύγουν μόνες τους από τον ιστότοπο."
+  fr: "Retraites, ateliers, projets ESC et rencontres. Les événements passés disparaissent tout seuls du site."
+"Year":
+  el: "Έτος"
+  fr: "Année"
+"Start date":
+  el: "Ημερομηνία έναρξης"
+  fr: "Date de début"
+"End date":
+  el: "Ημερομηνία λήξης"
+  fr: "Date de fin"
+"Leave empty for a one-day event.":
+  el: "Αφήστε κενό αν η εκδήλωση διαρκεί μία μέρα."
+  fr: "Laissez vide pour un événement d’un seul jour."
+"Start time":
+  el: "Ώρα έναρξης"
+  fr: "Heure de début"
+"Write the time like 18:00":
+  el: "Γράψτε την ώρα όπως 18:00"
+  fr: "Écrivez l’heure comme 18:00"
+"Greek time, e.g. 18:00. Leave empty for an all-day event. Visitors see it in their own time zone when they add it to their calendar.":
+  el: "Ώρα Ελλάδας, π.χ. 18:00. Αφήστε κενό αν η εκδήλωση διαρκεί όλη μέρα. Οι επισκέπτες την βλέπουν στη δική τους ζώνη ώρας όταν την προσθέτουν στο ημερολόγιό τους."
+  fr: "Heure grecque, p. ex. 18:00. Laissez vide pour un événement qui dure toute la journée. Les visiteurs la voient dans leur propre fuseau horaire quand ils l’ajoutent à leur calendrier."
+"End time":
+  el: "Ώρα λήξης"
+  fr: "Heure de fin"
+"Write the time like 20:00":
+  el: "Γράψτε την ώρα όπως 20:00"
+  fr: "Écrivez l’heure comme 20:00"
+"Category":
+  el: "Κατηγορία"
+  fr: "Catégorie"
+"ESC volunteering":
+  el: "Εθελοντισμός ESC"
+  fr: "Volontariat ESC"
+"Retreat":
+  el: "Ρητρίτ"
+  fr: "Retraite"
+"Yoga":
+  el: "Γιόγκα"
+  fr: "Yoga"
+"Workshop":
+  el: "Εργαστήριο"
+  fr: "Atelier"
+"Community":
+  el: "Κοινότητα"
+  fr: "Communauté"
+"Other":
+  el: "Άλλο"
+  fr: "Autre"
+"Short description":
+  el: "Σύντομη περιγραφή"
+  fr: "Courte description"
+"Price":
+  el: "Τιμή"
+  fr: "Prix"
+"e.g. €380 early bird · €450. Leave empty if free or not relevant.":
+  el: "π.χ. €380 με έγκαιρη κράτηση · €450. Αφήστε κενό αν είναι δωρεάν ή δεν ισχύει."
+  fr: "p. ex. €380 en réservant tôt · €450. Laissez vide si c’est gratuit ou sans objet."
+"Place":
+  el: "Τοποθεσία"
+  fr: "Lieu"
+"Leave empty if it happens at the Evergreen Project.":
+  el: "Αφήστε κενό αν γίνεται στο Evergreen Project."
+  fr: "Laissez vide si cela a lieu à l’Evergreen Project."
+"Related activity":
+  el: "Σχετική δραστηριότητα"
+  fr: "Activité liée"
+"Adds a “Read more” link to this activity.":
+  el: "Προσθέτει έναν σύνδεσμο «Διαβάστε περισσότερα» προς αυτή τη δραστηριότητα."
+  fr: "Ajoute un lien « En savoir plus » vers cette activité."
+"Booking or information link":
+  el: "Σύνδεσμος για κράτηση ή πληροφορίες"
+  fr: "Lien de réservation ou d’information"
+"The full address starting with https://":
+  el: "Ολόκληρη η διεύθυνση, ξεκινώντας με https://"
+  fr: "L’adresse complète, qui commence par https://"
+"Link text":
+  el: "Κείμενο συνδέσμου"
+  fr: "Texte du lien"
+"e.g. Book now":
+  el: "π.χ. Κάντε κράτηση τώρα"
+  fr: "p. ex. Réservez maintenant"
+"Hidden":
+  el: "Κρυφό"
+  fr: "Masqué"
+"Hidden events are not shown on the website.":
+  el: "Οι κρυφές εκδηλώσεις δεν εμφανίζονται στον ιστότοπο."
+  fr: "Les événements masqués n’apparaissent pas sur le site."
+"Activities":
+  el: "Δραστηριότητες"
+  fr: "Activités"
+"Activity":
+  el: "Δραστηριότητα"
+  fr: "Activité"
+"Each activity has its own page. Drag them to change their order.":
+  el: "Κάθε δραστηριότητα έχει τη δική της σελίδα. Σύρετέ τες για να αλλάξετε τη σειρά τους."
+  fr: "Chaque activité a sa propre page. Faites-les glisser pour changer leur ordre."
+"Summary":
+  el: "Περίληψη"
+  fr: "Résumé"
+"One or two sentences shown on the cards.":
+  el: "Μία ή δύο προτάσεις που εμφανίζονται στις κάρτες."
+  fr: "Une ou deux phrases affichées sur les cartes."
+"Show on the home page":
+  el: "Εμφάνιση στην αρχική σελίδα"
+  fr: "Afficher sur la page d’accueil"
+"Full text":
+  el: "Πλήρες κείμενο"
+  fr: "Texte complet"
+"Photos":
+  el: "Φωτογραφίες"
+  fr: "Photos"
+"External link":
+  el: "Εξωτερικός σύνδεσμος"
+  fr: "Lien externe"
+"Optional button, e.g. a booking page (https://…)":
+  el: "Προαιρετικό κουμπί, π.χ. σελίδα κρατήσεων (https://…)"
+  fr: "Bouton facultatif, p. ex. une page de réservation (https://…)"
+"Order":
+  el: "Σειρά"
+  fr: "Ordre"
+"Set automatically when you drag the entries.":
+  el: "Ορίζεται αυτόματα όταν σύρετε τις καταχωρήσεις."
+  fr: "Défini automatiquement quand vous faites glisser les éléments."
+"Gallery":
+  el: "Γκαλερί"
+  fr: "Galerie"
+"Album":
+  el: "Άλμπουμ"
+  fr: "Album"
+"Photo and video albums. Select many photos at once — they are compressed automatically.":
+  el: "Άλμπουμ με φωτογραφίες και βίντεο. Επιλέξτε πολλές φωτογραφίες μαζί — συμπιέζονται αυτόματα."
+  fr: "Albums de photos et de vidéos. Sélectionnez plusieurs photos à la fois — elles sont compressées automatiquement."
+"Description":
+  el: "Περιγραφή"
+  fr: "Description"
+"The first photos are shown first — drag them to change the order.":
+  el: "Οι πρώτες φωτογραφίες εμφανίζονται πρώτες — σύρετέ τες για να αλλάξετε τη σειρά."
+  fr: "Les premières photos s’affichent en premier — faites-les glisser pour changer l’ordre."
+"Videos":
+  el: "Βίντεο"
+  fr: "Vidéos"
+"Video":
+  el: "Βίντεο"
+  fr: "Vidéo"
+"Best — upload the video to YouTube (it can be “unlisted”) and paste the link. Short clips can also be uploaded directly.":
+  el: "Ο καλύτερος τρόπος — ανεβάστε το βίντεο στο YouTube (μπορεί να είναι «μη καταχωρισμένο») και επικολλήστε τον σύνδεσμο. Τα σύντομα βίντεο μπορούν να ανέβουν και απευθείας."
+  fr: "Idéalement — mettez la vidéo en ligne sur YouTube (elle peut être « non répertoriée ») et collez le lien. Les courts extraits peuvent aussi être ajoutés directement."
+"YouTube or Vimeo link":
+  el: "Σύνδεσμος YouTube ή Vimeo"
+  fr: "Lien YouTube ou Vimeo"
+"Or a video file (MP4)":
+  el: "Ή αρχείο βίντεο (MP4)"
+  fr: "Ou un fichier vidéo (MP4)"
+"Short clips only (under about 40 MB). They are compressed automatically.":
+  el: "Μόνο σύντομα βίντεο (κάτω από περίπου 40 MB). Συμπιέζονται αυτόματα."
+  fr: "Courts extraits uniquement (moins de 40 Mo environ). Ils sont compressés automatiquement."
+"Stories":
+  el: "Ιστορίες"
+  fr: "Témoignages"
+"Story":
+  el: "Ιστορία"
+  fr: "Témoignage"
+"Stories sent by visitors arrive here unpublished. Read them, tick “Published” to show them on the website — or delete them. You can also add stories yourself.":
+  el: "Οι ιστορίες που στέλνουν οι επισκέπτες φτάνουν εδώ αδημοσίευτες. Διαβάστε τες και ενεργοποιήστε το «Δημοσιευμένο» για να εμφανιστούν στον ιστότοπο — ή διαγράψτε τες. Μπορείτε και εσείς να προσθέσετε ιστορίες."
+  fr: "Les témoignages envoyés par les visiteurs arrivent ici non publiés. Lisez-les, cochez « Publié » pour les afficher sur le site — ou supprimez-les. Vous pouvez aussi ajouter des témoignages vous-mêmes."
+"Waiting for approval":
+  el: "Σε αναμονή έγκρισης"
+  fr: "En attente de validation"
+"Published":
+  el: "Δημοσιευμένο"
+  fr: "Publié"
+"Only published stories appear on the website.":
+  el: "Μόνο οι δημοσιευμένες ιστορίες εμφανίζονται στον ιστότοπο."
+  fr: "Seuls les témoignages publiés apparaissent sur le site."
+"Name":
+  el: "Όνομα"
+  fr: "Nom"
+"Country":
+  el: "Χώρα"
+  fr: "Pays"
+"Programme and year":
+  el: "Πρόγραμμα και έτος"
+  fr: "Programme et année"
+"e.g. ESC 2025":
+  el: "π.χ. ESC 2025"
+  fr: "p. ex. ESC 2025"
+"Video link (YouTube or Vimeo)":
+  el: "Σύνδεσμος βίντεο (YouTube ή Vimeo)"
+  fr: "Lien vidéo (YouTube ou Vimeo)"
+"Date":
+  el: "Ημερομηνία"
+  fr: "Date"
+"Inhabitants":
+  el: "Κάτοικοι"
+  fr: "Habitants"
+"Inhabitant":
+  el: "Κάτοικος"
+  fr: "Habitant"
+"People, animals and plants of the place. Drag them to change their order.":
+  el: "Οι άνθρωποι, τα ζώα και τα φυτά του τόπου. Σύρετέ τα για να αλλάξετε τη σειρά τους."
+  fr: "Les personnes, les animaux et les plantes du lieu. Faites-les glisser pour changer leur ordre."
+"Kind":
+  el: "Είδος"
+  fr: "Type"
+"Person":
+  el: "Άνθρωπος"
+  fr: "Personne"
+"Animal":
+  el: "Ζώο"
+  fr: "Animal"
+"Plant":
+  el: "Φυτό"
+  fr: "Plante"
+"Role":
+  el: "Ρόλος"
+  fr: "Rôle"
+"A few words":
+  el: "Λίγα λόγια"
+  fr: "Quelques mots"
+"A square photo looks best. Without a photo, the initials are shown.":
+  el: "Μια τετράγωνη φωτογραφία φαίνεται καλύτερα. Χωρίς φωτογραφία, εμφανίζονται τα αρχικά."
+  fr: "Une photo carrée rend mieux. Sans photo, ce sont les initiales qui s’affichent."
+"New pages":
+  el: "Νέες σελίδες"
+  fr: "Nouvelles pages"
+"Create your own pages (for example a festival or a partner). Tick “Show in the menu” to add them to the menu. The privacy page is here too.":
+  el: "Δημιουργήστε δικές σας σελίδες (π.χ. ένα φεστιβάλ ή έναν συνεργάτη). Ενεργοποιήστε το «Εμφάνιση στο μενού» για να προστεθούν στο μενού. Εδώ βρίσκεται και η σελίδα απορρήτου."
+  fr: "Créez vos propres pages (par exemple pour un festival ou un partenaire). Cochez « Afficher dans le menu » pour les ajouter au menu. La page de confidentialité se trouve aussi ici."
+"Show in the menu":
+  el: "Εμφάνιση στο μενού"
+  fr: "Afficher dans le menu"
+"Settings":
+  el: "Ρυθμίσεις"
+  fr: "Réglages"
+"Contact details, bank details, colours, links and every small text of the website.":
+  el: "Στοιχεία επικοινωνίας, τραπεζικά στοιχεία, χρώματα, σύνδεσμοι και όλα τα μικρά κείμενα του ιστότοπου."
+  fr: "Coordonnées, informations bancaires, couleurs, liens et tous les petits textes du site."
+"Site, contact and bank":
+  el: "Ιστότοπος, επικοινωνία και τράπεζα"
+  fr: "Site, contact et banque"
+"Logo":
+  el: "Λογότυπο"
+  fr: "Logo"
+"Tagline":
+  el: "Σλόγκαν"
+  fr: "Slogan"
+"Description for Google":
+  el: "Περιγραφή για το Google"
+  fr: "Description pour Google"
+"About 150 characters.":
+  el: "Περίπου 150 χαρακτήρες."
+  fr: "Environ 150 caractères."
+"Photo shown when the website is shared (Facebook, WhatsApp…)":
+  el: "Φωτογραφία που εμφανίζεται όταν μοιράζεστε τον ιστότοπο (Facebook, WhatsApp…)"
+  fr: "Photo affichée quand le site est partagé (Facebook, WhatsApp…)"
+"Top banner":
+  el: "Ανακοίνωση στο πάνω μέρος"
+  fr: "Bandeau en haut de page"
+"Optional message shown at the top of every page, e.g. “ESC call open until 30 March!”. Leave empty to hide it.":
+  el: "Προαιρετικό μήνυμα στο πάνω μέρος κάθε σελίδας, π.χ. «Ανοιχτό κάλεσμα ESC έως 30 Μαρτίου!». Αφήστε κενό για να μην εμφανίζεται."
+  fr: "Message facultatif affiché en haut de chaque page, p. ex. « Appel ESC ouvert jusqu’au 30 mars ! ». Laissez vide pour le masquer."
+"Email":
+  el: "Email"
+  fr: "E-mail"
+"Phone":
+  el: "Τηλέφωνο"
+  fr: "Téléphone"
+"With the country code, e.g. +30 694 755 8519":
+  el: "Με τον κωδικό χώρας, π.χ. +30 694 755 8519"
+  fr: "Avec l’indicatif du pays, p. ex. +30 694 755 8519"
+"Address":
+  el: "Διεύθυνση"
+  fr: "Adresse"
+"Map — latitude":
+  el: "Χάρτης — γεωγραφικό πλάτος"
+  fr: "Carte — latitude"
+"Map — longitude":
+  el: "Χάρτης — γεωγραφικό μήκος"
+  fr: "Carte — longitude"
+"Instagram":
+  el: "Instagram"
+  fr: "Instagram"
+"Facebook":
+  el: "Facebook"
+  fr: "Facebook"
+"Messenger":
+  el: "Messenger"
+  fr: "Messenger"
+"Other contacts (yoga studios, retreats…)":
+  el: "Άλλες επαφές (στούντιο γιόγκα, retreats…)"
+  fr: "Autres contacts (studios de yoga, retraites…)"
+"Contact":
+  el: "Επαφή"
+  fr: "Contact"
+"What it is":
+  el: "Τι είναι"
+  fr: "De quoi s’agit-il"
+"Website":
+  el: "Ιστότοπος"
+  fr: "Site web"
+"Yoga studios website":
+  el: "Ιστότοπος για τα στούντιο γιόγκα"
+  fr: "Site web des studios de yoga"
+"Yoga retreats website":
+  el: "Ιστότοπος για τα retreats γιόγκα"
+  fr: "Site web des retraites de yoga"
+"Yoga teacher trainings website":
+  el: "Ιστότοπος για τις εκπαιδεύσεις δασκάλων γιόγκα"
+  fr: "Site web des formations de professeur de yoga"
+"Tax ID (AFM)":
+  el: "ΑΦΜ"
+  fr: "Numéro fiscal (AFM)"
+"IBAN (donations)":
+  el: "IBAN (δωρεές)"
+  fr: "IBAN (dons)"
+"Shown on the Support page with a “Copy” button. Leave empty to hide the bank details.":
+  el: "Εμφανίζεται στη σελίδα «Στηρίξτε μας» με κουμπί «Αντιγραφή». Αφήστε κενό για να κρυφτούν τα τραπεζικά στοιχεία."
+  fr: "Affiché sur la page « Nous soutenir » avec un bouton « Copier ». Laissez vide pour masquer les coordonnées bancaires."
+"BIC / SWIFT":
+  el: "BIC / SWIFT"
+  fr: "BIC / SWIFT"
+"Account holder":
+  el: "Δικαιούχος λογαριασμού"
+  fr: "Titulaire du compte"
+"Bank":
+  el: "Τράπεζα"
+  fr: "Banque"
+"Contact form key (Web3Forms)":
+  el: "Κλειδί φόρμας επικοινωνίας (Web3Forms)"
+  fr: "Clé du formulaire de contact (Web3Forms)"
+"Free key from web3forms.com — messages then arrive by e-mail. Leave empty to show only the e-mail button.":
+  el: "Δωρεάν κλειδί από το web3forms.com — τα μηνύματα έρχονται τότε με email. Αφήστε κενό για να εμφανίζεται μόνο το κουμπί email."
+  fr: "Clé gratuite sur web3forms.com — les messages arrivent alors par e-mail. Laissez vide pour n’afficher que le bouton e-mail."
+"Website API address":
+  el: "Διεύθυνση API του ιστότοπου"
+  fr: "Adresse API du site"
+"The address of the website's small server (see worker/README.md). It turns on the stories form.":
+  el: "Η διεύθυνση του μικρού διακομιστή του ιστότοπου (δείτε το worker/README.md). Ενεργοποιεί τη φόρμα ιστοριών."
+  fr: "L’adresse du petit serveur du site (voir worker/README.md). Elle active le formulaire de témoignages."
+"Anti-spam key (Turnstile, optional)":
+  el: "Κλειδί κατά του spam (Turnstile, προαιρετικό)"
+  fr: "Clé anti-spam (Turnstile, facultative)"
+"Colours":
+  el: "Χρώματα"
+  fr: "Couleurs"
+"Background":
+  el: "Φόντο"
+  fr: "Arrière-plan"
+"Second background":
+  el: "Δεύτερο φόντο"
+  fr: "Arrière-plan secondaire"
+"Green":
+  el: "Πράσινο"
+  fr: "Vert"
+"Dark green":
+  el: "Σκούρο πράσινο"
+  fr: "Vert foncé"
+"Accent colour":
+  el: "Χρώμα έμφασης"
+  fr: "Couleur d’accent"
+"Small texts (menu, buttons, labels)":
+  el: "Μικρά κείμενα (μενού, κουμπιά, ετικέτες)"
+  fr: "Petits textes (menu, boutons, étiquettes)"

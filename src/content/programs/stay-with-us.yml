@@ -74,6 +74,18 @@ en:
   faq:
   - q: Can I come for just a few days?
     a: Yes. The price is €18 per day; longer stays cost less (€300 for a month, €500 for two months).
+  image: /src/assets/uploads/tents-fairy-lights.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/misty-tents.webp
+  order: 2
 fr:
   title: Séjourner chez nous
   summary: Partagez la vie communautaire dans la forêt pour quelques jours, un mois ou toute une saison.
@@ -106,6 +118,18 @@ fr:
   faq:
   - q: Puis-je venir pour quelques jours seulement ?
     a: Oui. Le prix est de 18 € par jour ; les séjours plus longs coûtent moins cher (300 € le mois, 500 € les deux mois).
+  image: /src/assets/uploads/tents-fairy-lights.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/misty-tents.webp
+  order: 2
 es:
   title: Quédate con nosotros
   summary: Únete a la vida comunitaria en el bosque durante unos días, un mes o toda una temporada.
@@ -138,6 +162,18 @@ es:
   faq:
   - q: ¿Puedo ir solo unos días?
     a: Sí. El precio es de 18 € al día; las estancias más largas cuestan menos (300 € al mes, 500 € por dos meses).
+  image: /src/assets/uploads/tents-fairy-lights.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/misty-tents.webp
+  order: 2
 it:
   title: Stai con noi
   summary: Partecipa alla vita di comunità nel bosco per qualche giorno, un mese o un’intera stagione.
@@ -170,6 +206,18 @@ it:
   faq:
   - q: Posso venire solo per qualche giorno?
     a: Sì. Il prezzo è di 18 € al giorno; i soggiorni più lunghi costano meno (300 € al mese, 500 € per due mesi).
+  image: /src/assets/uploads/tents-fairy-lights.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/misty-tents.webp
+  order: 2
 ru:
   title: Поживите у нас
   summary: Присоединяйтесь к жизни сообщества в лесу на несколько дней, месяц или целый сезон.
@@ -202,6 +250,18 @@ ru:
   faq:
   - q: Можно приехать всего на несколько дней?
     a: Да. Стоимость — 18 € в день; длительное проживание дешевле (300 € за месяц, 500 € за два месяца).
+  image: /src/assets/uploads/tents-fairy-lights.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/misty-tents.webp
+  order: 2
 de:
   title: Bleib bei uns
   summary: Lebe für ein paar Tage, einen Monat oder eine ganze Saison in unserer Gemeinschaft im Wald.
@@ -234,6 +294,18 @@ de:
   faq:
   - q: Kann ich nur für ein paar Tage kommen?
     a: Ja. Der Preis beträgt 18 € pro Tag; längere Aufenthalte sind günstiger (300 € für einen Monat, 500 € für zwei Monate).
+  image: /src/assets/uploads/tents-fairy-lights.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/misty-tents.webp
+  order: 2
 pt:
   title: Fique connosco
   summary: Junte-se à vida comunitária na floresta durante alguns dias, um mês ou uma estação inteira.
@@ -266,3 +338,15 @@ pt:
   faq:
   - q: Posso ir só por alguns dias?
     a: Sim. O preço é de 18 € por dia; as estadias mais longas custam menos (300 € por um mês, 500 € por dois meses).
+  image: /src/assets/uploads/tents-fairy-lights.webp
+  featured: true
+  gallery:
+  - /src/assets/uploads/tent-entrance.webp
+  - /src/assets/uploads/tent-lantern.webp
+  - /src/assets/uploads/tent-practice.webp
+  - /src/assets/uploads/hammocks.webp
+  - /src/assets/uploads/shared-lunch.webp
+  - /src/assets/uploads/cooking-together.webp
+  - /src/assets/uploads/cat-lap.webp
+  - /src/assets/uploads/misty-tents.webp
+  order: 2

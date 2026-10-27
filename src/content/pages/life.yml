@@ -39,14 +39,19 @@ en:
   sections:
   - heading: Simple, conscious living
     text: Life at Evergreen is simple on purpose. Without the noise of the city, days follow the light, the weather and the needs of the land. A deep connection with nature, simplicity and a little wildness create space for self-study and self-exploration — the yogic path, lived every day.
+    image: /src/assets/uploads/tent-view-out.webp
   - heading: Hands in the earth
     text: 'Every day we take care of the land and help the project grow: organic gardening following permaculture principles, natural building with earth, cob and wood, woodworking, forestry and fire protection, water and waste management. No experience needed — we learn by doing, together.'
+    image: /src/assets/uploads/signs-camping.webp
   - heading: The food we share
     text: 'Our kitchen is vegetarian. We cook fresh, nourishing meals with local, seasonal ingredients — some from our own garden — inspired by Mediterranean traditions, and share them at long tables under the trees. Cooking is part of community life: everyone lends a hand.'
+    image: /src/assets/uploads/kitchen-chopping.webp
   - heading: Practice
     text: The shala is the heart of the land. Yoga, meditation and pranayama, movement and breath are offered regularly to every level — from first-timers to teachers in training. Practice is an invitation, never an obligation.
+    image: /src/assets/uploads/shala-practice-shade.webp
   - heading: Living in community
     text: We hold circles to share how we feel and to make decisions together. We celebrate seasons, birthdays and arrivals; we hike, play music and sit around the fire. Living with others is a practice too — of listening, patience and joy.
+    image: /src/assets/uploads/campfire-circle.webp
   lists:
   - title: What we value
     items:
@@ -62,20 +67,26 @@ en:
       text: Common spaces and tasks are everyone’s business.
     - title: Curiosity
       text: Everyone has something to teach and something to learn.
+  image: /src/assets/uploads/shared-meal-table.webp
 fr:
   title: Mode de vie
   intro: Un rythme plus lent, partagé avec les autres et avec la forêt.
   sections:
   - heading: Une vie simple et consciente
     text: La vie à Evergreen est simple, par choix. Loin du bruit de la ville, les journées suivent la lumière, la météo et les besoins de la terre. Un lien profond avec la nature, la simplicité et un brin de vie sauvage ouvrent un espace pour l’étude de soi et l’exploration intérieure — la voie du yoga, vécue au quotidien.
+    image: /src/assets/uploads/tent-view-out.webp
   - heading: Les mains dans la terre
     text: 'Chaque jour, nous prenons soin de la terre et faisons grandir le projet : jardinage biologique selon les principes de la permaculture, construction naturelle en terre, bauge et bois, travail du bois, sylviculture et prévention des incendies, gestion de l’eau et des déchets. Aucune expérience n’est requise — nous apprenons en faisant, ensemble.'
+    image: /src/assets/uploads/signs-camping.webp
   - heading: La nourriture que nous partageons
     text: 'Notre cuisine est végétarienne. Nous préparons des repas frais et nourrissants avec des produits locaux et de saison — certains de notre propre jardin — inspirés des traditions méditerranéennes, et nous les partageons à de longues tables sous les arbres. Cuisiner fait partie de la vie commune : chacun met la main à la pâte.'
+    image: /src/assets/uploads/kitchen-chopping.webp
   - heading: La pratique
     text: La shala est le cœur du lieu. Yoga, méditation et pranayama, mouvement et respiration sont proposés régulièrement à tous les niveaux — des débutants aux futurs professeurs. La pratique est une invitation, jamais une obligation.
+    image: /src/assets/uploads/shala-practice-shade.webp
   - heading: Vivre en communauté
     text: Nous faisons des cercles pour partager ce que nous ressentons et pour décider ensemble. Nous célébrons les saisons, les anniversaires et les arrivées ; nous randonnons, faisons de la musique et nous asseyons autour du feu. Vivre avec les autres est aussi une pratique — d’écoute, de patience et de joie.
+    image: /src/assets/uploads/campfire-circle.webp
   lists:
   - title: Nos valeurs
     items:
@@ -91,20 +102,26 @@ fr:
       text: Les espaces et les tâches communs sont l’affaire de tous.
     - title: Curiosité
       text: Chacun a quelque chose à transmettre et quelque chose à apprendre.
+  image: /src/assets/uploads/shared-meal-table.webp
 es:
   title: Forma de vida
   intro: Un ritmo más lento, compartido con las personas y con el bosque.
   sections:
   - heading: Una vida sencilla y consciente
     text: La vida en Evergreen es sencilla a propósito. Sin el ruido de la ciudad, los días siguen la luz, el tiempo y las necesidades de la tierra. Una conexión profunda con la naturaleza, la sencillez y un poco de vida salvaje crean espacio para el autoestudio y la exploración interior — el camino del yoga, vivido cada día.
+    image: /src/assets/uploads/tent-view-out.webp
   - heading: Las manos en la tierra
     text: 'Cada día cuidamos la tierra y ayudamos a que el proyecto crezca: huerta ecológica con principios de permacultura, bioconstrucción con tierra, cob y madera, carpintería, silvicultura y prevención de incendios, gestión del agua y de los residuos. No hace falta experiencia — aprendemos haciendo, juntos.'
+    image: /src/assets/uploads/signs-camping.webp
   - heading: La comida que compartimos
     text: 'Nuestra cocina es vegetariana. Preparamos comidas frescas y nutritivas con ingredientes locales y de temporada — algunos de nuestra propia huerta — inspiradas en la tradición mediterránea, y las compartimos en mesas largas bajo los árboles. Cocinar es parte de la vida comunitaria: todos echan una mano.'
+    image: /src/assets/uploads/kitchen-chopping.webp
   - heading: La práctica
     text: La shala es el corazón del lugar. Yoga, meditación y pranayama, movimiento y respiración se ofrecen con regularidad para todos los niveles — desde quien prueba por primera vez hasta profesores en formación. La práctica es una invitación, nunca una obligación.
+    image: /src/assets/uploads/shala-practice-shade.webp
   - heading: Vivir en comunidad
     text: Hacemos círculos para compartir cómo nos sentimos y para tomar decisiones juntos. Celebramos las estaciones, los cumpleaños y las llegadas; caminamos por la montaña, tocamos música y nos sentamos alrededor del fuego. Vivir con otros también es una práctica — de escucha, paciencia y alegría.
+    image: /src/assets/uploads/campfire-circle.webp
   lists:
   - title: Nuestros valores
     items:
@@ -120,20 +137,26 @@ es:
       text: Los espacios y las tareas comunes son cosa de todos.
     - title: Curiosidad
       text: Cada persona tiene algo que enseñar y algo que aprender.
+  image: /src/assets/uploads/shared-meal-table.webp
 it:
   title: Stile di vita
   intro: Un ritmo più lento, condiviso con le persone e con il bosco.
   sections:
   - heading: Una vita semplice e consapevole
     text: La vita a Evergreen è semplice per scelta. Senza il rumore della città, le giornate seguono la luce, il tempo e i bisogni della terra. Un legame profondo con la natura, la semplicità e un pizzico di selvatico creano spazio per lo studio di sé e l’esplorazione interiore — il sentiero dello yoga, vissuto ogni giorno.
+    image: /src/assets/uploads/tent-view-out.webp
   - heading: Le mani nella terra
     text: 'Ogni giorno ci prendiamo cura della terra e aiutiamo il progetto a crescere: orto biologico secondo i principi della permacultura, bioedilizia con terra, cob e legno, falegnameria, selvicoltura e prevenzione degli incendi, gestione dell’acqua e dei rifiuti. Non serve esperienza — impariamo facendo, insieme.'
+    image: /src/assets/uploads/signs-camping.webp
   - heading: Il cibo che condividiamo
     text: 'La nostra cucina è vegetariana. Prepariamo pasti freschi e nutrienti con ingredienti locali e di stagione — alcuni dal nostro orto — ispirati alla tradizione mediterranea, e li condividiamo a lunghe tavolate sotto gli alberi. Cucinare fa parte della vita comunitaria: tutti danno una mano.'
+    image: /src/assets/uploads/kitchen-chopping.webp
   - heading: La pratica
     text: La shala è il cuore del luogo. Yoga, meditazione e pranayama, movimento e respiro vengono proposti regolarmente a ogni livello — da chi prova per la prima volta agli insegnanti in formazione. La pratica è un invito, mai un obbligo.
+    image: /src/assets/uploads/shala-practice-shade.webp
   - heading: Vivere in comunità
     text: Facciamo cerchi per condividere come ci sentiamo e per prendere decisioni insieme. Celebriamo le stagioni, i compleanni e gli arrivi; camminiamo in montagna, suoniamo e ci sediamo intorno al fuoco. Vivere con gli altri è anche una pratica — di ascolto, pazienza e gioia.
+    image: /src/assets/uploads/campfire-circle.webp
   lists:
   - title: I nostri valori
     items:
@@ -149,20 +172,26 @@ it:
       text: Gli spazi e i compiti comuni riguardano tutti.
     - title: Curiosità
       text: Ognuno ha qualcosa da insegnare e qualcosa da imparare.
+  image: /src/assets/uploads/shared-meal-table.webp
 ru:
   title: Образ жизни
   intro: Более медленный ритм, разделённый с людьми и с лесом.
   sections:
   - heading: Простая осознанная жизнь
     text: Жизнь в Evergreen проста намеренно. Без городского шума дни следуют за светом, погодой и нуждами земли. Глубокая связь с природой, простота и немного дикости дают пространство для самоизучения и внутреннего исследования — путь йоги, проживаемый каждый день.
+    image: /src/assets/uploads/tent-view-out.webp
   - heading: Руки в земле
     text: 'Каждый день мы заботимся о земле и помогаем проекту расти: органическое садоводство по принципам пермакультуры, природное строительство из земли, глины (cob) и дерева, работа с деревом, лесоводство и защита от пожаров, управление водой и отходами. Опыт не нужен — мы учимся на практике, вместе.'
+    image: /src/assets/uploads/signs-camping.webp
   - heading: Еда, которой мы делимся
     text: 'Наша кухня вегетарианская. Мы готовим свежие питательные блюда из местных сезонных продуктов — часть из них с нашего огорода — в духе средиземноморских традиций и делим их за длинными столами под деревьями. Готовка — часть жизни сообщества: каждый помогает.'
+    image: /src/assets/uploads/kitchen-chopping.webp
   - heading: Практика
     text: Шала — сердце нашего места. Йога, медитация и пранаяма, движение и дыхание предлагаются регулярно для любого уровня — от новичков до будущих преподавателей. Практика — это приглашение, а не обязанность.
+    image: /src/assets/uploads/shala-practice-shade.webp
   - heading: Жизнь в сообществе
     text: 'Мы собираемся в круги, чтобы делиться чувствами и принимать решения вместе. Отмечаем смену сезонов, дни рождения и приезды; ходим в походы, играем музыку и сидим у костра. Жить с другими — тоже практика: слушания, терпения и радости.'
+    image: /src/assets/uploads/campfire-circle.webp
   lists:
   - title: Наши ценности
     items:
@@ -178,20 +207,26 @@ ru:
       text: Общие пространства и дела — забота каждого.
     - title: Любознательность
       text: Каждому есть чему научить и чему научиться.
+  image: /src/assets/uploads/shared-meal-table.webp
 de:
   title: Lebensweise
   intro: Ein langsamerer Rhythmus, geteilt mit Menschen und mit dem Wald.
   sections:
   - heading: Einfaches, bewusstes Leben
     text: Das Leben bei Evergreen ist bewusst einfach. Ohne den Lärm der Stadt folgen die Tage dem Licht, dem Wetter und den Bedürfnissen des Landes. Eine tiefe Verbindung zur Natur, Einfachheit und ein wenig Wildnis schaffen Raum für Selbststudium und Selbsterforschung — den Yogaweg, jeden Tag gelebt.
+    image: /src/assets/uploads/tent-view-out.webp
   - heading: Hände in der Erde
     text: 'Jeden Tag kümmern wir uns um das Land und lassen das Projekt wachsen: biologischer Gartenbau nach Permakultur-Prinzipien, Naturbau mit Erde, Cob und Holz, Holzarbeit, Forstwirtschaft und Brandschutz, Wasser- und Abfallmanagement. Erfahrung ist nicht nötig — wir lernen durch Tun, gemeinsam.'
+    image: /src/assets/uploads/signs-camping.webp
   - heading: Das Essen, das wir teilen
     text: 'Unsere Küche ist vegetarisch. Wir kochen frische, nahrhafte Mahlzeiten aus regionalen, saisonalen Zutaten — manche aus unserem eigenen Garten —, inspiriert von mediterranen Traditionen, und teilen sie an langen Tischen unter den Bäumen. Kochen gehört zum Gemeinschaftsleben: Alle packen mit an.'
+    image: /src/assets/uploads/kitchen-chopping.webp
   - heading: Praxis
     text: Die Shala ist das Herz des Ortes. Yoga, Meditation und Pranayama, Bewegung und Atem werden regelmäßig für alle Niveaus angeboten — von Neugierigen bis zu angehenden Lehrer·innen. Die Praxis ist eine Einladung, nie eine Pflicht.
+    image: /src/assets/uploads/shala-practice-shade.webp
   - heading: Leben in Gemeinschaft
     text: Wir treffen uns in Kreisen, um zu teilen, wie es uns geht, und um gemeinsam zu entscheiden. Wir feiern Jahreszeiten, Geburtstage und Ankünfte; wir wandern, machen Musik und sitzen am Feuer. Mit anderen zu leben ist auch eine Praxis — des Zuhörens, der Geduld und der Freude.
+    image: /src/assets/uploads/campfire-circle.webp
   lists:
   - title: Was uns wichtig ist
     items:
@@ -207,20 +242,26 @@ de:
       text: Gemeinschaftsräume und Aufgaben gehen alle an.
     - title: Neugier
       text: Alle haben etwas zu lehren und etwas zu lernen.
+  image: /src/assets/uploads/shared-meal-table.webp
 pt:
   title: Modo de vida
   intro: Um ritmo mais lento, partilhado com as pessoas e com a floresta.
   sections:
   - heading: Uma vida simples e consciente
     text: A vida no Evergreen é simples de propósito. Sem o ruído da cidade, os dias seguem a luz, o tempo e as necessidades da terra. Uma ligação profunda à natureza, a simplicidade e um pouco de vida selvagem criam espaço para o autoestudo e a exploração interior — o caminho do yoga, vivido todos os dias.
+    image: /src/assets/uploads/tent-view-out.webp
   - heading: As mãos na terra
     text: 'Todos os dias cuidamos da terra e ajudamos o projeto a crescer: horta biológica segundo os princípios da permacultura, bioconstrução com terra, cob e madeira, carpintaria, silvicultura e prevenção de incêndios, gestão da água e dos resíduos. Não é preciso experiência — aprendemos fazendo, juntos.'
+    image: /src/assets/uploads/signs-camping.webp
   - heading: A comida que partilhamos
     text: 'A nossa cozinha é vegetariana. Preparamos refeições frescas e nutritivas com ingredientes locais e da época — alguns da nossa própria horta — inspiradas na tradição mediterrânica, e partilhamo-las em mesas compridas debaixo das árvores. Cozinhar faz parte da vida comunitária: todos dão uma mão.'
+    image: /src/assets/uploads/kitchen-chopping.webp
   - heading: A prática
     text: A shala é o coração do lugar. Yoga, meditação e pranayama, movimento e respiração são oferecidos regularmente a todos os níveis — de quem experimenta pela primeira vez a professores em formação. A prática é um convite, nunca uma obrigação.
+    image: /src/assets/uploads/shala-practice-shade.webp
   - heading: Viver em comunidade
     text: Fazemos círculos para partilhar como nos sentimos e para decidir em conjunto. Celebramos as estações, os aniversários e as chegadas; caminhamos na montanha, tocamos música e sentamo-nos à volta da fogueira. Viver com os outros também é uma prática — de escuta, paciência e alegria.
+    image: /src/assets/uploads/campfire-circle.webp
   lists:
   - title: Os nossos valores
     items:
@@ -236,3 +277,4 @@ pt:
       text: Os espaços e as tarefas comuns são assunto de todos.
     - title: Curiosidade
       text: Cada pessoa tem algo para ensinar e algo para aprender.
+  image: /src/assets/uploads/shared-meal-table.webp

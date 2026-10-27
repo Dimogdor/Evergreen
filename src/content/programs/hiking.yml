@@ -44,6 +44,22 @@ en:
 
     ### Caring for the trails — and a new climbing field
     In 2025, with the support of the European Union and INEDIVIM, we organised open actions to **clear, mark and sign the trails of Kallidromo**, with educational markers for ecological awareness. And since summer 2026 we are opening a **new climbing field on Mount Kallidromo** — another way to connect with the mountain that surrounds us. After a long walk, nothing beats the nearby **hot springs**.
+  image: /src/assets/uploads/meadow-freedom.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  order: 8
 fr:
   title: Randonnée & nature
   summary: Des sentiers qui partent de notre porte vers les sapinières, les plateaux et les lacs du mont Kallidromo.
@@ -59,6 +75,22 @@ fr:
 
     ### Prendre soin des sentiers — et un nouveau site d’escalade
     En 2025, avec le soutien de l’Union européenne et de l’INEDIVIM, nous avons organisé des actions ouvertes pour **débroussailler, baliser et signaliser les sentiers du Kallidromo**, avec des panneaux de sensibilisation écologique. Et depuis l’été 2026, nous ouvrons un **nouveau site d’escalade sur le mont Kallidromo** — une autre façon de se relier à la montagne qui nous entoure. Après une longue marche, rien ne vaut les **sources chaudes** toutes proches.
+  image: /src/assets/uploads/meadow-freedom.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  order: 8
 es:
   title: Senderismo y naturaleza
   summary: Senderos desde nuestra puerta hasta los abetales, las mesetas y los lagos del monte Kallidromo.
@@ -74,6 +106,22 @@ es:
 
     ### Cuidar los senderos — y una nueva zona de escalada
     En 2025, con el apoyo de la Unión Europea y del INEDIVIM, organizamos acciones abiertas para **limpiar, marcar y señalizar los senderos del Kallidromo**, con paneles educativos de conciencia ecológica. Y desde el verano de 2026 estamos abriendo una **nueva zona de escalada en el monte Kallidromo** — otra forma de conectar con la montaña que nos rodea. Tras una larga caminata, nada como las **aguas termales** cercanas.
+  image: /src/assets/uploads/meadow-freedom.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  order: 8
 it:
   title: Escursioni e natura
   summary: Sentieri dalla nostra porta fino alle abetaie, agli altopiani e ai laghi del monte Kallidromo.
@@ -89,6 +137,22 @@ it:
 
     ### Prendersi cura dei sentieri — e una nuova falesia
     Nel 2025, con il sostegno dell’Unione europea e dell’INEDIVIM, abbiamo organizzato azioni aperte per **pulire, segnare e segnalare i sentieri del Kallidromo**, con cartelli educativi di sensibilizzazione ecologica. E dall’estate 2026 stiamo aprendo una **nuova falesia di arrampicata sul monte Kallidromo** — un altro modo per entrare in contatto con la montagna che ci circonda. Dopo una lunga camminata, niente di meglio delle vicine **sorgenti termali**.
+  image: /src/assets/uploads/meadow-freedom.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  order: 8
 ru:
   title: Походы и природа
   summary: Тропы от нашей двери к пихтовым лесам, плато и озёрам горы Каллидромо.
@@ -104,6 +168,22 @@ ru:
 
     ### Забота о тропах — и новый скалодром
     В 2025 году при поддержке Европейского союза и INEDIVIM мы провели открытые акции по **расчистке, маркировке и обустройству троп Каллидромо** с познавательными табличками об экологии. А с лета 2026 года мы открываем **новый скальный район на горе Каллидромо** — ещё один способ почувствовать гору, которая нас окружает. После долгой прогулки нет ничего лучше ближайших **горячих источников**.
+  image: /src/assets/uploads/meadow-freedom.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  order: 8
 de:
   title: Wandern & Natur
   summary: Wege von unserer Tür bis zu den Tannenwäldern, Hochebenen und Seen des Kallidromo.
@@ -119,6 +199,22 @@ de:
 
     ### Die Wege pflegen — und ein neues Klettergebiet
     2025 haben wir mit Unterstützung der Europäischen Union und von INEDIVIM offene Aktionen organisiert, um **die Wanderwege des Kallidromo freizuschneiden, zu markieren und zu beschildern** — mit Lerntafeln für ökologisches Bewusstsein. Und seit Sommer 2026 erschließen wir ein **neues Klettergebiet im Kallidromo** — eine weitere Art, sich mit dem Berg zu verbinden, der uns umgibt. Nach einer langen Wanderung geht nichts über die nahen **heißen Quellen**.
+  image: /src/assets/uploads/meadow-freedom.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  order: 8
 pt:
   title: Caminhadas e natureza
   summary: Trilhos desde a nossa porta até aos abetais, planaltos e lagos do monte Kallidromo.
@@ -134,3 +230,19 @@ pt:
 
     ### Cuidar dos trilhos — e uma nova zona de escalada
     Em 2025, com o apoio da União Europeia e do INEDIVIM, organizámos ações abertas para **limpar, marcar e sinalizar os trilhos do Kallidromo**, com painéis educativos de sensibilização ecológica. E desde o verão de 2026 estamos a abrir uma **nova zona de escalada no monte Kallidromo** — outra forma de nos ligarmos à montanha que nos rodeia. Depois de uma longa caminhada, nada como as **termas** ali perto.
+  image: /src/assets/uploads/meadow-freedom.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/mountain-hike.webp
+  - /src/assets/uploads/meadow-hike.webp
+  - /src/assets/uploads/trail-hike.webp
+  - /src/assets/uploads/mountain-trail.webp
+  - /src/assets/uploads/cave-hike.webp
+  - /src/assets/uploads/climbing.webp
+  - /src/assets/uploads/hiker-dog-view.webp
+  - /src/assets/uploads/sea-view-picnic.webp
+  - /src/assets/uploads/green-mountains.webp
+  - /src/assets/uploads/sunset-sea.webp
+  - /src/assets/uploads/mountain-horses.webp
+  - /src/assets/uploads/nevropolis-lake.webp
+  order: 8

@@ -9,21 +9,56 @@ el:
 en:
   title: Gathering — Season closing
   summary: Taking down the tents and closing the forest season with yoga, fire nights and thermal baths.
+  start: '2025-11-07'
+  end: '2025-11-09'
+  program: gatherings
+  image: /src/assets/uploads/cob-work-autumn.webp
+  category: community
 fr:
   title: Rassemblement — Clôture de la saison
   summary: On démonte les tentes et on clôt la saison en forêt avec yoga, soirées au feu et bains thermaux.
+  start: '2025-11-07'
+  end: '2025-11-09'
+  program: gatherings
+  image: /src/assets/uploads/cob-work-autumn.webp
+  category: community
 es:
   title: Encuentro — Cierre de la temporada
   summary: Desmontamos las tiendas y cerramos la temporada en el bosque con yoga, noches de fuego y baños termales.
+  start: '2025-11-07'
+  end: '2025-11-09'
+  program: gatherings
+  image: /src/assets/uploads/cob-work-autumn.webp
+  category: community
 it:
   title: Incontro — Chiusura della stagione
   summary: Smontiamo le tende e chiudiamo la stagione nel bosco con yoga, serate al fuoco e bagni termali.
+  start: '2025-11-07'
+  end: '2025-11-09'
+  program: gatherings
+  image: /src/assets/uploads/cob-work-autumn.webp
+  category: community
 ru:
   title: Встреча — Закрытие сезона
   summary: Снимаем шатры и закрываем лесной сезон йогой, вечерами у костра и термальными источниками.
+  start: '2025-11-07'
+  end: '2025-11-09'
+  program: gatherings
+  image: /src/assets/uploads/cob-work-autumn.webp
+  category: community
 de:
   title: Gathering — Saisonabschluss
   summary: Wir bauen die Zelte ab und schließen die Waldsaison mit Yoga, Feuerabenden und Thermalbädern.
+  start: '2025-11-07'
+  end: '2025-11-09'
+  program: gatherings
+  image: /src/assets/uploads/cob-work-autumn.webp
+  category: community
 pt:
   title: Encontro — Encerramento da temporada
   summary: Desmontamos as tendas e fechamos a temporada na floresta com yoga, noites de fogueira e banhos termais.
+  start: '2025-11-07'
+  end: '2025-11-09'
+  program: gatherings
+  image: /src/assets/uploads/cob-work-autumn.webp
+  category: community

@@ -70,18 +70,22 @@ en:
       The Evergreen Project lives on a piece of forested land near the village of Anavra in Fthiotida, Central Greece. Acacias, oaks and pines shade our tents, our kitchen and our shala; paths wind between them, and the sounds of the forest change with every hour of the day.
 
       Away from the noise and hurry of the city, the land offers a simple — sometimes austere — environment, ideal for self-study and for slowing down.
+    image: /src/assets/uploads/tent-forest-2.webp
   - heading: Mount Kallidromo
     text: |-
       Above us rises Mount Kallidromo, a mountain of fir forests, meadows and plateaus where horses and cows graze freely. On the plateau lies Lake Nevropolis, a peaceful place for walks. From the higher paths the view opens over the Malian Gulf and the island of Evia.
 
       Just a few kilometres away are historic Thermopylae and its hot springs, and the seaside towns of Kamena Vourla and Agios Konstantinos.
+    image: /src/assets/uploads/kallidromo-peak.webp
   - heading: Off-grid, gently
     text: |-
       Our electricity comes from the sun, our toilets are dry compost toilets, and water is managed with care. We follow a zero-waste philosophy, compost our kitchen scraps and build with natural, local materials wherever we can.
 
       The facilities are simple and rustic, in the spirit of traditional ashram life. This is not luxury: here, comfort comes from simplicity, community and connection with nature.
+    image: /src/assets/uploads/cob-house-rudi.webp
   - heading: Through the seasons
     text: 'From May to early November life moves outdoors: we pitch the bell tents together, practise under the shala roof and eat at long tables in the shade. In early November we take the tents down at our season-closing gathering, and the community moves to a cosy house with a fireplace in the village of Anavra, a 15-minute walk away. In winter snow sometimes covers the shala — the land rests, and so do we, until the spring equinox calls us back.'
+    image: /src/assets/uploads/shala-snow.webp
   lists:
   - title: On the land
     items:
@@ -119,6 +123,7 @@ en:
       text: The legendary pass and its natural hot springs, a few kilometres away.
     - title: Molos & the sea
       text: Nearby Molos has shops, cafés and a bus stop; the sea is a few minutes away by car.
+  image: /src/assets/uploads/tent-sea-view.webp
 fr:
   title: Le lieu
   intro: Une forêt d’acacias au pied du mont Kallidromo, entre la montagne et la mer.
@@ -128,18 +133,22 @@ fr:
       The Evergreen Project s’étend sur un terrain boisé près du village d’Anavra, en Phthiotide, en Grèce centrale. Acacias, chênes et pins ombragent nos tentes, notre cuisine et notre shala ; des sentiers serpentent entre eux et les sons de la forêt changent à chaque heure de la journée.
 
       Loin du bruit et de l’agitation de la ville, le lieu offre un environnement simple — parfois austère — idéal pour l’introspection et pour ralentir.
+    image: /src/assets/uploads/tent-forest-2.webp
   - heading: Le mont Kallidromo
     text: |-
       Au-dessus de nous s’élève le mont Kallidromo, une montagne de forêts de sapins, de prairies et de plateaux où chevaux et vaches paissent en liberté. Sur le plateau se trouve le lac de Nevropolis, un endroit paisible pour se promener. Depuis les sentiers les plus hauts, la vue s’ouvre sur le golfe Maliaque et l’île d’Eubée.
 
       À quelques kilomètres se trouvent les Thermopyles historiques et leurs sources chaudes, ainsi que les villes balnéaires de Kamena Vourla et d’Agios Konstantinos.
+    image: /src/assets/uploads/kallidromo-peak.webp
   - heading: Hors réseau, en douceur
     text: |-
       Notre électricité vient du soleil, nos toilettes sont des toilettes sèches à compost et l’eau est gérée avec soin. Nous suivons une philosophie zéro déchet, compostons les restes de cuisine et construisons avec des matériaux naturels et locaux dès que possible.
 
       Les installations sont simples et rustiques, dans l’esprit de la vie traditionnelle en ashram. Ce n’est pas un lieu de luxe : ici, le confort vient de la simplicité, de la communauté et du lien avec la nature.
+    image: /src/assets/uploads/cob-house-rudi.webp
   - heading: Au fil des saisons
     text: 'De mai à début novembre, la vie se passe dehors : nous montons ensemble les tentes cloches, pratiquons sous le toit de la shala et mangeons à de longues tables à l’ombre. Début novembre, nous démontons les tentes lors du rassemblement de clôture, et la communauté s’installe dans une maison chaleureuse avec cheminée au village d’Anavra, à 15 minutes à pied. L’hiver, la neige recouvre parfois la shala — la terre se repose, et nous aussi, jusqu’à ce que l’équinoxe de printemps nous rappelle.'
+    image: /src/assets/uploads/shala-snow.webp
   lists:
   - title: Sur le terrain
     items:
@@ -177,6 +186,7 @@ fr:
       text: Le défilé légendaire et ses sources chaudes naturelles, à quelques kilomètres.
     - title: Molos & la mer
       text: Le bourg voisin de Molos a des commerces, des cafés et un arrêt de bus ; la mer est à quelques minutes en voiture.
+  image: /src/assets/uploads/tent-sea-view.webp
 es:
   title: El lugar
   intro: Un bosque de acacias al pie del monte Kallidromo, entre la montaña y el mar.
@@ -186,18 +196,22 @@ es:
       The Evergreen Project ocupa un terreno boscoso cerca del pueblo de Anavra, en Ftiótide, Grecia central. Acacias, robles y pinos dan sombra a nuestras tiendas, a la cocina y a la shala; los senderos serpentean entre ellos y los sonidos del bosque cambian a cada hora del día.
 
       Lejos del ruido y las prisas de la ciudad, el lugar ofrece un entorno sencillo — a veces austero —, ideal para el autoconocimiento y para bajar el ritmo.
+    image: /src/assets/uploads/tent-forest-2.webp
   - heading: El monte Kallidromo
     text: |-
       Sobre nosotros se alza el monte Kallidromo, una montaña de bosques de abetos, praderas y mesetas donde caballos y vacas pastan en libertad. En la meseta está el lago Nevropolis, un lugar tranquilo para pasear. Desde los senderos más altos, la vista se abre sobre el golfo Maliaco y la isla de Eubea.
 
       A pocos kilómetros están las históricas Termópilas con sus aguas termales, y las localidades costeras de Kamena Vourla y Agios Konstantinos.
+    image: /src/assets/uploads/kallidromo-peak.webp
   - heading: Fuera de la red, con suavidad
     text: |-
       Nuestra electricidad viene del sol, nuestros baños son secos de compostaje y el agua se gestiona con cuidado. Seguimos una filosofía de residuo cero, compostamos los restos de la cocina y construimos con materiales naturales y locales siempre que podemos.
 
       Las instalaciones son sencillas y rústicas, en el espíritu de la vida tradicional de un ashram. No es un lugar de lujo: aquí la comodidad nace de la sencillez, la comunidad y la conexión con la naturaleza.
+    image: /src/assets/uploads/cob-house-rudi.webp
   - heading: Al ritmo de las estaciones
     text: 'De mayo a principios de noviembre la vida se traslada al exterior: montamos juntos las tiendas campana, practicamos bajo el techo de la shala y comemos en mesas largas a la sombra. A principios de noviembre desmontamos las tiendas en el encuentro de cierre y la comunidad se muda a una casa acogedora con chimenea en el pueblo de Anavra, a 15 minutos a pie. En invierno la nieve cubre a veces la shala — la tierra descansa, y nosotros también, hasta que el equinoccio de primavera nos vuelve a llamar.'
+    image: /src/assets/uploads/shala-snow.webp
   lists:
   - title: En el terreno
     items:
@@ -235,6 +249,7 @@ es:
       text: El legendario paso y sus aguas termales naturales, a pocos kilómetros.
     - title: Molos y el mar
       text: El cercano pueblo de Molos tiene tiendas, cafés y parada de autobús; el mar está a pocos minutos en coche.
+  image: /src/assets/uploads/tent-sea-view.webp
 it:
   title: Il luogo
   intro: Un bosco di acacie ai piedi del monte Kallidromo, tra la montagna e il mare.
@@ -244,18 +259,22 @@ it:
       The Evergreen Project si estende su un terreno boscoso vicino al villaggio di Anavra, in Ftiotide, nella Grecia centrale. Acacie, querce e pini fanno ombra alle nostre tende, alla cucina e alla shala; i sentieri si snodano tra gli alberi e i suoni del bosco cambiano a ogni ora del giorno.
 
       Lontano dal rumore e dalla fretta della città, il luogo offre un ambiente semplice — a volte essenziale — ideale per l’introspezione e per rallentare.
+    image: /src/assets/uploads/tent-forest-2.webp
   - heading: Il monte Kallidromo
     text: |-
       Sopra di noi si innalza il monte Kallidromo, una montagna di foreste di abeti, prati e altopiani dove cavalli e mucche pascolano liberi. Sull’altopiano si trova il lago di Nevropolis, un posto tranquillo per passeggiare. Dai sentieri più alti la vista si apre sul golfo Maliaco e sull’isola di Eubea.
 
       A pochi chilometri ci sono le storiche Termopili con le loro sorgenti termali e le località di mare di Kamena Vourla e Agios Konstantinos.
+    image: /src/assets/uploads/kallidromo-peak.webp
   - heading: Fuori rete, con delicatezza
     text: |-
       La nostra elettricità viene dal sole, i nostri bagni sono compost toilet a secco e l’acqua è gestita con cura. Seguiamo una filosofia rifiuti zero, compostiamo gli scarti della cucina e costruiamo con materiali naturali e locali ogni volta che possiamo.
 
       Le strutture sono semplici e rustiche, nello spirito della vita tradizionale in ashram. Non è un luogo di lusso: qui il comfort nasce dalla semplicità, dalla comunità e dal legame con la natura.
+    image: /src/assets/uploads/cob-house-rudi.webp
   - heading: Lungo le stagioni
     text: 'Da maggio all’inizio di novembre la vita si sposta all’aperto: montiamo insieme le tende a campana, pratichiamo sotto il tetto della shala e mangiamo a lunghe tavolate all’ombra. A inizio novembre smontiamo le tende durante l’incontro di chiusura e la comunità si trasferisce in una casa accogliente con camino nel villaggio di Anavra, a 15 minuti a piedi. D’inverno la neve a volte ricopre la shala — la terra riposa, e noi con lei, finché l’equinozio di primavera non ci richiama.'
+    image: /src/assets/uploads/shala-snow.webp
   lists:
   - title: Sul terreno
     items:
@@ -293,6 +312,7 @@ it:
       text: Il leggendario passo e le sue sorgenti termali naturali, a pochi chilometri.
     - title: Molos e il mare
       text: La vicina Molos ha negozi, caffè e una fermata dell’autobus; il mare è a pochi minuti in auto.
+  image: /src/assets/uploads/tent-sea-view.webp
 ru:
   title: Место
   intro: Акациевый лес у подножия горы Каллидромо, между горами и морем.
@@ -302,18 +322,22 @@ ru:
       The Evergreen Project расположен на лесном участке рядом с деревней Анавра во Фтиотиде, в Центральной Греции. Акации, дубы и сосны дают тень нашим шатрам, кухне и шале; между ними вьются тропинки, а звуки леса меняются каждый час.
 
       Вдали от шума и спешки города это место предлагает простую — порой аскетичную — среду, идеальную для самопознания и замедления.
+    image: /src/assets/uploads/tent-forest-2.webp
   - heading: Гора Каллидромо
     text: |-
       Над нами возвышается гора Каллидромо — пихтовые леса, луга и плато, где свободно пасутся лошади и коровы. На плато лежит озеро Неврополис, тихое место для прогулок. С верхних троп открывается вид на Малийский залив и остров Эвбея.
 
       В нескольких километрах — исторические Фермопилы с горячими источниками и приморские городки Камена-Вурла и Агиос-Константинос.
+    image: /src/assets/uploads/kallidromo-peak.webp
   - heading: Автономно и бережно
     text: |-
       Электричество нам дарит солнце, туалеты у нас сухие компостные, а воду мы расходуем бережно. Мы следуем философии «ноль отходов», компостируем кухонные остатки и, где только можем, строим из природных местных материалов.
 
       Условия простые и деревенские, в духе традиционной жизни в ашраме. Это не роскошь: комфорт здесь рождается из простоты, общности и связи с природой.
+    image: /src/assets/uploads/cob-house-rudi.webp
   - heading: Сквозь времена года
     text: 'С мая до начала ноября жизнь переходит под открытое небо: мы вместе ставим шатры, практикуем под крышей шалы и едим за длинными столами в тени. В начале ноября на встрече закрытия сезона мы снимаем шатры, и сообщество переезжает в уютный дом с камином в деревне Анавра, в 15 минутах ходьбы. Зимой снег порой укрывает шалу — земля отдыхает, и мы вместе с ней, пока весеннее равноденствие не позовёт нас обратно.'
+    image: /src/assets/uploads/shala-snow.webp
   lists:
   - title: На участке
     items:
@@ -351,6 +375,7 @@ ru:
       text: Легендарный проход и его природные горячие источники в нескольких километрах.
     - title: Молос и море
       text: В соседнем Молосе есть магазины, кафе и автобусная остановка; до моря — несколько минут на машине.
+  image: /src/assets/uploads/tent-sea-view.webp
 de:
   title: Der Ort
   intro: Ein Akazienwald am Fuß des Kallidromo-Gebirges, zwischen Bergen und Meer.
@@ -360,18 +385,22 @@ de:
       The Evergreen Project liegt auf einem bewaldeten Stück Land nahe dem Dorf Anavra in Fthiotida, Mittelgriechenland. Akazien, Eichen und Kiefern spenden unseren Zelten, der Küche und der Shala Schatten; Wege schlängeln sich dazwischen, und die Geräusche des Waldes ändern sich mit jeder Stunde des Tages.
 
       Fern vom Lärm und der Hektik der Stadt bietet der Ort eine einfache — manchmal karge — Umgebung, ideal zur Selbsterforschung und zum Langsamerwerden.
+    image: /src/assets/uploads/tent-forest-2.webp
   - heading: Das Kallidromo-Gebirge
     text: |-
       Über uns erhebt sich das Kallidromo-Gebirge mit Tannenwäldern, Wiesen und Hochebenen, auf denen Pferde und Kühe frei weiden. Auf der Hochebene liegt der Nevropolis-See, ein friedlicher Ort für Spaziergänge. Von den höheren Pfaden öffnet sich der Blick über den Malischen Golf und die Insel Euböa.
 
       Nur wenige Kilometer entfernt liegen das historische Thermopylen mit seinen heißen Quellen und die Küstenorte Kamena Vourla und Agios Konstantinos.
+    image: /src/assets/uploads/kallidromo-peak.webp
   - heading: Netzunabhängig, mit leichter Hand
     text: |-
       Unser Strom kommt von der Sonne, unsere Toiletten sind Trockentrenntoiletten mit Kompost, und mit Wasser gehen wir sorgsam um. Wir folgen einer Zero-Waste-Philosophie, kompostieren Küchenreste und bauen, wo immer möglich, mit natürlichen, lokalen Materialien.
 
       Die Einrichtungen sind einfach und rustikal, im Geist des traditionellen Ashram-Lebens. Das ist kein Luxus: Komfort entsteht hier aus Einfachheit, Gemeinschaft und Verbundenheit mit der Natur.
+    image: /src/assets/uploads/cob-house-rudi.webp
   - heading: Im Lauf der Jahreszeiten
     text: 'Von Mai bis Anfang November findet das Leben draußen statt: Wir bauen gemeinsam die Glockenzelte auf, praktizieren unter dem Dach der Shala und essen an langen Tischen im Schatten. Anfang November bauen wir beim Saisonabschluss die Zelte ab, und die Gemeinschaft zieht in ein gemütliches Haus mit Kamin im Dorf Anavra, 15 Gehminuten entfernt. Im Winter bedeckt manchmal Schnee die Shala — das Land ruht, und wir mit ihm, bis uns die Frühlings-Tagundnachtgleiche zurückruft.'
+    image: /src/assets/uploads/shala-snow.webp
   lists:
   - title: Auf dem Gelände
     items:
@@ -409,6 +438,7 @@ de:
       text: Der legendäre Pass und seine natürlichen heißen Quellen, wenige Kilometer entfernt.
     - title: Molos & das Meer
       text: Im nahen Molos gibt es Läden, Cafés und eine Bushaltestelle; das Meer ist mit dem Auto in wenigen Minuten erreicht.
+  image: /src/assets/uploads/tent-sea-view.webp
 pt:
   title: O lugar
   intro: Uma floresta de acácias no sopé do monte Kallidromo, entre a montanha e o mar.
@@ -418,18 +448,22 @@ pt:
       The Evergreen Project ocupa um terreno florestal perto da aldeia de Anavra, na Ftiótida, Grécia Central. Acácias, carvalhos e pinheiros dão sombra às nossas tendas, à cozinha e à shala; os caminhos serpenteiam entre eles e os sons da floresta mudam a cada hora do dia.
 
       Longe do ruído e da pressa da cidade, o lugar oferece um ambiente simples — por vezes austero — ideal para o autoconhecimento e para abrandar.
+    image: /src/assets/uploads/tent-forest-2.webp
   - heading: O monte Kallidromo
     text: |-
       Acima de nós ergue-se o monte Kallidromo, uma montanha de florestas de abetos, prados e planaltos onde cavalos e vacas pastam em liberdade. No planalto fica o lago Nevropolis, um lugar tranquilo para passear. Dos caminhos mais altos, a vista abre-se sobre o golfo Maliaco e a ilha de Eubeia.
 
       A poucos quilómetros ficam as históricas Termópilas com as suas termas, e as vilas costeiras de Kamena Vourla e Agios Konstantinos.
+    image: /src/assets/uploads/kallidromo-peak.webp
   - heading: Fora da rede, com suavidade
     text: |-
       A nossa eletricidade vem do sol, as nossas casas de banho são secas, de compostagem, e a água é gerida com cuidado. Seguimos uma filosofia de desperdício zero, compostamos os restos da cozinha e construímos com materiais naturais e locais sempre que possível.
 
       As instalações são simples e rústicas, no espírito da vida tradicional de um ashram. Não é um lugar de luxo: aqui o conforto vem da simplicidade, da comunidade e da ligação à natureza.
+    image: /src/assets/uploads/cob-house-rudi.webp
   - heading: Ao ritmo das estações
     text: 'De maio ao início de novembro a vida passa-se lá fora: montamos juntos as tendas sino, praticamos sob o telhado da shala e comemos em mesas compridas à sombra. No início de novembro desmontamos as tendas no encontro de encerramento e a comunidade muda-se para uma casa acolhedora com lareira na aldeia de Anavra, a 15 minutos a pé. No inverno a neve cobre por vezes a shala — a terra descansa, e nós também, até o equinócio da primavera nos chamar de volta.'
+    image: /src/assets/uploads/shala-snow.webp
   lists:
   - title: No terreno
     items:
@@ -467,3 +501,4 @@ pt:
       text: O lendário desfiladeiro e as suas termas naturais, a poucos quilómetros.
     - title: Molos e o mar
       text: A vizinha Molos tem lojas, cafés e paragem de autocarro; o mar fica a poucos minutos de carro.
+  image: /src/assets/uploads/tent-sea-view.webp

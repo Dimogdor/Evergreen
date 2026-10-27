@@ -24,6 +24,12 @@ jobs:
           node-version-file: .node-version
           cache: npm
       - run: npm ci
+      # Photos already optimised by an earlier build are reused, so publishing stays quick as the gallery grows.
+      - uses: actions/cache@v4
+        with:
+          path: node_modules/.astro
+          key: astro-${{ github.sha }}
+          restore-keys: astro-
       - run: npm run build
         env:
           # Own domain: set the repository variables SITE_URL (https://evergreenproject.gr) and BASE_PATH (/) — see README.

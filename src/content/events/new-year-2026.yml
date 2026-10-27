@@ -9,21 +9,56 @@ el:
 en:
   title: Gathering — New Year in the forest
   summary: Yoga, hikes, fire circles, thermal baths, care for the land and mandalas under the full moon.
+  start: '2026-01-03'
+  end: '2026-01-06'
+  program: gatherings
+  image: /src/assets/uploads/mandala-drawing.webp
+  category: community
 fr:
   title: Rassemblement — Nouvel An en forêt
   summary: Yoga, randonnées, cercles autour du feu, bains thermaux, soin de la terre et mandalas sous la pleine lune.
+  start: '2026-01-03'
+  end: '2026-01-06'
+  program: gatherings
+  image: /src/assets/uploads/mandala-drawing.webp
+  category: community
 es:
   title: Encuentro — Año Nuevo en el bosque
   summary: Yoga, caminatas, círculos junto al fuego, baños termales, cuidado de la tierra y mandalas bajo la luna llena.
+  start: '2026-01-03'
+  end: '2026-01-06'
+  program: gatherings
+  image: /src/assets/uploads/mandala-drawing.webp
+  category: community
 it:
   title: Incontro — Capodanno nel bosco
   summary: Yoga, escursioni, cerchi intorno al fuoco, bagni termali, cura della terra e mandala sotto la luna piena.
+  start: '2026-01-03'
+  end: '2026-01-06'
+  program: gatherings
+  image: /src/assets/uploads/mandala-drawing.webp
+  category: community
 ru:
   title: Встреча — Новый год в лесу
   summary: Йога, походы, круги у костра, термальные источники, забота о земле и мандалы под полной луной.
+  start: '2026-01-03'
+  end: '2026-01-06'
+  program: gatherings
+  image: /src/assets/uploads/mandala-drawing.webp
+  category: community
 de:
   title: Gathering — Neujahr im Wald
   summary: Yoga, Wanderungen, Feuerkreise, Thermalbäder, Landpflege und Mandalas unter dem Vollmond.
+  start: '2026-01-03'
+  end: '2026-01-06'
+  program: gatherings
+  image: /src/assets/uploads/mandala-drawing.webp
+  category: community
 pt:
   title: Encontro — Ano Novo na floresta
   summary: Yoga, caminhadas, círculos à volta da fogueira, banhos termais, cuidado da terra e mandalas sob a lua cheia.
+  start: '2026-01-03'
+  end: '2026-01-06'
+  program: gatherings
+  image: /src/assets/uploads/mandala-drawing.webp
+  category: community

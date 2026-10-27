@@ -1,8 +1,9 @@
 import fs from 'node:fs';
+import { parse } from 'yaml';
 import { getCollection } from 'astro:content';
 import type { ImageMetadata } from 'astro';
 import { marked } from 'marked';
-import type { Lang } from './i18n';
+import { locales, type Lang } from './i18n';
 import { fmtTime, ymd, type CalEvent } from './calendar';
 
 const isObj = (v: unknown): v is Record<string, unknown> => !!v && Object.getPrototypeOf(v) === Object.prototype;
@@ -21,10 +22,13 @@ function merge(base: any, over: any): any {
   return over;
 }
 
-// CMS files store every language under its code (el:, en:, …). Fallback order: lang → English → Greek.
-// Single-language collections (testimonials) have no language keys and are returned as is.
+// CMS files store every language under its code (el:, en:, …). Fallback order: lang → English → Greek → any other
+// language, so a text written in one language only still shows everywhere. Single-language collections
+// (testimonials) have no language keys and are returned as is.
 export const localize = (data: any, lang: Lang) =>
-  data && (data.el || data.en) ? merge(merge(data.el ?? {}, data.en), data[lang]) : data;
+  data && locales.some((l) => data[l])
+    ? [...locales.filter((l) => !['el', 'en', lang].includes(l)), 'el', 'en', lang].reduce((acc, l) => merge(acc, data[l]), {})
+    : data;
 
 export async function list(name: string, lang: Lang): Promise<any[]> {
   // Collections that start empty (stories, extra pages) are skipped instead of logging a warning on every page.
@@ -74,9 +78,12 @@ export function videoEmbed(url = '') {
   return undefined;
 }
 
+// Settings read directly, for code that runs outside pages (calendar files).
+const siteFile = parse(fs.readFileSync('src/content/settings/site.yml', 'utf8'));
+
 // Event → calendar entry ("Add to calendar" links and .ics files).
 export const toCal = (e: any, site: URL, lang: Lang = 'en'): CalEvent => ({
-  id: e.id, title: e.title, summary: e.summary, location: e.location || 'The Evergreen Project, Anavra, Fthiotida, Greece',
+  id: e.id, title: e.title, summary: e.summary, location: e.location || localize(siteFile, lang).address || 'The Evergreen Project',
   url: new URL(href(lang, 'calendar') + '#' + e.id, site).href,
   start: e.startDay, end: e.endDay, startTime: fmtTime(e.startTime), endTime: fmtTime(e.endTime),
 });

@@ -1,35 +1,56 @@
 el:
-  kind: "plant"
+  kind: plant
   order: 22
-  photo: "/src/assets/uploads/kallidromo-peak.webp"
-  name: "Τα ελατοδάση του Καλλιδρόμου"
-  role: "Το βουνό από πάνω μας"
-  bio: "Πιο ψηλά, σκούρα δάση ελάτης σκεπάζουν τις πλαγιές του Καλλιδρόμου — ένα δροσερό καταφύγιο στις καλοκαιρινές πεζοπορίες."
+  photo: /src/assets/uploads/kallidromo-peak.webp
+  name: Τα ελατοδάση του Καλλιδρόμου
+  role: Το βουνό από πάνω μας
+  bio: Πιο ψηλά, σκούρα δάση ελάτης σκεπάζουν τις πλαγιές του Καλλιδρόμου — ένα δροσερό καταφύγιο στις καλοκαιρινές πεζοπορίες.
 en:
-  name: "The fir forests of Kallidromo"
-  role: "The mountain above"
-  bio: "Higher up, dark forests of Greek fir cover the slopes of Kallidromo — a cool refuge on summer hikes."
+  name: The fir forests of Kallidromo
+  role: The mountain above
+  bio: Higher up, dark forests of Greek fir cover the slopes of Kallidromo — a cool refuge on summer hikes.
+  photo: /src/assets/uploads/kallidromo-peak.webp
+  order: 22
+  kind: plant
 fr:
-  name: "Les sapinières du Kallidromo"
-  role: "La montagne au-dessus"
-  bio: "Plus haut, de sombres forêts de sapins de Grèce couvrent les pentes du Kallidromo — un refuge frais lors des randonnées d’été."
+  name: Les sapinières du Kallidromo
+  role: La montagne au-dessus
+  bio: Plus haut, de sombres forêts de sapins de Grèce couvrent les pentes du Kallidromo — un refuge frais lors des randonnées d’été.
+  photo: /src/assets/uploads/kallidromo-peak.webp
+  order: 22
+  kind: plant
 es:
-  name: "Los abetales del Kallidromo"
-  role: "La montaña de arriba"
-  bio: "Más arriba, oscuros bosques de abeto griego cubren las laderas del Kallidromo — un refugio fresco en las caminatas de verano."
+  name: Los abetales del Kallidromo
+  role: La montaña de arriba
+  bio: Más arriba, oscuros bosques de abeto griego cubren las laderas del Kallidromo — un refugio fresco en las caminatas de verano.
+  photo: /src/assets/uploads/kallidromo-peak.webp
+  order: 22
+  kind: plant
 it:
-  name: "Le abetaie del Kallidromo"
-  role: "La montagna sopra di noi"
-  bio: "Più in alto, scure foreste di abete greco coprono i pendii del Kallidromo — un rifugio fresco nelle escursioni estive."
+  name: Le abetaie del Kallidromo
+  role: La montagna sopra di noi
+  bio: Più in alto, scure foreste di abete greco coprono i pendii del Kallidromo — un rifugio fresco nelle escursioni estive.
+  photo: /src/assets/uploads/kallidromo-peak.webp
+  order: 22
+  kind: plant
 ru:
-  name: "Пихтовые леса Каллидромо"
-  role: "Гора над нами"
-  bio: "Выше склоны Каллидромо покрывают тёмные леса греческой пихты — прохладное укрытие в летних походах."
+  name: Пихтовые леса Каллидромо
+  role: Гора над нами
+  bio: Выше склоны Каллидромо покрывают тёмные леса греческой пихты — прохладное укрытие в летних походах.
+  photo: /src/assets/uploads/kallidromo-peak.webp
+  order: 22
+  kind: plant
 de:
-  name: "Die Tannenwälder des Kallidromo"
-  role: "Der Berg über uns"
-  bio: "Weiter oben bedecken dunkle Wälder aus Griechischer Tanne die Hänge des Kallidromo — ein kühler Zufluchtsort bei Sommerwanderungen."
+  name: Die Tannenwälder des Kallidromo
+  role: Der Berg über uns
+  bio: Weiter oben bedecken dunkle Wälder aus Griechischer Tanne die Hänge des Kallidromo — ein kühler Zufluchtsort bei Sommerwanderungen.
+  photo: /src/assets/uploads/kallidromo-peak.webp
+  order: 22
+  kind: plant
 pt:
-  name: "Os abetais do Kallidromo"
-  role: "A montanha acima de nós"
-  bio: "Mais acima, escuras florestas de abeto-grego cobrem as encostas do Kallidromo — um refúgio fresco nas caminhadas de verão."
+  name: Os abetais do Kallidromo
+  role: A montanha acima de nós
+  bio: Mais acima, escuras florestas de abeto-grego cobrem as encostas do Kallidromo — um refúgio fresco nas caminhadas de verão.
+  photo: /src/assets/uploads/kallidromo-peak.webp
+  order: 22
+  kind: plant

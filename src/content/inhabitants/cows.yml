@@ -9,27 +9,48 @@ en:
   name: The meadow cows
   role: Neighbours on the plateau
   bio: Herds graze the open meadows of the mountain in the warmer months — you hear their bells long before you see them.
+  photo: /src/assets/uploads/meadow-cows.webp
+  order: 12
+  kind: animal
 fr:
   name: Les vaches des prairies
   role: Voisines du plateau
   bio: Des troupeaux paissent dans les prairies de la montagne aux beaux jours — on entend leurs cloches bien avant de les voir.
+  photo: /src/assets/uploads/meadow-cows.webp
+  order: 12
+  kind: animal
 es:
   name: Las vacas de las praderas
   role: Vecinas de la meseta
   bio: Los rebaños pastan en los prados abiertos de la montaña en los meses cálidos — oyes sus cencerros mucho antes de verlos.
+  photo: /src/assets/uploads/meadow-cows.webp
+  order: 12
+  kind: animal
 it:
   name: Le mucche dei prati
   role: Vicine dell’altopiano
   bio: Le mandrie pascolano nei prati aperti della montagna nei mesi caldi — senti i loro campanacci molto prima di vederle.
+  photo: /src/assets/uploads/meadow-cows.webp
+  order: 12
+  kind: animal
 ru:
   name: Коровы на лугах
   role: Соседи на плато
   bio: В тёплые месяцы стада пасутся на горных лугах — их колокольчики слышно задолго до того, как их увидишь.
+  photo: /src/assets/uploads/meadow-cows.webp
+  order: 12
+  kind: animal
 de:
   name: Die Wiesenkühe
   role: Nachbarinnen auf der Hochebene
   bio: In den warmen Monaten grasen Herden auf den offenen Bergwiesen — ihre Glocken hört man lange, bevor man sie sieht.
+  photo: /src/assets/uploads/meadow-cows.webp
+  order: 12
+  kind: animal
 pt:
   name: As vacas dos prados
   role: Vizinhas do planalto
   bio: Nos meses quentes, os rebanhos pastam nos prados abertos da montanha — ouvem-se os chocalhos muito antes de os ver.
+  photo: /src/assets/uploads/meadow-cows.webp
+  order: 12
+  kind: animal

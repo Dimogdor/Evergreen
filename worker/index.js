@@ -12,7 +12,7 @@
 //   vars     REPO, BRANCH, ALLOWED_ORIGINS ("https://dimogdor.github.io,…"), SITE_URL,
 //            optional MAIL_FROM + MAIL_TO with the MAIL send_email binding (e-mail notifications)
 
-import { i18nFields, proofread, translateFile } from './ai.js';
+import { i18nFields, proofread, SOURCES, translateFile } from './ai.js';
 import YAML from 'yaml';
 
 const PHOTO_MAX = 6 * 1024 * 1024;
@@ -105,7 +105,7 @@ async function session(env, header) {
 async function relay(req, url, env) {
   const origin = req.headers.get('Origin') || '';
   const cors = allowedOrigins(env).includes(origin)
-    ? { 'Access-Control-Allow-Origin': origin, 'Access-Control-Allow-Headers': 'Authorization, Content-Type, Accept, If-None-Match', 'Access-Control-Allow-Methods': 'GET, POST, PUT, PATCH, DELETE', 'Access-Control-Expose-Headers': 'ETag, Link, X-Evergreen-Translated', 'Access-Control-Max-Age': '86400', Vary: 'Origin' }
+    ? { 'Access-Control-Allow-Origin': origin, 'Access-Control-Allow-Headers': 'Authorization, Content-Type, Accept, If-None-Match, X-Evergreen-Lang', 'Access-Control-Allow-Methods': 'GET, POST, PUT, PATCH, DELETE', 'Access-Control-Expose-Headers': 'ETag, Link, X-Evergreen-Translated, X-Evergreen-Notice', 'Access-Control-Max-Age': '86400', Vary: 'Origin' }
     : {};
   if (req.method === 'OPTIONS') return new Response(null, { status: 204, headers: cors });
   if (!(await session(env, req.headers.get('Authorization')))) return Response.json({ message: 'Bad credentials' }, { status: 401, headers: cors });
@@ -120,7 +120,12 @@ async function relay(req, url, env) {
   // /api/v3/x → https://api.github.com/x, /api/graphql → https://api.github.com/graphql
   const path = url.pathname === '/api/graphql' ? '/graphql' : url.pathname.replace(/^\/api\/v3/, '');
   let body = ['GET', 'HEAD'].includes(req.method) ? undefined : await req.text();
-  const translated = path === '/graphql' && env.ANTHROPIC_API_KEY ? await translateSave(env, body).catch((e) => (console.error('translate', e), null)) : null;
+  const notices = [];
+  // The admin writes in the language chosen when opening the panel; the other languages follow.
+  const source = SOURCES.includes(req.headers.get('X-Evergreen-Lang')) ? req.headers.get('X-Evergreen-Lang') : 'el';
+  const translated = path === '/graphql' && env.ANTHROPIC_API_KEY
+    ? await translateSave(env, body, undefined, source).catch((e) => (console.error('translate', e), notices.push('translate-failed'), null))
+    : null;
   if (translated) body = translated.body;
 
   const headers = new Headers({ Authorization: `Bearer ${env.GITHUB_TOKEN}`, 'User-Agent': 'evergreen-api', Accept: req.headers.get('Accept') || 'application/vnd.github+json' });
@@ -128,6 +133,11 @@ async function relay(req, url, env) {
   const r = await fetch(`https://api.github.com${path}${url.search}`, { method: req.method, headers, body });
   const out = new Headers(r.headers);
   for (const [k, v] of Object.entries(cors)) out.set(k, v);
+  // Warn the admins a month before the repository key expires (GitHub sends its expiry date with every answer).
+  const expires = Date.parse(String(r.headers.get('github-authentication-token-expiration')).replace(' UTC', 'Z').replace(' ', 'T'));
+  const days = Math.floor((expires - Date.now()) / 864e5);
+  if (days < 30) notices.push(`key-expires:${Math.max(days, 0)}`);
+  if (notices.length) out.set('X-Evergreen-Notice', notices.join(','));
   if (!translated || !r.ok) return new Response(r.body, { status: r.status, headers: out });
 
   // The admin panel remembers each saved file by its fingerprint: give back the fingerprint of what it sent, so it
@@ -154,18 +164,18 @@ async function raw(env, path) {
   return r.ok ? r.text() : null;
 }
 
-// A save from the admin panel: translate the Greek texts that are new or changed in every content file of the commit.
-export async function translateSave(env, body, translate) {
+// A save from the admin panel: translate the texts that are new or changed in every content file of the commit.
+export async function translateSave(env, body, translate, source = 'el') {
   const json = JSON.parse(body || '{}');
   const input = json.variables?.input;
   if (!String(json.query).includes('createCommitOnBranch') || !input?.fileChanges?.additions) return null;
   const files = input.fileChanges.additions.filter((a) => /^src\/content\/(?!testimonials\/).+\.ya?ml$/.test(a.path));
   if (!files.length) return null;
-  const config = YAML.parse((await raw(env, 'public/admin/config.yml')) || '{}');
+  const config = YAML.parse((await raw(env, 'src/admin/config.yml')) || '{}');
   const aliases = {}, paths = Object.fromEntries([...String(json.query).matchAll(/(file_\d+): file\(path: ("(?:[^"\\]|\\.)*")\)/g)].map(([, a, p]) => [JSON.parse(p), a]));
   let count = 0;
   for (const a of files) {
-    const text = await translateFile(env, { text: utf8(a.contents), previous: await raw(env, a.path), fields: i18nFields(config, a.path) }, translate);
+    const text = await translateFile(env, { text: utf8(a.contents), previous: await raw(env, a.path), fields: i18nFields(config, a.path), source }, translate);
     if (!text) continue;
     if (paths[a.path]) aliases[paths[a.path]] = await blobOid(a.contents);
     a.contents = base64(new TextEncoder().encode(text));

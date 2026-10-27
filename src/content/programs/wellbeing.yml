@@ -52,6 +52,18 @@ en:
 
     ### In our forest, we love to sit in circles
     Circles of **opening**, where we welcome each other and arrive fully into the space. Circles of **sharing**, where stories and feelings weave us closer together. Circles of **closing**, where we honour what we lived together. And circles of **process**, where the more permanent members open up, find clarity and hold each other through challenges. Because in a circle, everyone is seen — everyone belongs.
+  image: /src/assets/uploads/practice-together.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/outdoor-meditation.webp
+  - /src/assets/uploads/yin-shala.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/journaling.webp
+  - /src/assets/uploads/meadow-rest.webp
+  order: 7
 fr:
   title: Bien-être & travail intérieur
   summary: Yoga, méditation, écothérapie, dramathérapie et processus de groupe — pour se relier à ses émotions et à la nature.
@@ -73,6 +85,18 @@ fr:
 
     ### Dans notre forêt, nous aimons nous asseoir en cercle
     Des cercles d’**ouverture**, pour nous accueillir et arriver pleinement. Des cercles de **partage**, où histoires et émotions nous rapprochent. Des cercles de **clôture**, pour honorer ce que nous avons vécu ensemble. Et des cercles de **processus**, où les membres permanents s’ouvrent, trouvent de la clarté et se soutiennent dans les difficultés. Parce que dans un cercle, chacun est vu — chacun a sa place.
+  image: /src/assets/uploads/practice-together.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/outdoor-meditation.webp
+  - /src/assets/uploads/yin-shala.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/journaling.webp
+  - /src/assets/uploads/meadow-rest.webp
+  order: 7
 es:
   title: Bienestar y trabajo interior
   summary: Yoga, meditación, ecoterapia, dramaterapia y proceso grupal — para conectar con tus emociones y con la naturaleza.
@@ -94,6 +118,18 @@ es:
 
     ### En nuestro bosque nos encanta sentarnos en círculo
     Círculos de **apertura**, para darnos la bienvenida y llegar del todo. Círculos de **compartir**, donde las historias y los sentimientos nos acercan. Círculos de **cierre**, para honrar lo vivido juntos. Y círculos de **proceso**, donde los miembros más permanentes se abren, encuentran claridad y se sostienen en los retos. Porque en un círculo, todo el mundo es visto — todo el mundo pertenece.
+  image: /src/assets/uploads/practice-together.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/outdoor-meditation.webp
+  - /src/assets/uploads/yin-shala.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/journaling.webp
+  - /src/assets/uploads/meadow-rest.webp
+  order: 7
 it:
   title: Benessere e lavoro interiore
   summary: Yoga, meditazione, ecoterapia, drammaterapia e processo di gruppo — per entrare in contatto con le proprie emozioni e con la natura.
@@ -115,6 +151,18 @@ it:
 
     ### Nel nostro bosco amiamo sederci in cerchio
     Cerchi di **apertura**, per accoglierci e arrivare davvero. Cerchi di **condivisione**, dove storie ed emozioni ci avvicinano. Cerchi di **chiusura**, per onorare ciò che abbiamo vissuto insieme. E cerchi di **processo**, dove i membri più stabili si aprono, trovano chiarezza e si sostengono nelle difficoltà. Perché in un cerchio tutti sono visti — tutti appartengono.
+  image: /src/assets/uploads/practice-together.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/outdoor-meditation.webp
+  - /src/assets/uploads/yin-shala.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/journaling.webp
+  - /src/assets/uploads/meadow-rest.webp
+  order: 7
 ru:
   title: Благополучие и внутренняя работа
   summary: Йога, медитация, экотерапия, драматерапия и групповой процесс — чтобы соединиться со своими чувствами и с природой.
@@ -136,6 +184,18 @@ ru:
 
     ### В нашем лесу мы любим садиться в круг
     Круги **открытия** — чтобы поприветствовать друг друга и полностью прибыть. Круги **шеринга**, где истории и чувства сближают нас. Круги **закрытия** — чтобы почтить прожитое вместе. И **процессные** круги, где постоянные участники открываются, находят ясность и поддерживают друг друга в трудностях. Потому что в круге каждого видно — каждый на своём месте.
+  image: /src/assets/uploads/practice-together.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/outdoor-meditation.webp
+  - /src/assets/uploads/yin-shala.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/journaling.webp
+  - /src/assets/uploads/meadow-rest.webp
+  order: 7
 de:
   title: Wohlbefinden & innere Arbeit
   summary: Yoga, Meditation, Ökotherapie, Dramatherapie und Gruppenprozess — um mit den eigenen Gefühlen und der Natur in Kontakt zu kommen.
@@ -157,6 +217,18 @@ de:
 
     ### In unserem Wald sitzen wir gern im Kreis
     Kreise des **Ankommens**, um einander willkommen zu heißen. Kreise des **Teilens**, in denen Geschichten und Gefühle uns näher zusammenbringen. Kreise des **Abschlusses**, um das gemeinsam Erlebte zu würdigen. Und **Prozess**-Kreise, in denen die festen Mitglieder sich öffnen, Klarheit finden und sich durch Herausforderungen tragen. Denn im Kreis wird jede·r gesehen — alle gehören dazu.
+  image: /src/assets/uploads/practice-together.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/outdoor-meditation.webp
+  - /src/assets/uploads/yin-shala.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/journaling.webp
+  - /src/assets/uploads/meadow-rest.webp
+  order: 7
 pt:
   title: Bem-estar e trabalho interior
   summary: Yoga, meditação, ecoterapia, dramaterapia e processo de grupo — para se ligar às suas emoções e à natureza.
@@ -178,3 +250,15 @@ pt:
 
     ### Na nossa floresta adoramos sentar-nos em círculo
     Círculos de **abertura**, para nos acolhermos e chegarmos por inteiro. Círculos de **partilha**, onde histórias e sentimentos nos aproximam. Círculos de **encerramento**, para honrar o que vivemos juntos. E círculos de **processo**, onde os membros mais permanentes se abrem, encontram clareza e se apoiam nos desafios. Porque num círculo todos são vistos — todos pertencem.
+  image: /src/assets/uploads/practice-together.webp
+  featured: false
+  gallery:
+  - /src/assets/uploads/sitting-circle.webp
+  - /src/assets/uploads/morning-circle.webp
+  - /src/assets/uploads/outdoor-meditation.webp
+  - /src/assets/uploads/yin-shala.webp
+  - /src/assets/uploads/group-hug.webp
+  - /src/assets/uploads/mandala-drawing.webp
+  - /src/assets/uploads/journaling.webp
+  - /src/assets/uploads/meadow-rest.webp
+  order: 7

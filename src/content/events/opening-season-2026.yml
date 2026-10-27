@@ -9,21 +9,56 @@ el:
 en:
   title: Gathering — Opening the season
   summary: 'Three days to set up the camp together: yoga, fire circles, nature and collective living.'
+  start: '2026-05-08'
+  end: '2026-05-10'
+  program: gatherings
+  image: /src/assets/uploads/tent-friends.webp
+  category: community
 fr:
   title: Rassemblement — Ouverture de la saison
   summary: 'Trois jours pour monter le camp ensemble : yoga, cercles autour du feu, nature et vie collective.'
+  start: '2026-05-08'
+  end: '2026-05-10'
+  program: gatherings
+  image: /src/assets/uploads/tent-friends.webp
+  category: community
 es:
   title: Encuentro — Apertura de la temporada
   summary: 'Tres días para montar juntos el campamento: yoga, círculos junto al fuego, naturaleza y vida colectiva.'
+  start: '2026-05-08'
+  end: '2026-05-10'
+  program: gatherings
+  image: /src/assets/uploads/tent-friends.webp
+  category: community
 it:
   title: Incontro — Apertura della stagione
   summary: 'Tre giorni per montare insieme il campo: yoga, cerchi intorno al fuoco, natura e vita collettiva.'
+  start: '2026-05-08'
+  end: '2026-05-10'
+  program: gatherings
+  image: /src/assets/uploads/tent-friends.webp
+  category: community
 ru:
   title: Встреча — Открытие сезона
   summary: 'Три дня, чтобы вместе поставить лагерь: йога, круги у костра, природа и совместная жизнь.'
+  start: '2026-05-08'
+  end: '2026-05-10'
+  program: gatherings
+  image: /src/assets/uploads/tent-friends.webp
+  category: community
 de:
   title: Gathering — Saisoneröffnung
   summary: 'Drei Tage, um gemeinsam das Camp aufzubauen: Yoga, Feuerkreise, Natur und gemeinschaftliches Leben.'
+  start: '2026-05-08'
+  end: '2026-05-10'
+  program: gatherings
+  image: /src/assets/uploads/tent-friends.webp
+  category: community
 pt:
   title: Encontro — Abertura da temporada
   summary: 'Três dias para montar juntos o acampamento: yoga, círculos à volta da fogueira, natureza e vida coletiva.'
+  start: '2026-05-08'
+  end: '2026-05-10'
+  program: gatherings
+  image: /src/assets/uploads/tent-friends.webp
+  category: community

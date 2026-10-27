@@ -9,27 +9,48 @@ en:
   name: The garden
   role: Growing every season
   bio: Our permaculture garden grows a little more each year, feeding the kitchen and teaching us patience.
+  photo: /src/assets/uploads/garden-table.webp
+  order: 23
+  kind: plant
 fr:
   name: Le jardin
   role: Grandit à chaque saison
   bio: Notre jardin en permaculture grandit un peu chaque année, nourrit la cuisine et nous apprend la patience.
+  photo: /src/assets/uploads/garden-table.webp
+  order: 23
+  kind: plant
 es:
   name: La huerta
   role: Crece cada temporada
   bio: Nuestra huerta de permacultura crece un poco cada año, alimenta la cocina y nos enseña paciencia.
+  photo: /src/assets/uploads/garden-table.webp
+  order: 23
+  kind: plant
 it:
   name: L’orto
   role: Cresce ogni stagione
   bio: Il nostro orto in permacultura cresce un po’ ogni anno, nutre la cucina e ci insegna la pazienza.
+  photo: /src/assets/uploads/garden-table.webp
+  order: 23
+  kind: plant
 ru:
   name: Огород
   role: Растёт каждый сезон
   bio: Наш пермакультурный огород с каждым годом растёт, кормит кухню и учит нас терпению.
+  photo: /src/assets/uploads/garden-table.webp
+  order: 23
+  kind: plant
 de:
   name: Der Garten
   role: Wächst mit jeder Saison
   bio: Unser Permakulturgarten wächst jedes Jahr ein Stück, nährt die Küche und lehrt uns Geduld.
+  photo: /src/assets/uploads/garden-table.webp
+  order: 23
+  kind: plant
 pt:
   name: A horta
   role: Cresce a cada estação
   bio: A nossa horta em permacultura cresce um pouco todos os anos, alimenta a cozinha e ensina-nos paciência.
+  photo: /src/assets/uploads/garden-table.webp
+  order: 23
+  kind: plant

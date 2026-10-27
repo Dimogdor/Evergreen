@@ -9,21 +9,56 @@ el:
 en:
   title: Offline Nature Retreat
   summary: 'Four phone-free days in the forest: silent yin yoga, meditation, walks, art and the May Day wreath ritual.'
+  start: '2026-04-30'
+  end: '2026-05-03'
+  program: retreats
+  image: /src/assets/uploads/herb-wreath.webp
+  category: retreat
 fr:
   title: Offline Nature Retreat
   summary: 'Quatre jours sans téléphone en forêt : yin yoga en silence, méditation, marches, art et rituel de la couronne du 1er mai.'
+  start: '2026-04-30'
+  end: '2026-05-03'
+  program: retreats
+  image: /src/assets/uploads/herb-wreath.webp
+  category: retreat
 es:
   title: Offline Nature Retreat
   summary: 'Cuatro días sin móvil en el bosque: yin yoga en silencio, meditación, paseos, arte y el ritual de la corona del 1 de mayo.'
+  start: '2026-04-30'
+  end: '2026-05-03'
+  program: retreats
+  image: /src/assets/uploads/herb-wreath.webp
+  category: retreat
 it:
   title: Offline Nature Retreat
   summary: 'Quattro giorni senza telefono nel bosco: yin yoga in silenzio, meditazione, passeggiate, arte e il rito della corona del Primo Maggio.'
+  start: '2026-04-30'
+  end: '2026-05-03'
+  program: retreats
+  image: /src/assets/uploads/herb-wreath.webp
+  category: retreat
 ru:
   title: Offline Nature Retreat
   summary: 'Четыре дня без телефона в лесу: инь-йога в тишине, медитация, прогулки, творчество и первомайский венок.'
+  start: '2026-04-30'
+  end: '2026-05-03'
+  program: retreats
+  image: /src/assets/uploads/herb-wreath.webp
+  category: retreat
 de:
   title: Offline Nature Retreat
   summary: 'Vier handyfreie Tage im Wald: stilles Yin Yoga, Meditation, Spaziergänge, Kunst und das Maikranz-Ritual.'
+  start: '2026-04-30'
+  end: '2026-05-03'
+  program: retreats
+  image: /src/assets/uploads/herb-wreath.webp
+  category: retreat
 pt:
   title: Offline Nature Retreat
   summary: 'Quatro dias sem telemóvel na floresta: yin yoga em silêncio, meditação, caminhadas, arte e o ritual da coroa do 1.º de maio.'
+  start: '2026-04-30'
+  end: '2026-05-03'
+  program: retreats
+  image: /src/assets/uploads/herb-wreath.webp
+  category: retreat

@@ -9,21 +9,56 @@ el:
 en:
   title: 'Workshop: a wooden deck on living trees'
   summary: We built a floating platform among the leaves for yoga and rest — first steps for anyone dreaming of a treehouse.
+  start: '2025-05-23'
+  end: '2025-05-25'
+  program: natural-building
+  image: /src/assets/uploads/floating-deck.webp
+  category: workshop
 fr:
   title: 'Atelier : une plateforme en bois sur les arbres'
   summary: Nous avons construit une plateforme suspendue dans les feuillages pour le yoga et le repos — les premiers pas vers une cabane dans les arbres.
+  start: '2025-05-23'
+  end: '2025-05-25'
+  program: natural-building
+  image: /src/assets/uploads/floating-deck.webp
+  category: workshop
 es:
   title: 'Taller: una plataforma de madera en los árboles'
   summary: Construimos una plataforma flotante entre las hojas para yoga y descanso — primeros pasos para quien sueña con una casa en el árbol.
+  start: '2025-05-23'
+  end: '2025-05-25'
+  program: natural-building
+  image: /src/assets/uploads/floating-deck.webp
+  category: workshop
 it:
   title: 'Workshop: una piattaforma in legno sugli alberi'
   summary: Abbiamo costruito una piattaforma sospesa tra le foglie per yoga e riposo — i primi passi per chi sogna una casa sull’albero.
+  start: '2025-05-23'
+  end: '2025-05-25'
+  program: natural-building
+  image: /src/assets/uploads/floating-deck.webp
+  category: workshop
 ru:
   title: 'Мастерская: деревянный настил на деревьях'
   summary: Мы построили парящую платформу среди листвы для йоги и отдыха — первые шаги для всех, кто мечтает о домике на дереве.
+  start: '2025-05-23'
+  end: '2025-05-25'
+  program: natural-building
+  image: /src/assets/uploads/floating-deck.webp
+  category: workshop
 de:
   title: 'Workshop: Holzdeck auf lebenden Bäumen'
   summary: Wir haben eine schwebende Plattform zwischen den Blättern für Yoga und Ruhe gebaut — erste Schritte für alle, die von einem Baumhaus träumen.
+  start: '2025-05-23'
+  end: '2025-05-25'
+  program: natural-building
+  image: /src/assets/uploads/floating-deck.webp
+  category: workshop
 pt:
   title: 'Workshop: plataforma de madeira nas árvores'
   summary: Construímos uma plataforma suspensa entre as folhas para yoga e descanso — os primeiros passos para quem sonha com uma casa na árvore.
+  start: '2025-05-23'
+  end: '2025-05-25'
+  program: natural-building
+  image: /src/assets/uploads/floating-deck.webp
+  category: workshop

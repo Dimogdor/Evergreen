@@ -9,21 +9,56 @@ el:
 en:
   title: ESC — 3-month volunteering
   summary: 'Three volunteers live with us: natural building, gardening and agroforestry, supporting retreats and events, yoga and Thai massage mini-courses.'
+  start: '2026-09-04'
+  end: '2026-12-13'
+  program: esc-volunteering
+  image: /src/assets/uploads/friends-smiles.webp
+  category: esc
 fr:
   title: CES — volontariat de 3 mois
   summary: 'Trois volontaires vivent avec nous : construction naturelle, jardin et agroforesterie, soutien aux retraites et événements, yoga et mini-cours de massage thaï.'
+  start: '2026-09-04'
+  end: '2026-12-13'
+  program: esc-volunteering
+  image: /src/assets/uploads/friends-smiles.webp
+  category: esc
 es:
   title: CES — voluntariado de 3 meses
   summary: 'Tres voluntarios viven con nosotros: bioconstrucción, huerta y agroforestería, apoyo a retiros y eventos, yoga y minicursos de masaje tailandés.'
+  start: '2026-09-04'
+  end: '2026-12-13'
+  program: esc-volunteering
+  image: /src/assets/uploads/friends-smiles.webp
+  category: esc
 it:
   title: CES — volontariato di 3 mesi
   summary: 'Tre volontari vivono con noi: bioedilizia, orto e agroforestazione, supporto a ritiri ed eventi, yoga e mini-corsi di massaggio thai.'
+  start: '2026-09-04'
+  end: '2026-12-13'
+  program: esc-volunteering
+  image: /src/assets/uploads/friends-smiles.webp
+  category: esc
 ru:
   title: ESC — волонтёрство на 3 месяца
   summary: 'Трое волонтёров живут с нами: природное строительство, огород и агролесоводство, помощь на ретритах и событиях, йога и мини-курсы тайского массажа.'
+  start: '2026-09-04'
+  end: '2026-12-13'
+  program: esc-volunteering
+  image: /src/assets/uploads/friends-smiles.webp
+  category: esc
 de:
   title: ESK — 3 Monate Freiwilligendienst
   summary: 'Drei Freiwillige leben bei uns: Naturbau, Garten und Agroforst, Unterstützung von Retreats und Veranstaltungen, Yoga und Thai-Massage-Minikurse.'
+  start: '2026-09-04'
+  end: '2026-12-13'
+  program: esc-volunteering
+  image: /src/assets/uploads/friends-smiles.webp
+  category: esc
 pt:
   title: CES — voluntariado de 3 meses
   summary: 'Três voluntários vivem connosco: bioconstrução, horta e agrofloresta, apoio a retiros e eventos, yoga e minicursos de massagem tailandesa.'
+  start: '2026-09-04'
+  end: '2026-12-13'
+  program: esc-volunteering
+  image: /src/assets/uploads/friends-smiles.webp
+  category: esc

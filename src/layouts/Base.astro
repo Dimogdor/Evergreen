@@ -39,7 +39,7 @@ const tel = (p: string) => `tel:${p.replace(/[^\d+]/g, '')}`;
 const ld = {
   '@context': 'https://schema.org', '@type': 'NGO', name: site.name, url: new URL(href(lang), Astro.site).href,
   logo: new URL(touch.src, Astro.site).href, email: site.email, telephone: site.phone, description: site.description,
-  taxID: site.taxId || undefined, address: { '@type': 'PostalAddress', streetAddress: 'Digeni 4', addressLocality: 'Molos', postalCode: '35009', addressCountry: 'GR' },
+  taxID: site.taxId || undefined, address: site.address,
   sameAs: [site.instagram, site.facebook].filter(Boolean),
 };
 ---

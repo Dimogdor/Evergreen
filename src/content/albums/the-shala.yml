@@ -22,21 +22,147 @@ el:
 en:
   title: The shala
   description: The heart of the land, in every season.
+  order: 8
+  photos:
+  - /src/assets/uploads/shala-savasana-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/shala-forest.webp
+  - /src/assets/uploads/shala-roof.webp
+  - /src/assets/uploads/shala-night.webp
+  - /src/assets/uploads/shala-candles.webp
+  - /src/assets/uploads/shala-platform.webp
+  - /src/assets/uploads/shala-mats-view.webp
+  - /src/assets/uploads/shala-trees.webp
+  - /src/assets/uploads/shala-sign.webp
+  - /src/assets/uploads/shala-path.webp
+  - /src/assets/uploads/shala-snow.webp
+  - /src/assets/uploads/shala-class.webp
+  - /src/assets/uploads/shala-practice-shade.webp
+  - /src/assets/uploads/handstand-shala.webp
+  videos: []
 fr:
   title: La shala
   description: Le cœur du lieu, en toute saison.
+  order: 8
+  photos:
+  - /src/assets/uploads/shala-savasana-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/shala-forest.webp
+  - /src/assets/uploads/shala-roof.webp
+  - /src/assets/uploads/shala-night.webp
+  - /src/assets/uploads/shala-candles.webp
+  - /src/assets/uploads/shala-platform.webp
+  - /src/assets/uploads/shala-mats-view.webp
+  - /src/assets/uploads/shala-trees.webp
+  - /src/assets/uploads/shala-sign.webp
+  - /src/assets/uploads/shala-path.webp
+  - /src/assets/uploads/shala-snow.webp
+  - /src/assets/uploads/shala-class.webp
+  - /src/assets/uploads/shala-practice-shade.webp
+  - /src/assets/uploads/handstand-shala.webp
+  videos: []
 es:
   title: La shala
   description: El corazón del lugar, en cada estación.
+  order: 8
+  photos:
+  - /src/assets/uploads/shala-savasana-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/shala-forest.webp
+  - /src/assets/uploads/shala-roof.webp
+  - /src/assets/uploads/shala-night.webp
+  - /src/assets/uploads/shala-candles.webp
+  - /src/assets/uploads/shala-platform.webp
+  - /src/assets/uploads/shala-mats-view.webp
+  - /src/assets/uploads/shala-trees.webp
+  - /src/assets/uploads/shala-sign.webp
+  - /src/assets/uploads/shala-path.webp
+  - /src/assets/uploads/shala-snow.webp
+  - /src/assets/uploads/shala-class.webp
+  - /src/assets/uploads/shala-practice-shade.webp
+  - /src/assets/uploads/handstand-shala.webp
+  videos: []
 it:
   title: La shala
   description: Il cuore del luogo, in ogni stagione.
+  order: 8
+  photos:
+  - /src/assets/uploads/shala-savasana-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/shala-forest.webp
+  - /src/assets/uploads/shala-roof.webp
+  - /src/assets/uploads/shala-night.webp
+  - /src/assets/uploads/shala-candles.webp
+  - /src/assets/uploads/shala-platform.webp
+  - /src/assets/uploads/shala-mats-view.webp
+  - /src/assets/uploads/shala-trees.webp
+  - /src/assets/uploads/shala-sign.webp
+  - /src/assets/uploads/shala-path.webp
+  - /src/assets/uploads/shala-snow.webp
+  - /src/assets/uploads/shala-class.webp
+  - /src/assets/uploads/shala-practice-shade.webp
+  - /src/assets/uploads/handstand-shala.webp
+  videos: []
 ru:
   title: Шала
   description: Сердце нашего места в любое время года.
+  order: 8
+  photos:
+  - /src/assets/uploads/shala-savasana-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/shala-forest.webp
+  - /src/assets/uploads/shala-roof.webp
+  - /src/assets/uploads/shala-night.webp
+  - /src/assets/uploads/shala-candles.webp
+  - /src/assets/uploads/shala-platform.webp
+  - /src/assets/uploads/shala-mats-view.webp
+  - /src/assets/uploads/shala-trees.webp
+  - /src/assets/uploads/shala-sign.webp
+  - /src/assets/uploads/shala-path.webp
+  - /src/assets/uploads/shala-snow.webp
+  - /src/assets/uploads/shala-class.webp
+  - /src/assets/uploads/shala-practice-shade.webp
+  - /src/assets/uploads/handstand-shala.webp
+  videos: []
 de:
   title: Die Shala
   description: Das Herz des Ortes, zu jeder Jahreszeit.
+  order: 8
+  photos:
+  - /src/assets/uploads/shala-savasana-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/shala-forest.webp
+  - /src/assets/uploads/shala-roof.webp
+  - /src/assets/uploads/shala-night.webp
+  - /src/assets/uploads/shala-candles.webp
+  - /src/assets/uploads/shala-platform.webp
+  - /src/assets/uploads/shala-mats-view.webp
+  - /src/assets/uploads/shala-trees.webp
+  - /src/assets/uploads/shala-sign.webp
+  - /src/assets/uploads/shala-path.webp
+  - /src/assets/uploads/shala-snow.webp
+  - /src/assets/uploads/shala-class.webp
+  - /src/assets/uploads/shala-practice-shade.webp
+  - /src/assets/uploads/handstand-shala.webp
+  videos: []
 pt:
   title: A shala
   description: O coração do lugar, em todas as estações.
+  order: 8
+  photos:
+  - /src/assets/uploads/shala-savasana-2026.webp
+  - /src/assets/uploads/winter-shala-posts-2026.webp
+  - /src/assets/uploads/shala-forest.webp
+  - /src/assets/uploads/shala-roof.webp
+  - /src/assets/uploads/shala-night.webp
+  - /src/assets/uploads/shala-candles.webp
+  - /src/assets/uploads/shala-platform.webp
+  - /src/assets/uploads/shala-mats-view.webp
+  - /src/assets/uploads/shala-trees.webp
+  - /src/assets/uploads/shala-sign.webp
+  - /src/assets/uploads/shala-path.webp
+  - /src/assets/uploads/shala-snow.webp
+  - /src/assets/uploads/shala-class.webp
+  - /src/assets/uploads/shala-practice-shade.webp
+  - /src/assets/uploads/handstand-shala.webp
+  videos: []
