@@ -28,8 +28,15 @@ export function adminConfig(lang: AdminLang, siteUrl: string) {
 
   // Fields that are the same in every language (dates, photos, links…) are shown and editable in every language too,
   // so the admin finds everything in their own column.
-  const shared = (fields: any[] = []) => fields.forEach((f) => { if (f.i18n === undefined) f.i18n = 'duplicate'; });
+  // Same inside translated lists (e.g. the phone of an "Other contact").
+  const shared = (fields: any[] = []) => fields.forEach((f) => { if (f.i18n === undefined) f.i18n = 'duplicate'; else if (f.i18n === true) shared(f.fields); });
   for (const c of cfg.collections) if (c.i18n) { shared(c.fields); for (const f of c.files ?? []) shared(f.fields); }
+
+  // "View on the website" links: the panel keeps only the site's origin, so add the base path and the language.
+  const root = new URL(siteUrl).pathname;
+  for (const c of cfg.collections) for (const o of [c, ...(c.files ?? [])]) {
+    if (o.preview_path !== undefined) o.preview_path = `${root}${o.i18n || c.i18n ? '{{locale}}' : lang}/${o.preview_path}`;
+  }
 
   // One field per small text of the website, labelled with the text itself in the admin's language.
   const uiFile = cfg.collections.find((c: any) => c.name === 'settings').files.find((f: any) => f.name === 'ui');

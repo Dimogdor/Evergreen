@@ -18,7 +18,8 @@ export default defineConfig({
   markdown: { syntaxHighlight: false },
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/admin/'),
+      // Not the admin, nor the address without language (it only sends visitors to their language).
+      filter: (page) => !page.includes('/admin/') && new URL(page).pathname !== (process.env.BASE_PATH || '/').replace(/\/?$/, '/'),
       i18n: { defaultLocale: 'el', locales: Object.fromEntries(locales.map((l) => [l, l])) },
     }),
   ],

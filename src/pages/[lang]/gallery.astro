@@ -32,8 +32,8 @@ for (const a of albums) a.items = await Promise.all((a.photos ?? []).map(async (
           <div class="grid cols-2" style="margin-bottom: 24px">{a.videos.map((v: any) => <Video url={v.url || v.file} title={v.title} />)}</div>
         )}
         <div class="masonry">
-          {a.items.filter((i: any) => i.full).map((i: any) => (
-            <button type="button" data-full={i.full} aria-label={_('photos')}><Img src={i.p} alt="" sizes="(max-width: 700px) 100vw, 33vw" /></button>
+          {a.items.filter((i: any) => i.full).map((i: any, n: number) => (
+            <button type="button" data-full={i.full} aria-label={`${a.title} — ${n + 1}`}><Img src={i.p} alt="" sizes="(max-width: 700px) 100vw, 33vw" /></button>
           ))}
         </div>
       </section>

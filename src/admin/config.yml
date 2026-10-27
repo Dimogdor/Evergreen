@@ -73,16 +73,16 @@ collections:
               - { name: value, label: "Number", widget: string, i18n: true }
               - { name: label, label: "Label", widget: string, i18n: true }
           - { name: showEsc, label: "Show the volunteering (ESC) block", widget: boolean, default: true, required: false }
-          - { name: escTitle, label: "Volunteering block — title", widget: string, i18n: true }
-          - { name: escText, label: "Volunteering block — text", widget: markdown, i18n: true }
-          - { name: escImage, label: "Volunteering block — photo", widget: image }
+          - { name: escTitle, label: "Volunteering block — title", widget: string, i18n: true, required: false }
+          - { name: escText, label: "Volunteering block — text", widget: markdown, i18n: true, required: false }
+          - { name: escImage, label: "Volunteering block — photo", widget: image, required: false }
           - { name: showEvents, label: "Show the upcoming events", widget: boolean, default: true, required: false }
           - { name: showStories, label: "Show the stories", widget: boolean, default: true, required: false }
           - { name: showYoga, label: "Show the yoga block", widget: boolean, default: true, required: false }
           - { name: yogaKicker, label: "Yoga block — small title", widget: string, i18n: true, required: false }
-          - { name: yogaTitle, label: "Yoga block — title", widget: string, i18n: true }
-          - { name: yogaText, label: "Yoga block — text", widget: markdown, i18n: true }
-          - { name: yogaImage, label: "Yoga block — photo", widget: image }
+          - { name: yogaTitle, label: "Yoga block — title", widget: string, i18n: true, required: false }
+          - { name: yogaText, label: "Yoga block — text", widget: markdown, i18n: true, required: false }
+          - { name: yogaImage, label: "Yoga block — photo", widget: image, required: false }
           - { name: showGallery, label: "Show the photos", widget: boolean, default: true, required: false }
           - { name: galleryPhotos, label: "Home page photos", widget: image, multiple: true, required: false, hint: "Optional. Leave empty to show the first photos of each album." }
           - { name: contactTitle, label: "Closing sentence", widget: string, i18n: true }
@@ -164,7 +164,7 @@ collections:
   - name: events
     label: Calendar
     label_singular: Event
-    description: Retreats, workshops, ESC projects and gatherings. Past events disappear from the website by themselves.
+    description: Retreats, workshops, ESC projects and gatherings. Past events move by themselves to “Past events” at the bottom of the calendar.
     icon: calendar_month
     folder: src/content/events
     extension: yml
@@ -221,7 +221,7 @@ collections:
   - name: programs
     label: Activities
     label_singular: Activity
-    description: Each activity has its own page. Drag them to change their order.
+    description: "Each activity has its own page. Drag them to change their order. Keep “Volunteering with the European Solidarity Corps” and “Stay with us”: the menu and the home page link to them."
     icon: diversity_3
     folder: src/content/programs
     extension: yml
@@ -297,7 +297,7 @@ collections:
     create: true
     identifier_field: name
     slug: { template: "{{year}}-{{month}}-{{day}}-{{slug}}", editable: false }
-    preview_path: en/stories/
+    preview_path: stories/
     summary: "{{published | ternary('✅', '⏳')}} {{name}} · {{project}}"
     thumbnail: photo
     sortable_fields:

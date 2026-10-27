@@ -32,6 +32,9 @@ export default {
       return new Response('Server error', { status: 500 });
     }
   },
+  // Every night (wrangler.toml), rebuild the site so that finished events move to "Past events" by themselves.
+  // DEPLOY_HOOK: Cloudflare → the site → Settings → Builds → Deploy hooks (not needed while the site is on GitHub Pages).
+  scheduled: async (_, env) => { if (env.DEPLOY_HOOK) await fetch(env.DEPLOY_HOOK, { method: 'POST' }); },
 };
 
 const allowedOrigins = (env) => (env.ALLOWED_ORIGINS || '').split(',').map((s) => s.trim().replace(/\/$/, '')).filter(Boolean);

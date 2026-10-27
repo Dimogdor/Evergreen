@@ -41,7 +41,7 @@ export const one = async (name: string, id: string, lang: Lang) =>
 
 // Visitors' stories: only those an admin has ticked "Published", newest first.
 export async function stories() {
-  return (await list('testimonials', 'en')).filter((s) => s.published && s.quote).sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  return (await list('testimonials', 'en')).filter((s) => s.published && s.quote).sort((a, b) => +new Date(b.date) - +new Date(a.date));
 }
 
 export async function events(lang: Lang) {

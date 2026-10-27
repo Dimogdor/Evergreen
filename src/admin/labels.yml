@@ -177,9 +177,9 @@
 "Event":
   el: "Εκδήλωση"
   fr: "Événement"
-"Retreats, workshops, ESC projects and gatherings. Past events disappear from the website by themselves.":
-  el: "Retreats, εργαστήρια, προγράμματα ESC και συναντήσεις. Οι εκδηλώσεις που έχουν περάσει φεύγουν μόνες τους από τον ιστότοπο."
-  fr: "Retraites, ateliers, projets ESC et rencontres. Les événements passés disparaissent tout seuls du site."
+"Retreats, workshops, ESC projects and gatherings. Past events move by themselves to “Past events” at the bottom of the calendar.":
+  el: "Retreats, εργαστήρια, προγράμματα ESC και συναντήσεις. Οι εκδηλώσεις που έχουν περάσει μετακινούνται μόνες τους στις «Προηγούμενες εκδηλώσεις», στο κάτω μέρος του ημερολογίου."
+  fr: "Retraites, ateliers, projets ESC et rencontres. Les événements passés passent tout seuls dans « Événements passés », en bas du calendrier."
 "Year":
   el: "Έτος"
   fr: "Année"
@@ -273,9 +273,9 @@
 "Activity":
   el: "Δραστηριότητα"
   fr: "Activité"
-"Each activity has its own page. Drag them to change their order.":
-  el: "Κάθε δραστηριότητα έχει τη δική της σελίδα. Σύρετέ τες για να αλλάξετε τη σειρά τους."
-  fr: "Chaque activité a sa propre page. Faites-les glisser pour changer leur ordre."
+"Each activity has its own page. Drag them to change their order. Keep “Volunteering with the European Solidarity Corps” and “Stay with us”: the menu and the home page link to them.":
+  el: "Κάθε δραστηριότητα έχει τη δική της σελίδα. Σύρετέ τες για να αλλάξετε τη σειρά. Κρατήστε το «Εθελοντισμός με το Ευρωπαϊκό Σώμα Αλληλεγγύης» και το «Μείνετε μαζί μας»: το μενού και η αρχική σελίδα οδηγούν σε αυτά."
+  fr: "Chaque activité a sa propre page. Faites-les glisser pour changer leur ordre. Gardez « Volontariat avec le Corps européen de solidarité » et « Séjourner chez nous » : le menu et la page d’accueil y renvoient."
 "Summary":
   el: "Περίληψη"
   fr: "Résumé"

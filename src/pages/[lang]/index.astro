@@ -14,7 +14,8 @@ const home = await one('pages', 'home', lang);
 const pages = await list('pages', lang);
 const doors = ['about', 'place', 'life', 'inhabitants'].map((id) => pages.find((p) => p.id === id)).filter(Boolean);
 const programs = (await list('programs', lang)).sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
-const upcoming = (await events(lang)).filter((e) => +e.end >= Date.now() - 864e5);
+// Events not started yet come first: an event already under way can't be joined any more.
+const upcoming = (await events(lang)).filter((e) => +e.end >= Date.now() - 864e5).sort((a, b) => +(+a.start < Date.now()) - +(+b.start < Date.now()));
 const albums = (await list('albums', lang)).sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
 const photos: string[] = home.galleryPhotos?.length ? home.galleryPhotos : albums.flatMap((a) => (a.photos ?? []).slice(0, 3)).slice(0, 9);
 const latest = (await stories()).slice(0, 2);

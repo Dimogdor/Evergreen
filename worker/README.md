@@ -21,7 +21,8 @@ npx wrangler deploy
 npx wrangler secret put GITHUB_TOKEN    # from step 1
 npx wrangler secret put SESSION_KEY     # any long random text, e.g. from: openssl rand -base64 32
 npx wrangler secret put ADMINS          # katerina@mail.gr=a-good-password;kostas@mail.gr=another-password
-npx wrangler secret put ANTHROPIC_API_KEY  # optional: proofreading + automatic translation (key from platform.claude.com)
+npx wrangler secret put ANTHROPIC_API_KEY  # optional: proofreading + automatic translation (key from platform.claude.com, set a monthly limit there)
+npx wrangler secret put DEPLOY_HOOK        # once the site is on Cloudflare Pages: its deploy hook, for the nightly rebuild
 ```
 (Run `npm install` once at the root of the repository first: the worker uses the `yaml` and `@anthropic-ai/sdk` packages.)
 The worker needs the terminal deploy above (it bundles two packages); pasting `index.js` in the Cloudflare dashboard no longer works.

@@ -5,6 +5,10 @@ compatibility_date = "2026-10-01"
 # Own address for the worker once the domain is on Cloudflare (then "Website API address" = https://api.evergreenproject.gr):
 # routes = [{ pattern = "api.evergreenproject.gr", custom_domain = true }]
 
+# Nightly site rebuild (see "scheduled" in index.js).
+[triggers]
+crons = ["17 3 * * *"]
+
 [vars]
 REPO = "Dimogdor/Evergreen"
 BRANCH = "main"

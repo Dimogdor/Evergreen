@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Every night, so that finished events move to "Past events" by themselves.
+  schedule:
+    - cron: '17 3 * * *'
 permissions:
   contents: read
   pages: write

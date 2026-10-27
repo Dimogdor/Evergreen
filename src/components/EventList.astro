@@ -31,7 +31,7 @@ const cal = (e: any) => googleUrl(toCal(e, Astro.site!, lang));
               <summary class="arrow">{_('addToCalendar')}</summary>
               <ul>
                 <li><a href={cal(e)} target="_blank" rel="noopener">{_('googleCal')}</a></li>
-                <li><a href={`${base}/events/${e.id}.ics`} download>{_('appleCal')}</a></li>
+                <li><a href={`${base}/${lang}/events/${e.id}.ics`} download>{_('appleCal')}</a></li>
               </ul>
             </details>
           </div>

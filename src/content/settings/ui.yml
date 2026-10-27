@@ -25,15 +25,11 @@ el:
   viewGallery: Όλη η γκαλερί
   contactUs: Επικοινωνήστε μαζί μας
   details: Πληροφορίες
-  dates: Ημερομηνίες
   location: Τοποθεσία
   price: Τιμή
   related: Επόμενες ημερομηνίες
   moreActivities: Περισσότερες δραστηριότητες
   photos: Φωτογραφίες
-  videos: Βίντεο
-  all: Όλα
-  playVideo: Αναπαραγωγή βίντεο
   prevMonth: Προηγούμενος μήνας
   nextMonth: Επόμενος μήνας
   ongoing: Σε εξέλιξη
@@ -53,13 +49,10 @@ el:
   footerNote: Αστική μη κερδοσκοπική εταιρεία · Σήμα Ποιότητας Ευρωπαϊκού Σώματος Αλληλεγγύης
   yogaCta: Evergreen Yoga Studios
   trainingsCta: Εκπαιδεύσεις δασκάλων
-  newTab: ανοίγει σε νέα καρτέλα
   facts: Με μια ματιά
   faq: Ερωτήσεις & απαντήσεις
-  wishlist: Τι χρειαζόμαστε
   notFound: Η σελίδα δεν βρέθηκε
   notFoundText: Αυτό το μονοπάτι χάθηκε στο δάσος.
-  backHome: Επιστροφή στην αρχική
   cat_esc: ESC
   cat_retreat: Ρητρίτ
   cat_yoga: Γιόγκα
@@ -70,7 +63,6 @@ el:
   addToCalendar: Προσθήκη στο ημερολόγιο
   googleCal: Google Calendar
   appleCal: Apple / Outlook (.ics)
-  subscribeCal: Συγχρονισμός όλων των ημερομηνιών στο ημερολόγιό μου
   timeNote: Ώρα Ελλάδας
   donate: Κάντε μια δωρεά
   donateText: Οι δωρεές μάς βοηθούν να αγοράζουμε υλικά και εργαλεία και να συνεχίζουμε να φιλοξενούμε. Κάθε συνεισφορά μετράει — σας ευχαριστούμε από καρδιάς.
@@ -122,15 +114,11 @@ en:
   viewGallery: Full gallery
   contactUs: Contact us
   details: More info
-  dates: Dates
   location: Location
   price: Price
   related: Upcoming dates
   moreActivities: More activities
   photos: Photos
-  videos: Videos
-  all: All
-  playVideo: Play video
   prevMonth: Previous month
   nextMonth: Next month
   ongoing: Happening now
@@ -150,13 +138,10 @@ en:
   footerNote: Civil non-profit company · European Solidarity Corps Quality Label
   yogaCta: Evergreen Yoga Studios
   trainingsCta: Teacher trainings
-  newTab: opens in a new tab
   facts: Key facts
   faq: Questions & answers
-  wishlist: Our wishlist
   notFound: Page not found
   notFoundText: This path got lost in the forest.
-  backHome: Back to the home page
   cat_esc: ESC
   cat_retreat: Retreat
   cat_yoga: Yoga
@@ -167,7 +152,6 @@ en:
   addToCalendar: Add to calendar
   googleCal: Google Calendar
   appleCal: Apple / Outlook (.ics)
-  subscribeCal: Sync all our dates to my calendar
   timeNote: Greek time
   donate: Make a donation
   donateText: Donations help us buy materials and tools and keep welcoming people. Every contribution matters — thank you from the bottom of our hearts.
@@ -219,15 +203,11 @@ fr:
   viewGallery: Toute la galerie
   contactUs: Nous contacter
   details: Plus d’infos
-  dates: Dates
   location: Lieu
   price: Prix
   related: Prochaines dates
   moreActivities: Autres activités
   photos: Photos
-  videos: Vidéos
-  all: Tout
-  playVideo: Lire la vidéo
   prevMonth: Mois précédent
   nextMonth: Mois suivant
   ongoing: En cours
@@ -247,13 +227,10 @@ fr:
   footerNote: Société civile à but non lucratif · Label de qualité du Corps européen de solidarité
   yogaCta: Evergreen Yoga Studios
   trainingsCta: Formations de professeurs
-  newTab: s’ouvre dans un nouvel onglet
   facts: En bref
   faq: Questions fréquentes
-  wishlist: Notre liste de souhaits
   notFound: Page introuvable
   notFoundText: Ce sentier s’est perdu dans la forêt.
-  backHome: Retour à l’accueil
   cat_esc: CES
   cat_retreat: Retraite
   cat_yoga: Yoga
@@ -264,7 +241,6 @@ fr:
   addToCalendar: Ajouter à mon agenda
   googleCal: Google Agenda
   appleCal: Apple / Outlook (.ics)
-  subscribeCal: Synchroniser toutes nos dates dans mon agenda
   timeNote: heure de Grèce
   donate: Faire un don
   donateText: Les dons nous aident à acheter matériaux et outils et à continuer d’accueillir. Chaque contribution compte — merci du fond du cœur.
@@ -316,15 +292,11 @@ es:
   viewGallery: Galería completa
   contactUs: Contáctanos
   details: Más información
-  dates: Fechas
   location: Lugar
   price: Precio
   related: Próximas fechas
   moreActivities: Más actividades
   photos: Fotos
-  videos: Vídeos
-  all: Todo
-  playVideo: Reproducir vídeo
   prevMonth: Mes anterior
   nextMonth: Mes siguiente
   ongoing: En curso
@@ -344,13 +316,10 @@ es:
   footerNote: Sociedad civil sin ánimo de lucro · Sello de Calidad del Cuerpo Europeo de Solidaridad
   yogaCta: Evergreen Yoga Studios
   trainingsCta: Formaciones de profesores
-  newTab: se abre en una pestaña nueva
   facts: En resumen
   faq: Preguntas frecuentes
-  wishlist: Lo que necesitamos
   notFound: Página no encontrada
   notFoundText: Este sendero se perdió en el bosque.
-  backHome: Volver al inicio
   cat_esc: CES
   cat_retreat: Retiro
   cat_yoga: Yoga
@@ -361,7 +330,6 @@ es:
   addToCalendar: Añadir al calendario
   googleCal: Google Calendar
   appleCal: Apple / Outlook (.ics)
-  subscribeCal: Sincronizar todas nuestras fechas en mi calendario
   timeNote: hora de Grecia
   donate: Hacer una donación
   donateText: Las donaciones nos ayudan a comprar materiales y herramientas y a seguir acogiendo. Cada aportación cuenta — gracias de corazón.
@@ -413,15 +381,11 @@ it:
   viewGallery: Galleria completa
   contactUs: Contattaci
   details: Maggiori info
-  dates: Date
   location: Luogo
   price: Prezzo
   related: Prossime date
   moreActivities: Altre attività
   photos: Foto
-  videos: Video
-  all: Tutto
-  playVideo: Riproduci video
   prevMonth: Mese precedente
   nextMonth: Mese successivo
   ongoing: In corso
@@ -441,13 +405,10 @@ it:
   footerNote: Società civile senza scopo di lucro · Marchio di qualità del Corpo europeo di solidarietà
   yogaCta: Evergreen Yoga Studios
   trainingsCta: Formazioni insegnanti
-  newTab: si apre in una nuova scheda
   facts: In breve
   faq: Domande frequenti
-  wishlist: Di cosa abbiamo bisogno
   notFound: Pagina non trovata
   notFoundText: Questo sentiero si è perso nel bosco.
-  backHome: Torna alla home
   cat_esc: CES
   cat_retreat: Ritiro
   cat_yoga: Yoga
@@ -458,7 +419,6 @@ it:
   addToCalendar: Aggiungi al calendario
   googleCal: Google Calendar
   appleCal: Apple / Outlook (.ics)
-  subscribeCal: Sincronizza tutte le nostre date nel mio calendario
   timeNote: ora greca
   donate: Fai una donazione
   donateText: Le donazioni ci aiutano ad acquistare materiali e attrezzi e a continuare ad accogliere. Ogni contributo conta — grazie di cuore.
@@ -510,15 +470,11 @@ ru:
   viewGallery: Вся галерея
   contactUs: Связаться с нами
   details: Подробнее
-  dates: Даты
   location: Место
   price: Цена
   related: Ближайшие даты
   moreActivities: Другие программы
   photos: Фото
-  videos: Видео
-  all: Все
-  playVideo: Смотреть видео
   prevMonth: Предыдущий месяц
   nextMonth: Следующий месяц
   ongoing: Идёт сейчас
@@ -538,13 +494,10 @@ ru:
   footerNote: Некоммерческая гражданская компания · Знак качества Европейского корпуса солидарности
   yogaCta: Evergreen Yoga Studios
   trainingsCta: Обучение преподавателей
-  newTab: откроется в новой вкладке
   facts: Коротко
   faq: Вопросы и ответы
-  wishlist: Что нам нужно
   notFound: Страница не найдена
   notFoundText: Эта тропинка затерялась в лесу.
-  backHome: На главную
   cat_esc: ESC
   cat_retreat: Ретрит
   cat_yoga: Йога
@@ -555,7 +508,6 @@ ru:
   addToCalendar: Добавить в календарь
   googleCal: Google Календарь
   appleCal: Apple / Outlook (.ics)
-  subscribeCal: Синхронизировать все даты с моим календарём
   timeNote: по греческому времени
   donate: Сделать пожертвование
   donateText: Пожертвования помогают нам покупать материалы и инструменты и продолжать принимать людей. Важен каждый вклад — спасибо от всего сердца.
@@ -607,15 +559,11 @@ de:
   viewGallery: Ganze Galerie
   contactUs: Kontakt aufnehmen
   details: Mehr Infos
-  dates: Termine
   location: Ort
   price: Preis
   related: Nächste Termine
   moreActivities: Weitere Angebote
   photos: Fotos
-  videos: Videos
-  all: Alle
-  playVideo: Video abspielen
   prevMonth: Vorheriger Monat
   nextMonth: Nächster Monat
   ongoing: Läuft gerade
@@ -635,13 +583,10 @@ de:
   footerNote: Gemeinnützige Zivilgesellschaft · Qualitätssiegel des Europäischen Solidaritätskorps
   yogaCta: Evergreen Yoga Studios
   trainingsCta: Lehrerausbildungen
-  newTab: öffnet in neuem Tab
   facts: Auf einen Blick
   faq: Fragen & Antworten
-  wishlist: Unsere Wunschliste
   notFound: Seite nicht gefunden
   notFoundText: Dieser Pfad hat sich im Wald verlaufen.
-  backHome: Zur Startseite
   cat_esc: ESK
   cat_retreat: Retreat
   cat_yoga: Yoga
@@ -652,7 +597,6 @@ de:
   addToCalendar: Zum Kalender hinzufügen
   googleCal: Google Kalender
   appleCal: Apple / Outlook (.ics)
-  subscribeCal: Alle Termine mit meinem Kalender synchronisieren
   timeNote: griechische Zeit
   donate: Spenden
   donateText: Spenden helfen uns, Material und Werkzeug zu kaufen und weiter Menschen aufzunehmen. Jeder Beitrag zählt — von Herzen danke.
@@ -704,15 +648,11 @@ pt:
   viewGallery: Galeria completa
   contactUs: Fale connosco
   details: Mais informações
-  dates: Datas
   location: Local
   price: Preço
   related: Próximas datas
   moreActivities: Mais atividades
   photos: Fotos
-  videos: Vídeos
-  all: Tudo
-  playVideo: Reproduzir vídeo
   prevMonth: Mês anterior
   nextMonth: Mês seguinte
   ongoing: A decorrer
@@ -732,13 +672,10 @@ pt:
   footerNote: Sociedade civil sem fins lucrativos · Selo de Qualidade do Corpo Europeu de Solidariedade
   yogaCta: Evergreen Yoga Studios
   trainingsCta: Formações de professores
-  newTab: abre num novo separador
   facts: Em resumo
   faq: Perguntas frequentes
-  wishlist: Do que precisamos
   notFound: Página não encontrada
   notFoundText: Este trilho perdeu-se na floresta.
-  backHome: Voltar ao início
   cat_esc: CES
   cat_retreat: Retiro
   cat_yoga: Yoga
@@ -749,7 +686,6 @@ pt:
   addToCalendar: Adicionar ao calendário
   googleCal: Google Agenda
   appleCal: Apple / Outlook (.ics)
-  subscribeCal: Sincronizar todas as datas no meu calendário
   timeNote: hora da Grécia
   donate: Fazer um donativo
   donateText: Os donativos ajudam-nos a comprar materiais e ferramentas e a continuar a acolher. Cada contribuição conta — obrigado do fundo do coração.

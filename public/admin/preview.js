@@ -69,7 +69,9 @@
     d.iban && h('dl', { className: 'facts' }, h('div', null, h('dt', { className: 'label' }, 'IBAN'), h('dd', null, d.iban)), d.accountHolder && h('div', null, h('dt', { className: 'label' }, '👤'), h('dd', null, d.accountHolder)), d.bank && h('div', null, h('dt', { className: 'label' }, '🏦'), h('dd', null, `${d.bank}${d.bic ? ` · BIC ${d.bic}` : ''}`))));
 
   CMS.registerPreviewTemplate('home', prep(home));
-  for (const name of ['about', 'place', 'life', 'inhabitants', 'support', 'contact', 'activities', 'calendar', 'gallery', 'stories', 'extra']) CMS.registerPreviewTemplate(name, prep(page));
+  for (const name of ['about', 'place', 'life', 'support', 'contact', 'activities', 'calendar', 'gallery', 'stories', 'extra']) CMS.registerPreviewTemplate(name, prep(page));
+  // "inhabitants" is both the page and the collection of people, animals and plants.
+  CMS.registerPreviewTemplate('inhabitants', prep((d, x) => ('name' in d ? inhabitant(d, x) : page(d, x))));
   CMS.registerPreviewTemplate('programs', prep(program));
   CMS.registerPreviewTemplate('events', prep(event));
   CMS.registerPreviewTemplate('albums', prep(album));

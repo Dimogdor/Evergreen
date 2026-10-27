@@ -30,7 +30,7 @@ picture { display: contents; }
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
 a:hover { color: var(--moss); }
 :focus-visible { outline: 2px solid var(--clay); outline-offset: 3px; }
-h1, h2, h3, h4 { font-family: var(--serif); font-weight: 400; line-height: 1.05; margin: 0 0 0.5em; letter-spacing: -0.01em; text-wrap: balance; }
+h1, h2, h3, h4 { font-family: var(--serif); font-weight: 400; line-height: 1.05; margin: 0 0 0.5em; letter-spacing: -0.01em; text-wrap: balance; overflow-wrap: break-word; hyphens: auto; }
 h1 { font-size: clamp(2.6rem, 7vw, 6.4rem); }
 h2 { font-size: clamp(2rem, 4.4vw, 3.8rem); }
 h3 { font-size: clamp(1.4rem, 2.2vw, 1.9rem); }
@@ -52,6 +52,7 @@ p { margin: 0 0 1em; text-wrap: pretty; }
 
 /* Buttons & links */
 .btn {
+  overflow-wrap: anywhere;
   display: inline-flex; align-items: center; gap: 0.6em; padding: 0.85em 1.4em; border: 1px solid var(--ink);
   border-radius: 999px; font: 500 0.82rem/1 var(--sans); letter-spacing: 0.08em; text-transform: uppercase;
   text-decoration: none; background: transparent; color: var(--ink); cursor: pointer; transition: background 0.2s, color 0.2s;
@@ -111,11 +112,12 @@ p { margin: 0 0 1em; text-wrap: pretty; }
 /* Hero */
 .hero { position: relative; min-height: min(92svh, 980px); display: grid; align-items: end; color: var(--paper); overflow: hidden; }
 .hero > img, .hero picture img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.hero::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10, 20, 12, 0.15) 30%, rgba(10, 20, 12, 0.65)); }
-.hero .wrap { position: relative; z-index: 1; width: 100%; padding-block: clamp(40px, 8vw, 96px); }
+.hero::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10, 20, 12, 0.2) 20%, rgba(10, 20, 12, 0.82)); }
+.hero .wrap { position: relative; z-index: 1; width: 100%; text-shadow: 0 1px 14px rgba(0, 0, 0, 0.5); padding-block: clamp(40px, 8vw, 96px); }
 .hero h1 { max-width: 20ch; font-size: clamp(2.3rem, 5.2vw, 5rem); }
 .hero p { max-width: 46ch; font-size: clamp(1.05rem, 1.6vw, 1.25rem); }
-.hero .label { color: rgba(244, 240, 230, 0.85); }
+.hero .label { color: var(--paper); }
+.hero .btn.light { background: rgba(10, 20, 12, 0.35); }
 .page-hero { padding-block: clamp(48px, 8vw, 110px) clamp(32px, 5vw, 64px); }
 .page-hero h1 { max-width: 16ch; }
 .page-hero .lead { max-width: 36ch; color: var(--muted); }

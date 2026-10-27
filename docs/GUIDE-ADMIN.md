@@ -27,7 +27,7 @@
 | **Ρυθμίσεις → Μικρά κείμενα** | Κάθε μικρό κείμενο: μενού, κουμπιά, ετικέτες, μηνύματα φόρμας — σε 8 γλώσσες. |
 
 ### Εκδήλωση στο ημερολόγιο
-**Ημερολόγιο → New** → τίτλος, ημερομηνία έναρξης (και λήξης αν κρατά πάνω από μία μέρα), ώρα αν υπάρχει (π.χ. `18:00`), κατηγορία, περιγραφή, τιμή, φωτογραφία → **Save**. Οι παλιές εκδηλώσεις φεύγουν αυτόματα από το site. **Κρυφό** = κρύβεται χωρίς να σβηστεί. Κάθε εκδήλωση έχει αυτόματα κουμπί «Προσθήκη στο ημερολόγιο» (Google / Apple / Outlook).
+**Ημερολόγιο → New** → τίτλος, ημερομηνία έναρξης (και λήξης αν κρατά πάνω από μία μέρα), ώρα αν υπάρχει (π.χ. `18:00`), κατηγορία, περιγραφή, τιμή, φωτογραφία → **Save**. Οι παλιές εκδηλώσεις περνούν αυτόματα στις «Προηγούμενες εκδηλώσεις». **Κρυφό** = κρύβεται χωρίς να σβηστεί. Κάθε εκδήλωση έχει αυτόματα κουμπί «Προσθήκη στο ημερολόγιο» (Google / Apple / Outlook).
 
 ### Ιστορίες (μαρτυρίες) — έγκριση
 1. Ένας επισκέπτης στέλνει την ιστορία του από τη σελίδα **Ιστορίες**.
@@ -61,7 +61,7 @@
 > Every **Save** updates the website in **about 2 minutes**. Nothing is ever lost: every change stays in the history and can be undone.
 
 ### What you can change (all without code)
-- **Calendar** — events with dates, **time** (Greek time; visitors get it converted to their own time zone when they add it to their calendar), price, place, photo, booking link.
+- **Calendar** — events with dates, **time** (Greek time; visitors get it converted to their own time zone when they add it to their calendar), price, place, photo, booking link. Past events move to “Past events” by themselves.
 - **Activities** — each activity and its page (text, prices, FAQ, photos). “Show on home page” puts it on the front page.
 - **Inhabitants** — people, animals, plants (initials are shown when there is no photo).
 - **Gallery** — photo and video albums.
